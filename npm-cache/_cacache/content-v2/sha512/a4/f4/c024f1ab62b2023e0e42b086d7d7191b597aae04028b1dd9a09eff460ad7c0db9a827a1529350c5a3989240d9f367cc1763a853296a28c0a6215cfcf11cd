@@ -1,0 +1,1226 @@
+{
+  "_id" : "string.prototype.trim",
+  "_rev" : "19-4cdc151a455e967e37c2ee6a4b2b71f4",
+  "name" : "string.prototype.trim",
+  "description" : "ES5 spec-compliant shim for String.prototype.trim",
+  "dist-tags" : {
+    "latest" : "1.2.8"
+  },
+  "versions" : {
+    "1.1.2" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.1.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.2",
+        "es-abstract" : "^1.5.0",
+        "function-bind" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "tape" : "^4.4.0",
+        "covert" : "^1.1.0",
+        "jscs" : "^2.9.0",
+        "nsp" : "^2.2.0",
+        "eslint" : "^1.10.3",
+        "semver" : "^5.1.0",
+        "replace" : "^0.3.0",
+        "@ljharb/eslint-config" : "^1.6.1",
+        "@es-shims/api" : "^1.0.0"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "npm run lint && es-shim-api --bound && npm run tests-only && npm run security",
+        "tests-only" : "npm run test:shimmed && npm run test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "npm run jscs && npm run eslint",
+        "eslint" : "eslint test/*.js *.js",
+        "jscs" : "jscs test/*.js *.js",
+        "security" : "nsp check"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.3.12",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.1.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.1.2.tgz",
+        "shasum" : "d04de2c89e137f4d7d206f086b5ed2fae6be8cea",
+        "integrity" : "sha512-IlEfUereZQqIcv/LJFNPUygFkq0HJCQMnaDr5i+zyRXpeYvF4F8J8u4UFxXICLMY+O3SEfJeaye5AO5miS6a9g=="
+      },
+      "gitHead" : "7894aca30500058496b701919121b895d13c62eb",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_npmOperationalInternal" : {
+        "host" : "packages-9-west.internal.npmjs.com",
+        "tmp" : "tmp/string.prototype.trim-1.1.2.tgz_1454751443709_0.9118233555927873"
+      },
+      "_shasum" : "d04de2c89e137f4d7d206f086b5ed2fae6be8cea",
+      "_nodeVersion" : "5.5.0"
+    },
+    "1.2.1" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.17.0-next.1",
+        "function-bind" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^15.0.2",
+        "auto-changelog" : "^1.16.2",
+        "covert" : "^1.1.1",
+        "eslint" : "^6.7.2",
+        "functions-have-names" : "^1.2.0",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "ljharb+esshims@gmail.com",
+        "name" : "es-shims-owner"
+      }, {
+        "email" : "ljharb@gmail.com",
+        "name" : "ljharb"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "pretest" : "npm run --silent lint && es-shim-api --bound",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npx aud",
+        "tests-only" : "npm run --silent test:shimmed && npm run --silent test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/{index,shimmed}*.js",
+        "lint" : "eslint .",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "6.13.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.1.tgz",
+        "shasum" : "141233dff32c82bfad80684d7e5f0869ee0fb782",
+        "integrity" : "sha512-MjGFEeqixw47dAMFMtgUro/I0+wNqZB5GKXGt1fFr24u3TzDXCPu7J9Buppzoe3r/LqkSDLDDJzE15RGWDGAVw=="
+      },
+      "gitHead" : "8bb839d6e4181d121b3aa2c4aae64828f3288f5d",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.1_1576521673405_0.7748261672099028"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false
+      },
+      "_nodeVersion" : "13.3.0"
+    },
+    "1.2.2" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.18.0-next.0"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^17.2.0",
+        "aud" : "^1.1.2",
+        "auto-changelog" : "^2.2.0",
+        "eslint" : "^7.9.0",
+        "functions-have-names" : "^1.2.1",
+        "has-strict-mode" : "^1.0.0",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "pretest" : "npm run --silent lint && es-shim-api --bound",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npx aud --production",
+        "tests-only" : "tape 'test/*.js'",
+        "coverage" : "nyc npm run tests-only",
+        "lint" : "eslint .",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.2.tgz",
+        "shasum" : "f538d0bacd98fc4297f0bef645226d5aaebf59f3",
+        "integrity" : "sha512-b5yrbl3BXIjHau9Prk7U0RRYcUYdN4wGSVaqoBQS50CCE3KBuYU0TYRNPFCP7aVoNMX87HKThdMRVIP3giclKg=="
+      },
+      "gitHead" : "ae9a7e458ac5c434e21f7e2da8d2373fda6d5ffc",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "greenkeeper" : {
+        "ignore" : [ "nyc" ]
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.2_1600210527904_0.0357616456129648"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.10.1"
+    },
+    "1.2.3" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.0",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.18.0-next.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^17.2.0",
+        "aud" : "^1.1.3",
+        "auto-changelog" : "^2.2.1",
+        "eslint" : "^7.14.0",
+        "functions-have-names" : "^1.2.1",
+        "has-strict-mode" : "^1.0.0",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "pretest" : "npm run lint",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.3.tgz",
+        "shasum" : "d23a22fde01c1e6571a7fadcb9be11decd8061a7",
+        "integrity" : "sha512-16IL9pIBA5asNOSukPfxX2W68BaBvxyiRK16H3RA/lWW9BDosh+w7f+LhomPHpXJ82QEe7w7/rY/S1CV97raLg=="
+      },
+      "gitHead" : "8e44e06526e2f304ddf1129702600d36a37a4b8d",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "greenkeeper" : {
+        "ignore" : [ "nyc" ]
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.3_1605999314889_0.3474654875834642"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "1.2.4" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.4",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.18.0-next.2"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^17.5.1",
+        "aud" : "^1.1.4",
+        "auto-changelog" : "^2.2.1",
+        "eslint" : "^7.20.0",
+        "functions-have-names" : "^1.2.2",
+        "has-strict-mode" : "^1.0.1",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.2.0"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "pretest" : "npm run lint",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "7.5.4",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.4.tgz",
+        "shasum" : "6014689baf5efaf106ad031a5fa45157666ed1bd",
+        "integrity" : "sha512-hWCk/iqf7lp0/AgTF7/ddO1IWtSNPASjlzCicV5irAVdE1grjsneK26YG6xACMBEdCvO8fUST0UzDMh/2Qy+9Q=="
+      },
+      "gitHead" : "7c08fcc708b34bd99fedeba96dc8318a665ea40d",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "greenkeeper" : {
+        "ignore" : [ "nyc" ]
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.4_1613946242141_0.4845012097382695"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "15.8.0"
+    },
+    "1.2.5" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.5",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.19.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.2",
+        "@ljharb/eslint-config" : "^18.0.0",
+        "aud" : "^1.1.5",
+        "auto-changelog" : "^2.3.0",
+        "eslint" : "^7.32.0",
+        "functions-have-names" : "^1.2.2",
+        "has-strict-mode" : "^1.0.1",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.3.1"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "prepublishOnly" : "safe-publish-latest",
+        "pretest" : "npm run lint",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.5.tgz",
+        "shasum" : "a587bcc8bfad8cb9829a577f5de30dd170c1682c",
+        "integrity" : "sha512-Lnh17webJVsD6ECeovpVN17RlAKjmz4rF9S+8Y45CkMc/ufVpTkU3vZIyIC7sllQ1FCvObZnnCdNs/HXTUOTlg=="
+      },
+      "gitHead" : "0515a6135c245f523a776f74737218615377c854",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "greenkeeper" : {
+        "ignore" : [ "nyc" ]
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.5_1633325639380_0.32945636624537666"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "16.10.0"
+    },
+    "1.2.6" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.6",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.4",
+        "es-abstract" : "^1.19.5"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.3",
+        "@ljharb/eslint-config" : "^21.0.0",
+        "aud" : "^2.0.0",
+        "auto-changelog" : "^2.4.0",
+        "eslint" : "=8.8.0",
+        "functions-have-names" : "^1.2.3",
+        "has-strict-mode" : "^1.0.1",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.5.3"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "prepublishOnly" : "safe-publish-latest",
+        "pretest" : "npm run lint",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "8.3.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.6.tgz",
+        "shasum" : "824960787db37a9e24711802ed0c1d1c0254f83e",
+        "integrity" : "sha512-8lMR2m+U0VJTPp6JjvJTtGyc4FIGq9CdRt7O9p6T0e6K4vjU+OP+SQJpbe/SBmRcCUIvNUnjsbmY6lnMp8MhsQ=="
+      },
+      "gitHead" : "fa3c01f38aeabc8704dcd7bead21887d1f60a1b6",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.6_1650838970714_0.5686252239412337"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "18.0.0"
+    },
+    "1.2.7" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.7",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.4",
+        "es-abstract" : "^1.20.4"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.3",
+        "@ljharb/eslint-config" : "^21.0.0",
+        "aud" : "^2.0.1",
+        "auto-changelog" : "^2.4.0",
+        "eslint" : "=8.8.0",
+        "functions-have-names" : "^1.2.3",
+        "has-strict-mode" : "^1.0.1",
+        "in-publish" : "^2.0.1",
+        "npmignore" : "^0.3.0",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.6.1"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepack" : "npmignore --auto --commentLines=autogenerated",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "prepublishOnly" : "safe-publish-latest",
+        "pretest" : "npm run lint",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "publishConfig" : {
+        "ignore" : [ ".github/workflows" ]
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.7.tgz",
+        "shasum" : "a68352740859f6893f14ce3ef1bb3037f7a90533",
+        "integrity" : "sha512-p6TmeT1T3411M8Cgg9wBTMRtY2q9+PNy9EV1i2lIXUN/btt763oIfxwN3RR8VU6wHX8j/1CFy0L+YuThm6bgOg=="
+      },
+      "gitHead" : "017a8c0db2ee958ef7f9adf2450dbeedefce1164",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.7_1667847852582_0.6033795090244691"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "19.0.1"
+    },
+    "1.2.8" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.8",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.2.0",
+        "es-abstract" : "^1.22.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.4.2",
+        "@ljharb/eslint-config" : "^21.1.0",
+        "aud" : "^2.0.3",
+        "auto-changelog" : "^2.4.0",
+        "eslint" : "=8.8.0",
+        "functions-have-names" : "^1.2.3",
+        "has-strict-mode" : "^1.0.1",
+        "in-publish" : "^2.0.1",
+        "npmignore" : "^0.3.0",
+        "nyc" : "^10.3.2",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.6.6"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepack" : "npmignore --auto --commentLines=autogenerated",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "prepublishOnly" : "safe-publish-latest",
+        "pretest" : "npm run lint",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "publishConfig" : {
+        "ignore" : [ ".github/workflows" ]
+      },
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.8.tgz",
+        "shasum" : "f9ac6f8af4bd55ddfa8895e6aea92a96395393bd",
+        "integrity" : "sha512-lfjY4HcixfQXOfaqCvcBuOIapyaroTXhbkfJN3gcB1OtyupngWK4sEET9Knd0cXd28kTUqu/kHoV4HKSJdnjiQ=="
+      },
+      "gitHead" : "e2cb0df97ce2a798017c719cd2988f032b22939a",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.8_1694106436526_0.21601293638828234"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "20.6.0"
+    },
+    "1.0.0" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.1",
+        "es-abstract" : "^1.2.2",
+        "function-bind" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "tape" : "^4.0.3",
+        "covert" : "^1.1.0",
+        "jscs" : "^2.0.0",
+        "nsp" : "^1.0.3",
+        "eslint" : "^1.1.0",
+        "@ljharb/eslint-config" : "^1.0.4"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "npm run lint && npm run test:shimmed && npm run test:module && npm run security",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "npm run jscs && npm run eslint",
+        "eslint" : "eslint test/*.js *.js",
+        "jscs" : "jscs test/*.js *.js",
+        "security" : "nsp package"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.0.0.tgz",
+        "shasum" : "c39ebfc44b12047e45abd15b7fc71b5e3ac25ba1",
+        "integrity" : "sha512-sAtm7TSUlz1lPftUGEwzXWPI3t0yX/tRMMF9TgIszRG7W+OZXnSYGqRJZKzGlQR6ULL2wzKhL6m3IUWGIvN+tA=="
+      },
+      "gitHead" : "1f35ea78ec453936f5eb805aaaaaa1e09f022cd9",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_shasum" : "c39ebfc44b12047e45abd15b7fc71b5e3ac25ba1",
+      "_nodeVersion" : "3.0.0"
+    },
+    "1.1.0" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.1",
+        "es-abstract" : "^1.3.1",
+        "function-bind" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "tape" : "^4.2.0",
+        "covert" : "^1.1.0",
+        "jscs" : "^2.1.0",
+        "nsp" : "^1.0.3",
+        "eslint" : "^1.1.0",
+        "semver" : "^5.0.1",
+        "replace" : "^0.3.0",
+        "@ljharb/eslint-config" : "^1.0.4",
+        "@es-shims/api" : "^1.0.0"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "npm run lint && es-shim-api --bound && npm run tests-only && npm run security",
+        "tests-only" : "npm run test:shimmed && npm run test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "npm run jscs && npm run eslint",
+        "eslint" : "eslint test/*.js *.js",
+        "jscs" : "jscs test/*.js *.js",
+        "security" : "nsp package"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.1.0.tgz",
+        "shasum" : "7b519b93662dff3043a7bb0377f0f485cbdd016a",
+        "integrity" : "sha512-Y42/t4nU9ZnKXngYLROYcIJCw9Wq5wnQX0b3CiJf9EQpNTnxn2MO7HUC93pyJlTF+VKlQJHtc/a4gcqx4+/u8Q=="
+      },
+      "gitHead" : "6c64b7a96b42ced81d76f7ca25d32cf9df0670f9",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_shasum" : "7b519b93662dff3043a7bb0377f0f485cbdd016a",
+      "_nodeVersion" : "3.0.0"
+    },
+    "1.1.1" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Jordan Harband"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.1",
+        "es-abstract" : "^1.3.1",
+        "function-bind" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "tape" : "^4.2.0",
+        "covert" : "^1.1.0",
+        "jscs" : "^2.1.0",
+        "nsp" : "^1.0.3",
+        "eslint" : "^1.1.0",
+        "semver" : "^5.0.1",
+        "replace" : "^0.3.0",
+        "@ljharb/eslint-config" : "^1.0.4",
+        "@es-shims/api" : "^1.0.0"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "npm run lint && es-shim-api --bound && npm run tests-only && npm run security",
+        "tests-only" : "npm run test:shimmed && npm run test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/*.js",
+        "coverage-quiet" : "covert test/*.js --quiet",
+        "lint" : "npm run jscs && npm run eslint",
+        "eslint" : "eslint test/*.js *.js",
+        "jscs" : "jscs test/*.js *.js",
+        "security" : "nsp package"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.13.3",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.1.1.tgz",
+        "shasum" : "e5b5fdbdcf8a96e038a8d954b740a8c6308e58fa",
+        "integrity" : "sha512-Z5DJSo52XHhFHXcHndEoz0x5Ci+3WDuhkbs+c22YCfPJpi7B9oiUaEFHuLiWEYU/ONf3g8QmNTRgBY5eLevcJw=="
+      },
+      "gitHead" : "cbefafa48e5dffaeac74a46d1390032900fcd8a4",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_shasum" : "e5b5fdbdcf8a96e038a8d954b740a8c6308e58fa",
+      "_nodeVersion" : "3.0.0"
+    },
+    "1.2.0" : {
+      "name" : "string.prototype.trim",
+      "description" : "ES5 spec-compliant shim for String.prototype.trim",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git://github.com/es-shims/String.prototype.trim.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.13.0",
+        "function-bind" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^13.1.1",
+        "covert" : "^1.1.1",
+        "eslint" : "^5.16.0",
+        "functions-have-names" : "^1.1.0",
+        "replace" : "^1.1.0",
+        "semver" : "^6.2.0",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "pretest" : "npm run --silent lint && es-shim-api --bound",
+        "test" : "npm run --silent tests-only",
+        "posttest" : "npx aud",
+        "tests-only" : "npm run --silent test:shimmed && npm run --silent test:module",
+        "test:shimmed" : "node test/shimmed.js",
+        "test:module" : "node test/index.js",
+        "coverage" : "covert test/{index,shimmed}*.js",
+        "lint" : "eslint ."
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "string.prototype.trim@1.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/string.prototype.trim/-/string.prototype.trim-1.2.0.tgz",
+        "shasum" : "75a729b10cfc1be439543dae442129459ce61e3d",
+        "integrity" : "sha512-9EIjYD/WdlvLpn987+ctkLf0FfvBefOCuiEr2henD8X+7jfwPnyvTdmW8OJhj5p+M0/96mBdynLWkxUr+rHlpg=="
+      },
+      "gitHead" : "94de3e718784759c18c99ab535b9ee3e8ec8850d",
+      "testling" : {
+        "files" : "test/index.js",
+        "browsers" : [ "iexplore/9.0..latest", "firefox/4.0..6.0", "firefox/15.0..latest", "firefox/nightly", "chrome/4.0..10.0", "chrome/20.0..latest", "chrome/canary", "opera/11.6..latest", "opera/next", "safari/5.0..latest", "ipad/6.0..latest", "iphone/6.0..latest", "android-browser/4.2" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/string.prototype.trim_1.2.0_1563993073998_0.059239658343377855"
+      },
+      "_nodeVersion" : "12.6.0"
+    }
+  },
+  "readme" : "# String.prototype.trim <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nAn ES5 spec-compliant `String.prototype.trim` shim. Invoke its \"shim\" method to shim `String.prototype.trim` if it is unavailable.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the spec (both [ES5](https://262.ecma-international.org/5.1/#sec-15.5.4.20) and [current](https://tc39.es/ecma262/#sec-string.prototype.trim)).\n\nMost common usage:\n\n```js\nvar assert = require('assert');\nvar trim = require('string.prototype.trim');\n\nassert(trim(' \\t\\na \\t\\n') === 'a');\n\ntrim.shim(); // will be a no-op if not needed\n\nassert(trim(' \\t\\na \\t\\n') === ' \\t\\na \\t\\n'.trim());\n```\n\n## Engine Bugs\nSome implementations of `String#trim` incorrectly trim zero-width spaces. This shim detects and corrects this behavior.\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.com/package/string.prototype.trim\n[npm-version-svg]: https://versionbadg.es/es-shims/String.prototype.trim.svg\n[deps-svg]: https://david-dm.org/es-shims/String.prototype.trim.svg\n[deps-url]: https://david-dm.org/es-shims/String.prototype.trim\n[dev-deps-svg]: https://david-dm.org/es-shims/String.prototype.trim/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/String.prototype.trim#info=devDependencies\n[license-image]: https://img.shields.io/npm/l/string.prototype.trim.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/string.prototype.trim.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=string.prototype.trim\n[codecov-image]: https://codecov.io/gh/es-shims/String.prototype.trim/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/es-shims/String.prototype.trim/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/String.prototype.trim\n[actions-url]: https://github.com/es-shims/String.prototype.trim/actions\n",
+  "maintainers" : [ {
+    "name" : "ljharb",
+    "email" : "ljharb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com",
+    "url" : "http://ljharb.codes"
+  },
+  "time" : {
+    "created" : "2015-08-09T06:07:46.418Z",
+    "1.1.2" : "2016-02-06T09:37:24.527Z",
+    "1.2.1" : "2019-12-16T18:41:13.566Z",
+    "1.2.2" : "2020-09-15T22:55:28.024Z",
+    "1.2.3" : "2020-11-21T22:55:15.015Z",
+    "1.2.4" : "2021-02-21T22:24:02.499Z",
+    "1.2.5" : "2021-10-04T05:33:59.526Z",
+    "1.2.6" : "2022-04-24T22:22:50.953Z",
+    "1.2.7" : "2022-11-07T19:04:12.734Z",
+    "1.2.8" : "2023-09-07T17:07:16.812Z",
+    "modified" : "2023-09-07T17:07:17.005Z",
+    "1.0.0" : "2015-08-09T06:07:46.418Z",
+    "1.1.0" : "2015-08-16T08:08:55.784Z",
+    "1.1.1" : "2015-08-16T20:03:04.222Z",
+    "1.2.0" : "2019-07-24T18:31:14.196Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git://github.com/es-shims/String.prototype.trim.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/es-shims/String.prototype.trim#readme",
+  "keywords" : [ "String.prototype.trim", "string", "ES5", "shim", "trim", "polyfill", "es-shim API" ],
+  "contributors" : [ {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com",
+    "url" : "http://ljharb.codes"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/es-shims/String.prototype.trim/issues"
+  },
+  "license" : "MIT"
+}

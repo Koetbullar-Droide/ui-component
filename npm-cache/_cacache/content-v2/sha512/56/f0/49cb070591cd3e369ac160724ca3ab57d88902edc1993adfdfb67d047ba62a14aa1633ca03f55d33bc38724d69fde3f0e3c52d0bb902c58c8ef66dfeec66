@@ -1,0 +1,283 @@
+{
+  "_id" : "is-weakref",
+  "_rev" : "3-a4466eede0cb7f6231ab790e759c4a0c",
+  "name" : "is-weakref",
+  "description" : "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+  "dist-tags" : {
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "is-weakref",
+      "description" : "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/inspect-js/is-weakref#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/inspect-js/is-weakref.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/inspect-js/is-weakref/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "es-abstract" : "^1.17.6"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^17.1.0",
+        "aud" : "^1.1.2",
+        "auto-changelog" : "^2.2.0",
+        "eslint" : "^7.6.0",
+        "for-each" : "^0.3.3",
+        "object-inspect" : "^1.8.0",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "weakref", "weak", "ref", "finalization", "finalization registry" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "tape test",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "is-weakref@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/is-weakref/-/is-weakref-1.0.0.tgz",
+        "shasum" : "9503d514ce5f30e1ebea79dec0a8ac4c197758b4",
+        "integrity" : "sha512-6e8/4Ttk6Cim5Vt+Pii/G9Ob5Dd7I/UiYu+AXS8nYI1emiNsBZt4+pKegTBjdyT+eCGf2HUC98T/HAAUgwUAnA=="
+      },
+      "gitHead" : "b0d91783d6c1ceda8bea2a79096fef6dd4310c62",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-weakref_1.0.0_1596348863731_0.25731775245487576"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.7.0"
+    },
+    "1.0.1" : {
+      "name" : "is-weakref",
+      "description" : "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/inspect-js/is-weakref#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/inspect-js/is-weakref.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/inspect-js/is-weakref/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^17.3.0",
+        "aud" : "^1.1.3",
+        "auto-changelog" : "^2.2.1",
+        "eslint" : "^7.14.0",
+        "for-each" : "^0.3.3",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.9.0",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "weakref", "weak", "ref", "finalization", "finalization registry" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "is-weakref@1.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/is-weakref/-/is-weakref-1.0.1.tgz",
+        "shasum" : "842dba4ec17fa9ac9850df2d6efbc1737274f2a2",
+        "integrity" : "sha512-b2jKc2pQZjaeFYWEf7ScFj+Be1I+PXmlu572Q8coTXZ+LD/QQZ7ShPMst8h16riVgyXTQwUsFEl74mDvc/3MHQ=="
+      },
+      "gitHead" : "74690b82395ef4097c51f52da1842f7ecb872014",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-weakref_1.0.1_1607126642309_0.36375713517997355"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.15.1"
+    },
+    "1.0.2" : {
+      "name" : "is-weakref",
+      "description" : "Is this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/inspect-js/is-weakref#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/inspect-js/is-weakref.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/inspect-js/is-weakref/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^20.0.0",
+        "aud" : "^1.1.5",
+        "auto-changelog" : "^2.3.0",
+        "eslint" : "^8.4.1",
+        "for-each" : "^0.3.3",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.11.1",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.3.2"
+      },
+      "keywords" : [ "weakref", "weak", "ref", "finalization", "finalization registry" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "lint" : "eslint --ext=js,mjs .",
+        "pretest" : "npm run lint",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production"
+      },
+      "_npmVersion" : "8.1.4",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "is-weakref@1.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/is-weakref/-/is-weakref-1.0.2.tgz",
+        "shasum" : "9529f383a9338205e89765e0392efc2f100f06f2",
+        "integrity" : "sha512-qctsuLZmIQ0+vSSMfoVvyFe2+GSEvnmZ2ezTup1SBse9+twCCeial6EEi3Nc2KFcf6+qz2FBPnjXsk8xhKSaPQ=="
+      },
+      "gitHead" : "f63853b41b499be00bc3d4b519a4c6e3844a467c",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-weakref_1.0.2_1639154797576_0.06622627464366948"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "17.2.0"
+    }
+  },
+  "readme" : "# is-weakref <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][11]][1]\n\nIs this value a JS WeakRef? This module works cross-realm/iframe, and despite ES6 @@toStringTag.\n\n## Example\n\n```js\nvar isWeakRef = require('is-weakref');\nassert(!isWeakRef(function () {}));\nassert(!isWeakRef(null));\nassert(!isWeakRef(function* () { yield 42; return Infinity; });\nassert(!isWeakRef(Symbol('foo')));\nassert(!isWeakRef(1n));\nassert(!isWeakRef(Object(1n)));\n\nassert(!isWeakRef(new Set()));\nassert(!isWeakRef(new WeakSet()));\nassert(!isWeakRef(new Map()));\nassert(!isWeakRef(new WeakMap()));\n\nassert(isWeakRef(new WeakRef({})));\n\nclass MyWeakRef extends WeakRef {}\nassert(isWeakRef(new MyWeakRef({})));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.org/package/is-weakref\n[npm-version-svg]: https://versionbadg.es/inspect-js/is-weakref.svg\n[deps-svg]: https://david-dm.org/inspect-js/is-weakref.svg\n[deps-url]: https://david-dm.org/inspect-js/is-weakref\n[dev-deps-svg]: https://david-dm.org/inspect-js/is-weakref/dev-status.svg\n[dev-deps-url]: https://david-dm.org/inspect-js/is-weakref#info=devDependencies\n[license-image]: https://img.shields.io/npm/l/is-weakref.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/is-weakref.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=is-weakref\n[codecov-image]: https://codecov.io/gh/inspect-js/is-weakref/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/inspect-js/is-weakref/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-weakref\n[actions-url]: https://github.com/inspect-js/is-weakref/actions\n",
+  "maintainers" : [ {
+    "name" : "ljharb",
+    "email" : "ljharb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com"
+  },
+  "time" : {
+    "created" : "2020-08-02T06:14:23.730Z",
+    "modified" : "2022-05-06T05:33:42.556Z",
+    "1.0.0" : "2020-08-02T06:14:23.880Z",
+    "1.0.1" : "2020-12-05T00:04:02.450Z",
+    "1.0.2" : "2021-12-10T16:46:37.781Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/inspect-js/is-weakref.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/inspect-js/is-weakref#readme",
+  "keywords" : [ "weakref", "weak", "ref", "finalization", "finalization registry" ],
+  "bugs" : {
+    "url" : "https://github.com/inspect-js/is-weakref/issues"
+  },
+  "license" : "MIT"
+}

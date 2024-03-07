@@ -1,0 +1,1577 @@
+{
+  "_id" : "@eslint/js",
+  "_rev" : "31-8940f6adc1f18925c3f0b0d4018bea4b",
+  "name" : "@eslint/js",
+  "description" : "ESLint JavaScript language implementation",
+  "dist-tags" : {
+    "next" : "9.0.0-beta.1",
+    "latest" : "8.57.0"
+  },
+  "versions" : {
+    "8.42.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.42.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.42.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.42.0.tgz",
+        "shasum" : "484a1d638de2911e6f5a30c12f49c7e4a3270fb6",
+        "integrity" : "sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw=="
+      },
+      "gitHead" : "67fc5e730e4dfc372dea11e15d3f5165bc812491",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.42.0_1685741226849_0.3663409821484629"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.43.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.43.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.43.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.43.0.tgz",
+        "shasum" : "559ca3d9ddbd6bf907ad524320a0d14b85586af0",
+        "integrity" : "sha512-s2UHCoiXfxMvmfzqoN+vrQ84ahUSYde9qNO1MdxmoEhyHWsfmwOpFlwYV+ePJEVc7gFnATGUi376WowX1N7tFg=="
+      },
+      "gitHead" : "62bf759124811b013ad7906c2536deb8b39c31a8",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.43.0_1686949448301_0.4295365357202612"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.44.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.44.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.44.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.44.0.tgz",
+        "shasum" : "961a5903c74139390478bdc808bcde3fc45ab7af",
+        "integrity" : "sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw=="
+      },
+      "gitHead" : "a1cb6421f9d185901cd99e5f696e912226ef6632",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.44.0_1688164357604_0.8899876761570626"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.45.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.45.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.45.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.45.0.tgz",
+        "shasum" : "b0d59168e76993bded2897a19aef618ebfc33ceb",
+        "integrity" : "sha512-p/4a2uaWVHCbAPLxPcv9rkhooU1FVfUUiLoZq09v1dOgtLym/Qlsyw2L3JWr9inVRt1XaLKPP5PBcDtTxRUJPg=="
+      },
+      "gitHead" : "68f63d76ce785fab4f42b76f1599026eea379bf7",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.45.0_1689349770738_0.2538408999815387"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.46.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.46.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.46.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.46.0.tgz",
+        "shasum" : "3f7802972e8b6fe3f88ed1aabc74ec596c456db6",
+        "integrity" : "sha512-a8TLtmPi8xzPkCbp/OGFUo5yhRkHM2Ko9kOWP4znJr0WAhWyThaw3PnwX4vOTWOAMsV2uRt32PPDcEz63esSaA=="
+      },
+      "gitHead" : "6246711e0650d03afe044c36acde048ed2d39ee3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.46.0_1690558860765_0.1330609379331511"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.47.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.47.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.47.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.47.0.tgz",
+        "shasum" : "5478fdf443ff8158f9de171c704ae45308696c7d",
+        "integrity" : "sha512-P6omY1zv5MItm93kLM8s2vr1HICJH8v0dvddDhysbIuZ+vcjOHg5Zbkf1mTkcmi2JA9oBG2anOkRnW8WJTS8Og=="
+      },
+      "gitHead" : "0e4576012ab938b880e6f27641bff55fb4313d20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.47.0_1691765813874_0.694710814249359"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.48.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.48.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.48.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.48.0.tgz",
+        "shasum" : "642633964e217905436033a2bd08bf322849b7fb",
+        "integrity" : "sha512-ZSjtmelB7IJfWD2Fvb7+Z+ChTIKWq6kjda95fLcQKNS5aheVHn4IkfgRQE3sIIzTcSLwLcLZUD9UBt+V7+h+Pw=="
+      },
+      "gitHead" : "6d0496e9476fb2210fba0a3d541df8c052ecf73a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.48.0_1692991270521_0.8496814376493997"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.49.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.49.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.49.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.49.0.tgz",
+        "shasum" : "86f79756004a97fa4df866835093f1df3d03c333",
+        "integrity" : "sha512-1S8uAY/MTJqVx0SC4epBq+N2yhuwtNwLbJYNZyhL2pO1ZVKn5HFXav5T41Ryzy9K9V7ZId2JB2oy/W4aCd9/2w=="
+      },
+      "gitHead" : "cd395082bffcb4b68efa09226d7c682cef56179e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.49.0_1694193526515_0.5396051678822644"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.41.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.41.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.41.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.41.0.tgz",
+        "shasum" : "080321c3b68253522f7646b55b577dd99d2950b3",
+        "integrity" : "sha512-LxcyMGxwmTh2lY9FwHPGWOHmYFCZvbrFCBZL4FzSSsxsRPuhrYUg/49/0KDfW8tnIEaEHtfmn6+NPN+1DqaNmA=="
+      },
+      "gitHead" : "95c300780a1cfd9ad680bc78850542eb55d7fbf4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.41.0_1684527155864_0.40557903759850755"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.40.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.40.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.40.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.40.0.tgz",
+        "shasum" : "3ba73359e11f5a7bd3e407f70b3528abfae69cec",
+        "integrity" : "sha512-ElyB54bJIhXQYVKjDSvCkPO1iU1tSAeVQJbllWJq1XQSmmA4dgFk8CbiBGpiOPxleE48vDogxCtmMYku4HSVLA=="
+      },
+      "gitHead" : "50fed1da4449ad7ecbb558294438273cfce603d4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.40.0_1683317648322_0.24028043698580404"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.50.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.50.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.50.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.50.0.tgz",
+        "shasum" : "9e93b850f0f3fa35f5fa59adfd03adae8488e484",
+        "integrity" : "sha512-NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ=="
+      },
+      "gitHead" : "38ada6df8f4a0313b7d0739b28f0af6b4897b8ce",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.50.0_1695414366236_0.046886493631236315"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.51.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.51.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.51.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.51.0.tgz",
+        "shasum" : "6d419c240cfb2b66da37df230f7e7eef801c32fa",
+        "integrity" : "sha512-HxjQ8Qn+4SI3/AFv6sOrDB+g6PpUTDwSJiQqOrnneEk8L71161srI9gjzzZvYVbzHiVg/BvcH95+cK/zfIt4pg=="
+      },
+      "gitHead" : "f8c7403255c11e99c402860aef3c0179f2b16628",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.51.0_1696620726079_0.9419407315712709"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.52.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.52.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.52.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.52.0.tgz",
+        "shasum" : "78fe5f117840f69dc4a353adf9b9cd926353378c",
+        "integrity" : "sha512-mjZVbpaeMZludF2fsWLD0Z9gCref1Tk4i9+wddjRvpUNqqcndPkBD09N/Mapey0b3jaXbLm2kICwFv2E64QinA=="
+      },
+      "gitHead" : "d63d4fe0942e6747ab60e758aa36076f43041a30",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.52.0_1697833565446_0.01605202731979838"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.53.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.53.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.53.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.53.0.tgz",
+        "shasum" : "bea56f2ed2b5baea164348ff4d5a879f6f81f20d",
+        "integrity" : "sha512-Kn7K8dx/5U6+cT1yEhpX1w4PCSg0M+XyRILPgvwcEBjerFWCwQj5sbr3/VmxqV0JGHCBCzyd6LxypEuehypY1w=="
+      },
+      "gitHead" : "93256a32e312f3f4e5c532762df71bdc06bded20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.53.0_1699044854408_0.30372753796866747"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.54.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.54.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.54.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.54.0.tgz",
+        "shasum" : "4fab9a2ff7860082c304f750e94acd644cf984cf",
+        "integrity" : "sha512-ut5V+D+fOoWPgGGNj83GGjnntO39xDy6DWxO0wb7Jp3DcMX0TfIqdzHF85VTQkerdyGmuuMD9AKAo5KiNlf/AQ=="
+      },
+      "gitHead" : "1e6e31415cc429a3a9fc64b2ec03df0e0ec0c91b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.54.0_1700255801517_0.5354050505887218"
+      },
+      "_nodeVersion" : "20.9.0"
+    },
+    "8.55.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.55.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.55.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.55.0.tgz",
+        "shasum" : "b721d52060f369aa259cf97392403cb9ce892ec6",
+        "integrity" : "sha512-qQfo2mxH5yVom1kacMtZZJFVdW+E70mqHMJvVg6WTLo+VBuQJ4TojZlfWBjK0ve5BdEeNAVxOsl/nvNMpJOaJA=="
+      },
+      "gitHead" : "93df3849a7a25ebe0502000bf0bfb80a6613a5ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.55.0_1701465637008_0.12672644964878432"
+      },
+      "_nodeVersion" : "20.9.0"
+    },
+    "9.0.0-alpha.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "9.0.0-alpha.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@9.0.0-alpha.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-9.0.0-alpha.0.tgz",
+        "shasum" : "91f1b478e0548516dce99cd57f66d6441483e00d",
+        "integrity" : "sha512-SsmCfB6P+1D7RbUjWxi206LMt3jmiVXolUHIgR2ZeJGKyXdNtXY6t3yl8mkfO1XuCJM9iGHMKzQm9H52UyuSpQ=="
+      },
+      "gitHead" : "cb89ef373fffbed991f4e099cb255a7c116889f9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_9.0.0-alpha.0_1703892017489_0.3684345807507887"
+      },
+      "readme" : "[![npm version](https://img.shields.io/npm/v/@eslint/js.svg)](https://www.npmjs.com/package/@eslint/js)\n\n# ESLint JavaScript Plugin\n\n[Website](https://eslint.org) | [Configure ESLint](https://eslint.org/docs/latest/use/configure) | [Rules](https://eslint.org/docs/rules/) | [Contributing](https://eslint.org/docs/latest/contribute) | [Twitter](https://twitter.com/geteslint) | [Chatroom](https://eslint.org/chat)\n\nThe beginnings of separating out JavaScript-specific functionality from ESLint.\n\nRight now, this plugin contains two configurations:\n\n* `recommended` - enables the rules recommended by the ESLint team (the replacement for `\"eslint:recommended\"`)\n* `all` - enables all ESLint rules (the replacement for `\"eslint:all\"`)\n\n## Installation\n\n```shell\nnpm install @eslint/js -D\n```\n\n## Usage\n\nUse in your `eslint.config.js` file anytime you want to extend one of the configs:\n\n```js\nimport js from \"@eslint/js\";\n\nexport default [\n\n    // apply recommended rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: js.configs.recommended.rules\n    },\n\n    // apply recommended rules to JS files with an override\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.recommended.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    },\n\n    // apply all rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.all.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    }\n]\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.9.0"
+    },
+    "8.56.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.56.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.56.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.56.0.tgz",
+        "shasum" : "ef20350fec605a7f7035a01764731b2de0f3782b",
+        "integrity" : "sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A=="
+      },
+      "gitHead" : "60a531a9c0811ddf718e26b9136e133f580b6c36",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.56.0_1702679168855_0.26266405993840936"
+      },
+      "_nodeVersion" : "20.9.0"
+    },
+    "9.0.0-alpha.1" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "9.0.0-alpha.1",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@9.0.0-alpha.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-9.0.0-alpha.1.tgz",
+        "shasum" : "c1adab9bf07994f1f5055a7d07c96ff86cb44ab9",
+        "integrity" : "sha512-5GqIytcNdyj5ms6+R7Jab9pOOvjvYU567huGQk/h59ZXzjJ0kO843Q9XSH88zZAAWX6YftuEUz++DPCiEmsmAw=="
+      },
+      "gitHead" : "c5e50ee65cf22871770b1d4d438b9056c577f646",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_9.0.0-alpha.1_1705092237725_0.4910804731657026"
+      },
+      "readme" : "[![npm version](https://img.shields.io/npm/v/@eslint/js.svg)](https://www.npmjs.com/package/@eslint/js)\n\n# ESLint JavaScript Plugin\n\n[Website](https://eslint.org) | [Configure ESLint](https://eslint.org/docs/latest/use/configure) | [Rules](https://eslint.org/docs/rules/) | [Contributing](https://eslint.org/docs/latest/contribute) | [Twitter](https://twitter.com/geteslint) | [Chatroom](https://eslint.org/chat)\n\nThe beginnings of separating out JavaScript-specific functionality from ESLint.\n\nRight now, this plugin contains two configurations:\n\n* `recommended` - enables the rules recommended by the ESLint team (the replacement for `\"eslint:recommended\"`)\n* `all` - enables all ESLint rules (the replacement for `\"eslint:all\"`)\n\n## Installation\n\n```shell\nnpm install @eslint/js -D\n```\n\n## Usage\n\nUse in your `eslint.config.js` file anytime you want to extend one of the configs:\n\n```js\nimport js from \"@eslint/js\";\n\nexport default [\n\n    // apply recommended rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: js.configs.recommended.rules\n    },\n\n    // apply recommended rules to JS files with an override\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.recommended.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    },\n\n    // apply all rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.all.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    }\n]\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.9.0"
+    },
+    "9.0.0-alpha.2" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "9.0.0-alpha.2",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@9.0.0-alpha.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-9.0.0-alpha.2.tgz",
+        "shasum" : "6e65ffe05b781ef26558798e49fb929462c2b622",
+        "integrity" : "sha512-4nvepmZRhOlftQRlo2M46OY1R66WNP4kNWaqHKVLx0dGuL0IrdU873/KxDdX62tIdNmFQwv97gy5rKrehublsg=="
+      },
+      "gitHead" : "2c1271528e88d0c3c6a92eeee902001f1703d5c9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_9.0.0-alpha.2_1706299577651_0.6199393813574323"
+      },
+      "readme" : "[![npm version](https://img.shields.io/npm/v/@eslint/js.svg)](https://www.npmjs.com/package/@eslint/js)\n\n# ESLint JavaScript Plugin\n\n[Website](https://eslint.org) | [Configure ESLint](https://eslint.org/docs/latest/use/configure) | [Rules](https://eslint.org/docs/rules/) | [Contributing](https://eslint.org/docs/latest/contribute) | [Twitter](https://twitter.com/geteslint) | [Chatroom](https://eslint.org/chat)\n\nThe beginnings of separating out JavaScript-specific functionality from ESLint.\n\nRight now, this plugin contains two configurations:\n\n* `recommended` - enables the rules recommended by the ESLint team (the replacement for `\"eslint:recommended\"`)\n* `all` - enables all ESLint rules (the replacement for `\"eslint:all\"`)\n\n## Installation\n\n```shell\nnpm install @eslint/js -D\n```\n\n## Usage\n\nUse in your `eslint.config.js` file anytime you want to extend one of the configs:\n\n```js\nimport js from \"@eslint/js\";\n\nexport default [\n\n    // apply recommended rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: js.configs.recommended.rules\n    },\n\n    // apply recommended rules to JS files with an override\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.recommended.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    },\n\n    // apply all rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.all.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    }\n]\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.9.0"
+    },
+    "9.0.0-beta.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "9.0.0-beta.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@9.0.0-beta.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-9.0.0-beta.0.tgz",
+        "shasum" : "a1f2cf6239c173aa8bdf52e96e7e8324c2adaf3f",
+        "integrity" : "sha512-NOihiVG19hYJ1ow1xwRnOPk5RysHEb0pQQiBlX7aMuo6ueSLAhvNcRvQatSEhfPjCp7yB8cAnC58Cu/e/SHhkA=="
+      },
+      "gitHead" : "9870f93e714edefb410fccae1e9924a3c1972a2e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_9.0.0-beta.0_1707521507501_0.2798936234784952"
+      },
+      "readme" : "[![npm version](https://img.shields.io/npm/v/@eslint/js.svg)](https://www.npmjs.com/package/@eslint/js)\n\n# ESLint JavaScript Plugin\n\n[Website](https://eslint.org) | [Configure ESLint](https://eslint.org/docs/latest/use/configure) | [Rules](https://eslint.org/docs/rules/) | [Contributing](https://eslint.org/docs/latest/contribute) | [Twitter](https://twitter.com/geteslint) | [Chatroom](https://eslint.org/chat)\n\nThe beginnings of separating out JavaScript-specific functionality from ESLint.\n\nRight now, this plugin contains two configurations:\n\n* `recommended` - enables the rules recommended by the ESLint team (the replacement for `\"eslint:recommended\"`)\n* `all` - enables all ESLint rules (the replacement for `\"eslint:all\"`)\n\n## Installation\n\n```shell\nnpm install @eslint/js -D\n```\n\n## Usage\n\nUse in your `eslint.config.js` file anytime you want to extend one of the configs:\n\n```js\nimport js from \"@eslint/js\";\n\nexport default [\n\n    // apply recommended rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: js.configs.recommended.rules\n    },\n\n    // apply recommended rules to JS files with an override\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.recommended.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    },\n\n    // apply all rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.all.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    }\n]\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.9.0"
+    },
+    "8.57.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.57.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.57.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.57.0.tgz",
+        "shasum" : "a5417ae8427873f1dd08b70b3574b453e67b5f7f",
+        "integrity" : "sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g=="
+      },
+      "gitHead" : "5c356bb0c6f53c570224f8e9f02c4baca8fc6d2f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.57.0_1708719138554_0.19418202730606304"
+      },
+      "_nodeVersion" : "20.9.0"
+    },
+    "9.0.0-beta.1" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "9.0.0-beta.1",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^18.18.0 || ^20.9.0 || >=21.1.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "10.1.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@9.0.0-beta.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-9.0.0-beta.1.tgz",
+        "shasum" : "dca1b06557415b293571703ce88e4f50acdf08c3",
+        "integrity" : "sha512-NraZeB9FlKD4zrZ4s4b2hKM0odH59/Q3sC7IeWKWmfcRjOo+IRmYgLEGbty4UqKWm/uMvUK5TTAKhzdJxfQpMg=="
+      },
+      "gitHead" : "e41425b5c3b4c885f2679a3663bd081911a8b570",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_9.0.0-beta.1_1708724617144_0.008360014086556733"
+      },
+      "readme" : "[![npm version](https://img.shields.io/npm/v/@eslint/js.svg)](https://www.npmjs.com/package/@eslint/js)\n\n# ESLint JavaScript Plugin\n\n[Website](https://eslint.org) | [Configure ESLint](https://eslint.org/docs/latest/use/configure) | [Rules](https://eslint.org/docs/rules/) | [Contributing](https://eslint.org/docs/latest/contribute) | [Twitter](https://twitter.com/geteslint) | [Chatroom](https://eslint.org/chat)\n\nThe beginnings of separating out JavaScript-specific functionality from ESLint.\n\nRight now, this plugin contains two configurations:\n\n* `recommended` - enables the rules recommended by the ESLint team (the replacement for `\"eslint:recommended\"`)\n* `all` - enables all ESLint rules (the replacement for `\"eslint:all\"`)\n\n## Installation\n\n```shell\nnpm install @eslint/js -D\n```\n\n## Usage\n\nUse in your `eslint.config.js` file anytime you want to extend one of the configs:\n\n```js\nimport js from \"@eslint/js\";\n\nexport default [\n\n    // apply recommended rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: js.configs.recommended.rules\n    },\n\n    // apply recommended rules to JS files with an override\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.recommended.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    },\n\n    // apply all rules to JS files\n    {\n        files: [\"**/*.js\"],\n        rules: {\n            ...js.configs.all.rules,\n            \"no-unused-vars\": \"warn\"\n        } \n    }\n]\n```\n\n## License\n\nMIT\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "20.9.0"
+    },
+    "8.39.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.39.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.39.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.39.0.tgz",
+        "shasum" : "58b536bcc843f4cd1e02a7e6171da5c040f4d44b",
+        "integrity" : "sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng=="
+      },
+      "gitHead" : "d5ba5c0a85e7a10777761f5d46c104ab7f25845b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.39.0_1682109073685_0.4277362497183834"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.38.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.38.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.38.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.38.0.tgz",
+        "shasum" : "73a8a0d8aa8a8e6fe270431c5e72ae91b5337892",
+        "integrity" : "sha512-IoD2MfUnOV58ghIHCiil01PcohxjbYR/qCxsoC+xNgUwh1EY8jOOrYmu3d3a71+tJJ23uscEV4X2HJWMsPJu4g=="
+      },
+      "gitHead" : "88c08984ec259ac22d839397c06beec8ef213120",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.38.0_1680906525629_0.8438428718760655"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.37.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.37.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.37.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.37.0.tgz",
+        "shasum" : "cf1b5fa24217fe007f6487a26d765274925efa7d",
+        "integrity" : "sha512-x5vzdtOOGgFVDCUs81QRB2+liax8rFg3+7hqM+QhBG0/G3F1ZsoYl97UrqgHgQ9KKT7G6c4V+aTUCgu/n22v1A=="
+      },
+      "gitHead" : "ee9ddbd63e262aed0052853760866c7a054af561",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.37.0_1680041285576_0.26085703501955115"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.36.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.36.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.36.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.36.0.tgz",
+        "shasum" : "9837f768c03a1e4a30bd304a64fb8844f0e72efe",
+        "integrity" : "sha512-lxJ9R5ygVm8ZWgYdUweoq5ownDlJ4upvoWmO4eLxBYHdMo+vZ/Rx0EN6MbKWDJOSUGrqJy2Gt+Dyv/VKml0fjg=="
+      },
+      "gitHead" : "43c2345c27024aeab6127e6bbfd55c8b70bd317e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.36.0_1678484201917_0.26571376691123905"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.35.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.35.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.35.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.35.0.tgz",
+        "shasum" : "b7569632b0b788a0ca0e438235154e45d42813a7",
+        "integrity" : "sha512-JXdzbRiWclLVoD8sNUjR443VVlYqiYmDVT6rGUEIEHU5YJW0gaVZwV2xgM7D4arkvASqD0IlLUVjHiFuxaftRw=="
+      },
+      "gitHead" : "c954c349c0c2f88919614efc95e1368c245582fd",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.35.0_1677372648352_0.7480011351326834"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.34.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.34.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git",
+        "directory" : "packages/js"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^12.22.0 || ^14.17.0 || >=16.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.34.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.34.0.tgz",
+        "shasum" : "29a677199371262f64327f81148e16e2b8976a8a",
+        "integrity" : "sha512-MWkafDmWOno/1HC+jMx9OSviFJV8OYiZgTFI6ExbLOxCJHF3KtG3SxqHI6LOVoEGm1ixZr48V1cofr6eimndKw=="
+      },
+      "gitHead" : "5a517da8e55f6de28e9c028c5627fa7d82945969",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.34.0_1677372595432_0.37247570362023796"
+      },
+      "_nodeVersion" : "16.18.1"
+    },
+    "8.33.0" : {
+      "name" : "@eslint/js",
+      "description" : "ESLint JavaScript language implementation",
+      "version" : "8.33.0",
+      "homepage" : "https://eslint.org",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/eslint/eslint.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/eslint/eslint/issues/"
+      },
+      "engines" : {
+        "node" : "^10.12.0 || >=12.0.0"
+      },
+      "main" : "./src/index.js",
+      "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "openjsfoundation",
+        "email" : "npm@openjsf.org"
+      }, {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "7.10.0",
+      "_npmUser" : {
+        "name" : "eslintbot",
+        "email" : "nicholas+eslint@nczconsulting.com"
+      },
+      "_id" : "@eslint/js@8.33.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@eslint/js/-/js-8.33.0.tgz",
+        "shasum" : "6e3bd22e4cf828b9dc7050d41eee6e81e9a8be5b",
+        "integrity" : "sha512-K54mnwscqJf7fx2Fyz1A1XQ4yOD8GNAwo58wSIdqEC7d0ZxNFJdiMVg1FqAju4SSAgDKCMlL8gOu0Cm1pMDXXQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/js_8.33.0_1675188433808_0.2977689527485734"
+      },
+      "_nodeVersion" : "19.3.0"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "openjsfoundation",
+    "email" : "npm@openjsf.org"
+  }, {
+    "name" : "eslintbot",
+    "email" : "nicholas+eslint@nczconsulting.com"
+  } ],
+  "time" : {
+    "8.42.0" : "2023-06-02T21:27:07.033Z",
+    "8.43.0" : "2023-06-16T21:04:08.456Z",
+    "8.44.0" : "2023-06-30T22:32:37.843Z",
+    "8.45.0" : "2023-07-14T15:49:31.006Z",
+    "8.46.0" : "2023-07-28T15:41:00.917Z",
+    "8.47.0" : "2023-08-11T14:56:53.995Z",
+    "8.48.0" : "2023-08-25T19:21:10.673Z",
+    "8.49.0" : "2023-09-08T17:18:46.668Z",
+    "modified" : "2024-02-23T21:43:37.722Z",
+    "8.41.0" : "2023-05-19T20:12:36.073Z",
+    "8.40.0" : "2023-05-05T20:14:08.526Z",
+    "8.50.0" : "2023-09-22T20:26:06.362Z",
+    "8.51.0" : "2023-10-06T19:32:06.362Z",
+    "8.52.0" : "2023-10-20T20:26:05.640Z",
+    "created" : "2023-01-31T18:07:13.747Z",
+    "8.53.0" : "2023-11-03T20:54:14.611Z",
+    "8.54.0" : "2023-11-17T21:16:41.707Z",
+    "8.55.0" : "2023-12-01T21:20:37.208Z",
+    "9.0.0-alpha.0" : "2023-12-29T23:20:17.707Z",
+    "8.56.0" : "2023-12-15T22:26:09.059Z",
+    "9.0.0-alpha.1" : "2024-01-12T20:43:57.931Z",
+    "9.0.0-alpha.2" : "2024-01-26T20:06:17.856Z",
+    "9.0.0-beta.0" : "2024-02-09T23:31:47.635Z",
+    "8.57.0" : "2024-02-23T20:12:18.738Z",
+    "9.0.0-beta.1" : "2024-02-23T21:43:37.308Z",
+    "8.39.0" : "2023-04-21T20:31:13.873Z",
+    "8.38.0" : "2023-04-07T22:28:45.827Z",
+    "8.37.0" : "2023-03-28T22:08:05.765Z",
+    "8.36.0" : "2023-03-10T21:36:42.085Z",
+    "8.35.0" : "2023-02-26T00:50:48.539Z",
+    "8.34.0" : "2023-02-26T00:49:55.619Z",
+    "8.33.0" : "2023-01-31T18:07:13.955Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/eslint/eslint.git",
+    "directory" : "packages/js"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://eslint.org",
+  "keywords" : [ "javascript", "eslint-plugin", "eslint" ],
+  "bugs" : {
+    "url" : "https://github.com/eslint/eslint/issues/"
+  },
+  "license" : "MIT"
+}

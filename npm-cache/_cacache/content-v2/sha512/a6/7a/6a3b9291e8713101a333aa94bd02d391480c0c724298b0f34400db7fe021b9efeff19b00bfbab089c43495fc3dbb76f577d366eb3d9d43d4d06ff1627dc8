@@ -1,0 +1,3556 @@
+{
+  "_id" : "@esbuild/linux-riscv64",
+  "_rev" : "75-ac8feabf0005c8c6d7c520dc11448212",
+  "name" : "@esbuild/linux-riscv64",
+  "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.20.1"
+  },
+  "versions" : {
+    "0.15.18" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.15.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.15.18.tgz",
+        "shasum" : "ac30ad029270defd9ef7f4994a6a0a420418d5a1",
+        "integrity" : "sha512-dJ5HJ63qROw6TX8VkB4rbViO4xWm+cOQhuNQ5zJlvh2sBShIbL2e8bVpnlYCdSQqlX/rxnumabDFKcWwMd1reQ=="
+      },
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.15.18_1670284388117_0.8260225063061284"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.10.tgz",
+        "shasum" : "292b06978375b271bd8bc0a554e0822957508d22",
+        "integrity" : "sha512-0f/spw0PfBMZBNqtKe5FLzBDGo0SKZKvMl5PHYQr3+eiSscfJ96XEknCe+JoOayybWUFQbcJTrk946i3j9uYZA=="
+      },
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.10_1702945327324_0.8282386879160264"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.12.tgz",
+        "shasum" : "11bc0698bf0a2abf8727f1c7ace2112612c15adf",
+        "integrity" : "sha512-2MueBrlPQCw5dVJJpQdUYgeqIzDQgw3QtiAHUC4RBz9FXPrskyyU3VI1hw7C0BSKB9OduwSJ79FTCqtGMWqJHg=="
+      },
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.12_1706031668761_0.46959785518386843"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.11.tgz",
+        "shasum" : "2dc4486d474a2a62bbe5870522a9a600e2acb916",
+        "integrity" : "sha512-f3DY++t94uVg141dozDu4CCUkYW+09rWtaWfnb3bqe4w5NqmZd6nPVBm+qbz7WaHZCoqXqHz5p6CM6qv3qnSSQ=="
+      },
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.11_1703881960922_0.1993234178657215"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.2.tgz",
+        "shasum" : "72e1fd9cc9972e662fcef9138636bd1259c3cd3a",
+        "integrity" : "sha512-oacL6QGqVRhBCbBlFxODYfcCkB6tPmfanaWnsuHNI7m9LVkBuuDKpsC3XWOwkEQiLIJcvhhZKOkkgw49KxS1Dw=="
+      },
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.2_1670482823208_0.7141463128328787"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.0.tgz",
+        "shasum" : "a90b6235f268d23e7cb6d7f25a3bc8cc5fd51519",
+        "integrity" : "sha512-UkuBdxQsxi39wWrRLMOkJl//82/hpQw79TD+OBLw3IBYyVQ4Wfvpe56RfEGK/j439sIm79ccnD5RUNQceHvZdQ=="
+      },
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.0_1686345886015_0.2739057608481048"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.1.tgz",
+        "shasum" : "a037d507ad99128c75c835db42aa5bf5ed1a5a3e",
+        "integrity" : "sha512-pBrrjLBwmlsMR7iNi+W/q5JtfyzlZ97WUxBztZvsGnWBpnmjjgbdPBlwxYbgQAzqzMAsP45j6CJUpGra3SSFiQ=="
+      },
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.1_1670388538709_0.9262073553266796"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.0.tgz",
+        "shasum" : "55df0b4765c884398939796c4f4652407ec42783",
+        "integrity" : "sha512-0lltEeulLtAfF1+hcA7YRPg6iuHYgCeXZgNaayFU/6WGtIERcjG7yhc/wY2kqbX9quyveoMcb75F7Ahlh2PHQw=="
+      },
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.0_1670385328828_0.8278894273839894"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.17.tgz",
+        "shasum" : "c351e433d009bf256e798ad048152c8d76da2fc9",
+        "integrity" : "sha512-ylNlVsxuFjZK8DQtNUwiMskh6nT0vI7kYl/4fZgV1llP5d6+HIeL/vmmm3jpuoo8+NuXjQVZxmKuhDApK0/cKw=="
+      },
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.17_1673474305960_0.5883014261848674"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.16.tgz",
+        "shasum" : "b080998d8d0480e8235f1384c585ae505e98a19d",
+        "integrity" : "sha512-sSVVMEXsqf1fQu0j7kkhXMViroixU5XoaJXl1u/u+jbXvvhhCt9YvA/B6VM3aM/77HuRQ94neS5bcisijGnKFQ=="
+      },
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.16_1673217858671_0.22010361519423527"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.8.tgz",
+        "shasum" : "1c3d73b01e5b987fcc453cfbf8af1849d47b111d",
+        "integrity" : "sha512-AyuhgbWMSbYrgr3Qz8OT6C92PSbSh7X9ckSgz4xnZYUWrBkR6YaRTp5L7zgcouA/cSm1AiOQauHgQb+EOCNBVQ=="
+      },
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.8_1687663180053_0.3816296377711139"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.9.tgz",
+        "shasum" : "542d0e68bc99fb658fe732b0917931c09775f1a3",
+        "integrity" : "sha512-GuInVdogjmg9DhgkEmNipHkC+3tzkanPJzgzTC2ihsvrruLyFoR1YrTGixblNSMPudQLpiqkcwGwwe0oqfrvfA=="
+      },
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.9_1671337915475_0.49689936940655866"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.7.tgz",
+        "shasum" : "7047a31f042fefd25dd9266086d90cd44d2474c7",
+        "integrity" : "sha512-LegTDzK9gL/sTkiZUGYLigTISwppZJvQL3MRmFgXgHrj3IzdWkPgMwEtOItK3YiFzhBSSNyKA0mSKEg4UuK8JQ=="
+      },
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.7_1687574812070_0.992238071925339"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.8.tgz",
+        "shasum" : "7f1e1dee09b70041ab31ba770f9cc3cad78505f4",
+        "integrity" : "sha512-CsE1IKyVq/Y55PDnBUvm/e7XfvBgfb5kZxHbIEdmB9xt6cTcBkaVvv8EwLDZuYPkYI60WGl0UwyYYx9B2LLgkg=="
+      },
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.8_1671233961681_0.7907637305618167"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.6.tgz",
+        "shasum" : "286984a7e34c9d8e8da610f45e23cdf4895dacc2",
+        "integrity" : "sha512-h44RBLVXFUSjvhOfseE+5UxQ/r9LVeqK2S8JziJKOm9W7SePYRPDyn7MhzhNCCFPkcjIy+soCxfhlJXHXXCR0A=="
+      },
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.6_1687303521655_0.898661806802356"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.7.tgz",
+        "shasum" : "545fd57e44dc3331a86956889f2a5b42bd116c9b",
+        "integrity" : "sha512-3nkNnNg4Ax6MS/l8O8Ynq2lGEVJYyJ2EoY3PHjNJ4PuZ80EYLMrFTFZ4L/Hc16AxgtXKwmNP9TM0YKNiBzBiJQ=="
+      },
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.7_1671058043018_0.9870119570825251"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.5.tgz",
+        "shasum" : "c1d3c777c17e2b18f9b611192aee2d3353aeb54d",
+        "integrity" : "sha512-mGv8BOJXsV7bZyjyMdeDs55CDXZ5vrY3oKa58DNRz2vPn54dREyj4BhhyWuqSuzSURJhFg7pM/1fI2vnAHGkHw=="
+      },
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.5_1687222390249_0.22950698293864513"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.6.tgz",
+        "shasum" : "ade24a148fc7ded3a8a042f97a6441beba4f4f96",
+        "integrity" : "sha512-uqCmZ9GnYcD9Od9fiDYH4TLahw14S6ZgCVrIb1bBBwbAy4pEOPwB73vBX3mnG3ClHv7b5xsOYhCBZkfkoJEgMA=="
+      },
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.6_1670995422451_0.6848889809801537"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.4.tgz",
+        "shasum" : "eb762cae575bb070627415921ca43e5f7e3ee3a1",
+        "integrity" : "sha512-7WaU/kRZG0VCV09Xdlkg6LNAsfU9SAxo6XEdaZ8ffO4lh+DZoAhGTx7+vTMOXKxa+r2w1LYDGxfJa2rcgagMRA=="
+      },
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.4_1686929942605_0.009544332745518691"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.5.tgz",
+        "shasum" : "69fe8bc94f49fdcead8ed6144cb40e45920c4196",
+        "integrity" : "sha512-ZX4SSKOJUcuqFNDydfN4yCo9je9f1T72Pj+RLsAGRiuiREVCwRkXIBp810C01+MdPqYExp322kY78ISEq5XGLQ=="
+      },
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.5_1670953689412_0.03748210247354611"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.3.tgz",
+        "shasum" : "4c00374dbe733456d6fff567521463b977ce4a66",
+        "integrity" : "sha512-fUZPtyCYih6y4lDYdSM4Yoax4nS7aH0/XixJStys+9tfp5cAlIAZhEVKOOdeGXmQn0IEyiUtlIsPnfObbeDQfQ=="
+      },
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.3_1686831704608_0.15132130121812404"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.4.tgz",
+        "shasum" : "9fc23583f4a1508a8d352bd376340e42217e8a90",
+        "integrity" : "sha512-97ANpzyNp0GTXCt6SRdIx1ngwncpkV/z453ZuxbnBROCJ5p/55UjhbaG23UdHj88fGWLKPFtMoU4CBacz4j9FA=="
+      },
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.4_1670644264346_0.5561111669532781"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.2.tgz",
+        "shasum" : "eedb918f2c18e0e4156941a1fdd19052df85c3d0",
+        "integrity" : "sha512-qW37zzKKN9C5l5LnVDriOK0eZRzQeixhtrfd5C78PAsTE15GeHU9G0oyT/u/IkNjEBjXWpTZOOHKNbjhrvuL9g=="
+      },
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.2_1686624071063_0.21199556856252277"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.3.tgz",
+        "shasum" : "f0fec8e7affb5bcc817fefc61a21cbb95539e393",
+        "integrity" : "sha512-uDxqFOcLzFIJ+r/pkTTSE9lsCEaV/Y6rMlQjUI9BkzASEChYL/aSQjZjchtEmdnVxDKETnUAmsaZ4pqK1eE5BQ=="
+      },
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.3_1670530418595_0.5517689262034675"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.1.tgz",
+        "shasum" : "1b42c089cd9938b154189910e9f8ea2d08fd949f",
+        "integrity" : "sha512-IhN7Nz+HyDRnMQOLcCl6m5BgQMITMhS9O1hOqgAUIy6FI0m/0zTSkZHtvMmSIpOy1uleaGqfNDA9SM3nBeTATQ=="
+      },
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.1_1686545529929_0.9117268489114534"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.9.tgz",
+        "shasum" : "b28f9ee395754ca65a261d0f724e52e8af4a1529",
+        "integrity" : "sha512-na8WG8Z7z1EIUcJFuXKOawJEsq8luOur7LHK/ophO0+RSE8A9yxCsKYhaN9IxlR1UciAuHjo/7d5yiflABwUmA=="
+      },
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.9_1687757329225_0.495952306720715"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.13.tgz",
+        "shasum" : "6139202858da8202724d7079102614c269524f34",
+        "integrity" : "sha512-Agb7dbRyZWnmPn5Vvf0eyqaEUqSsaIUwwyInu2EoFTaIDRp093QU2M5alUyOooMLkRbD1WvqQNwx08Z/g+SAcQ=="
+      },
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.13_1672700272033_0.4374300757191145"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.12.tgz",
+        "shasum" : "b6476abff413b5b472e6cf093086b9d5be4553a8",
+        "integrity" : "sha512-qeouyyc8kAGV6Ni6Isz8hUsKMr00EHgVwUKWNp1r4l88fHEoNTDB8mmestvykW6MrstoGI7g2EAsgr0nxmuGYg=="
+      },
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.12_1672193330918_0.011954540391595048"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.15.tgz",
+        "shasum" : "44cb5ad5318d72f52378fa666b2010551c67f333",
+        "integrity" : "sha512-U+coqH+89vbPVoU30no1Fllrn6gvEeO5tfEArBhjYZ+dQ3Gv7ciQXYf5nrT1QdlIFwEjH4Is1U1iiaGWW+tGpQ=="
+      },
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.15_1673065179636_0.15800650891428636"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.14.tgz",
+        "shasum" : "1bd1b631de2533106a08876295bad3a19b20f629",
+        "integrity" : "sha512-fdwP9Dc+Kx/cZwp9T9kNqjAE/PQjfrxbio4rZ3XnC3cVvZBjuxpkiyu/tuCwt6SbAK5th6AYNjFdEV9kGC020A=="
+      },
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.14_1672863219552_0.5883832277175121"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.11.tgz",
+        "shasum" : "64438edd2c474aabcff73ddfecc5cb9f7091a6b6",
+        "integrity" : "sha512-03/B26az/JezvVkgck+lhauP13t6RqzCQgnrkBCBrXXpX+2r02DfSU43BEhpErJrsrDA8GXSE/rvsfbGCX6OvA=="
+      },
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.11_1672105171359_0.8747487296420584"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.16.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.16.10.tgz",
+        "shasum" : "3af4600adbd6c5a4a6f1da05771f4aa6774baab2",
+        "integrity" : "sha512-XMqtpjwzbmlar0BJIxmzu/RZ7EWlfVfH68Vadrva0Wj5UKOdKvqskuev2jY2oPV3aoQUyXwnMbMrFmloO2GfAw=="
+      },
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.16.10_1671492429067_0.42872932445295064"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.19.tgz",
+        "shasum" : "7f49373df463cd9f41dc34f9b2262d771688bf09",
+        "integrity" : "sha512-FC3nUAWhvFoutlhAkgHf8f5HwFWUL6bYdvLc/TTuxKlvLi3+pPzdZiFKSWz/PF30TB1K19SuCxDTI5KcqASJqA=="
+      },
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.19_1683936418184_0.4135092923309027"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.17.tgz",
+        "shasum" : "13a87fdbcb462c46809c9d16bcf79817ecf9ce6f",
+        "integrity" : "sha512-Cj6uWLBR5LWhcD/2Lkfg2NrkVsNb2sFM5aVEfumKB2vYetkA/9Uyc1jVoxLZ0a38sUhFk4JOVKH0aVdPbjZQeA=="
+      },
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.17_1681680241971_0.647006847865554"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.18.tgz",
+        "shasum" : "8a943cf13fd24ff7ed58aefb940ef178f93386bc",
+        "integrity" : "sha512-/x7leOyDPjZV3TcsdfrSI107zItVnsX1q2nho7hbbQoKnmoeUWjs+08rKKt4AUXju7+3aRZSsKrJtaRmsdL1xA=="
+      },
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.18_1682196114135_0.7302980471247706"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.20.tgz",
+        "shasum" : "6628389f210123d8b4743045af8caa7d4ddfc7a6",
+        "integrity" : "sha512-WSxo6h5ecI5XH34KC7w5veNnKkju3zBRLEQNY7mv5mtBmrP/MjNBCAlsM2u5hDBlS3NGcTQpoBvRzqBcRtpq1A=="
+      },
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.20_1691468138447_0.34914492106237716"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.15.tgz",
+        "shasum" : "87bd515e837f2eb004b45f9e6a94dc5b93f22b92",
+        "integrity" : "sha512-EcyUtxffdDtWjjwIH8sKzpDRLcVtqANooMNASO59y+xmqqRYBBM7xVLQhqF7nksIbm2yHABptoioS9RAbVMWVA=="
+      },
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.15_1680388046926_0.045744474289938664"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.16.tgz",
+        "shasum" : "bbf40a38f03ba2434fe69b5ceeec5d13c742b329",
+        "integrity" : "sha512-WhlGeAHNbSdG/I2gqX2RK2gfgSNwyJuCiFHMc8s3GNEMMHUI109+VMBfhVqRb0ZGzEeRiibi8dItR3ws3Lk+cA=="
+      },
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.16_1681101329424_0.41323224121511504"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.13.tgz",
+        "shasum" : "b2b8cdb6a444e86dcbfb16cb3e5a99d7eaf75c41",
+        "integrity" : "sha512-jYkc5EpNpvjccAHNYekiAtklusVGWftR0VVLtng7dJzDyy+5adAsf1fOG3LllP0WALxS55/w6boLE/728J/bXw=="
+      },
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.13_1679684254387_0.046706316567710404"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.14.tgz",
+        "shasum" : "38612e7b6c037dff7022c33f49ca17f85c5dec58",
+        "integrity" : "sha512-0qdlKScLXA8MGVy21JUKvMzCYWovctuP8KKqhtE5A6IVPq4onxXhSuhwDd2g5sRCzNDlDjitc5sX31BzDoL5Fw=="
+      },
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.14_1679798891285_0.2155613315041074"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.11.tgz",
+        "shasum" : "c6ac494a81221d53d65b33e665c7df1747952d3c",
+        "integrity" : "sha512-MDLwQbtF+83oJCI1Cixn68Et/ME6gelmhssPebC40RdJaect+IM+l7o/CuG0ZlDs6tZTEIoxUe53H3GmMn8oMA=="
+      },
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.11_1677883246774_0.5293887396095986"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.12.tgz",
+        "shasum" : "135b6e9270a8e2de2b9094bb21a287517df520ef",
+        "integrity" : "sha512-jkphYUiO38wZGeWlfIBMB72auOllNA2sLfiZPGDtOBb1ELN8lmqBrlMiucgL8awBw1zBXN69PmZM6g4yTX84TA=="
+      },
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.12_1679033858771_0.5084000859956312"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.10.tgz",
+        "shasum" : "4fae25201ef7ad868731d16c8b50b0e386c4774a",
+        "integrity" : "sha512-r1m9ZMNJBtOvYYGQVXKy+WvWd0BPvSxMsVq8Hp4GzdMBQvfZRvRr5TtX/1RdN6Va8JMVQGpxqde3O+e8+khNJQ=="
+      },
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.10_1676915721535_0.5917220055812313"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.1.tgz",
+        "shasum" : "b001c1542146743ee46090b08d3635be79294eed",
+        "integrity" : "sha512-qg7+k7K5hmpqmbyHmxhSoLfY+SNd+KhC+u0xfo4Pwf0Spn72ldM+FxKntmx6zhwQ9yE9KfAapoK/L1WOh9lV8g=="
+      },
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.1_1673892378419_0.4410402022525286"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.0.tgz",
+        "shasum" : "bf75f769e5fa35d143bc5759520e4277b3a95bcc",
+        "integrity" : "sha512-sc/pvLexRvxgEbmeq7LfLGnzUBFi/E2MGbnQj3CG8tnQ90tWPTi+9CbZEgIADhj6CAlCCmqxpUclIV1CRVUOTw=="
+      },
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.0_1673671043342_0.9202851101588416"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.18.tgz",
+        "shasum" : "296c25d5bdeb3bab9ca79ad5279a8cc0a42fbeea",
+        "integrity" : "sha512-ALK/BT3u7Hoa/vHjow6W6+MKF0ohYcVcVA1EpskI4bkBPVuDLrUDqt2YFifg5UcZc8qup0CwQqWmFUd6VMNgaA=="
+      },
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.18_1691255212997_0.0842779281481667"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.19.tgz",
+        "shasum" : "020729b47ca63321667297d1610bab81cd08a65c",
+        "integrity" : "sha512-EgBZFLoN1S5RuB4cCJI31pBPsjE1nZ+3+fHRjguq9Ibrzo29bOLSBcH1KZJvRNh5qtd+fcYIGiIUia8Jw5r1lQ=="
+      },
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.19_1691376706878_0.6779038419992895"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.9.tgz",
+        "shasum" : "152280429f9eb04bea9896c6855a3ac917f2035c",
+        "integrity" : "sha512-mmirCaZItLSPw7loFPHvdDXO0A2I+cYOQ96eerbWEjqi9V4u+vvYSoUR3Or7HLe1JUZS+T0YWN+jPUASc1hqzg=="
+      },
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.9_1676828745998_0.237798137276801"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.7.tgz",
+        "shasum" : "31d3b63f92f65968268a8e61ba59872538e80e88",
+        "integrity" : "sha512-xGwVJ7eGhkprY/nB7L7MXysHduqjpzUl40+XoYDGC4UPLbnG+gsyS1wQPJ9lFPcxYAaDXbdRXd1ACs9AE9lxuw=="
+      },
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.7_1700528510476_0.4487433159978451"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.8.tgz",
+        "shasum" : "419a815cb4c3fb9f1b78ef5295f5b48b8bf6427a",
+        "integrity" : "sha512-2YpRyQJmKVBEHSBLa8kBAtbhucaclb6ex4wchfY0Tj3Kg39kpjeJ9vhRU7x4mUpq8ISLXRXH1L0dBYjAeqzZAw=="
+      },
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.8_1676270167314_0.27316153066938975"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.6.tgz",
+        "shasum" : "41d2db11550662d6c03902d9d8d26b0ed5bb8d55",
+        "integrity" : "sha512-lxRdk0iJ9CWYDH1Wpnnnc640ajF4RmQ+w6oHFZmAIYu577meE9Ka/DCtpOrwr9McMY11ocbp4jirgGgCi7Ls/g=="
+      },
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.6_1700377921841_0.7936910631529435"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.7.tgz",
+        "shasum" : "84acb7451bef7458e6067d9c358026ffa1831910",
+        "integrity" : "sha512-3C/RTKqZauUwBYtIQAv7ELTJd+H2dNKPyzwE2ZTbz2RNrNhNHRoeKnG5C++eM6nSZWUCLyyaWfq1v1YRwBS/+A=="
+      },
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.7_1675981631377_0.932380018251989"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.5.tgz",
+        "shasum" : "32207df26af60a3a9feea1783fc21b9817bade19",
+        "integrity" : "sha512-5u8cIR/t3gaD6ad3wNt1MNRstAZO+aNyBxu2We8X31bA8XUNyamTVQwLDA1SLoPCUehNCymhBhK3Qim1433Zag=="
+      },
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.5_1697519466654_0.944010906014078"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.6.tgz",
+        "shasum" : "bc3c66d5578c3b9951a6ed68763f2a6856827e4a",
+        "integrity" : "sha512-Y4Ri62PfavhLQhFbqucysHOmRamlTVK10zPWlqjNbj2XMea+BOs4w6ASKwQwAiqf9ZqcY9Ab7NOU4wIgpxwoSQ=="
+      },
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.6_1675702872427_0.00318808847372809"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.4.tgz",
+        "shasum" : "0f815a090772138503ee0465a747e16865bf94b1",
+        "integrity" : "sha512-tRRBey6fG9tqGH6V75xH3lFPpj9E8BH+N+zjSUCnFOX93kEzqS0WdyJHkta/mmJHn7MBaa++9P4ARiU4ykjhig=="
+      },
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.4_1695865709648_0.3969964119548397"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.5.tgz",
+        "shasum" : "ce47b15fd4227eeb0590826e41bdc430c5bfd06c",
+        "integrity" : "sha512-fp/KUB/ZPzEWGTEUgz9wIAKCqu7CjH1GqXUO2WJdik1UNBQ7Xzw7myIajpxztE4Csb9504ERiFMxZg5KZ6HlZQ=="
+      },
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.5_1674837495696_0.8110429828407217"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.3.tgz",
+        "shasum" : "4a67abe97a495430d5867340982f5424a64f2aac",
+        "integrity" : "sha512-9E73TfyMCbE+1AwFOg3glnzZ5fBAFK4aawssvuMgCRqCYzE0ylVxxzjEfut8xjmKkR320BEoMui4o/t9KA96gA=="
+      },
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.3_1694653968836_0.3760069246070594"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.4.tgz",
+        "shasum" : "270a09f6f4205a8a8c8ed3c7dbabdcebaafa8a84",
+        "integrity" : "sha512-mTGnwWwVshAjGsd8rP+K6583cPDgxOunsqqldEYij7T5/ysluMHKqUIT4TJHfrDFadUwrghAL6QjER4FeqQXoA=="
+      },
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.4_1674368040476_0.034559914824993765"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.2.tgz",
+        "shasum" : "012409bd489ed1bb9b775541d4a46c5ded8e6dd8",
+        "integrity" : "sha512-7Z/jKNFufZ/bbu4INqqCN6DDlrmOTmdw6D0gH+6Y7auok2r02Ur661qPuXidPOJ+FSgbEeQnnAGgsVynfLuOEw=="
+      },
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.2_1691978329067_0.9347783698382957"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.3.tgz",
+        "shasum" : "7bf79614bd544bd932839b1fcff6cf1f8f6bdf1a",
+        "integrity" : "sha512-WViAxWYMRIi+prTJTyV1wnqd2mS2cPqJlN85oscVhXdb/ZTFJdrpaqm/uDsZPGKHtbg5TuRX/ymKdOSk41YZow=="
+      },
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.3_1674069303145_0.04738968126747389"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.1.tgz",
+        "shasum" : "293e3027e996446d9d303d61605b5b0c14c238f9",
+        "integrity" : "sha512-znYb2Mhe9xKIDeIYuTD6vCcUltvYzRT5Yq6sVcdhPrGu8DRdsNZS04B2tSeM+j7T03jL4yY+7/G/jxSJJ9LX2A=="
+      },
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.1_1691769480194_0.9710009544504425"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.17.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.17.2.tgz",
+        "shasum" : "6c4446ad19a4d8b070ea0ddf124b6ea53750d5e2",
+        "integrity" : "sha512-Sa+z7csvNVeAsTD83tVSggOb8CAU7EdDuihC8WhtoJfuDVkF5+Vi0imaiCjXQ7Ci5rz/a8IJ1H1MWX3eI9AmuQ=="
+      },
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.17.2_1673937611844_0.7205742566405087"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.0.tgz",
+        "shasum" : "83beafa472ad4224adcd4d7469e3a17ba1fbd976",
+        "integrity" : "sha512-jfvdKjWk+Cp2sgLtEEdSHXO7qckrw2B2eFBaoRdmfhThqZs29GMMg7q/LsQpybA7BxCLLEs4di5ucsWzZC5XPA=="
+      },
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.0_1691509978090_0.3996229382632681"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.9.tgz",
+        "shasum" : "23f1db24fa761be311874f32036c06249aa20cba",
+        "integrity" : "sha512-DfLp8dj91cufgPZDXr9p3FoR++m3ZJ6uIXsXrIvJdOjXVREtXuQCjfMfvmc3LScAVmLjcfloyVtpn43D56JFHg=="
+      },
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.9_1702184992021_0.6486836516366585"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.20.0.tgz",
+        "shasum" : "ca63b921d5fe315e28610deb0c195e79b1a262ca",
+        "integrity" : "sha512-mlb1hg/eYRJUpv8h/x+4ShgoNLL8wgZ64SUr26KwglTYnwAWjkhR2GpoKftDbPOCnodA9t4Y/b68H4J9XmmPzA=="
+      },
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.20.0_1706374200093_0.028581418666571823"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.19.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.19.8.tgz",
+        "shasum" : "fbcf0c3a0b20f40b5fc31c3b7695f0769f9de66b",
+        "integrity" : "sha512-T2DRQk55SgoleTP+DtPlMrxi/5r9AeFgkhkZ/B0ap99zmxtxdOixOMI570VjdRCs9pE4Wdkz7JYrsPvsl7eESg=="
+      },
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.19.8_1701040113387_0.9159237584054631"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.20.1.tgz",
+        "shasum" : "e4153b032288e3095ddf4c8be07893781b309a7e",
+        "integrity" : "sha512-wpDlpE0oRKZwX+GfomcALcouqjjV8MIX8DyTrxfyCfXxoKQSDm45CZr9fanJ4F6ckD4yDEPT98SrjvLwIqUCgg=="
+      },
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.20.1_1708324754458_0.8651858209383407"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.16.tgz",
+        "shasum" : "8f33b627389c8234fe61f4636c134f17fb1d9b09",
+        "integrity" : "sha512-LFMKZ30tk78/mUv1ygvIP+568bwf4oN6reG/uczXnz6SvFn4e2QUFpUpZY9iSJT6Qpgstrhef/nMykIXZtZWGQ=="
+      },
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.16_1690087712580_0.6880403487426956"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.17.tgz",
+        "shasum" : "5198a417f3f5b86b10c95647b8bc032e5b6b2b1c",
+        "integrity" : "sha512-Wh/HW2MPnC3b8BqRSIme/9Zhab36PPH+3zam5pqGRH4pE+4xTrVLx2+XdGp6fVS3L2x+DrsIcsbMleex8fbE6g=="
+      },
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.17_1690335683105_0.4970210309815486"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.14.tgz",
+        "shasum" : "9520d34a4ecbf404e56f4cebdcc686c83b66babc",
+        "integrity" : "sha512-8C6vWbfr0ygbAiMFLS6OPz0BHvApkT2gCboOGV76YrYw+sD/MQJzyITNsjZWDXJwPu9tjrFQOVG7zijRzBCnLw=="
+      },
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.14_1689656447126_0.4082527138447587"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.15.tgz",
+        "shasum" : "fdfb9cf23b50d33112315e3194b9e16f7abf6c30",
+        "integrity" : "sha512-komK3NEAeeGRnvFEjX1SfVg6EmkfIi5aKzevdvJqMydYr9N+pRQK0PGJXk+bhoPZwOUgLO4l99FZmLGk/L1jWg=="
+      },
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.15_1689857637527_0.42307626452820357"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.12.tgz",
+        "shasum" : "79a28320967911ff31a88b39353cc2ad151d3696",
+        "integrity" : "sha512-AgUebVS4DoAblBgiB2ACQ/8l4eGE5aWBb8ZXtkXHiET9mbj7GuWt3OnsIW/zX+XHJt2RYJZctbQ2S/mDjbp0UA=="
+      },
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.12_1689212078682_0.21487487785399595"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.13.tgz",
+        "shasum" : "6644a5b5840fa0c3ffade6f87d943413ece520a8",
+        "integrity" : "sha512-aIbhU3LPg0lOSCfVeGHbmGYIqOtW6+yzO+Nfv57YblEK01oj0mFMtvDJlOaeAZ6z0FZ9D13oahi5aIl9JFphGg=="
+      },
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.13_1689388661937_0.9705499958320118"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.10.tgz",
+        "shasum" : "c34b55bcc71d07685e4b836659f299cd4f6889ec",
+        "integrity" : "sha512-JDtdbJg3yjDeXLv4lZYE1kiTnxv73/8cbPHY9T/dUKi8rYOM/k5b3W4UJLMUksuQ6nTm5c89W1nADsql6FW75A=="
+      },
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.10_1687814452755_0.8396901711566567"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/linux-riscv64",
+      "description" : "The Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "riscv64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-riscv64@0.18.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-riscv64/-/linux-riscv64-0.18.11.tgz",
+        "shasum" : "7ce6e6cee1c72d5b4d2f4f8b6fcccf4a9bea0e28",
+        "integrity" : "sha512-evUoRPWiwuFk++snjH9e2cAjF5VVSTj+Dnf+rkO/Q20tRqv+644279TZlPK8nUGunjPAtQRCj1jQkDAvL6rm2w=="
+      },
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-riscv64_0.18.11_1688191462023_0.5675194166356146"
+      },
+      "_nodeVersion" : "16.13.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the Linux RISC-V 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.15.18" : "2022-12-05T23:53:08.354Z",
+    "0.19.10" : "2023-12-19T00:22:07.628Z",
+    "modified" : "2024-02-19T06:39:15.127Z",
+    "0.19.12" : "2024-01-23T17:41:09.041Z",
+    "0.19.11" : "2023-12-29T20:32:41.182Z",
+    "0.16.2" : "2022-12-08T07:00:23.483Z",
+    "0.18.0" : "2023-06-09T21:24:46.313Z",
+    "0.16.1" : "2022-12-07T04:48:58.987Z",
+    "0.16.0" : "2022-12-07T03:55:29.129Z",
+    "0.16.17" : "2023-01-11T21:58:26.269Z",
+    "0.16.16" : "2023-01-08T22:44:18.922Z",
+    "created" : "2022-12-05T23:53:08.032Z",
+    "0.18.8" : "2023-06-25T03:19:40.341Z",
+    "0.16.9" : "2022-12-18T04:31:55.773Z",
+    "0.18.7" : "2023-06-24T02:46:52.434Z",
+    "0.16.8" : "2022-12-16T23:39:22.024Z",
+    "0.18.6" : "2023-06-20T23:25:21.976Z",
+    "0.16.7" : "2022-12-14T22:47:23.273Z",
+    "0.18.5" : "2023-06-20T00:53:10.595Z",
+    "0.16.6" : "2022-12-14T05:23:42.800Z",
+    "0.18.4" : "2023-06-16T15:39:02.831Z",
+    "0.16.5" : "2022-12-13T17:48:09.741Z",
+    "0.18.3" : "2023-06-15T12:21:44.964Z",
+    "0.16.4" : "2022-12-10T03:51:04.593Z",
+    "0.18.2" : "2023-06-13T02:41:11.439Z",
+    "0.16.3" : "2022-12-08T20:13:38.829Z",
+    "0.18.1" : "2023-06-12T04:52:10.154Z",
+    "0.18.9" : "2023-06-26T05:28:49.505Z",
+    "0.16.13" : "2023-01-02T22:57:52.218Z",
+    "0.16.12" : "2022-12-28T02:08:51.169Z",
+    "0.16.15" : "2023-01-07T04:19:39.860Z",
+    "0.16.14" : "2023-01-04T20:13:39.832Z",
+    "0.16.11" : "2022-12-27T01:39:31.634Z",
+    "0.16.10" : "2022-12-19T23:27:09.361Z",
+    "0.17.19" : "2023-05-13T00:06:58.475Z",
+    "0.17.17" : "2023-04-16T21:24:02.222Z",
+    "0.17.18" : "2023-04-22T20:41:54.397Z",
+    "0.18.20" : "2023-08-08T04:15:38.707Z",
+    "0.17.15" : "2023-04-01T22:27:27.205Z",
+    "0.17.16" : "2023-04-10T04:35:29.793Z",
+    "0.17.13" : "2023-03-24T18:57:34.671Z",
+    "0.17.14" : "2023-03-26T02:48:11.567Z",
+    "0.17.11" : "2023-03-03T22:40:47.018Z",
+    "0.17.12" : "2023-03-17T06:17:38.992Z",
+    "0.17.10" : "2023-02-20T17:55:21.794Z",
+    "0.17.1" : "2023-01-16T18:06:18.675Z",
+    "0.17.0" : "2023-01-14T04:37:23.588Z",
+    "0.18.18" : "2023-08-05T17:06:53.255Z",
+    "0.18.19" : "2023-08-07T02:51:47.134Z",
+    "0.17.9" : "2023-02-19T17:45:46.220Z",
+    "0.19.7" : "2023-11-21T01:01:50.797Z",
+    "0.17.8" : "2023-02-13T06:36:07.517Z",
+    "0.19.6" : "2023-11-19T07:12:02.120Z",
+    "0.17.7" : "2023-02-09T22:27:11.653Z",
+    "0.19.5" : "2023-10-17T05:11:06.948Z",
+    "0.17.6" : "2023-02-06T17:01:12.733Z",
+    "0.19.4" : "2023-09-28T01:48:29.956Z",
+    "0.17.5" : "2023-01-27T16:38:16.038Z",
+    "0.19.3" : "2023-09-14T01:12:49.187Z",
+    "0.17.4" : "2023-01-22T06:14:00.758Z",
+    "0.19.2" : "2023-08-14T01:58:49.315Z",
+    "0.17.3" : "2023-01-18T19:15:03.441Z",
+    "0.19.1" : "2023-08-11T15:58:00.488Z",
+    "0.17.2" : "2023-01-17T06:40:12.086Z",
+    "0.19.0" : "2023-08-08T15:52:58.414Z",
+    "0.19.9" : "2023-12-10T05:09:52.288Z",
+    "0.20.0" : "2024-01-27T16:50:00.319Z",
+    "0.19.8" : "2023-11-26T23:08:33.664Z",
+    "0.20.1" : "2024-02-19T06:39:14.729Z",
+    "0.18.16" : "2023-07-23T04:48:32.867Z",
+    "0.18.17" : "2023-07-26T01:41:23.450Z",
+    "0.18.14" : "2023-07-18T05:00:47.385Z",
+    "0.18.15" : "2023-07-20T12:53:57.770Z",
+    "0.18.12" : "2023-07-13T01:34:38.993Z",
+    "0.18.13" : "2023-07-15T02:37:42.208Z",
+    "0.18.10" : "2023-06-26T21:20:53.175Z",
+    "0.18.11" : "2023-07-01T06:04:22.339Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

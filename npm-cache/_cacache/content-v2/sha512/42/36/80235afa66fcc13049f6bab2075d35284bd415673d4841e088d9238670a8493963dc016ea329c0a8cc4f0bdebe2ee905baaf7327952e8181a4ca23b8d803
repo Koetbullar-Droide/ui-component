@@ -1,0 +1,280 @@
+{
+  "_id" : "unbox-primitive",
+  "_rev" : "3-726ddfe02bb573f4aae0d3eff02d8026",
+  "name" : "unbox-primitive",
+  "description" : "Unbox a boxed JS primitive value.",
+  "dist-tags" : {
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "unbox-primitive",
+      "description" : "Unbox a boxed JS primitive value.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/ljharb/unbox-primitive#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ljharb/unbox-primitive.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/unbox-primitive/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "function-bind" : "^1.1.1",
+        "has-bigints" : "^1.0.0",
+        "has-symbols" : "^1.0.0",
+        "which-boxed-primitive" : "^1.0.1"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^14.0.2",
+        "auto-changelog" : "^1.14.1",
+        "eslint" : "^6.1.0",
+        "for-each" : "^0.3.3",
+        "in-publish" : "^2.0.0",
+        "object-inspect" : "^1.6.0",
+        "object-is" : "^1.0.1",
+        "safe-publish-latest" : "^1.1.2",
+        "tape" : "^4.11.0"
+      },
+      "keywords" : [ "unbox", "boxed", "primitive", "object", "javascript", "ecmascript" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "not-in-publish || safe-publish-latest",
+        "preversion" : "auto-changelog",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "node test",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "unbox-primitive@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/unbox-primitive/-/unbox-primitive-1.0.0.tgz",
+        "shasum" : "eeacbc4affa28e9b3d36b5eaeccc50b3251b1d3f",
+        "integrity" : "sha512-P/51NX+JXyxK/aigg1/ZgyccdAxm5K1+n8+tvqSntjOivPt19gvm1VC49RWYetsiub8WViUchdxl/KWHHB0kzA=="
+      },
+      "gitHead" : "9ec42498e7b270d0704058c814a9fe8326c15bad",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unbox-primitive_1.0.0_1565533486063_0.7587586899120613"
+      },
+      "auto-changelog" : {
+        "backfillLimit" : false,
+        "commitLimit" : false,
+        "template" : "keepachangelog"
+      },
+      "_nodeVersion" : "12.8.0"
+    },
+    "1.0.1" : {
+      "name" : "unbox-primitive",
+      "description" : "Unbox a boxed JS primitive value.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/ljharb/unbox-primitive#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ljharb/unbox-primitive.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/unbox-primitive/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "function-bind" : "^1.1.1",
+        "has-bigints" : "^1.0.1",
+        "has-symbols" : "^1.0.2",
+        "which-boxed-primitive" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^17.5.1",
+        "aud" : "^1.1.4",
+        "auto-changelog" : "^2.2.1",
+        "eslint" : "^7.22.0",
+        "for-each" : "^0.3.3",
+        "in-publish" : "^2.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.9.0",
+        "object-is" : "^1.1.5",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.2.2"
+      },
+      "keywords" : [ "unbox", "boxed", "primitive", "object", "javascript", "ecmascript" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "not-in-publish || safe-publish-latest",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "test" : "npm run tests-only",
+        "posttest" : "npx aud --production",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "7.6.3",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "unbox-primitive@1.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/unbox-primitive/-/unbox-primitive-1.0.1.tgz",
+        "shasum" : "085e215625ec3162574dc8859abee78a59b14471",
+        "integrity" : "sha512-tZU/3NqK3dA5gpE1KtyiJUrEB0lxnGkMFHptJ7q6ewdZ8s12QrODwNbhIJStmJkd1QDXa1NRA8aF2A1zk/Ypyw=="
+      },
+      "gitHead" : "0f1db2a75868cca3f932ac174853edaf9eb22340",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unbox-primitive_1.0.1_1616706204520_0.5972217010628993"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "15.12.0"
+    },
+    "1.0.2" : {
+      "name" : "unbox-primitive",
+      "description" : "Unbox a boxed JS primitive value.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/ljharb/unbox-primitive#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/ljharb/unbox-primitive.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/ljharb/unbox-primitive/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "has-bigints" : "^1.0.2",
+        "has-symbols" : "^1.0.3",
+        "which-boxed-primitive" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^21.0.0",
+        "aud" : "^2.0.0",
+        "auto-changelog" : "^2.4.0",
+        "eslint" : "=8.8.0",
+        "for-each" : "^0.3.3",
+        "in-publish" : "^2.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.12.0",
+        "object-is" : "^1.1.5",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.5.3"
+      },
+      "keywords" : [ "unbox", "boxed", "primitive", "object", "javascript", "ecmascript" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "prepublishOnly" : "safe-publish-latest",
+        "lint" : "eslint --ext=js,mjs .",
+        "pretest" : "npm run lint",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "8.3.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "unbox-primitive@1.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/unbox-primitive/-/unbox-primitive-1.0.2.tgz",
+        "shasum" : "29032021057d5e6cdbd08c5129c226dff8ed6f9e",
+        "integrity" : "sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw=="
+      },
+      "gitHead" : "c93a80dea8d62105b3bd10e4f33440943737f5d9",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/unbox-primitive_1.0.2_1650864915024_0.018437865653052832"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "18.0.0"
+    }
+  },
+  "readme" : "# unbox-primitive <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nUnbox a boxed JS primitive value. This module works cross-realm/iframe, does not depend on `instanceof` or mutable properties, and works despite ES6 Symbol.toStringTag.\n\n## Example\n\n```js\nvar unboxPrimitive = require('unbox-primitive');\nvar assert = require('assert');\n\nassert.equal(unboxPrimitive(new Boolean(false)), false);\nassert.equal(unboxPrimitive(new String('f')), 'f');\nassert.equal(unboxPrimitive(new Number(42)), 42);\nconst s = Symbol();\nassert.equal(unboxPrimitive(Object(s)), s);\nassert.equal(unboxPrimitive(new BigInt(42)), 42n);\n\n// any primitive, or non-boxed-primitive object, will throw\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.org/package/unbox-primitive\n[npm-version-svg]: https://versionbadg.es/ljharb/unbox-primitive.svg\n[deps-svg]: https://david-dm.org/ljharb/unbox-primitive.svg\n[deps-url]: https://david-dm.org/ljharb/unbox-primitive\n[dev-deps-svg]: https://david-dm.org/ljharb/unbox-primitive/dev-status.svg\n[dev-deps-url]: https://david-dm.org/ljharb/unbox-primitive#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/unbox-primitive.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/unbox-primitive.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/unbox-primitive.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=unbox-primitive\n[codecov-image]: https://codecov.io/gh/ljharb/unbox-primitive/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/ljharb/unbox-primitive/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/ljharb/unbox-primitive\n[actions-url]: https://github.com/ljharb/unbox-primitive/actions\n",
+  "maintainers" : [ {
+    "name" : "ljharb",
+    "email" : "ljharb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com"
+  },
+  "time" : {
+    "created" : "2019-08-11T14:24:46.062Z",
+    "modified" : "2022-05-22T17:45:38.748Z",
+    "1.0.0" : "2019-08-11T14:24:46.216Z",
+    "1.0.1" : "2021-03-25T21:03:24.756Z",
+    "1.0.2" : "2022-04-25T05:35:15.256Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/ljharb/unbox-primitive.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/ljharb/unbox-primitive#readme",
+  "keywords" : [ "unbox", "boxed", "primitive", "object", "javascript", "ecmascript" ],
+  "bugs" : {
+    "url" : "https://github.com/ljharb/unbox-primitive/issues"
+  },
+  "license" : "MIT"
+}

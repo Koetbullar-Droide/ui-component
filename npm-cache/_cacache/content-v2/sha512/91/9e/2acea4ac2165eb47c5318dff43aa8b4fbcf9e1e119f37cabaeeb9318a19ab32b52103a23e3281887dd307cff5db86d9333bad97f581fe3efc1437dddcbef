@@ -1,0 +1,3556 @@
+{
+  "_id" : "@esbuild/linux-arm",
+  "_rev" : "75-b673f9e9f4966aa3c2f629a5e30475f7",
+  "name" : "@esbuild/linux-arm",
+  "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.20.1"
+  },
+  "versions" : {
+    "0.15.18" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.15.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.15.18.tgz",
+        "shasum" : "544de8498fd4a94b91d765beb0f5c89ad416ba54",
+        "integrity" : "sha512-maGhiEr+zgH8Ero3+JY/34fhBXHIJQJfSZuoZO/i1ZEJUPZ9sdDulJlXgAj1daszBThjOyzX2ntWN3fh+zX6zA=="
+      },
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.15.18_1670283922095_0.4753382393709329"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.10.tgz",
+        "shasum" : "477b8e7c7bcd34369717b04dd9ee6972c84f4029",
+        "integrity" : "sha512-j6gUW5aAaPgD416Hk9FHxn27On28H4eVI9rJ4az7oCGTFW48+LcgNDBN+9f8rKZz7EEowo889CPKyeaD0iw9Kg=="
+      },
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.10_1702945315288_0.2568298673371785"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.12.tgz",
+        "shasum" : "207ecd982a8db95f7b5279207d0ff2331acf5eef",
+        "integrity" : "sha512-J5jPms//KhSNv+LO1S1TX1UWp1ucM6N6XuL6ITdKWElCu8wXP72l9MM0zDTzzeikVyqFE6U8YAV9/tFyj0ti+w=="
+      },
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.12_1706031645947_0.02529136637908236"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.11.tgz",
+        "shasum" : "ce82246d873b5534d34de1e5c1b33026f35e60e3",
+        "integrity" : "sha512-3CRkr9+vCV2XJbjwgzjPtO8T0SZUmRZla+UL1jw+XqHZPkPgZiyWvbDvl9rqAN8Zl7qJF0O/9ycMtjU67HN9/Q=="
+      },
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.11_1703881945692_0.11591650766033434"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.2.tgz",
+        "shasum" : "3a816b6349655ac5e80117947543028d8eedeaf8",
+        "integrity" : "sha512-8n2UozHygOGXzgysim6GifKjv+lW4fs3mlfaoKerwBIOT9OBCo1Q4AjvbtU3F+2AGyo8eavxnj6Xxx0DRTOwiw=="
+      },
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.2_1670482808991_0.7010476533786913"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.0.tgz",
+        "shasum" : "56aadc2369324c1a70505d296d5037576a0ad026",
+        "integrity" : "sha512-A3Ue/oZdb43znNpeY71FrAjZF20MtnBKCGb1vXLIVg5qg8rRM1gRgn6X2ixYwATiw5dE04JnP+aV4OBf8c5ZvQ=="
+      },
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.0_1686345878102_0.4319737239571384"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.1.tgz",
+        "shasum" : "a54ac0c0f69b504134fbe7f173a66432f54331aa",
+        "integrity" : "sha512-ZKBI/JEIjcG9YbERCDR1qPBVjr47+BKGp32Iz2cf00001yhF8mGPhVJse69jR3Wb1RU78BijVKhHPvZewsvAKA=="
+      },
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.1_1670388528424_0.9088275961734764"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.0.tgz",
+        "shasum" : "96b890d892a01ff5d80a55de23125550bd2ceda9",
+        "integrity" : "sha512-ZAu3k8WpclM//mfoeWiQLLihL+1MxC9k7AhYgLtPdEJp8rADyHQM7xRQvmd+BO2YKR1Ts+WGC7OCJvo7Pqz/QQ=="
+      },
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.0_1670385319661_0.39050496361881804"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.17.tgz",
+        "shasum" : "b591e6a59d9c4fe0eeadd4874b157ab78cf5f196",
+        "integrity" : "sha512-iihzrWbD4gIT7j3caMzKb/RsFFHCwqqbrbH9SqUSRrdXkXaygSZCZg1FybsZz57Ju7N/SHEgPyaR0LZ8Zbe9gQ=="
+      },
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.17_1673474297039_0.856128583045396"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.16.tgz",
+        "shasum" : "c1c2e97e67bb7247e6f60e2644de057bfedb8cbb",
+        "integrity" : "sha512-bYaocE1/PTMRmkgSckZ0D0Xn2nox8v2qlk+MVVqm+VECNKDdZvghVZtH41dNtBbwADSvA6qkCHGYeWm9LrNCBw=="
+      },
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.16_1673217849060_0.6302539305250039"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.8.tgz",
+        "shasum" : "e519c9d5d063b4970c9dffa072586bccc9cbfdd7",
+        "integrity" : "sha512-moCWasFnLWfVmZjux2wE1YRoJlQ36hlthVD/B+UTic3UgCZ5LvpHTeqnF037JL9zS1W6d+cB0hUwithdIyZ/1w=="
+      },
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.8_1687663170702_0.3096883778146722"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.9.tgz",
+        "shasum" : "7704de1c2a30bc68d8f615d3ecb1cf68f001256a",
+        "integrity" : "sha512-cNx1EF99c2t1Ztn0lk9N+MuwBijGF8mH6nx9GFsB3e0lpUpPkCE/yt5d+7NP9EwJf5uzqdjutgVYoH1SNqzudA=="
+      },
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.9_1671337903686_0.19484724833456046"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.7.tgz",
+        "shasum" : "41a753d07dbac2204e50f61e3c76a5f3182237f2",
+        "integrity" : "sha512-GpUBqqJnQ+7qdb7NqKNVj7TgD2JnLrEdzPtatPow77Me/EQ01GE1tHKZLePqhf5thdLDb5Se2Kcf4D9WTbSjmw=="
+      },
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.7_1687574802955_0.9600656704551951"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.8.tgz",
+        "shasum" : "2b17c138f32ac00299bfdc9300c88f57e6bf04f9",
+        "integrity" : "sha512-Hn36NbKd6Prh0Ehv1A2ObjfXtN2g81jTpmq1+uRLHrW7CJW+W8GdVgOCVwyeupADUIOOa8bars6IZGcjkwq21w=="
+      },
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.8_1671233947340_0.9187594315409211"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.6.tgz",
+        "shasum" : "f98002f9688fd3ac349e484a0de50ba4f7b47aeb",
+        "integrity" : "sha512-C+5kb6rgsGMmvIdUI7v1PPgC98A6BMv233e97aXZ5AE03iMdlILFD/20HlHrOi0x2CzbspXn9HOnlE4/Ijn5Kw=="
+      },
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.6_1687303510138_0.8941011947847213"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.7.tgz",
+        "shasum" : "2c7cf7244e4b8a6f757a87a113d83d8a0c1f5297",
+        "integrity" : "sha512-QqJnyCfu5OF78Olt7JJSZ7OSv/B4Hf+ZJWp4kkq9xwMsgu7yWq3crIic8gGOpDYTqVKKMDAVDgRXy5Wd/nWZyQ=="
+      },
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.7_1671058035219_0.8779157089252454"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.5.tgz",
+        "shasum" : "7fb71030b17a1e8e5aed2360a52d2c6947703029",
+        "integrity" : "sha512-6R+vEIyfEvp+gOWKSc+m6hdnhWKQYzicqONQYiDGT6qepc6OGsLEZcyFwoz6BvFx5j233CBWMcJ69eXFrwXw9A=="
+      },
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.5_1687222378309_0.7512464128806617"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.6.tgz",
+        "shasum" : "ecb1543b12c27f7e4c7ad67d5e13d9a08d034e55",
+        "integrity" : "sha512-hdw0JS24ToFAnWJJbexr62ZRTcl/yJSPeNZR4fAAJY4PcghgQcnp8lO5MdxBe2QCNz3i5WYCoGZcU4+TBJJMDg=="
+      },
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.6_1670995411358_0.39692095738169075"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.4.tgz",
+        "shasum" : "7eb1af7227506dd7cb01ef4a400c53f52ea1c4f9",
+        "integrity" : "sha512-4XCGqM/Ay1LCXUBH59bL4JbSbbTK1K22dWHymWMGaEh2sQCDOUw+OQxozYV/YdBb91leK2NbuSrE2BRamwgaYw=="
+      },
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.4_1686929933984_0.0711272956945117"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.5.tgz",
+        "shasum" : "4cc5ff0fc093610598f32f7fd5565326c0c4e5c6",
+        "integrity" : "sha512-6crdpqwFjl+DObBgwaJMtB+VWrZd87Jy05gQTERysc1ujnUJNCJzemUcRDT5hM34dzTYThlXfFW32qQy9QpPGQ=="
+      },
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.5_1670953678582_0.049258942963814834"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.3.tgz",
+        "shasum" : "e3c03cfbedd3a59464dacf31f1dbd91f0e637543",
+        "integrity" : "sha512-fc/T0QHMzvmnlF+kfD6bHLB8u+17gg13260p/E86yYjVoKNFjonL/+Y0GGQjMbFUas9QijqOa7pcR00a9RNkwg=="
+      },
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.3_1686831694601_0.6608695214062763"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.4.tgz",
+        "shasum" : "b37f15ecddb53eeea466e5960e31a58f33e0e87e",
+        "integrity" : "sha512-A47ZmtpIPyERxkSvIv+zLd6kNIOtJH03XA0Hy7jaceRDdQaQVGSDt4mZqpWqJYgDk9rg96aglbF6kCRvPGDSUA=="
+      },
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.4_1670644252758_0.23940503357633935"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.2.tgz",
+        "shasum" : "3ffd593d687338669f05356e98faa40802a3d4ec",
+        "integrity" : "sha512-jAbA75qJ70T5AOdmw9X8675ppeRfj7j57sOypoZ4mQlfQ/LKF8eoeLzTYVo8+aqLKqeIIl0vQ4hKOB0FyG98Zg=="
+      },
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.2_1686624048975_0.02339027934877924"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.3.tgz",
+        "shasum" : "4b3e9f849822e16a76a70844c4db68075b259a58",
+        "integrity" : "sha512-VwswmSYwVAAq6LysV59Fyqk3UIjbhuc6wb3vEcJ7HEJUtFuLK9uXWuFoH1lulEbE4+5GjtHi3MHX+w1gNHdOWQ=="
+      },
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.3_1670530404941_0.44969179810612037"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.1.tgz",
+        "shasum" : "75d8bdea6f4ed10c2e8186d0aa4f06fe92ea4350",
+        "integrity" : "sha512-d6FXeb8F/cuXtSZuVHQN0Rz3gs3g2Xy/M4KJJRzbKsBx3pwCQuRdSrYxcr7g0PFN8geIOspiLQnUzwONyMA3Bw=="
+      },
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.1_1686545521388_0.26325989990737453"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.9.tgz",
+        "shasum" : "4608fb5635e22a764310b2ff0a7bfafd2a29018b",
+        "integrity" : "sha512-YotJBEt9swVrEBRBIXQzI03A4kDQSWk+mbGTTBreIRvWWWTXXqhNYZgqiwnEvtyQi9aqSipEzkRzAGNqs54EXw=="
+      },
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.9_1687757307135_0.6785267223467026"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.13.tgz",
+        "shasum" : "ac0c8e9f3db8d418f588ae250e9c66ffdcf3cd82",
+        "integrity" : "sha512-18dLd2L3mda+iFj6sswyBMSh2UwniamD9M4DwPv8VM+9apRFlQ5IGKxBdumnTuOI4NvwwAernmUseWhYQ9k+rg=="
+      },
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.13_1672700258429_0.06728728594921862"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.12.tgz",
+        "shasum" : "945ebcd99205fadea5ee22bff624189bd95c0484",
+        "integrity" : "sha512-vhDdIv6z4eL0FJyNVfdr3C/vdd/Wc6h1683GJsFoJzfKb92dU/v88FhWdigg0i6+3TsbSDeWbsPUXb4dif2abg=="
+      },
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.12_1672193300279_0.37836852196007853"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.15.tgz",
+        "shasum" : "9343c9d0e18d15ca5b4e293154e4beae2598b5db",
+        "integrity" : "sha512-+1sGlqtMJTOnJUXwLUGnDhPaGRKqxT0UONtYacS+EjdDOrSgpQ/1gUXlnze45Z/BogwYaswQM19Gu1YD1T19/w=="
+      },
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.15_1673065161641_0.7836427452657708"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.14.tgz",
+        "shasum" : "b239eb7e6cb7df9c34c6b08f4adf113da47e0e09",
+        "integrity" : "sha512-X6xULug66ulrr4IzrW7qq+eq9n4MtEyagdWvj4o4cmWr+JXOT47atjpDF9j5M2zHY0UQBmqnHhwl+tXpkpIb2w=="
+      },
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.14_1672863205340_0.4123835635597135"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.11.tgz",
+        "shasum" : "aaac921ae77fe71234487aebed20fb095920b31b",
+        "integrity" : "sha512-Mk6TZij71alyS0FGuKEKYjTZGjUw2uXi07V/AiGZW1b5grTfGx6lpsbQdystgDJqju99Osq2Ix+C7WteSnwrHg=="
+      },
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.11_1672105163339_0.43580953865983374"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.16.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.16.10.tgz",
+        "shasum" : "f32cdac1d3319c83ae7f9f31238dd1284ee6bba2",
+        "integrity" : "sha512-c360287ZWI2miBnvIj23bPyVctgzeMT2kQKR+x94pVqIN44h3GF8VMEs1SFPH1UgyDr3yBbx3vowDS1SVhyVhA=="
+      },
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.16.10_1671492415247_0.43207382182717335"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.19.tgz",
+        "shasum" : "1a2cd399c50040184a805174a6d89097d9d1559a",
+        "integrity" : "sha512-cdmT3KxjlOQ/gZ2cjfrQOtmhG4HJs6hhvm3mWSRDPtZ/lP5oe8FWceS10JaSJC13GBd4eH/haHnqf7hhGNLerA=="
+      },
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.19_1683936409929_0.41559252413511416"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.17.tgz",
+        "shasum" : "5c8e44c2af056bb2147cf9ad13840220bcb8948b",
+        "integrity" : "sha512-biDs7bjGdOdcmIk6xU426VgdRUpGg39Yz6sT9Xp23aq+IEHDb/u5cbmu/pAANpDB4rZpY/2USPhCA+w9t3roQg=="
+      },
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.17_1681680234195_0.17957740698721425"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.18.tgz",
+        "shasum" : "e09e76e526df4f665d4d2720d28ff87d15cdf639",
+        "integrity" : "sha512-jW+UCM40LzHcouIaqv3e/oRs0JM76JfhHjCavPxMUti7VAPh8CaGSlS7cmyrdpzSk7A+8f0hiedHqr/LMnfijg=="
+      },
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.18_1682196103591_0.27609432548448165"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.20.tgz",
+        "shasum" : "3e617c61f33508a27150ee417543c8ab5acc73b0",
+        "integrity" : "sha512-/5bHkMWnq1EgKr1V+Ybz3s1hWXok7mDFUMQ4cG10AfW3wL02PSZi5kFpYKrptDsgb2WAJIvRcDm+qIvXf/apvg=="
+      },
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.20_1691468120029_0.5944821305869241"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.15.tgz",
+        "shasum" : "5b22062c54f48cd92fab9ffd993732a52db70cd3",
+        "integrity" : "sha512-MLTgiXWEMAMr8nmS9Gigx43zPRmEfeBfGCwxFQEMgJ5MC53QKajaclW6XDPjwJvhbebv+RzK05TQjvH3/aM4Xw=="
+      },
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.15_1680388031134_0.33087574052430924"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.16.tgz",
+        "shasum" : "b65c7cd5b0eadd08f91aab66b9dda81b6a4b2a70",
+        "integrity" : "sha512-n4O8oVxbn7nl4+m+ISb0a68/lcJClIbaGAoXwqeubj/D1/oMMuaAXmJVfFlRjJLu/ZvHkxoiFJnmbfp4n8cdSw=="
+      },
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.16_1681101319183_0.7378325981256852"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.13.tgz",
+        "shasum" : "3ebbf4764c36f90e58a6342f67844f7628988faf",
+        "integrity" : "sha512-RrhjzrCF6aCDH248nUAQoldnRmN7nHMxv85GOj5AH+qkxxYvcig7fnUmgANngntRu4btXhN9WKHMgQ5seERDMw=="
+      },
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.13_1679684244794_0.8740488111717593"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.14.tgz",
+        "shasum" : "18d594a49b64e4a3a05022c005cb384a58056a2a",
+        "integrity" : "sha512-BNTl+wSJ1omsH8s3TkQmIIIQHwvwJrU9u1ggb9XU2KTVM4TmthRIVyxSp2qxROJHhZuW/r8fht46/QE8hU8Qvg=="
+      },
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.14_1679798880109_0.8957393348372191"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.11.tgz",
+        "shasum" : "e56fb3b76828317a704f4a167c5bd790fe5314e7",
+        "integrity" : "sha512-M9iK/d4lgZH0U5M1R2p2gqhPV/7JPJcRz+8O8GBKVgqndTzydQ7B2XGDbxtbvFkvIs53uXTobOhv+RyaqhUiMg=="
+      },
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.11_1677883231272_0.12296697421431935"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.12.tgz",
+        "shasum" : "b87c76ebf1fe03e01fd6bb5cfc2f3c5becd5ee93",
+        "integrity" : "sha512-WsHyJ7b7vzHdJ1fv67Yf++2dz3D726oO3QCu8iNYik4fb5YuuReOI9OtA+n7Mk0xyQivNTPbl181s+5oZ38gyA=="
+      },
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.12_1679033845028_0.77697438966345"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.10.tgz",
+        "shasum" : "dd11e0a5faa3ea94dc80278a601c3be7b4fdf1da",
+        "integrity" : "sha512-whRdrrl0X+9D6o5f0sTZtDM9s86Xt4wk1bf7ltx6iQqrIIOH+sre1yjpcCdrVXntQPCNw/G+XqsD4HuxeS+2QA=="
+      },
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.10_1676915713292_0.46643043194882483"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.1.tgz",
+        "shasum" : "7249342edfda0431ae17b66de025dcadfdada222",
+        "integrity" : "sha512-TIF51ocfKxPzyxE8llGWjS9fZB3916ZppHeZc14MokEzD4G9C0orDRD/VIVxoyln1bAQdWFJSHJ55JPmF7WhoQ=="
+      },
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.1_1673892360519_0.4093681279898438"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.0.tgz",
+        "shasum" : "5a70a95bf336035884dee123b5453aeab9c608f3",
+        "integrity" : "sha512-Y2G2NU6155gcfNKvrakVmZV5xUAEhXjsN/uKtbKKRnvee0mHUuaT3OdQJDJKjHVGr6B0898pc3slRpI1PqspoQ=="
+      },
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.0_1673671028072_0.13375090375581689"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.18.tgz",
+        "shasum" : "863236dc47df2269f860001ca5c5ff50931e9933",
+        "integrity" : "sha512-Kck3jxPLQU4VeAGwe8Q4NU+IWIx+suULYOFUI9T0C2J1+UQlOHJ08ITN+MaJJ+2youzJOmKmcphH/t3SJxQ1Tw=="
+      },
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.18_1691255203683_0.6564075057638195"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.19.tgz",
+        "shasum" : "39ea874c8e5177b83903bec1883a43f3c163627a",
+        "integrity" : "sha512-qtWyoQskfJlb9MD45mvzCEKeO4uCnDZ7lPFeNqbfaaJHqBiH9qA5Vu2EuckqYZuFMJWy1l4dxTf9NOulCVfUjg=="
+      },
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.19_1691376698084_0.6681228899074207"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.9.tgz",
+        "shasum" : "a3a1b074a08dd9ee85b76e0ff2a8dafaf87a884b",
+        "integrity" : "sha512-AhSVW1uIbcXssQ1D+Mn0txGgcxU32ikvIxuqkmjLC7dUpcX0JuwkPgdqTOicuBjG06GV4WvXSHcKCBUjN+oBxA=="
+      },
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.9_1676828737528_0.7723362618038141"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.7.tgz",
+        "shasum" : "12d5b65e089029ee1fe4c591b60969c9b1a85355",
+        "integrity" : "sha512-Y+SCmWxsJOdQtjcBxoacn/pGW9HDZpwsoof0ttL+2vGcHokFlfqV666JpfLCSP2xLxFpF1lj7T3Ox3sr95YXww=="
+      },
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.7_1700528486551_0.4109364110621203"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.8.tgz",
+        "shasum" : "18127072b270bb6321c6d11be20bfd30e0d6ad17",
+        "integrity" : "sha512-6Ij8gfuGszcEwZpi5jQIJCVIACLS8Tz2chnEBfYjlmMzVsfqBP1iGmHQPp7JSnZg5xxK9tjCc+pJ2WtAmPRFVA=="
+      },
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.8_1676270156229_0.8045870840258349"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.6.tgz",
+        "shasum" : "50a537de609315979509120b0181882978294db1",
+        "integrity" : "sha512-G8IR5zFgpXad/Zp7gr7ZyTKyqZuThU6z1JjmRyN1vSF8j0bOlGzUwFSMTbctLAdd7QHpeyu0cRiuKrqK1ZTwvQ=="
+      },
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.6_1700377911365_0.6724614170691845"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.7.tgz",
+        "shasum" : "a378301c253ef64d19a112c9ec922680c2fb5a71",
+        "integrity" : "sha512-07RsAAzznWqdfJC+h3L2UVWwnUHepsFw5GmzySnUspHHb7glJ1+47rvlcH0SeUtoVOs8hF4/THgZbtJRyALaJA=="
+      },
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.7_1675981619875_0.1216064255027105"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.5.tgz",
+        "shasum" : "0acef93aa3e0579e46d33b666627bddb06636664",
+        "integrity" : "sha512-lrWXLY/vJBzCPC51QN0HM71uWgIEpGSjSZZADQhq7DKhPcI6NH1IdzjfHkDQws2oNpJKpR13kv7/pFHBbDQDwQ=="
+      },
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.5_1697519450042_0.3914300726006299"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.6.tgz",
+        "shasum" : "097a0ee2be39fed3f37ea0e587052961e3bcc110",
+        "integrity" : "sha512-7YdGiurNt7lqO0Bf/U9/arrPWPqdPqcV6JCZda4LZgEn+PTQ5SMEI4MGR52Bfn3+d6bNEGcWFzlIxiQdS48YUw=="
+      },
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.6_1675702863371_0.898744649736344"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.4.tgz",
+        "shasum" : "d5b13a7ec1f1c655ce05c8d319b3950797baee55",
+        "integrity" : "sha512-z/4ArqOo9EImzTi4b6Vq+pthLnepFzJ92BnofU1jgNlcVb+UqynVFdoXMCFreTK7FdhqAzH0vmdwW5373Hm9pg=="
+      },
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.4_1695865672938_0.5599538468857683"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.5.tgz",
+        "shasum" : "86332e6293fd713a54ab299a5e2ed7c60c9e1c07",
+        "integrity" : "sha512-YBdCyQwA3OQupi6W2/WO4FnI+NWFWe79cZEtlbqSESOHEg7a73htBIRiE6uHPQe7Yp5E4aALv+JxkRLGEUL7tw=="
+      },
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.5_1674837487849_0.832454148710055"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.3.tgz",
+        "shasum" : "ff6a2f68d4fc3ab46f614bca667a1a81ed6eea26",
+        "integrity" : "sha512-zr48Cg/8zkzZCzDHNxXO/89bf9e+r4HtzNUPoz4GmgAkF1gFAFmfgOdCbR8zMbzFDGb1FqBBhdXUpcTQRYS1cQ=="
+      },
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.3_1694653960673_0.3439537867030118"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.4.tgz",
+        "shasum" : "6eaa41f37e231d113da715a1d9cc820e5523aeb6",
+        "integrity" : "sha512-S2s9xWTGMTa/fG5EyMGDeL0wrWVgOSQcNddJWgu6rG1NCSXJHs76ZP9AsxjB3f2nZow9fWOyApklIgiTGZKhiw=="
+      },
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.4_1674368034343_0.011167169775538222"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.2.tgz",
+        "shasum" : "c32ae97bc0246664a1cfbdb4a98e7b006d7db8ae",
+        "integrity" : "sha512-Odalh8hICg7SOD7XCj0YLpYCEc+6mkoq63UnExDCiRA2wXEmGlK5JVrW50vZR9Qz4qkvqnHcpH+OFEggO3PgTg=="
+      },
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.2_1691978314437_0.006427061244155707"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.3.tgz",
+        "shasum" : "15f876d127b244635ddc09eaaa65ae97bc472a63",
+        "integrity" : "sha512-CLP3EgyNuPcg2cshbwkqYy5bbAgK+VhyfMU7oIYyn+x4Y67xb5C5ylxsNUjRmr8BX+MW3YhVNm6Lq6FKtRTWHQ=="
+      },
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.3_1674069288648_0.8295953051533844"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.1.tgz",
+        "shasum" : "16ab51f1928c5631cbd40b86997198691201fe4c",
+        "integrity" : "sha512-lCWDVPpQO/Dt5MEqctKujgtUVmwQx7J2Q83EqX/9BejN7BIX4fGJ0QKMiIyy21PFh+/64ArN+Ovh1tzYkTt2wg=="
+      },
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.1_1691769467907_0.6725469285772296"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.17.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.17.2.tgz",
+        "shasum" : "5b3f46608b682e32255f6dce10ddcc150826df4d",
+        "integrity" : "sha512-8dfrRTd39n+THdAetwQKNwK6zBPR5oPjMtgRNXvRq8gsn/J5o69zTaOWVi3QO09BljqdShxU2dxDA09lDhdIqQ=="
+      },
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.17.2_1673937601066_0.05285637958694611"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.0.tgz",
+        "shasum" : "0b0f79dc72884f0ad02c0aabfc969a0bee7f6775",
+        "integrity" : "sha512-2F1+lH7ZBcCcgxiSs8EXQV0PPJJdTNiNcXxDb61vzxTRJJkXX1I/ye9mAhfHyScXzHaEibEXg1Jq9SW586zz7w=="
+      },
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.0_1691509969781_0.49710982374182877"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.9.tgz",
+        "shasum" : "9807e92cfd335f46326394805ad488e646e506f2",
+        "integrity" : "sha512-C/ChPohUYoyUaqn1h17m/6yt6OB14hbXvT8EgM1ZWaiiTYz7nWZR0SYmMnB5BzQA4GXl3BgBO1l8MYqL/He3qw=="
+      },
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.9_1702184982290_0.6123956534980937"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.20.0.tgz",
+        "shasum" : "6b586a488e02e9b073a75a957f2952b3b6e87b4c",
+        "integrity" : "sha512-2ezuhdiZw8vuHf1HKSf4TIk80naTbP9At7sOqZmdVwvvMyuoDiZB49YZKLsLOfKIr77+I40dWpHVeY5JHpIEIg=="
+      },
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.20.0_1706374190103_0.3683139085957414"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.19.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.19.8.tgz",
+        "shasum" : "d6014d8b98b5cbc96b95dad3d14d75bb364fdc0f",
+        "integrity" : "sha512-H4vmI5PYqSvosPaTJuEppU9oz1dq2A7Mr2vyg5TF9Ga+3+MGgBdGzcyBP7qK9MrwFQZlvNyJrvz6GuCaj3OukQ=="
+      },
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.19.8_1701040101778_0.3333139889067218"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.20.1.tgz",
+        "shasum" : "4503ca7001a8ee99589c072801ce9d7540717a21",
+        "integrity" : "sha512-LojC28v3+IhIbfQ+Vu4Ut5n3wKcgTu6POKIHN9Wpt0HnfgUGlBuyDDQR4jWZUZFyYLiz4RBBBmfU6sNfn6RhLw=="
+      },
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.20.1_1708324729222_0.19735196888711615"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.16.tgz",
+        "shasum" : "d63923c63af534032cc5ea0b2a0b3de10f8357f5",
+        "integrity" : "sha512-b5ABb+5Ha2C9JkeZXV+b+OruR1tJ33ePmv9ZwMeETSEKlmu/WJ45XTTG+l6a2KDsQtJJ66qo/hbSGBtk0XVLHw=="
+      },
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.16_1690087701288_0.6644479443769289"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.17.tgz",
+        "shasum" : "9d78cf87a310ae9ed985c3915d5126578665c7b5",
+        "integrity" : "sha512-2d3Lw6wkwgSLC2fIvXKoMNGVaeY8qdN0IC3rfuVxJp89CRfA3e3VqWifGDfuakPmp90+ZirmTfye1n4ncjv2lg=="
+      },
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.17_1690335671747_0.8326733093307868"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.14.tgz",
+        "shasum" : "7f3490320a4627f4c850a8613385bdf3ffb82285",
+        "integrity" : "sha512-5+7vehI1iqru5WRtJyU2XvTOvTGURw3OZxe3YTdE9muNNIdmKAVmSHpB3Vw2LazJk2ifEdIMt/wTWnVe5V98Kg=="
+      },
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.14_1689656437990_0.9478036514852772"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.15.tgz",
+        "shasum" : "172331fc66bbe89ba96e5e2ad583b2faa132d85c",
+        "integrity" : "sha512-dT4URUv6ir45ZkBqhwZwyFV6cH61k8MttIwhThp2BGiVtagYvCToF+Bggyx2VI57RG4Fbt21f9TmXaYx0DeUJg=="
+      },
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.15_1689857614145_0.6029640674794925"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.12.tgz",
+        "shasum" : "21688a452c82c1422eb7f7fee80fc649bef40fb8",
+        "integrity" : "sha512-y75OijvrBE/1XRrXq1jtrJfG26eHeMoqLJ2dwQNwviwTuTtHGCojsDO6BJNF8gU+3jTn1KzJEMETytwsFSvc+Q=="
+      },
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.12_1689212068883_0.7737997073816187"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.13.tgz",
+        "shasum" : "47639d73d894026350eaccf7c174f1d26b747d6a",
+        "integrity" : "sha512-4iMxLRMCxGyk7lEvkkvrxw4aJeC93YIIrfbBlUJ062kilUUnAiMb81eEkVvCVoh3ON283ans7+OQkuy1uHW+Hw=="
+      },
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.13_1689388652356_0.929915441388345"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.10.tgz",
+        "shasum" : "9a589ffb96837b7536cfa6739dd2e666cc5e548e",
+        "integrity" : "sha512-HfFoxY172tVHPIvJy+FHxzB4l8xU7e5cxmNS11cQ2jt4JWAukn/7LXaPdZid41UyTweqa4P/1zs201gRGCTwHw=="
+      },
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.10_1687814444393_0.3665069806019734"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/linux-arm",
+      "description" : "The Linux ARM binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-arm@0.18.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-arm/-/linux-arm-0.18.11.tgz",
+        "shasum" : "5175bd61b793b436e4aece6328aa0d9be07751e1",
+        "integrity" : "sha512-Idipz+Taso/toi2ETugShXjQ3S59b6m62KmLHkJlSq/cBejixmIydqrtM2XTvNCywFl3VC7SreSf6NV0i6sRyg=="
+      },
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-arm_0.18.11_1688191453944_0.7537716149911575"
+      },
+      "_nodeVersion" : "16.13.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the Linux ARM binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.15.18" : "2022-12-05T23:45:22.384Z",
+    "0.19.10" : "2023-12-19T00:21:55.603Z",
+    "modified" : "2024-02-19T06:38:49.813Z",
+    "0.19.12" : "2024-01-23T17:40:46.181Z",
+    "0.19.11" : "2023-12-29T20:32:25.962Z",
+    "0.16.2" : "2022-12-08T07:00:09.218Z",
+    "0.18.0" : "2023-06-09T21:24:38.365Z",
+    "0.16.1" : "2022-12-07T04:48:48.685Z",
+    "0.16.0" : "2022-12-07T03:55:20.006Z",
+    "0.16.17" : "2023-01-11T21:58:17.291Z",
+    "0.16.16" : "2023-01-08T22:44:10.299Z",
+    "created" : "2022-12-05T23:45:22.028Z",
+    "0.18.8" : "2023-06-25T03:19:31.147Z",
+    "0.16.9" : "2022-12-18T04:31:43.955Z",
+    "0.18.7" : "2023-06-24T02:46:43.321Z",
+    "0.16.8" : "2022-12-16T23:39:07.600Z",
+    "0.18.6" : "2023-06-20T23:25:10.399Z",
+    "0.16.7" : "2022-12-14T22:47:15.549Z",
+    "0.18.5" : "2023-06-20T00:52:58.596Z",
+    "0.16.6" : "2022-12-14T05:23:31.675Z",
+    "0.18.4" : "2023-06-16T15:38:54.234Z",
+    "0.16.5" : "2022-12-13T17:47:58.898Z",
+    "0.18.3" : "2023-06-15T12:21:34.901Z",
+    "0.16.4" : "2022-12-10T03:50:53.015Z",
+    "0.18.2" : "2023-06-13T02:40:49.259Z",
+    "0.16.3" : "2022-12-08T20:13:25.246Z",
+    "0.18.1" : "2023-06-12T04:52:01.684Z",
+    "0.18.9" : "2023-06-26T05:28:27.396Z",
+    "0.16.13" : "2023-01-02T22:57:38.687Z",
+    "0.16.12" : "2022-12-28T02:08:20.593Z",
+    "0.16.15" : "2023-01-07T04:19:21.929Z",
+    "0.16.14" : "2023-01-04T20:13:25.596Z",
+    "0.16.11" : "2022-12-27T01:39:23.671Z",
+    "0.16.10" : "2022-12-19T23:26:55.463Z",
+    "0.17.19" : "2023-05-13T00:06:50.306Z",
+    "0.17.17" : "2023-04-16T21:23:54.436Z",
+    "0.17.18" : "2023-04-22T20:41:43.822Z",
+    "0.18.20" : "2023-08-08T04:15:20.281Z",
+    "0.17.15" : "2023-04-01T22:27:11.416Z",
+    "0.17.16" : "2023-04-10T04:35:19.446Z",
+    "0.17.13" : "2023-03-24T18:57:25.108Z",
+    "0.17.14" : "2023-03-26T02:48:00.313Z",
+    "0.17.11" : "2023-03-03T22:40:31.506Z",
+    "0.17.12" : "2023-03-17T06:17:25.339Z",
+    "0.17.10" : "2023-02-20T17:55:13.499Z",
+    "0.17.1" : "2023-01-16T18:06:00.790Z",
+    "0.17.0" : "2023-01-14T04:37:08.342Z",
+    "0.18.18" : "2023-08-05T17:06:43.980Z",
+    "0.18.19" : "2023-08-07T02:51:38.324Z",
+    "0.17.9" : "2023-02-19T17:45:37.774Z",
+    "0.19.7" : "2023-11-21T01:01:26.846Z",
+    "0.17.8" : "2023-02-13T06:35:56.499Z",
+    "0.19.6" : "2023-11-19T07:11:51.644Z",
+    "0.17.7" : "2023-02-09T22:27:00.142Z",
+    "0.19.5" : "2023-10-17T05:10:50.439Z",
+    "0.17.6" : "2023-02-06T17:01:03.673Z",
+    "0.19.4" : "2023-09-28T01:47:53.279Z",
+    "0.17.5" : "2023-01-27T16:38:08.130Z",
+    "0.19.3" : "2023-09-14T01:12:40.907Z",
+    "0.17.4" : "2023-01-22T06:13:54.627Z",
+    "0.19.2" : "2023-08-14T01:58:34.700Z",
+    "0.17.3" : "2023-01-18T19:14:48.913Z",
+    "0.19.1" : "2023-08-11T15:57:48.158Z",
+    "0.17.2" : "2023-01-17T06:40:01.336Z",
+    "0.19.0" : "2023-08-08T15:52:50.059Z",
+    "0.19.9" : "2023-12-10T05:09:42.628Z",
+    "0.20.0" : "2024-01-27T16:49:50.270Z",
+    "0.19.8" : "2023-11-26T23:08:22.036Z",
+    "0.20.1" : "2024-02-19T06:38:49.402Z",
+    "0.18.16" : "2023-07-23T04:48:21.592Z",
+    "0.18.17" : "2023-07-26T01:41:12.066Z",
+    "0.18.14" : "2023-07-18T05:00:38.248Z",
+    "0.18.15" : "2023-07-20T12:53:34.401Z",
+    "0.18.12" : "2023-07-13T01:34:29.263Z",
+    "0.18.13" : "2023-07-15T02:37:32.689Z",
+    "0.18.10" : "2023-06-26T21:20:44.743Z",
+    "0.18.11" : "2023-07-01T06:04:14.368Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

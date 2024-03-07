@@ -1,0 +1,280 @@
+{
+  "_id" : "is-finalizationregistry",
+  "_rev" : "4-24eb72d17049900c7f243998962722d8",
+  "name" : "is-finalizationregistry",
+  "description" : "Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+  "dist-tags" : {
+    "latest" : "1.0.2"
+  },
+  "versions" : {
+    "1.0.0" : {
+      "name" : "is-finalizationregistry",
+      "description" : "Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/inspect-js/is-finalizationregistry#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/inspect-js/is-finalizationregistry.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/inspect-js/is-finalizationregistry/issues"
+      },
+      "main" : "index.js",
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^17.1.0",
+        "aud" : "^1.1.2",
+        "auto-changelog" : "^2.2.0",
+        "eslint" : "^7.6.0",
+        "for-each" : "^0.3.3",
+        "object-inspect" : "^1.8.0",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "weakref", "finalization", "finalizationregistry", "finalization registry" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "tape test",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production"
+      },
+      "_npmVersion" : "6.14.7",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "is-finalizationregistry@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/is-finalizationregistry/-/is-finalizationregistry-1.0.0.tgz",
+        "shasum" : "fa0b89ead36f7d2751d632354b2e583458773521",
+        "integrity" : "sha512-KK7tcgaF+ykaYKoLR14KM5Kvl6cwIqRk3ng6LapT1KUNcDIjUls13ZGzx1MjvlA4/YqCvnv3BtjKdeTrDI24Og=="
+      },
+      "gitHead" : "58f22d331c70bb3bb330ef84cca8249bec7d451f",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-finalizationregistry_1.0.0_1596351830852_0.43853850831363883"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.7.0"
+    },
+    "1.0.1" : {
+      "name" : "is-finalizationregistry",
+      "description" : "Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/inspect-js/is-finalizationregistry#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/inspect-js/is-finalizationregistry.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/inspect-js/is-finalizationregistry/issues"
+      },
+      "main" : "index.js",
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^17.3.0",
+        "aud" : "^1.1.3",
+        "auto-changelog" : "^2.2.1",
+        "eslint" : "^7.14.0",
+        "for-each" : "^0.3.3",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.9.0",
+        "tape" : "^5.0.1"
+      },
+      "keywords" : [ "weakref", "finalization", "finalizationregistry", "finalization registry" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production"
+      },
+      "_npmVersion" : "6.14.8",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "is-finalizationregistry@1.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/is-finalizationregistry/-/is-finalizationregistry-1.0.1.tgz",
+        "shasum" : "4c8a8d4a72c49ea4b0f7e4f82203373abd4b8e38",
+        "integrity" : "sha512-7ljq3NfRoVd2mwe9CvvU6Io1ZtdLf8x9MUMYC6vATTKTciKVS6c0ZOAHf2YAD9woY7afIhv+rchAYXxkCn0ubg=="
+      },
+      "gitHead" : "84e9f78913ba39c9dbfa93641406704da8193ab0",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-finalizationregistry_1.0.1_1607125280841_0.2057494020480164"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "14.15.1"
+    },
+    "1.0.2" : {
+      "name" : "is-finalizationregistry",
+      "description" : "Is this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com"
+      },
+      "homepage" : "https://github.com/inspect-js/is-finalizationregistry#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/inspect-js/is-finalizationregistry.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/inspect-js/is-finalizationregistry/issues"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@ljharb/eslint-config" : "^18.0.0",
+        "aud" : "^1.1.5",
+        "auto-changelog" : "^2.3.0",
+        "eslint" : "^7.32.0",
+        "for-each" : "^0.3.3",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.11.0",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.3.1"
+      },
+      "keywords" : [ "weakref", "finalization", "finalizationregistry", "finalization registry" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\"",
+        "lint" : "eslint .",
+        "pretest" : "npm run lint",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production"
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "is-finalizationregistry@1.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/is-finalizationregistry/-/is-finalizationregistry-1.0.2.tgz",
+        "shasum" : "c8749b65f17c133313e661b1289b95ad3dbd62e6",
+        "integrity" : "sha512-0by5vtUJs8iFQb5TYUHHPudOR+qXYIMKtiUzvLIZITZUjknFmziyBJuLhVRc+Ds0dREFlskDNJKYIdIzu/9pfw=="
+      },
+      "gitHead" : "7bc75b866af40ff319ae63e190a23e6d60715973",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/is-finalizationregistry_1.0.2_1633488490482_0.34605852596040476"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "16.10.0"
+    }
+  },
+  "readme" : "# is-finalizationregistry <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nIs this value a JS FinalizationRegistry? This module works cross-realm/iframe, and despite ES6 @@toStringTag.\n\n## Example\n\n```js\nvar isFinalizationRegistry = require('is-finalizationregistry');\nassert(!isFinalizationRegistry(function () {}));\nassert(!isFinalizationRegistry(null));\nassert(!isFinalizationRegistry(function* () { yield 42; return Infinity; });\nassert(!isFinalizationRegistry(Symbol('foo')));\nassert(!isFinalizationRegistry(1n));\nassert(!isFinalizationRegistry(Object(1n)));\n\nassert(!isFinalizationRegistry(new Set()));\nassert(!isFinalizationRegistry(new WeakSet()));\nassert(!isFinalizationRegistry(new Map()));\nassert(!isFinalizationRegistry(new WeakMap()));\nassert(!isFinalizationRegistry(new WeakRef({})));\n\nassert(isFinalizationRegistry(new FinalizationRegistry(function () {})));\n\nclass MyFinalizationRegistry extends FinalizationRegistry {}\nassert(isFinalizationRegistry(new MyFinalizationRegistry(function () {})));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.org/package/is-finalizationregistry\n[npm-version-svg]: https://versionbadg.es/inspect-js/is-finalizationregistry.svg\n[deps-svg]: https://david-dm.org/inspect-js/is-finalizationregistry.svg\n[deps-url]: https://david-dm.org/inspect-js/is-finalizationregistry\n[dev-deps-svg]: https://david-dm.org/inspect-js/is-finalizationregistry/dev-status.svg\n[dev-deps-url]: https://david-dm.org/inspect-js/is-finalizationregistry#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/is-finalizationregistry.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/is-finalizationregistry.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/is-finalizationregistry.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=is-finalizationregistry\n[codecov-image]: https://codecov.io/gh/inspect-js/is-finalizationregistry/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/inspect-js/is-finalizationregistry/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/is-finalizationregistry\n[actions-url]: https://github.com/inspect-js/is-finalizationregistry/actions\n",
+  "maintainers" : [ {
+    "name" : "ljharb",
+    "email" : "ljharb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com"
+  },
+  "time" : {
+    "created" : "2020-08-02T07:03:50.852Z",
+    "modified" : "2022-05-06T04:52:46.257Z",
+    "1.0.0" : "2020-08-02T07:03:51.052Z",
+    "1.0.1" : "2020-12-04T23:41:21.096Z",
+    "1.0.2" : "2021-10-06T02:48:10.638Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/inspect-js/is-finalizationregistry.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/inspect-js/is-finalizationregistry#readme",
+  "keywords" : [ "weakref", "finalization", "finalizationregistry", "finalization registry" ],
+  "bugs" : {
+    "url" : "https://github.com/inspect-js/is-finalizationregistry/issues"
+  },
+  "license" : "MIT"
+}

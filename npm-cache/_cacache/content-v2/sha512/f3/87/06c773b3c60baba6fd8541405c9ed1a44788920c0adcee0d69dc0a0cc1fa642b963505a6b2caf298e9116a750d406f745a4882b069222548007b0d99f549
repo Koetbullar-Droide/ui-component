@@ -1,0 +1,1717 @@
+{
+  "_id" : "@rollup/rollup-linux-arm64-musl",
+  "_rev" : "30-88dcfe33e3bb8f2d4b5f8f1150c7ca11",
+  "name" : "@rollup/rollup-linux-arm64-musl",
+  "description" : "Native bindings for Rollup",
+  "dist-tags" : {
+    "latest" : "4.12.1"
+  },
+  "versions" : {
+    "4.10.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.10.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.10.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.10.0.tgz",
+        "shasum" : "5692e1a0feba0cc4a933864961afc3211177d242",
+        "integrity" : "sha512-9GW9yA30ib+vfFiwjX+N7PnjTnCMiUffhWj4vkG4ukYv1kJ4T9gHNg8zw+ChsOccM27G9yXrEtMScf1LaCuoWQ=="
+      },
+      "gitHead" : "762420860765e8e46e24d48b38f5b98ca31735fa",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.10.0_1707544724440_0.010723200394800791"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.12.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.12.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.4",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.12.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.12.1.tgz",
+        "shasum" : "d3b4cd6ef18d0aa7103129755e0c535701624fac",
+        "integrity" : "sha512-qB6AFRXuP8bdkBI4D7UPUbE7OQf7u5OL+R94JE42Z2Qjmyj74FtDdLGeriRyBDhm4rQSvqAGCGC01b8Fu2LthQ=="
+      },
+      "gitHead" : "f44dac3170a671b0978afa3af43818617904f544",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.12.1_1709705018499_0.07147504515189151"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.1"
+    },
+    "4.12.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.12.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.12.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.12.0.tgz",
+        "shasum" : "3882a4e3a564af9e55804beeb67076857b035ab7",
+        "integrity" : "sha512-eTvzUS3hhhlgeAv6bfigekzWZjaEX9xP9HhxB0Dvrdbkk5w/b+1Sxct2ZuDxNJKzsRStSq1EaEkVSEe7A7ipgQ=="
+      },
+      "gitHead" : "0146b84be33a8416b4df4b9382549a7ca19dd64a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.12.0_1708090340396_0.6704997247581153"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.11.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.11.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.11.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.11.0.tgz",
+        "shasum" : "4860560d18d9f18568859a800b1e79fe3b85df9e",
+        "integrity" : "sha512-yFW2msTAQNpPJaMmh2NpRalr1KXI7ZUjlN6dY/FhWlOclMrZezm5GIhy3cP4Ts2rIAC+IPLAjNibjp1BsxCVGg=="
+      },
+      "gitHead" : "90ad652b745c5fe7167d92b4ad671cc387577a99",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.11.0_1707977383138_0.38779179240341866"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.2" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.0.2.tgz",
+        "shasum" : "bbdda4472d932f4c275b97f6f826b4648d458ab6",
+        "integrity" : "sha512-cLuBp7rOjIB1R2j/VazjCmHC7liWUur2e9mFflLJBAWCkrZ+X0+QwHLvOQakIwDymungzAKv6W9kHZnTp/Mqrg=="
+      },
+      "gitHead" : "3d9c833c4fcb666301967554bac7ab0a0a698efe",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.0.2_1696601925885_0.26433814688424295"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.1.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.1.1.tgz",
+        "shasum" : "a1bc58cd47c2b400a582485f288fdb5c97e466d3",
+        "integrity" : "sha512-idxA8GbyacMdJ9HKPFa0J7Ok49O4ZKODmlN6kzMZzaAXg5xuhCTddo0Cw4MgGGjjNsDcTuWk4giuQBL2X+TwXQ=="
+      },
+      "gitHead" : "d8b31a202a246758b8d67eefe77361a894d37005",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.1.1_1697351511972_0.728960338423305"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.2.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.2.0.tgz",
+        "shasum" : "9291c7ec1a3572e9d3f395bcfff388ff173626ca",
+        "integrity" : "sha512-Jp1NxBJpGLuxRU2ihrQk4IZ+ia5nffobG6sOFUPW5PMYkF0kQtxEbeDuCa69Xif211vUOcxlOnf5IOEIpTEySA=="
+      },
+      "gitHead" : "fbf806aceffd822d43e4603b664c54165c72cf36",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.2.0_1698739844556_0.8663917819679967"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.3.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.3.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.3.0.tgz",
+        "shasum" : "64795a09dac02b4d779819509a793b93ba7e4c0d",
+        "integrity" : "sha512-tNhfYqFH5OxtRzfkTOKdgFYlPSZnlDLNW4+leNEvQZhwTJxoTwsZAAhR97l3qVry/kkLyJPBK+Q8EAJLPinDIg=="
+      },
+      "gitHead" : "937d9911376574c42f893e1cd14b55418c4f7b68",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.3.0_1699042386647_0.019734702364687662"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.0.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.0.1.tgz",
+        "shasum" : "eea295c70fb2a97476cef6f44ff5233a8ee73870",
+        "integrity" : "sha512-/2oPDPDCby4mY2P5xaw6d34Q52sb4X/IgUsoYTkDttapxtnMdQTdD55GhCJhydbozXkn4EC8jbnlQieCB+eE+g=="
+      },
+      "gitHead" : "fcab1f610fefb24621ce001dfb0831dd30e59ab3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.0.1_1696595806169_0.7390000130734236"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.1.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.1.0.tgz",
+        "shasum" : "d1178c6742f4440feae5de8dbc760cb557d67f3e",
+        "integrity" : "sha512-OXqp0PUZ3x/fxoT/WooO+kxO6Bxznr0lRA2qj0FjGvMEywfMTKKBcfSd3QorVcxmAKDEA5IDwD0aUPqyYDx2qw=="
+      },
+      "gitHead" : "cb144b2be4262b3743b31983b26f7fa985be3ceb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.1.0_1697262737982_0.6994864322242049"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.1.5" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.1.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.1.5.tgz",
+        "shasum" : "d9629d2cdd3a16a9001715e13a53de27030b9ba6",
+        "integrity" : "sha512-84aBKNAVzTU/eG3tb2+kR4NGRAtm2YVW/KHwkGGDR4z1k4hyrDbuImsfs/6J74t6y0YLOe9HOSu7ejRjzUBGVQ=="
+      },
+      "gitHead" : "1cbb382b0dd3ab70541671c105f96eff283904ec",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.1.5_1698485015985_0.9935700079262115"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.5.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.5.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.5.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.5.1.tgz",
+        "shasum" : "f7e8036c2f771bb366ca0d8c79d2132cffb1d295",
+        "integrity" : "sha512-f5Gs8WQixqGRtI0Iq/cMqvFYmgFzMinuJO24KRfnv7Ohi/HQclwrBCYkzQu1XfLEEt3DZyvveq9HWo4bLJf1Lw=="
+      },
+      "gitHead" : "a083019c7f0c18a1c17260ab1239b12400984a88",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.5.1_1700597592796_0.6159391377039609"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.6.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.6.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.6.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.6.0.tgz",
+        "shasum" : "ef9cae3d22c8c44ff4f271e308bf1c013348bdc0",
+        "integrity" : "sha512-mZoNQ/qK4D7SSY8v6kEsAAyDgznzLLuSFCA3aBHZTmf3HP/dW4tNLTtWh9+LfyO0Z1aUn+ecpT7IQ3WtIg3ViQ=="
+      },
+      "gitHead" : "020774d0c7b1371865b20878e59dd3a6a45d3b31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.6.0_1701005956767_0.42681417027486734"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.6" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.6",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.1.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.1.6.tgz",
+        "shasum" : "468530ecdf6a196055e9391e0fbcc6c68576d951",
+        "integrity" : "sha512-DjFHrawLoh/21sUhcv+Veg4ev1WDVle8izmXpUCOmWkWmeWLACfiEJa9aI/L/trEVB46/SmcRomJw0DbfzKdoQ=="
+      },
+      "gitHead" : "5901e545697b36326110d89ed02964fdaffd9f6f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.1.6_1698731118864_0.3768267294639718"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.5.2" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.5.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.5.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.5.2.tgz",
+        "shasum" : "32117bb51bdd761b8f759c9fed9eab493154cdfd",
+        "integrity" : "sha512-KrRnuG5phJx756e62wxvWH2e+TK84MP2IVuPwfge+GBvWqIUfVzFRn09TKruuQBXzZp52Vyma7FjMDkwlA9xpg=="
+      },
+      "gitHead" : "2e94641971195c1a4eb9e1a3fe6d73b9d04ffae0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.5.2_1700807390580_0.9175293357130916"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.6.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.6.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.6.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.6.1.tgz",
+        "shasum" : "6a94c691830dc29bf708de7c640f494996130893",
+        "integrity" : "sha512-FfoOK1yP5ksX3wwZ4Zk1NgyGHZyuRhf99j64I5oEmirV8EFT7+OhUZEnP+x17lcP/QHJNWGsoJwrz4PJ9fBEXw=="
+      },
+      "gitHead" : "ded37aa8f95d5ba9786fa8903ef3424fd0549c73",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.6.1_1701321792189_0.5045890832003517"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.7.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.7.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.7.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.7.0.tgz",
+        "shasum" : "d75add714d898cee4e4a5baeb2e30641e483b0e3",
+        "integrity" : "sha512-nhWwYsiJwZGq7SyR3afS3EekEOsEAlrNMpPC4ZDKn5ooYSEjDLe9W/xGvoIV8/F/+HNIY6jY8lIdXjjxfxopXw=="
+      },
+      "gitHead" : "098e29ca3e0643006870f9ed94710fd3004a9043",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.7.0_1702022284018_0.24676318915531636"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.3" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.1.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.1.3.tgz",
+        "shasum" : "267f801a7d8c61509f6fb7ab4849a1260101892f",
+        "integrity" : "sha512-6yFpmrH6xx00b9qEoabkyeHzamKSv8c43+SgaItTcHzgaaX3HGRSK+ZZt9GokB3Cc7z4HXllK7Ts5fF5W8FddQ=="
+      },
+      "gitHead" : "c61a1507a88fc71be431550642b040da4b9422b0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.1.3_1697392110558_0.1295385708949317"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.3.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.3.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.3.1.tgz",
+        "shasum" : "f9cac3b14330d68b3395e14c2ba0549fe4d0b420",
+        "integrity" : "sha512-/QqGJI0Jk/Ln32EmpkJYmwpKIe+Da40zmJL8YYvJKYQWhvj7qYOJM6HntQndTWNpF5/33vpLVhngCaHqmiVhNg=="
+      },
+      "gitHead" : "52c55bb1e17154ae6d01fb40e0e4a3589bc20a8f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.3.1_1699689477895_0.982588408523992"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.4.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.4.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.4.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.4.0.tgz",
+        "shasum" : "4172c45a08928aa992c70d5af64cd87f5914fd50",
+        "integrity" : "sha512-u7zy0Ygzl7O5Gvr9TSNSQj+DBzvMJC7rXfyQNgZ13KwkhgJ8z0z+gt2AO4RPd01rZioMQ2/TA24XGGg4xqhd0Q=="
+      },
+      "gitHead" : "53d636051ac60da9b302c4bd6b7eaaccb4871f4b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.4.0_1699775397050_0.8654100927069623"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.4" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.1.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.1.4.tgz",
+        "shasum" : "08d30969483a804769deb6e674fe963c21815ad9",
+        "integrity" : "sha512-aVPmNMdp6Dlo2tWkAduAD/5TL/NT5uor290YvjvFvCv0Q3L7tVdlD8MOGDL+oRSw5XKXKAsDzHhUOPUNPRHVTQ=="
+      },
+      "gitHead" : "061a0387c8654222620f602471d66afd3c582048",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.1.4_1697430853450_0.5130048318374714"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.4.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.4.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.4.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.4.1.tgz",
+        "shasum" : "d452e88a02755f449f6e98d4ce424d655ef42cfe",
+        "integrity" : "sha512-M2sDtw4tf57VPSjbTAN/lz1doWUqO2CbQuX3L9K6GWIR5uw9j+ROKCvvUNBY8WUbMxwaoc8mH9HmmBKsLht7+w=="
+      },
+      "gitHead" : "01d8c9d1b68919c2c429427ae7e60f503a8bb5f4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.4.1_1699939519642_0.8535285080169097"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.5.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.5.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.5.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.5.0.tgz",
+        "shasum" : "149cab95107821fe4ae46d5f2c0658c5b0e56b9c",
+        "integrity" : "sha512-1H7wBbQuE6igQdxMSTjtFfD+DGAudcYWhp106z/9zBA8OQhsJRnemO4XGavdzHpGhRtRxbgmUGdO3YQgrWf2RA=="
+      },
+      "gitHead" : "86efc769f693516a29047c8d160c6d7287fb965d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.5.0_1700286735526_0.16607406131148728"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.9.1" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.1.tgz",
+        "shasum" : "d3a4e1c9f21eef3b9f4e4989f334a519a1341462",
+        "integrity" : "sha512-0XSYN/rfWShW+i+qjZ0phc6vZ7UWI8XWNz4E/l+6edFt+FxoEghrJHjX1EY/kcUGCnZzYYRCl31SNdfOi450Aw=="
+      },
+      "gitHead" : "d56ac63dc0452820272a0d7536340277f7db68bf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.1_1702794374435_0.8697296681785338"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.2" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.2.tgz",
+        "shasum" : "82b5e75484d91c25d4e649d018d9523e72d6dac2",
+        "integrity" : "sha512-On+cc5EpOaTwPSNetHXBuqylDW+765G/oqB9xGmWU3npEhCh8xu0xqHGUA+4xwZLqBbIZNcBlKSIYfkBm6ko7g=="
+      },
+      "gitHead" : "347a34745b2679c1192535db3c0f60889861d3ad",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.2_1703917410651_0.12497359861793966"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.8.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.8.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.8.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.8.0.tgz",
+        "shasum" : "bc994c676fd3aae14aaa905040fdcde461e41ce5",
+        "integrity" : "sha512-Fw9ChYfJPdltvi9ALJ9wzdCdxGw4wtq4t1qY028b2O7GwB5qLNSGtqMsAel1lfWTZvf4b6/+4HKp0GlSYg0ahA=="
+      },
+      "gitHead" : "62b648e1cc6a1f00260bb85aa2050097bb4afd2b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.8.0_1702275896599_0.24838209756094853"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.0" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.0.tgz",
+        "shasum" : "61cc6516e6e92e2205ea1d0ac30326379b0563c8",
+        "integrity" : "sha512-ahqcSXLlcV2XUBM3/f/C6cRoh7NxYA/W7Yzuv4bDU1YscTFw7ay4LmD7l6OS8EMhTNvcrWGkEettL1Bhjf+B+w=="
+      },
+      "gitHead" : "c5337ef28a71c796e768a9f0edb3d7259a93f1aa",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.0_1702459459913_0.2406126344032795"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.5" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.5.tgz",
+        "shasum" : "3064060f568a5718c2a06858cd6e6d24f2ff8632",
+        "integrity" : "sha512-QaKFVOzzST2xzY4MAmiDmURagWLFh+zZtttuEnuNn19AiZ0T3fhPyjPPGwLNdiDT82ZE91hnfJsUiDwF9DClIQ=="
+      },
+      "gitHead" : "7fa474cc5ed91c96a4ff80e286aa8534bc15834f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.5_1705040176716_0.12989791532749662"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.6" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.6",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.6.tgz",
+        "shasum" : "94aaf95fdaf2ad9335983a4552759f98e6b2e850",
+        "integrity" : "sha512-gpiG0qQJNdYEVad+1iAsGAbgAnZ8j07FapmnIAQgODKcOTjLEWM9sRb+MbQyVsYCnA0Im6M6QIq6ax7liws6eQ=="
+      },
+      "gitHead" : "ecb6b0a430098052781aa6ee04ec92ee70960321",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.6_1705816342076_0.8393743276361627"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.3" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.3.tgz",
+        "shasum" : "8cc30293277df26a3fa3dc015682edac3f663baf",
+        "integrity" : "sha512-TZJUfRTugVFATQToCMD8DNV6jv/KpSwhE1lLq5kXiQbBX3Pqw6dRKtzNkh5wcp0n09reBBq/7CGDERRw9KmE+g=="
+      },
+      "gitHead" : "4ab3ad360457cd79f4ea852447d3ddca22da95d6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.3_1704435649946_0.515760461184078"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.4" : {
+      "name" : "@rollup/rollup-linux-arm64-musl",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.linux-arm64-musl.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-linux-arm64-musl@4.9.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.9.4.tgz",
+        "shasum" : "50257fb248832c2308064e3764a16273b6ee4615",
+        "integrity" : "sha512-XcKvuendwizYYhFxpvQ3xVpzje2HHImzg33wL9zvxtj77HvPStbSGI9czrdbfrf8DGMcNNReH9pVZv8qejAQ5A=="
+      },
+      "gitHead" : "18372035f167ec104280e1e91ef795e4f7033f1e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-linux-arm64-musl_4.9.4_1704523143244_0.3429187719473201"
+      },
+      "libc" : [ "musl" ],
+      "_nodeVersion" : "18.19.0"
+    }
+  },
+  "readme" : "# `@rollup/rollup-linux-arm64-musl`\n\nThis is the **aarch64-unknown-linux-musl** binary for `rollup`\n",
+  "maintainers" : [ {
+    "name" : "shellscape",
+    "email" : "andrew@shellscape.org"
+  }, {
+    "name" : "rich_harris",
+    "email" : "richard.a.harris@gmail.com"
+  }, {
+    "name" : "guybedford",
+    "email" : "guybedford@gmail.com"
+  }, {
+    "name" : "lukastaegert",
+    "email" : "lukas.taegert@tngtech.com"
+  } ],
+  "author" : {
+    "name" : "Lukas Taegert-Atkinson"
+  },
+  "time" : {
+    "4.10.0" : "2024-02-10T05:58:44.663Z",
+    "4.12.1" : "2024-03-06T06:03:38.723Z",
+    "4.12.0" : "2024-02-16T13:32:20.620Z",
+    "4.11.0" : "2024-02-15T06:09:43.370Z",
+    "4.0.2" : "2023-10-06T14:18:46.166Z",
+    "4.1.1" : "2023-10-15T06:31:52.263Z",
+    "4.2.0" : "2023-10-31T08:10:44.815Z",
+    "4.3.0" : "2023-11-03T20:13:07.018Z",
+    "4.0.1" : "2023-10-06T12:36:46.470Z",
+    "4.1.0" : "2023-10-14T05:52:18.271Z",
+    "4.1.5" : "2023-10-28T09:23:36.293Z",
+    "4.5.1" : "2023-11-21T20:13:13.110Z",
+    "4.6.0" : "2023-11-26T13:39:17.008Z",
+    "4.1.6" : "2023-10-31T05:45:19.022Z",
+    "4.5.2" : "2023-11-24T06:29:50.869Z",
+    "4.6.1" : "2023-11-30T05:23:12.428Z",
+    "4.7.0" : "2023-12-08T07:58:04.340Z",
+    "4.1.3" : "2023-10-15T17:48:30.906Z",
+    "4.3.1" : "2023-11-11T07:57:58.154Z",
+    "4.4.0" : "2023-11-12T07:49:57.353Z",
+    "4.1.4" : "2023-10-16T04:34:13.649Z",
+    "4.4.1" : "2023-11-14T05:25:19.928Z",
+    "4.5.0" : "2023-11-18T05:52:15.760Z",
+    "modified" : "2024-03-06T06:03:39.192Z",
+    "created" : "2023-10-06T12:36:46.042Z",
+    "4.9.1" : "2023-12-17T06:26:14.695Z",
+    "4.9.2" : "2023-12-30T06:23:30.954Z",
+    "4.8.0" : "2023-12-11T06:24:56.841Z",
+    "4.9.0" : "2023-12-13T09:24:20.156Z",
+    "4.9.5" : "2024-01-12T06:16:16.938Z",
+    "4.9.6" : "2024-01-21T05:52:22.304Z",
+    "4.9.3" : "2024-01-05T06:20:50.192Z",
+    "4.9.4" : "2024-01-06T06:39:03.481Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/rollup/rollup.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://rollupjs.org/",
+  "bugs" : {
+    "url" : "https://github.com/rollup/rollup/issues"
+  },
+  "license" : "MIT"
+}

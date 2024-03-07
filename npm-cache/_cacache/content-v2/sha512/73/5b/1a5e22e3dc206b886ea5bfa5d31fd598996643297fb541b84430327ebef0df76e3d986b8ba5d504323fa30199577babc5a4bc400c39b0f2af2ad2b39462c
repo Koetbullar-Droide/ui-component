@@ -1,0 +1,622 @@
+{
+  "_id" : "warning",
+  "_rev" : "29-b3e0bcc4f8f47f67f1ec0f673b4eb0dd",
+  "name" : "warning",
+  "description" : "A mirror of Facebook's Warning",
+  "dist-tags" : {
+    "latest" : "4.0.3"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "2.0.0",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@r3dm.com",
+        "url" : "http://r3dm.com"
+      },
+      "homepage" : "https://github.com/r3dm/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/r3dm/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/r3dm/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "envify" : "^3.0.0"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "BSD-2-Clause",
+      "maintainers" : [ {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "echo 'you've been warned'"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.1",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@robotie.com"
+      },
+      "_id" : "warning@2.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-2.0.0.tgz",
+        "shasum" : "34235ed1061fbe75fff52fd9be23d730d9b4b6e0",
+        "integrity" : "sha512-8EMbsQwyRcydNZ+uX8logEEtzOJtF3fqtG2MM8sdvgPQqTOd5nYkhFa7WiQsxgoo5MgOgintG98zwoIiasumLQ=="
+      },
+      "gitHead" : "0c3fa99bf47c0cd12b95db2b674c3da2d6115319",
+      "browserify" : {
+        "transform" : [ "envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "34235ed1061fbe75fff52fd9be23d730d9b4b6e0",
+      "_nodeVersion" : "1.6.4"
+    },
+    "2.1.0" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "2.1.0",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@r3dm.com",
+        "url" : "http://r3dm.com"
+      },
+      "homepage" : "https://github.com/r3dm/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/r3dm/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/r3dm/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "BSD-2-Clause",
+      "files" : [ "browser.js", "warning.js" ],
+      "maintainers" : [ {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.11.1",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@robotie.com"
+      },
+      "_id" : "warning@2.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-2.1.0.tgz",
+        "shasum" : "21220d9c63afc77a8c92111e011af705ce0c6901",
+        "integrity" : "sha512-O9pvum8nlCqIT5pRGo2WRQJPRG2bW/ZBeCzl7/8CWREjUW693juZpGup7zbRtuVcSKyGiRAIZLYsh3C0vq7FAg=="
+      },
+      "gitHead" : "b7d56e3f6c21c3ee05af617222d16c7d80118443",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_shasum" : "21220d9c63afc77a8c92111e011af705ce0c6901",
+      "_nodeVersion" : "1.6.4"
+    },
+    "3.0.0" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "3.0.0",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@r3dm.com",
+        "url" : "http://www.freecodecamp.com"
+      },
+      "homepage" : "https://github.com/BerkeleyTrue/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/BerkeleyTrue/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/BerkeleyTrue/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "BSD-3-Clause",
+      "files" : [ "browser.js", "warning.js" ],
+      "maintainers" : [ {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_from" : ".",
+      "_npmVersion" : "3.8.7",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@robotie.com"
+      },
+      "_id" : "warning@3.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-3.0.0.tgz",
+        "shasum" : "32e5377cb572de4ab04753bdf8821c01ed605b7c",
+        "integrity" : "sha512-jMBt6pUrKn5I+OGgtQ4YZLdhIeJmObddh6CsibPxyQ5yPZm1XExSyzC1LCNX7BzhxWgiHmizBWJTHJIjMjTQYQ=="
+      },
+      "gitHead" : "6ef2da6b3da76eb6fcc735eaa52160fec2ed6078",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "browser" : "browser.js",
+      "_npmOperationalInternal" : {
+        "host" : "packages-12-west.internal.npmjs.com",
+        "tmp" : "tmp/warning-3.0.0.tgz_1464922442833_0.31551201664842665"
+      },
+      "_shasum" : "32e5377cb572de4ab04753bdf8821c01ed605b7c",
+      "_nodeVersion" : "4.2.4"
+    },
+    "4.0.2" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@berkeleytrue.com",
+        "url" : "http://www.berkeleytrue.com"
+      },
+      "homepage" : "https://github.com/BerkeleyTrue/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/BerkeleyTrue/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/BerkeleyTrue/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^6.2.0",
+        "@commitlint/config-conventional" : "^6.1.3",
+        "browserify" : "^16.2.2",
+        "commitizen" : "^2.10.1",
+        "cz-conventional-changelog" : "^2.1.0",
+        "husky" : "^0.14.3",
+        "jest" : "^23.1.0",
+        "uglify-js" : "^3.3.25"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "MIT",
+      "files" : [ "warning.js" ],
+      "maintainers" : [ {
+        "email" : "jn.martinez110@gmail.com",
+        "name" : "berkeleytrue"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "npm run test:dev && npm run test:prod",
+        "test:dev" : "NODE_ENV=development jest",
+        "test:prod" : "NODE_ENV=production jest",
+        "commit" : "git cz",
+        "commitmsg" : "commitlint -e $GIT_PARAMS"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "cz-conventional-changelog"
+        }
+      },
+      "_npmVersion" : "6.2.0",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "jn.martinez110@gmail.com"
+      },
+      "_id" : "warning@4.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-4.0.2.tgz",
+        "shasum" : "aa6876480872116fa3e11d434b0d0d8d91e44607",
+        "integrity" : "sha512-wbTp09q/9C+jJn4KKJfJfoS6VleK/Dti0yqWSm6KMvJ4MRCXFQNapHuJXutJIrWV0Cf4AhTdeIe4qdKHR1+Hug=="
+      },
+      "gitHead" : "e4806228c076429774878522cafdf9321b7ff71c",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/warning_4.0.2_1534512868704_0.995670660882549"
+      },
+      "_nodeVersion" : "10.8.0"
+    },
+    "4.0.3" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "4.0.3",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@berkeleytrue.com",
+        "url" : "http://www.berkeleytrue.com"
+      },
+      "homepage" : "https://github.com/BerkeleyTrue/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/BerkeleyTrue/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/BerkeleyTrue/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "@commitlint/cli" : "^6.2.0",
+        "@commitlint/config-conventional" : "^6.1.3",
+        "browserify" : "^16.2.2",
+        "commitizen" : "^2.10.1",
+        "cz-conventional-changelog" : "^2.1.0",
+        "husky" : "^0.14.3",
+        "jest" : "^23.1.0",
+        "uglify-js" : "^3.3.25"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "jn.martinez110@gmail.com",
+        "name" : "berkeleytrue"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "npm run test:dev && npm run test:prod",
+        "test:dev" : "NODE_ENV=development jest",
+        "test:prod" : "NODE_ENV=production jest",
+        "commit" : "git cz",
+        "commitmsg" : "commitlint -e $GIT_PARAMS"
+      },
+      "config" : {
+        "commitizen" : {
+          "path" : "cz-conventional-changelog"
+        }
+      },
+      "_npmVersion" : "6.5.0",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "jn.martinez110@gmail.com"
+      },
+      "_id" : "warning@4.0.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-4.0.3.tgz",
+        "shasum" : "16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3",
+        "integrity" : "sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w=="
+      },
+      "gitHead" : "3c44be700a0e37e972c1a7e87446ba007f39cac0",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/warning_4.0.3_1549746508792_0.39167921585706167"
+      },
+      "_nodeVersion" : "10.15.0"
+    },
+    "4.0.0" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@berkeleytrue.com",
+        "url" : "http://www.berkeleytrue.com"
+      },
+      "homepage" : "https://github.com/BerkeleyTrue/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/BerkeleyTrue/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/BerkeleyTrue/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0",
+        "uglify-js" : "^3.3.25"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "MIT",
+      "files" : [ "warning.js" ],
+      "maintainers" : [ {
+        "email" : "jn.martinez110@gmail.com",
+        "name" : "berkeleytrue"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "jn.martinez110@gmail.com"
+      },
+      "_id" : "warning@4.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-4.0.0.tgz",
+        "shasum" : "311a464f62c0986f4d2d2f3a46d471b3ba02f782",
+        "integrity" : "sha512-JQ0tNxaiZyKqW2PQvsABcdh+W8DHc8fH3jhROE3Sf/NPFXZtjxWysD6X93OQSgJfSBY9CKNRzd5e3p4jHkp2NQ=="
+      },
+      "gitHead" : "14967a756ea77cea27edfd7f0b2b3910404d7e46",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/warning_4.0.0_1526962813097_0.20211087836391273"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "4.0.1" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@berkeleytrue.com",
+        "url" : "http://www.berkeleytrue.com"
+      },
+      "homepage" : "https://github.com/BerkeleyTrue/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/BerkeleyTrue/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/BerkeleyTrue/warning/issues"
+      },
+      "main" : "warning.js",
+      "dependencies" : {
+        "loose-envify" : "^1.0.0"
+      },
+      "devDependencies" : {
+        "browserify" : "^11.0.1",
+        "tap" : "^1.4.0",
+        "uglify-js" : "^3.3.25"
+      },
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "MIT",
+      "files" : [ "warning.js" ],
+      "maintainers" : [ {
+        "email" : "jn.martinez110@gmail.com",
+        "name" : "berkeleytrue"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "NODE_ENV=production tap test/*.js && NODE_ENV=development tap test/*.js"
+      },
+      "_npmVersion" : "6.0.1",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "jn.martinez110@gmail.com"
+      },
+      "_id" : "warning@4.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-4.0.1.tgz",
+        "shasum" : "66ce376b7fbfe8a887c22bdf0e7349d73d397745",
+        "integrity" : "sha512-rAVtTNZw+cQPjvGp1ox0XC5Q2IBFyqoqh+QII4J/oguyu83Bax1apbo2eqB8bHRS+fqYUBagys6lqUoVwKSmXQ=="
+      },
+      "gitHead" : "19d17bd3dc716072aec2f1680345b089e413d3c5",
+      "browserify" : {
+        "transform" : [ "loose-envify" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/warning_4.0.1_1527649436327_0.8098921246506208"
+      },
+      "_nodeVersion" : "8.9.4"
+    },
+    "1.0.0" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@r3dm.com",
+        "url" : "http://r3dm.com"
+      },
+      "homepage" : "https://github.com/r3dm/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/r3dm/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/r3dm/warning/issues"
+      },
+      "main" : "warning.js",
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "echo 'you've been warned'"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.4",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      },
+      "_id" : "warning@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-1.0.0.tgz",
+        "shasum" : "fdb5867eac00ce17214686a4efe6617d5c8e2aa8",
+        "integrity" : "sha512-EbJ64vSJ8VDSeoNLZBkhMr1JkN5IgEOrWMwd5Okk0vtGtJLoOywpOiHQ8YOk7myOQqedIBlZD0tR/eqrQIZihw=="
+      },
+      "gitHead" : "d2785e5680c88143bba459e1db1c85e4ecca5086",
+      "_shasum" : "fdb5867eac00ce17214686a4efe6617d5c8e2aa8",
+      "_nodeVersion" : "1.6.3"
+    },
+    "1.0.1" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@r3dm.com",
+        "url" : "http://r3dm.com"
+      },
+      "homepage" : "https://github.com/r3dm/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/r3dm/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/r3dm/warning/issues"
+      },
+      "main" : "warning.js",
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "echo 'you've been warned'"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.7.5",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@robotie.com"
+      },
+      "_id" : "warning@1.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-1.0.1.tgz",
+        "shasum" : "58e9b758c0c79c10f8b13984a43c9195ec3e6f50",
+        "integrity" : "sha512-tRoxvvR0Vb0GskLTKRRQU+VihzKkmtqnzxlGC9QhBm/lOmP0Ox8O7/DXtP1Aseazx3ynsLutk9Zrvby47rGghQ=="
+      },
+      "gitHead" : "2acb7e49b0b9aa1ac52ff0761bbf3ca3db1b7a34",
+      "_shasum" : "58e9b758c0c79c10f8b13984a43c9195ec3e6f50",
+      "_nodeVersion" : "1.6.4"
+    },
+    "1.0.2" : {
+      "name" : "warning",
+      "description" : "A mirror of Facebook's Warning",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Berkeley Martinez",
+        "email" : "berkeley@r3dm.com",
+        "url" : "http://r3dm.com"
+      },
+      "homepage" : "https://github.com/r3dm/warning",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/r3dm/warning.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/r3dm/warning/issues"
+      },
+      "main" : "warning.js",
+      "keywords" : [ "warning", "facebook", "react", "invariant" ],
+      "license" : "BSD",
+      "maintainers" : [ {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@r3dm.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "echo 'you've been warned'"
+      },
+      "_from" : ".",
+      "_npmVersion" : "2.9.1",
+      "_npmUser" : {
+        "name" : "berkeleytrue",
+        "email" : "berkeley@robotie.com"
+      },
+      "_id" : "warning@1.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/warning/-/warning-1.0.2.tgz",
+        "shasum" : "5716cfb37147b4534b3e164480afffa6a255f0d9",
+        "integrity" : "sha512-Lm7+cS4bdIQ66pkUdaWoLoO8lB/NgjF/+F7jTHaj4I1JxlA5AWs6P8rlLq2SAj9XOEC0sYMZiPL77Gu2Q+scDw=="
+      },
+      "gitHead" : "f6de4ea58115d650d6fda9e59d45063d7ea743ac",
+      "_shasum" : "5716cfb37147b4534b3e164480afffa6a255f0d9",
+      "_nodeVersion" : "1.6.4"
+    }
+  },
+  "readme" : "# Warning [![npm version](https://badge.fury.io/js/warning.svg)](https://badge.fury.io/js/warning)\n\n[![Greenkeeper badge](https://badges.greenkeeper.io/BerkeleyTrue/warning.svg)](https://greenkeeper.io/)\nA mirror of Facebook's [Warning](https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/__forks__/warning.js)\n\n\n## Usage\n```\nnpm install warning\n```\n\n```\n// some script\nvar warning = require('warning');\n\nvar ShouldBeTrue = false;\n\nwarning(\n  ShouldBeTrue,\n  'This thing should be true but you set to false. No soup for you!'\n);\n//  'This thing should be true but you set to false. No soup for you!'\n```\n\nSimilar to Facebook's (FB) invariant but only logs a warning if the condition is not met.\nThis can be used to log issues in development environments in critical\npaths. Removing the logging code for production environments will keep the\nsame logic and follow the same code paths.\n\n## FAQ (READ before opening an issue)\n\n> Why do you use `console.error` instead of `console.warn` ?\n\nThis is a mirror of Facebook's (FB) [warning](https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/__forks__/warning.js) module used within React's source code (and other FB software).\nAs such this module will mirror their code as much as possible. \n\nThe descision to use `error` over `warn` was made a long time ago by the FB team and isn't going to change anytime soon.\n\nThe source can be found here: https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/__forks__/warning.js\nThe reasoning can be found here and elsewhere: https://github.com/facebook/fbjs/pull/94#issuecomment-168332326\n\n> Can I add X feature?\n\nThis is a mirror of Facebook's (FB) [warning](https://github.com/facebook/fbjs/blob/master/packages/fbjs/src/__forks__/warning.js) and as such the source and signature will mirror that module.\n\nIf you believe a feature is missing than please open a feature request [there](https://github.com/facebook/fbjs).\nIf it is approved and merged in that this module will be updated to reflect that change, otherwise this module will not change.\n\n## Use in Production\n\nIt is recommended to add [babel-plugin-dev-expression](https://github.com/4Catalyzer/babel-plugin-dev-expression) with this module to remove warning messages in production.\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<br>\n<small>Don't Forget To Be Awesome</small>\n",
+  "maintainers" : [ {
+    "email" : "jn.martinez110@gmail.com",
+    "name" : "berkeleytrue"
+  } ],
+  "author" : {
+    "name" : "Berkeley Martinez",
+    "email" : "berkeley@berkeleytrue.com",
+    "url" : "http://www.berkeleytrue.com"
+  },
+  "time" : {
+    "2.0.0" : "2015-07-12T00:41:56.055Z",
+    "2.1.0" : "2015-10-04T21:26:55.529Z",
+    "3.0.0" : "2016-06-03T02:54:03.287Z",
+    "created" : "2015-04-01T00:23:13.847Z",
+    "4.0.2" : "2018-08-17T13:34:28.837Z",
+    "modified" : "2022-06-28T21:50:25.104Z",
+    "4.0.3" : "2019-02-09T21:08:28.900Z",
+    "4.0.0" : "2018-05-22T04:20:13.216Z",
+    "4.0.1" : "2018-05-30T03:03:56.386Z",
+    "1.0.0" : "2015-04-01T00:23:13.847Z",
+    "1.0.1" : "2015-04-09T14:49:19.325Z",
+    "1.0.2" : "2015-05-30T07:09:47.232Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/BerkeleyTrue/warning.git"
+  },
+  "users" : {
+    "parkerproject" : true,
+    "weifei365" : true,
+    "yuwen" : true,
+    "adrtho4" : true,
+    "jmsherry" : true,
+    "pftom" : true,
+    "tedyhy" : true,
+    "nelix" : true,
+    "wenbing" : true,
+    "lestad" : true,
+    "dreamanddead" : true,
+    "princetoad" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/BerkeleyTrue/warning",
+  "keywords" : [ "warning", "facebook", "react", "invariant" ],
+  "bugs" : {
+    "url" : "https://github.com/BerkeleyTrue/warning/issues"
+  },
+  "license" : "MIT"
+}

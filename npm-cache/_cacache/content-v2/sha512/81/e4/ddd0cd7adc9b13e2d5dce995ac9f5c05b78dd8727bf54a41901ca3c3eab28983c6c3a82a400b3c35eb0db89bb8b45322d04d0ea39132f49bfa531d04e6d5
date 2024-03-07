@@ -1,0 +1,3556 @@
+{
+  "_id" : "@esbuild/linux-ppc64",
+  "_rev" : "75-c0a17f300f38db9a7ad3622ca913d4d9",
+  "name" : "@esbuild/linux-ppc64",
+  "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.20.1"
+  },
+  "versions" : {
+    "0.15.18" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.15.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.15.18.tgz",
+        "shasum" : "56794a79a1510930b50a14e10484e68f1b1397c6",
+        "integrity" : "sha512-7cHBFsrP6QAv4tBoz6Y+IIXOEWZ0AHevHCavkO+v/FDmF8vlGNf/56EUaVR6YaPlc2JbN5JxhcO4o67+9uk+LA=="
+      },
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.15.18_1670284317218_0.7784703535778479"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.10.tgz",
+        "shasum" : "5d8b59929c029811e473f2544790ea11d588d4dd",
+        "integrity" : "sha512-tgT/7u+QhV6ge8wFMzaklOY7KqiyitgT1AUHMApau32ZlvTB/+efeCtMk4eXS+uEymYK249JsoiklZN64xt6oQ=="
+      },
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.10_1702945338273_0.4533232131323459"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.12.tgz",
+        "shasum" : "adb67dadb73656849f63cd522f5ecb351dd8dee8",
+        "integrity" : "sha512-nYJA2/QPimDQOh1rKWedNOe3Gfc8PabU7HT3iXWtNUbRzXS9+vgB0Fjaqr//XNbd82mCxHzik2qotuI89cfixg=="
+      },
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.12_1706031686236_0.3721895285508321"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.11.tgz",
+        "shasum" : "9c5725a94e6ec15b93195e5a6afb821628afd912",
+        "integrity" : "sha512-MHrZYLeCG8vXblMetWyttkdVRjQlQUb/oMgBNurVEnhj4YWOr4G5lmBfZjHYQHHN0g6yDmCAQRR8MUHldvvRDA=="
+      },
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.11_1703881987145_0.6440635377050608"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.2.tgz",
+        "shasum" : "db567dd114122bcb034910d79000ea9cca9db897",
+        "integrity" : "sha512-s4YuINcRxCA9TElEf2iBdG6oZWdNu2Eb6R9TbRBcZOTdcgdBKIinaVyEiQ8H6nmCafWCuuJT8u66zds2ET3t1Q=="
+      },
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.2_1670482830680_0.17502672608772074"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.0.tgz",
+        "shasum" : "5640cbe44466e443cab764b2509325955adf5ce7",
+        "integrity" : "sha512-obz/firdtou244DIjHzdKmJChwGseqA3tWGa6xPMfuq54Ca4Pp1a4ANMrqy2IZ67rfpRHcJTlb2h3rSfW6tvAA=="
+      },
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.0_1686345895031_0.8410536002605893"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.1.tgz",
+        "shasum" : "8af2ab35166ff56bcabb2094e956d12b261db321",
+        "integrity" : "sha512-//BU2o/gfw6clxJCrU8xa0gxElP18HiAzS/pN1HKzL2ayqz8WinOYEzPOZrqJvkC4u2Qoh5NEiVd98wTr2C9eg=="
+      },
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.1_1670388549754_0.20954333826645866"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.0.tgz",
+        "shasum" : "54ad4d6d109fba582d4c7d832bccf766e997ee22",
+        "integrity" : "sha512-rCk3uAfAFm+Bo4c9qBPVxeYo/gsl9HdexgAvu7HkZg6cPnXScstF0JrHAt1JPYmMba0F/9ewHFR7WYe0v/G1zQ=="
+      },
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.0_1670385341365_0.01811997114369701"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.17.tgz",
+        "shasum" : "206443a02eb568f9fdf0b438fbd47d26e735afc8",
+        "integrity" : "sha512-dzS678gYD1lJsW73zrFhDApLVdM3cUF2MvAa1D8K8KtcSKdLBPP4zZSLy6LFZ0jYqQdQ29bjAHJDgz0rVbLB3g=="
+      },
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.17_1673474318988_0.5283811150571476"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.16.tgz",
+        "shasum" : "24a0013bf727830df44fece571172ebe31b5c5e6",
+        "integrity" : "sha512-DSl5Czh5hCy/7azX0Wl9IdzPHX2H8clC6G87tBnZnzUpNgRxPFhfmArbaHoAysu4JfqCqbB/33u/GL9dUgCBAw=="
+      },
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.16_1673217869192_0.674854180170293"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.8.tgz",
+        "shasum" : "42d242ef0444ea5443fb577a76e3de9cb7f11a95",
+        "integrity" : "sha512-9AFk6CgYytoQ0/RMnmr1zlpTA88g9ksxk0gmo9apY+O8Yzmcjd+Dl9LUX9k89dLnyyLgkHl6uLg1tpEzpQS+yA=="
+      },
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.8_1687663188364_0.973949834007978"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.9.tgz",
+        "shasum" : "ccaf759fc4f7a5fe72bdac05b4f5bf18ef1fe01b",
+        "integrity" : "sha512-k+ca5W5LDBEF3lfDwMV6YNXwm4wEpw9krMnNvvlNz3MrKSD2Eb2c861O0MaKrZkG/buTQAP4vkavbLwgIe6xjg=="
+      },
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.9_1671337927714_0.3582769078993884"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.7.tgz",
+        "shasum" : "faea79660896105276d95a3ca06156b8e41f5517",
+        "integrity" : "sha512-x/k1+daIqiGJt0Yhr5llFJ/zkRg1XAqcS2ntAYzS3pHogO8oIyc+LjsINgVyFCeFMFUZ9Ae9W5z2Ib05bMum3g=="
+      },
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.7_1687574822594_0.5284916660204324"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.8.tgz",
+        "shasum" : "ed3f4aa0a835fc385554711cdc0ac785d2f3856d",
+        "integrity" : "sha512-fNGvIKXyigXYhSflraBsqR/EBhXhuH0/0r7IpU+3reh+8yX3VjowjC/dwmqHDOSQXbcj+HJb1o9kWYi+fJQ/3g=="
+      },
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.8_1671233983587_0.48959912601823685"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.6.tgz",
+        "shasum" : "7576dce4c2a7390ab21f6aeffbb14b1c5fd4d237",
+        "integrity" : "sha512-B+wTKz+8pi7mcWXFQV0LA79dJ+qhiut5uK9q0omoKnq8yRIwQJwfg3/vclXoqqcX89Ri5Y5538V0Se2v5qlcLA=="
+      },
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.6_1687303530786_0.3294253855560132"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.7.tgz",
+        "shasum" : "72a00c9788f3ca5df56ecec060d5b92f945c9a2d",
+        "integrity" : "sha512-WM83Dac0LdXty5xPhlOuCD5Egfk1xLND/oRLYeB7Jb/tY4kzFSDgLlq91wYbHua/s03tQGA9iXvyjgymMw62Vw=="
+      },
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.7_1671058052707_0.09380647684996402"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.5.tgz",
+        "shasum" : "f73322d6ad2ed93b4bd60b6920bc33c10eb957dc",
+        "integrity" : "sha512-BksOs2uYTafS+u75QiN4RoLbEMNjE192adJCBalncI3E2PWyR2i1kEs9rEghHK7pw0SD0uWgV9otRmV7G5b2lQ=="
+      },
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.5_1687222407094_0.20280224741456387"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.6.tgz",
+        "shasum" : "aa2b0fc6ab0dea618f23d13946032d327da7806e",
+        "integrity" : "sha512-zwIKMrYQzh59ftwiuXREcXwyjvsRNLELOgdIE17CwTnc5Xxj2IR9Gi8NvQcMTquFoGaHOh8O7F2zJ3vU5LQEhA=="
+      },
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.6_1670995432535_0.5085516905245016"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.4.tgz",
+        "shasum" : "7654e479378e4e9ec6ac96cabb471a6c1c819b42",
+        "integrity" : "sha512-jtQgoZjM92gauVRxNaaG/TpL3Pr4WcL3Pwqi9QgdrBGrEXzB+twohQiWNSTycs6lUygakos4mm2h0B9/SHveng=="
+      },
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.4_1686929953678_0.3623481486956168"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.5.tgz",
+        "shasum" : "175d4a6f7b304c63686059861f276151d015cf26",
+        "integrity" : "sha512-29x+DtRGcYH0Sh3QSnoF+D2SYkHLxwx5AugoGLIlVtcVqDb4fEb654d67k9VcAR2RiTAYUZ764KXzWB+ItQfgw=="
+      },
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.5_1670953698046_0.7790394590143697"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.3.tgz",
+        "shasum" : "3022bc526f53b37fe324d25f4ff8e228e7a48dd7",
+        "integrity" : "sha512-t7zK1Cheh0xvzfZbimztiE0wGnpV+YRsBg3tefcEBN3O4GzgLu6fFpA5HxEyVm3hHZW1jAC4OhoGEp7C5Ii6Eg=="
+      },
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.3_1686831733369_0.6318755129527269"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.4.tgz",
+        "shasum" : "69d56c2a960808bee1c7b9b84a115220ec9ce05c",
+        "integrity" : "sha512-X1HSqHUX9D+d0l6/nIh4ZZJ94eQky8d8z6yxAptpZE3FxCWYWvTDd9X9ST84MGZEJx04VYUD/AGgciddwO0b8g=="
+      },
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.4_1670644275155_0.2746354265547608"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.2.tgz",
+        "shasum" : "6c842f1cbb0062369bc0403fff79f6a50dcdc472",
+        "integrity" : "sha512-Ov+VHayvCPb52axma6+xm8QDawRjwHscPXedHg4U92DxlhKQ0H+6onRiC3J9kKI50p8pKKypprpCWrRrXjZN7Q=="
+      },
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.2_1686624094897_0.5321085533440124"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.3.tgz",
+        "shasum" : "36c62e24eae7fa3f0d921506da8fc1e6098a1364",
+        "integrity" : "sha512-EV7LuEybxhXrVTDpbqWF2yehYRNz5e5p+u3oQUS2+ZFpknyi1NXxr8URk4ykR8Efm7iu04//4sBg249yNOwy5Q=="
+      },
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.3_1670530432784_0.8888419857676253"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.1.tgz",
+        "shasum" : "8dc674268e506daab0b30f3e95af57c314e0797e",
+        "integrity" : "sha512-NkDjIvleUc3lSV1VI3QE9Oh5mz3nY11H5TCbi4DJ8X09FGwHN5pDVXdAsQYPGjlt/frXZzq6x7vMmTOb5VyBog=="
+      },
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.1_1686545538149_0.9650168071187948"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.9.tgz",
+        "shasum" : "2f5ede177ba030070c17466c372d438690758297",
+        "integrity" : "sha512-y2viEHwLpNfWP1eLa+vV+DWIbw/pQyv1Vf6qxSGJeBQmmu9T2hOagMiCr6zhDo89l+MUAXiShdKmqlKI6HdCkw=="
+      },
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.9_1687757341675_0.7260715987593733"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.13.tgz",
+        "shasum" : "32a3855d4b79ba1d2b63dab592cb9f0d4a9ba485",
+        "integrity" : "sha512-cVWAPKsrRVxI1jCeJHnYSbE3BrEU+pZTZK2gfao9HRxuc+3m4+RLfs3EVEpGLmMKEcWfVCB9wZ3yNxnknutGKQ=="
+      },
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.13_1672700280752_0.49729518592577615"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.12.tgz",
+        "shasum" : "b033a248212249c05c162b64124744345a041f92",
+        "integrity" : "sha512-/C8OFXExoMmvTDIOAM54AhtmmuDHKoedUd0Otpfw3+AuuVGemA1nQK99oN909uZbLEU6Bi+7JheFMG3xGfZluQ=="
+      },
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.12_1672193352754_0.4209657104312352"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.15.tgz",
+        "shasum" : "51c7ed8fec6f9860716cdb1bb86835bdb9206108",
+        "integrity" : "sha512-8PgbeX+N6vmqeySzyxO0NyDOltCEW13OS5jUHTvCHmCgf4kNXZtAWJ+zEfJxjRGYhVezQ1FdIm7WfN1R27uOyg=="
+      },
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.15_1673065190805_0.8970535279525516"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.14.tgz",
+        "shasum" : "3fa3f8c6c9db3127f2ec5b2eba1cec67ff9a9b8e",
+        "integrity" : "sha512-kclKxvZvX5YhykwlJ/K9ljiY4THe5vXubXpWmr7q3Zu3WxKnUe1VOZmhkEZlqtnJx31GHPEV4SIG95IqTdfgfg=="
+      },
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.14_1672863231440_0.04364690586626074"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.11.tgz",
+        "shasum" : "9e49e13b7d36dbd318bdedc99b73a58fa914a580",
+        "integrity" : "sha512-NUMtxvb0j41UL8yf8VnTMNbCQxKqIPmF0Wf/N44UrxpKE8iCNmWT95Wt98Ivr2ebHdz+V3kptlgBuZNYcJLI6g=="
+      },
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.11_1672105179726_0.0755170604426103"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.16.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.16.10.tgz",
+        "shasum" : "11da658c54514a693813af56bb28951d563a90c3",
+        "integrity" : "sha512-Dg9RiqdvHOAWnOKIOTsIx8dFX9EDlY2IbPEY7YFzchrCiTZmMkD7jWA9UdZbNUygPjdmQBVPRCrLydReFlX9yg=="
+      },
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.16.10_1671492436989_0.6544792970049262"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.19.tgz",
+        "shasum" : "876590e3acbd9fa7f57a2c7d86f83717dbbac8c7",
+        "integrity" : "sha512-/c/DGybs95WXNS8y3Ti/ytqETiW7EU44MEKuCAcpPto3YjQbyK3IQVKfF6nbghD7EcLUGl0NbiL5Rt5DMhn5tg=="
+      },
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.19_1683936429827_0.32071959135490347"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.17.tgz",
+        "shasum" : "ef6558ec5e5dd9dc16886343e0ccdb0699d70d3c",
+        "integrity" : "sha512-KIdG5jdAEeAKogfyMTcszRxy3OPbZhq0PPsW4iKKcdlbk3YE4miKznxV2YOSmiK/hfOZ+lqHri3v8eecT2ATwQ=="
+      },
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.17_1681680253588_0.8293737435281427"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.18.tgz",
+        "shasum" : "3d9deb60b2d32c9985bdc3e3be090d30b7472783",
+        "integrity" : "sha512-3dLlQO+b/LnQNxgH4l9rqa2/IwRJVN9u/bK63FhOPB4xqiRqlQAU0qDU3JJuf0BmaH0yytTBdoSBHrb2jqc5qQ=="
+      },
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.18_1682196128711_0.707398038481218"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.20.tgz",
+        "shasum" : "2f7156bde20b01527993e6881435ad79ba9599fb",
+        "integrity" : "sha512-WHPyeScRNcmANnLQkq6AfyXRFr5D6N2sKgkFo2FqguP44Nw2eyDlbTdZwd9GYk98DZG9QItIiTlFLHJHjxP3FA=="
+      },
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.20_1691468148365_0.7171078309046024"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.15.tgz",
+        "shasum" : "34c5ed145b2dfc493d3e652abac8bd3baa3865a5",
+        "integrity" : "sha512-mY6dPkIRAiFHRsGfOYZC8Q9rmr8vOBZBme0/j15zFUKM99d4ILY4WpOC7i/LqoY+RE7KaMaSfvY8CqjJtuO4xg=="
+      },
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.15_1680388061519_0.8036220224468023"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.16.tgz",
+        "shasum" : "2f19075d63622987e86e83a4b7866cd57b796c60",
+        "integrity" : "sha512-io6yShgIEgVUhExJejJ21xvO5QtrbiSeI7vYUnr7l+v/O9t6IowyhdiYnyivX2X5ysOVHAuyHW+Wyi7DNhdw6Q=="
+      },
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.16_1681101347045_0.2936011414733508"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.13.tgz",
+        "shasum" : "7b668c77ecd58b499622e360400670a8a57697b8",
+        "integrity" : "sha512-C9sMpa/VcGLjVtsT01sXtzZNS7bAZ+icUclkKkiUwBQ9hzT+J+/Xpj+EykI5hB3KgtxQVo4XUahanFoZNxbQ1g=="
+      },
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.13_1679684264626_0.33101863728464953"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.14.tgz",
+        "shasum" : "32d918d782105cbd9345dbfba14ee018b9c7afdf",
+        "integrity" : "sha512-NnBGeoqKkTugpBOBZZoktQQ1Yqb7aHKmHxsw43NddPB2YWLAlpb7THZIzsRsTr0Xw3nqiPxbA1H31ZMOG+VVPQ=="
+      },
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.14_1679798900118_0.46650501868360283"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.11.tgz",
+        "shasum" : "2d152cb3a253afb8c100a165ad132dc96f36cb11",
+        "integrity" : "sha512-BdlziJQPW/bNe0E8eYsHB40mYOluS+jULPCjlWiHzDgr+ZBRXPtgMV1nkLEGdpjrwgmtkZHEGEPaKdS/8faLDA=="
+      },
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.11_1677883257022_0.6732745976612571"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.12.tgz",
+        "shasum" : "1638d3d4acf1d34aaf37cf8908c2e1cefed16204",
+        "integrity" : "sha512-biMLH6NR/GR4z+ap0oJYb877LdBpGac8KfZoEnDiBKd7MD/xt8eaw1SFfYRUeMVx519kVkAOL2GExdFmYnZx3A=="
+      },
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.12_1679033868691_0.11837663833631051"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.10.tgz",
+        "shasum" : "1ab5802e93ae511ce9783e1cb95f37df0f84c4af",
+        "integrity" : "sha512-kM4Rmh9l670SwjlGkIe7pYWezk8uxKHX4Lnn5jBZYBNlWpKMBCVfpAgAJqp5doLobhzF3l64VZVrmGeZ8+uKmQ=="
+      },
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.10_1676915730323_0.7221416093690625"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.1.tgz",
+        "shasum" : "73ab32a62587ebb5143557da531bd8d4709bcbc0",
+        "integrity" : "sha512-R8HchAp+w6Ar85mEMZHobmLO6fT6/6CW6m8cq+dz4APHaHv24qNxJKJiceJALM//mvGnP/wVoLsJCmE6Wv3N8g=="
+      },
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.1_1673892388119_0.8474580705415895"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.0.tgz",
+        "shasum" : "3a580bc8b494d3b273cf08a3bb0d893b31b786ae",
+        "integrity" : "sha512-f40N8fKiTQslUcUuhof2/syOQ+DC9Mqdnm9d063pew+Ptv9r6dBNLQCz4300MOfCLAbb0SdnrcMSzHbMehXWLw=="
+      },
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.0_1673671061731_0.40435751818223853"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.18.tgz",
+        "shasum" : "2ea6a4e0c6b0db21770d2c3c1525623dceadfe46",
+        "integrity" : "sha512-fRChqIJZ7hLkXSKfBLYgsX9Ssb5OGCjk3dzCETF5QSS1qjTgayLv0ALUdJDB9QOh/nbWwp+qfLZU6md4XcjL7w=="
+      },
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.18_1691255222174_0.6995978146365269"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.19.tgz",
+        "shasum" : "568b5a051f47af732c4314e697bb559a14b3d811",
+        "integrity" : "sha512-tgG41lRVwlzqO9tv9l7aXYVw35BxKXLtPam1qALScwSqPivI8hjkZLNH0deaaSCYCFT9cBIdB+hUjWFlFFLL9A=="
+      },
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.19_1691376717354_0.07718154018679502"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.9.tgz",
+        "shasum" : "95ed6f6e86b55086225356adea68f1132f0de745",
+        "integrity" : "sha512-tOwSTDZ0X5rcYK3OyfJVf4fFlvYLv3HGCOJxdE9gZVeRkXXd6O9CJ/A4Li1Tt9JQs9kJcFWCXxCwhY70h+t9iw=="
+      },
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.9_1676828755229_0.3690886762734986"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.7.tgz",
+        "shasum" : "614eafd08b0c50212f287b948b3c08d6e60f221f",
+        "integrity" : "sha512-JQ1p0SmUteNdUaaiRtyS59GkkfTW0Edo+e0O2sihnY4FoZLz5glpWUQEKMSzMhA430ctkylkS7+vn8ziuhUugQ=="
+      },
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.7_1700528532957_0.7746530194626557"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.8.tgz",
+        "shasum" : "1e628be003e036e90423716028cc884fe5ba25bd",
+        "integrity" : "sha512-bytLJOi55y55+mGSdgwZ5qBm0K9WOCh0rx+vavVPx+gqLLhxtSFU0XbeYy/dsAAD6xECGEv4IQeFILaSS2auXw=="
+      },
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.8_1676270176265_0.9561509665141437"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.6.tgz",
+        "shasum" : "a7fccf924824999b301546843adb4f51051965e8",
+        "integrity" : "sha512-Qt+D7xiPajxVNk5tQiEJwhmarNnLPdjXAoA5uWMpbfStZB0+YU6a3CtbWYSy+sgAsnyx4IGZjWsTzBzrvg/fMA=="
+      },
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.6_1700377930461_0.16508520869588783"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.7.tgz",
+        "shasum" : "ad1c9299c463f0409e57166e76e91afb6193ea9f",
+        "integrity" : "sha512-UWtLhRPKzI+v2bKk4j9rBpGyXbLAXLCOeqt1tLVAt1mfagHpFjUzzIHCpPiUfY3x1xY5e45/+BWzGpqqvSglNw=="
+      },
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.7_1675981643620_0.3275768811948776"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.5.tgz",
+        "shasum" : "7960cb1666f0340ddd9eef7b26dcea3835d472d0",
+        "integrity" : "sha512-yJAxJfHVm0ZbsiljbtFFP1BQKLc8kUF6+17tjQ78QjqjAQDnhULWiTA6u0FCDmYT1oOKS9PzZ2z0aBI+Mcyj7Q=="
+      },
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.5_1697519475697_0.29182227885487877"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.6.tgz",
+        "shasum" : "38210094e8e1a971f2d1fd8e48462cc65f15ef19",
+        "integrity" : "sha512-AmLhMzkM8JuqTIOhxnX4ubh0XWJIznEynRnZAVdA2mMKE6FAfwT2TWKTwdqMG+qEaeyDPtfNoZRpJbD4ZBv0Tg=="
+      },
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.6_1675702879305_0.5905092971089674"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.4.tgz",
+        "shasum" : "c49032f4abbcfa3f747b543a106931fe3dce41ff",
+        "integrity" : "sha512-tQ92n0WMXyEsCH4m32S21fND8VxNiVazUbU4IUGVXQpWiaAxOBvtOtbEt3cXIV3GEBydYsY8pyeRMJx9kn3rvw=="
+      },
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.4_1695865728157_0.8989823524132332"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.5.tgz",
+        "shasum" : "ea12e8f6b290a613ac4903c9e00835c69ced065c",
+        "integrity" : "sha512-5dbQvBLbU/Y3Q4ABc9gi23hww1mQcM7KZ9KBqabB7qhJswYMf8WrDDOSw3gdf3p+ffmijMd28mfVMvFucuECyg=="
+      },
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.5_1674837506116_0.3014237799768904"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.3.tgz",
+        "shasum" : "facf910b0d397e391b37b01a1b4f6e363b04e56b",
+        "integrity" : "sha512-UrYLFu62x1MmmIe85rpR3qou92wB9lEXluwMB/STDzPF9k8mi/9UvNsG07Tt9AqwPQXluMQ6bZbTzYt01+Ue5g=="
+      },
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.3_1694653977233_0.8568466390253535"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.4.tgz",
+        "shasum" : "defaff6db9a60f08936fc0c59e0eabfb1055968a",
+        "integrity" : "sha512-lOD9p2dmjZcNiTU+sGe9Nn6G3aYw3k0HBJies1PU0j5IGfp6tdKOQ6mzfACRFCqXjnBuTqK7eTYpwx09O5LLfg=="
+      },
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.4_1674368048548_0.05002981561796638"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.2.tgz",
+        "shasum" : "d75798da391f54a9674f8c143b9a52d1dbfbfdde",
+        "integrity" : "sha512-dJ0kE8KTqbiHtA3Fc/zn7lCd7pqVr4JcT0JqOnbj4LLzYnp+7h8Qi4yjfq42ZlHfhOCM42rBh0EwHYLL6LEzcw=="
+      },
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.2_1691978339335_0.5671671759932131"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.3.tgz",
+        "shasum" : "c157a602b627c90d174743e4b0dfb7630b101dbf",
+        "integrity" : "sha512-BDYf/l1WVhWE+FHAW3FzZPtVlk9QsrwsxGzABmN4g8bTjmhazsId3h127pliDRRu5674k1Y2RWejbpN46N9ZhQ=="
+      },
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.3_1674069311639_0.782512199673588"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.1.tgz",
+        "shasum" : "43d07d27dde2819ab6e0dd200174b9a7dd25cb1f",
+        "integrity" : "sha512-mPOxA7bd3nmx8TkuO/9M/tE0fnvmuX0wlpwnTL6DPLgkb/Z/KkupexSIw4cLfznn/fPzD89y17VWBjlVNyrpCQ=="
+      },
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.1_1691769490855_0.51449999804759"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.17.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.17.2.tgz",
+        "shasum" : "45252f5343c5178dae93f8f7fc97aa4304cc5cca",
+        "integrity" : "sha512-fzHTnIGIVqgUGZcFnnisguKD4UneF4uwWwkG+i8kBspMDdU1wJ0jha1VdtxWP7Ob1KGxuXcoUlrQkCVO+Z5iOw=="
+      },
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.17.2_1673937623854_0.09048976224897931"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.0.tgz",
+        "shasum" : "104771ef6ce2719ac17031f6b9ed8aa98f8e5faf",
+        "integrity" : "sha512-3LC6H5/gCDorxoRBUdpLV/m7UthYSdar0XcCu+ypycQxMS08MabZ06y1D1yZlDzL/BvOYliRNRWVG/YJJvQdbg=="
+      },
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.0_1691509989245_0.3171047187221281"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.9.tgz",
+        "shasum" : "8385332713b4e7812869622163784a5633f76fc4",
+        "integrity" : "sha512-tkV0xUX0pUUgY4ha7z5BbDS85uI7ABw3V1d0RNTii7E9lbmV8Z37Pup2tsLV46SQWzjOeyDi1Q7Wx2+QM8WaCQ=="
+      },
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.9_1702185001068_0.3243726079329494"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.20.0.tgz",
+        "shasum" : "8f95baf05f9486343bceeb683703875d698708a4",
+        "integrity" : "sha512-CoWSaaAXOZd+CjbUTdXIJE/t7Oz+4g90A3VBCHLbfuc5yUQU/nFDLOzQsN0cdxgXd97lYW/psIIBdjzQIwTBGw=="
+      },
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.20.0_1706374209571_0.6457016922316923"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.19.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.19.8.tgz",
+        "shasum" : "9ba436addc1646dc89dae48c62d3e951ffe70951",
+        "integrity" : "sha512-ETaW6245wK23YIEufhMQ3HSeHO7NgsLx8gygBVldRHKhOlD1oNeNy/P67mIh1zPn2Hr2HLieQrt6tWrVwuqrxg=="
+      },
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.19.8_1701040126585_0.19420157750753875"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.20.1.tgz",
+        "shasum" : "0765a55389a99237b3c84227948c6e47eba96f0d",
+        "integrity" : "sha512-b+yuD1IUeL+Y93PmFZDZFIElwbmFfIKLKlYI8M6tRyzE6u7oEP7onGk0vZRh8wfVGC2dZoy0EqX1V8qok4qHaw=="
+      },
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.20.1_1708324779470_0.6221617177530789"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.16.tgz",
+        "shasum" : "d6913e7e9be9e242a6a20402800141bdbe7009f7",
+        "integrity" : "sha512-Wkz++LZ29lDwUyTSEnzDaaP5OveOgTU69q9IyIw9WqLRxM4BjTBjz9un4G6TOvehWpf/J3gYVFN96TjGHrbcNQ=="
+      },
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.16_1690087722972_0.07536572612622572"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.17.tgz",
+        "shasum" : "7fdc0083d42d64a4651711ee0a7964f489242f45",
+        "integrity" : "sha512-BAAilJ0M5O2uMxHYGjFKn4nJKF6fNCdP1E0o5t5fvMYYzeIqy2JdAP88Az5LHt9qBoUa4tDaRpfWt21ep5/WqQ=="
+      },
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.17_1690335691782_0.9919443846903413"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.14.tgz",
+        "shasum" : "9b2bb80b7e30667a81ffbcddb74ad8e79330cc94",
+        "integrity" : "sha512-aGzXzd+djqeEC5IRkDKt3kWzvXoXC6K6GyYKxd+wsFJ2VQYnOWE954qV2tvy5/aaNrmgPTb52cSCHFE+Z7Z0yg=="
+      },
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.14_1689656457133_0.747022189053107"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.15.tgz",
+        "shasum" : "7dcb394e69cb47e4dc8a5960dd58b1a273d07f5d",
+        "integrity" : "sha512-KXPY69MWw79QJkyvUYb2ex/OgnN/8N/Aw5UDPlgoRtoEfcBqfeLodPr42UojV3NdkoO4u10NXQdamWm1YEzSKw=="
+      },
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.15_1689857649605_0.95802736675408"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.12.tgz",
+        "shasum" : "38d0d25174e5307c443884e5723887e7dada49f1",
+        "integrity" : "sha512-TeN//1Ft20ZZW41+zDSdOI/Os1bEq5dbvBvYkberB7PHABbRcsteeoNVZFlI0YLpGdlBqohEpjrn06kv8heCJg=="
+      },
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.12_1689212086996_0.39250119748930223"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.13.tgz",
+        "shasum" : "9a9befd275a6a3f5baeed89aaafb746df7ba735d",
+        "integrity" : "sha512-pfn/OGZ8tyR8YCV7MlLl5hAit2cmS+j/ZZg9DdH0uxdCoJpV7+5DbuXrR+es4ayRVKIcfS9TTMCs60vqQDmh+w=="
+      },
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.13_1689388672166_0.6095371451160534"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.10.tgz",
+        "shasum" : "b5d179a6271d123b20694402364162bfa583b35b",
+        "integrity" : "sha512-sO3PjjxEGy+PY2qkGe2gwJbXdZN9wAYpVBZWFD0AwAoKuXRkWK0/zaMQ5ekUFJDRDCRm8x5U0Axaub7ynH/wVg=="
+      },
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.10_1687814459663_0.5418973183514482"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/linux-ppc64",
+      "description" : "The Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "linux" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/linux-ppc64@0.18.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/linux-ppc64/-/linux-ppc64-0.18.11.tgz",
+        "shasum" : "842abadb7a0995bd539adee2be4d681b68279499",
+        "integrity" : "sha512-T3yd8vJXfPirZaUOoA9D2ZjxZX4Gr3QuC3GztBJA6PklLotc/7sXTOuuRkhE9W/5JvJP/K9b99ayPNAD+R+4qQ=="
+      },
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/linux-ppc64_0.18.11_1688191472340_0.10633085541453213"
+      },
+      "_nodeVersion" : "16.13.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the Linux PowerPC 64-bit Little Endian binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.15.18" : "2022-12-05T23:51:57.493Z",
+    "0.19.10" : "2023-12-19T00:22:18.532Z",
+    "modified" : "2024-02-19T06:39:40.281Z",
+    "0.19.12" : "2024-01-23T17:41:26.472Z",
+    "0.19.11" : "2023-12-29T20:33:07.439Z",
+    "0.16.2" : "2022-12-08T07:00:31.021Z",
+    "0.18.0" : "2023-06-09T21:24:55.297Z",
+    "0.16.1" : "2022-12-07T04:49:10.059Z",
+    "0.16.0" : "2022-12-07T03:55:41.579Z",
+    "0.16.17" : "2023-01-11T21:58:39.220Z",
+    "0.16.16" : "2023-01-08T22:44:29.454Z",
+    "created" : "2022-12-05T23:51:57.154Z",
+    "0.18.8" : "2023-06-25T03:19:48.626Z",
+    "0.16.9" : "2022-12-18T04:32:08.000Z",
+    "0.18.7" : "2023-06-24T02:47:02.904Z",
+    "0.16.8" : "2022-12-16T23:39:43.850Z",
+    "0.18.6" : "2023-06-20T23:25:31.039Z",
+    "0.16.7" : "2022-12-14T22:47:32.974Z",
+    "0.18.5" : "2023-06-20T00:53:27.358Z",
+    "0.16.6" : "2022-12-14T05:23:52.813Z",
+    "0.18.4" : "2023-06-16T15:39:13.999Z",
+    "0.16.5" : "2022-12-13T17:48:18.380Z",
+    "0.18.3" : "2023-06-15T12:22:13.619Z",
+    "0.16.4" : "2022-12-10T03:51:15.397Z",
+    "0.18.2" : "2023-06-13T02:41:35.205Z",
+    "0.16.3" : "2022-12-08T20:13:53.052Z",
+    "0.18.1" : "2023-06-12T04:52:18.402Z",
+    "0.18.9" : "2023-06-26T05:29:01.930Z",
+    "0.16.13" : "2023-01-02T22:58:01.037Z",
+    "0.16.12" : "2022-12-28T02:09:13.034Z",
+    "0.16.15" : "2023-01-07T04:19:51.065Z",
+    "0.16.14" : "2023-01-04T20:13:51.725Z",
+    "0.16.11" : "2022-12-27T01:39:40.005Z",
+    "0.16.10" : "2022-12-19T23:27:17.268Z",
+    "0.17.19" : "2023-05-13T00:07:10.180Z",
+    "0.17.17" : "2023-04-16T21:24:13.965Z",
+    "0.17.18" : "2023-04-22T20:42:08.955Z",
+    "0.18.20" : "2023-08-08T04:15:48.675Z",
+    "0.17.15" : "2023-04-01T22:27:41.811Z",
+    "0.17.16" : "2023-04-10T04:35:47.308Z",
+    "0.17.13" : "2023-03-24T18:57:44.935Z",
+    "0.17.14" : "2023-03-26T02:48:20.437Z",
+    "0.17.11" : "2023-03-03T22:40:57.290Z",
+    "0.17.12" : "2023-03-17T06:17:48.976Z",
+    "0.17.10" : "2023-02-20T17:55:30.610Z",
+    "0.17.1" : "2023-01-16T18:06:28.395Z",
+    "0.17.0" : "2023-01-14T04:37:41.975Z",
+    "0.18.18" : "2023-08-05T17:07:02.474Z",
+    "0.18.19" : "2023-08-07T02:51:57.623Z",
+    "0.17.9" : "2023-02-19T17:45:55.441Z",
+    "0.19.7" : "2023-11-21T01:02:13.222Z",
+    "0.17.8" : "2023-02-13T06:36:16.580Z",
+    "0.19.6" : "2023-11-19T07:12:10.767Z",
+    "0.17.7" : "2023-02-09T22:27:23.884Z",
+    "0.19.5" : "2023-10-17T05:11:16.056Z",
+    "0.17.6" : "2023-02-06T17:01:19.599Z",
+    "0.19.4" : "2023-09-28T01:48:48.465Z",
+    "0.17.5" : "2023-01-27T16:38:26.398Z",
+    "0.19.3" : "2023-09-14T01:12:57.511Z",
+    "0.17.4" : "2023-01-22T06:14:08.802Z",
+    "0.19.2" : "2023-08-14T01:58:59.606Z",
+    "0.17.3" : "2023-01-18T19:15:11.892Z",
+    "0.19.1" : "2023-08-11T15:58:11.217Z",
+    "0.17.2" : "2023-01-17T06:40:24.118Z",
+    "0.19.0" : "2023-08-08T15:53:09.525Z",
+    "0.19.9" : "2023-12-10T05:10:01.305Z",
+    "0.20.0" : "2024-01-27T16:50:09.800Z",
+    "0.19.8" : "2023-11-26T23:08:46.826Z",
+    "0.20.1" : "2024-02-19T06:39:39.662Z",
+    "0.18.16" : "2023-07-23T04:48:43.245Z",
+    "0.18.17" : "2023-07-26T01:41:32.073Z",
+    "0.18.14" : "2023-07-18T05:00:57.491Z",
+    "0.18.15" : "2023-07-20T12:54:09.845Z",
+    "0.18.12" : "2023-07-13T01:34:47.270Z",
+    "0.18.13" : "2023-07-15T02:37:52.453Z",
+    "0.18.10" : "2023-06-26T21:20:59.940Z",
+    "0.18.11" : "2023-07-01T06:04:32.691Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

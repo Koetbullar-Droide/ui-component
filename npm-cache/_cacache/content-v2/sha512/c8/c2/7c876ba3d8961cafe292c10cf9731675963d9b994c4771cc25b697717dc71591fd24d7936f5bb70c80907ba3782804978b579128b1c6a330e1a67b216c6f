@@ -1,0 +1,4516 @@
+{
+  "_id" : "@babel/template",
+  "_rev" : "109-0750d972c492cff0f0ad00a0e9676562",
+  "name" : "@babel/template",
+  "description" : "Generate an AST from a string template.",
+  "dist-tags" : {
+    "next" : "8.0.0-alpha.7",
+    "esm" : "7.21.4-esm.4",
+    "latest" : "7.24.0"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.10.1",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.10.1",
+        "@babel/parser" : "^7.10.1",
+        "@babel/types" : "^7.10.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.10.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.10.1.tgz",
+        "shasum" : "e167154a94cb5f14b28dc58f5356d2162f539811",
+        "integrity" : "sha512-OQDg6SqvFSsc9A0ej6SKINWrpJiNonRIniYondK2ViKhB06i3c0s+76XUft71iqBEe9S1OKsHwPAjfHnuvnCig=="
+      },
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.10.1_1590617268270_0.6780331120459875"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.10.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.10.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.8.3",
+        "@babel/parser" : "^7.10.0",
+        "@babel/types" : "^7.10.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.3.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.10.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.10.0.tgz",
+        "shasum" : "f15d852ce16cd5fb3e219097a75f662710b249b1",
+        "integrity" : "sha512-aMLEQn5tcG49LEWrsEwxiRTdaJmvLem3+JMCMSeCy2TILau0IDVyWdm/18ACx7XOCady64FLt6KkHy28tkDQHQ=="
+      },
+      "gitHead" : "5da2440adff6f25579fb6e9a018062291c89416f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.10.0_1590529410194_0.654548207323411"
+      },
+      "_nodeVersion" : "14.3.0"
+    },
+    "7.10.3" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.10.3",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.10.3",
+        "@babel/parser" : "^7.10.3",
+        "@babel/types" : "^7.10.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "i@jhuang.me",
+        "name" : "jlhwung"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/template@7.10.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.10.3.tgz",
+        "shasum" : "4d13bc8e30bf95b0ce9d175d30306f42a2c9a7b8",
+        "integrity" : "sha512-5BjI4gdtD+9fHZUsaxPHPNpwa+xRkDO7c7JbhYn2afvrkDu5SfAAbi9AIMXw2xEhO/BR35TqiW97IqNvCo/GqA=="
+      },
+      "gitHead" : "2787ee2f967b6d8e1121fca00a8d578d75449a53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.10.3_1592600072718_0.6810434029044472"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.10.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.10.4",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.10.4",
+        "@babel/parser" : "^7.10.4",
+        "@babel/types" : "^7.10.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "i@jhuang.me",
+        "name" : "jlhwung"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/template@7.10.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.10.4.tgz",
+        "shasum" : "3251996c4200ebc71d1a8fc405fba940f36ba278",
+        "integrity" : "sha512-ZCjD27cGJFUB6nmCB1Enki3r+L5kJveX9pq1SvAUKoICy6CZ9yD8xO086YXdYhvNjBdnekm4ZnaP5yC8Cs/1tA=="
+      },
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.10.4_1593522763822_0.08416775203985671"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.16.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.16.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.16.0",
+        "@babel/parser" : "^7.16.0",
+        "@babel/types" : "^7.16.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.16.0.tgz",
+        "shasum" : "d16a35ebf4cd74e202083356fab21dd89363ddd6",
+        "integrity" : "sha512-MnZdpFD/ZdYhXwiunMqqgyZyucaYsbL0IrjoGjaVhGilz+x8YB++kRfygSOIj1yOtWKPlx7NBp+9I1RQSgsd5A=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.16.0_1635551268960_0.1965501718284306"
+      }
+    },
+    "7.0.0-beta.39" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.39",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.39",
+        "@babel/types" : "7.0.0-beta.39",
+        "babylon" : "7.0.0-beta.39",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.39",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.39.tgz",
+        "shasum" : "98bd7b132d99f73547c473f2862f481ae84981c9",
+        "integrity" : "sha512-EDVszuqo0ZtNeC6j0yFrWIW1Sh5v+pv0POnj1xjPHy6gsg1U5IYjcc6uVarFgTCmtWsjFB5KSRqxC7N+YYcwCQ=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.39.tgz_1517344073244_0.39974867436103523"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.38" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.38",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.38",
+        "@babel/types" : "7.0.0-beta.38",
+        "babylon" : "7.0.0-beta.38",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.38",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.38.tgz",
+        "shasum" : "8a2d403a01da320beb8333dc6403500fa79e8597",
+        "integrity" : "sha512-ygOSe1+ekKVkn5zxCH0rqv5sZtvLfC72yPQSaXLTHtYSYdAyXNqOW7q1ua1zJll9glk0UWYAnUEcehQXXc3fEA=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.38.tgz_1516206744542_0.15441198414191604"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.37" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.37",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.37",
+        "@babel/types" : "7.0.0-beta.37",
+        "babylon" : "7.0.0-beta.37",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.37",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.37.tgz",
+        "shasum" : "d51a5c8c7bfc1ff08f3623231b7d388a9e9b3570",
+        "integrity" : "sha512-5naM+sRnXLQ+cfOVSjsqdaqVn5EPh+M4Uv+qJR6G5dtuos/RNINp23Y2etDjp/BmMfEalrLXqAaVD3oAscYTKQ=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.37.tgz_1515427376433_0.8377085751853883"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.5" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.5",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.5",
+        "@babel/types" : "7.0.0-beta.5",
+        "babylon" : "7.0.0-beta.30",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.5.tgz",
+        "shasum" : "400a58ee90230d77d5cd7f2fc5820b5d2f0ae18d",
+        "integrity" : "sha512-Qi13rtAl+X/nt6eJlvASlxvk2nQoLMtYN4iijG2ZbMCDhLkWcyIVzwNFIUDwQtl6g7oz1rifCKVMXyv4b1i5xQ=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.5.tgz_1509397030264_0.0010916688479483128"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.4",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.4",
+        "@babel/types" : "7.0.0-beta.4",
+        "babylon" : "7.0.0-beta.30",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.4.tgz",
+        "shasum" : "1c6f73a1893ce929287354e2ca5c9b3cde0d759e",
+        "integrity" : "sha512-1oCfesMjxhJFfIq4eEI9hOR6nBleUjhMzPWeWwfBc9ZLt9Wwp9SnEIe1yegTQ3F2dv1qQaFCPz/bYSRDH/KlUg=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.4.tgz_1509388533643_0.49645234481431544"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.18.10" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.18.10",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.18.6",
+        "@babel/parser" : "^7.18.10",
+        "@babel/types" : "^7.18.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.18.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.18.10.tgz",
+        "shasum" : "6f9134835970d1dbf0835c0d100c9f38de0c5e71",
+        "integrity" : "sha512-TI+rCtooWHr3QJ27kJxfjutghu44DLnasDMwpDqCXVTal9RLp3RSYNh4NdBrRP2cQAoG9A8juOQl6P6oZG4JxA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.18.10_1659379605264_0.9964845599949959"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0-beta.32" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.32",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.32",
+        "@babel/types" : "7.0.0-beta.32",
+        "babylon" : "7.0.0-beta.32",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.32",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.32.tgz",
+        "shasum" : "e1d9fdbd2a7bcf128f2f920744a67dab18072495",
+        "integrity" : "sha512-DB9sLgX2mfE29vjAkxHlzLyWr31EO9HaYoAM/UsPSsL70Eudl0i25URwIfQT6S6ckeVFnFP1t6PhERVeV4EAHA=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.32.tgz_1510493625345_0.10954077425412834"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.31" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.31",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.31",
+        "@babel/types" : "7.0.0-beta.31",
+        "babylon" : "7.0.0-beta.31",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.31",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.31.tgz",
+        "shasum" : "577bb29389f6c497c3e7d014617e7d6713f68bda",
+        "integrity" : "sha512-97IRmLvoDhIDSQkqklVt3UCxJsv0LUEVb/0DzXWtc8Lgiyxj567qZkmTG9aR21CmcJVVIvq2Y/moZj4oEpl5AA=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.31.tgz_1509739439952_0.20948258810676634"
+      },
+      "_nodeVersion" : "8.1.4"
+    },
+    "7.0.0-beta.36" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.36",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.36",
+        "@babel/types" : "7.0.0-beta.36",
+        "babylon" : "7.0.0-beta.36",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "james@henry.sc",
+        "name" : "jameshenry"
+      }, {
+        "email" : "kent@doddsfamily.us",
+        "name" : "kentcdodds"
+      }, {
+        "email" : "kaicataldo@gmail.com",
+        "name" : "kaicataldo"
+      }, {
+        "email" : "teddy.katz@gmail.com",
+        "name" : "not-an-aardvark"
+      }, {
+        "email" : "star.ctor@gmail.com",
+        "name" : "mysticatea"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.36",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.36.tgz",
+        "shasum" : "02e903de5d68bd7899bce3c5b5447e59529abb00",
+        "integrity" : "sha512-mUBi90WRyZ9iVvlWLEdeo8gn/tROyJdjKNC4W5xJTSZL+9MS89rTJSqiaJKXIkxk/YRDL/g/8snrG/O0xl33uA=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.36.tgz_1514228716223_0.6133986939676106"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.35" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.35",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.35",
+        "@babel/types" : "7.0.0-beta.35",
+        "babylon" : "7.0.0-beta.35",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.35",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.35.tgz",
+        "shasum" : "459230417f51c29401cf71162aeeff6cef2bcca7",
+        "integrity" : "sha512-NLd3Dfs8hmkxPvaD8ohNtEp9WXp48lxpW//6fXcT9bJWIO3isrH3OTYL9kjX7xFPPasJ1E9bUNSaPFUUgvPZSQ=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.35.tgz_1513288093571_0.5508315046317875"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.34" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.34",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.34",
+        "@babel/types" : "7.0.0-beta.34",
+        "babylon" : "7.0.0-beta.34",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.34",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.34.tgz",
+        "shasum" : "35fa7eb6c540f4619927ec1c1b113719ecc59446",
+        "integrity" : "sha512-dldLn8DUQEb3aq8bIiMcmffKIKn4jetne3cnzS2nk0LBSm/8Uhh0yQc4REk4uRs0Bz24iUBdlrb/9cjDqTDgow=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.34.tgz_1512225594978_0.3722605281509459"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.33" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.33",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.33",
+        "@babel/types" : "7.0.0-beta.33",
+        "babylon" : "7.0.0-beta.33",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.5.1",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.33",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.33.tgz",
+        "shasum" : "55c5fe149ac005fb65f42dd6534e4b4729dd3ee3",
+        "integrity" : "sha512-fJptoRZlfyfs+LV6AVvAlq/m0j5BqU3Y8+5diD/SUCHvshJlkh5+9gW+QFVzxLldaqDkJVUEj7rv5DZ9QeyVbA=="
+      },
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template-7.0.0-beta.33.tgz_1512138535117_0.30046806181780994"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.7.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.7.4",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.7.4",
+        "@babel/types" : "^7.7.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.1.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.7.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.7.4.tgz",
+        "shasum" : "428a7d9eecffe27deac0a98e23bf8e3675d2a77b",
+        "integrity" : "sha512-qUzihgVPguAzXCK7WXw8pqs6cEwi54s3E+HrejlkuWO6ivMKx9hZl3Y2fSXp9i5HgyWmj7RKP+ulaYnKM4yYxw=="
+      },
+      "gitHead" : "75767d87cb147709b9bd9b99bf44daa6688874a9",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.7.4_1574465608116_0.5263317892392974"
+      },
+      "_nodeVersion" : "13.1.0"
+    },
+    "7.7.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.7.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.7.0",
+        "@babel/types" : "^7.7.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v13.0.1+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.7.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.7.0.tgz",
+        "shasum" : "4fadc1b8e734d97f56de39c77de76f2562e597d0",
+        "integrity" : "sha512-OKcwSYOW1mhWbnTBgQY5lvg1Fxg+VyfQGjcBduZFljfc044J5iDlnDSfhQ867O17XHiSCxYHUxHg2b7ryitbUQ=="
+      },
+      "gitHead" : "97faa83953cb87e332554fa559a4956d202343ea",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.7.0_1572951208701_0.9047429993918386"
+      },
+      "_nodeVersion" : "13.0.1"
+    },
+    "7.24.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.24.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.23.5",
+        "@babel/parser" : "^7.24.0",
+        "@babel/types" : "^7.24.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.24.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.24.0.tgz",
+        "shasum" : "c6a524aa93a4a05d66aaf31654258fae69d87d50",
+        "integrity" : "sha512-Bkf2q8lMB0AFpX0NFEqSbx1OkTHf0f+0j82mkw+ZpzBnkk7e9Ql0891vlfgi+kHwOk8tQjiQHpqh4LaSa0fKEA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.24.0_1709120863661_0.9936643311416045"
+      },
+      "type" : "commonjs"
+    },
+    "7.2.2" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.2.2",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.2.2",
+        "@babel/types" : "^7.2.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.2.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.2.2.tgz",
+        "shasum" : "005b3fdf0ed96e88041330379e0da9a708eb2907",
+        "integrity" : "sha512-zRL0IMM02AUDwghf5LMSSDEz7sBCO2YnNmpg3uWTZj/v1rcG2BmQUvaGU8GhU8BvfMh1k2KIAYZ7Ji9KXPUg7g=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.2.2_1544868338742_0.08358106317967606"
+      }
+    },
+    "7.4.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.4.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.4.0",
+        "@babel/types" : "^7.4.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.4.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.4.0.tgz",
+        "shasum" : "12474e9c077bae585c5d835a95c0b0b790c25c8b",
+        "integrity" : "sha512-SOWwxxClTTh5NdbbYZ0BmaBVzxzTh2tO/TeLTbF6MO6EzVhHTnff8CdBXx3mEtazFBoysmEM6GU/wF+SuSx4Fw=="
+      },
+      "gitHead" : "f1328fb913b5a93d54dfc6e3728b1f56c8f4a804",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.4.0_1553028304479_0.7451371334071337"
+      }
+    },
+    "7.20.7" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.20.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.18.6",
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.20.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.20.7.tgz",
+        "shasum" : "a15090c2839a83b02aa996c0b4994005841fd5a8",
+        "integrity" : "sha512-8SegXApWe6VoNw0r9JHpSteLKTpTiLZ4rMlGIm9JQ18KiCtyQiAMEazujAHrUS5flrcqYZa75ukev3P6QmUwUw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.20.7_1671702333890_0.955805895013732"
+      },
+      "type" : "commonjs"
+    },
+    "7.22.5" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.22.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.22.5",
+        "@babel/parser" : "^7.22.5",
+        "@babel/types" : "^7.22.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.22.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.22.5.tgz",
+        "shasum" : "0c8c4d944509875849bd0344ff0050756eefc6ec",
+        "integrity" : "sha512-X7yV7eiwAxdj9k94NEylvbVHLiVG1nvzCV2EAowhxLTwODV1jl9UzZ48leOC0sH7OnuHrIkllaBgneUykIcZaw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.22.5_1686248495614_0.6074635057434561"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.0.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0.tgz",
+        "shasum" : "c2bc9870405959c89a9c814376a2ecb247838c80",
+        "integrity" : "sha512-VLQZik/G5mjYJ6u19U3W2u7eM+rA/NGzH+GtHDFFkLTKLW66OasFrxZ/yK7hkyQcswrmvugFyZpDFRW0DjcjCw=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0_1535406257342_0.38945552281265083"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/template\n\n> Generate an AST from a string template.\n\nSee our website [@babel/template](https://babeljs.io/docs/en/next/babel-template.html) for more information or the [issues](https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen) associated with this package.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/template\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/template --dev\n```\n"
+    },
+    "7.12.13" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.12.13",
+      "author" : "Sebastian McKenzie <sebmck@gmail.com>",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.12.13",
+        "@babel/parser" : "^7.12.13",
+        "@babel/types" : "^7.12.13"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.12.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.12.13.tgz",
+        "shasum" : "530265be8a2589dbb37523844c5bcb55947fb327",
+        "integrity" : "sha512-/7xxiGA57xMo/P2GVvdEumr8ONhFOhfgq2ihK3h1e6THqzTAkHbkXgB0xI9yeTfIUoH3+oAeHhqm/I43OTbbjA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.12.13_1612314691690_0.2997042808409187"
+      }
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.49",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.49",
+        "@babel/parser" : "7.0.0-beta.49",
+        "@babel/types" : "7.0.0-beta.49",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.49",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.49.tgz",
+        "shasum" : "e38abe8217cb9793f461a5306d7ad745d83e1d27",
+        "integrity" : "sha512-kUPxWKzgT4yRfjkeMW/18T0eB76ROpfrV3JozVrQmr9TVmB/GZs7zty7gA1Y9rb7nwZKxYC2piyTrR4DnF+5+g=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.49_1527264219632_0.2897897284488067"
+      },
+      "_shasum" : "e38abe8217cb9793f461a5306d7ad745d83e1d27",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.48",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.48",
+        "@babel/parser" : "7.0.0-beta.48",
+        "@babel/types" : "7.0.0-beta.48",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.48",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.48.tgz",
+        "shasum" : "1792741eeabdee09687d24dbfa47fc5437aebd66",
+        "integrity" : "sha512-mFrSP6UZR02YGsqlnH/8IUENCnqs749RfujSGQ/CqeJYpeZ73PAJqk1Wg2khl+Huv4L4LW8dJh7qOQ/CBkRqEg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.48_1527189849329_0.03685678742695586"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.43",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.43",
+        "@babel/types" : "7.0.0-beta.43",
+        "babylon" : "7.0.0-beta.43",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.43",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.43.tgz",
+        "shasum" : "0d34fa1da16835b23dd136b942c753ad97540c24",
+        "integrity" : "sha512-EnFZw/OGzr3P93SMZdJdcCrrFmfeerPpaZA9YDK3g1OT6ho7+3dvAxu+tDJ8DJEAFfDh6XRvg3R8LjqeyZKIkg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.43_1522687725462_0.6520247797386718"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.42",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.42",
+        "@babel/types" : "7.0.0-beta.42",
+        "babylon" : "7.0.0-beta.42",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.42",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.42.tgz",
+        "shasum" : "7186d4e70d44cdec975049ba0a73bdaf5cdee052",
+        "integrity" : "sha512-EK7YdTe47j4VxlwNvz5bnlk5Jx/wWublnqfgOY2IuSNdxCQgXrLD34PfTnabGxywNSkJkcSo6jwr2JGT+S48dA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.42_1521147110420_0.6918832603367278"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.41",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.41",
+        "@babel/types" : "7.0.0-beta.41",
+        "babylon" : "7.0.0-beta.41",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.41",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.41.tgz",
+        "shasum" : "628eeb93f9b5b423a252d3b6183f12e09505ab55",
+        "integrity" : "sha512-EiFgrLPJQ64+Im0+fg9fHcos0eooRG/iuTM6vlF4X9b+j/9Z/VCZejbvgqLYtuseT67GKQHEeEoXM07HK6in2Q=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.41_1521044797116_0.34970186656805136"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.40",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.40",
+        "@babel/types" : "7.0.0-beta.40",
+        "babylon" : "7.0.0-beta.40",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.40",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.40.tgz",
+        "shasum" : "034988c6424eb5c3268fe6a608626de1f4410fc8",
+        "integrity" : "sha512-RlQiVB7eL7fxsKN6JvnCCwEwEL28CBYalXSgWWULuFlEHjtMoXBqQanSie3bNyhrANJx67sb+Sd/vuGivoMwLQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.40_1518453745453_0.31040931355775325"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.47",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.47",
+        "@babel/types" : "7.0.0-beta.47",
+        "babylon" : "7.0.0-beta.47",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.47",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.47.tgz",
+        "shasum" : "0473970a7c0bee7a1a18c1ca999d3ba5e5bad83d",
+        "integrity" : "sha512-mAzrOCLwOb4jAobHi0kTwIkoamP1Do28c6zxvrDXjYSJFZHz6KGuzMaT0AV7ZCq7M3si7QypVVMVX2bE6IsuOg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.47_1526343011762_0.3708117451654258"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.46",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.46",
+        "@babel/types" : "7.0.0-beta.46",
+        "babylon" : "7.0.0-beta.46",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.46",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.46.tgz",
+        "shasum" : "8b23982411d5b5dbfa479437bfe414adb1411bb9",
+        "integrity" : "sha512-3/qi4m0l6G/vZbEwtqfzJk73mYtuE7nvAO1zT3/ZrTAHy4sHf2vaF9Eh1w+Tau263Yrkh0bjVQPb9zw6G+GeMQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.46_1524457936325_0.8401393552076999"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.45",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.45",
+        "@babel/types" : "7.0.0-beta.45",
+        "babylon" : "7.0.0-beta.45",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.45",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.45.tgz",
+        "shasum" : "a12ef8d61cafbdb0da0d82210e8bcd81533c8487",
+        "integrity" : "sha512-2MYzewkv9DMmvm3Ub+hziMGg+/KvN/Vv9eXqq5KkzJB4OgRlacE/cUV7qXSkEpbDXSClkzHEJXt+oy+uJgCIbg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.45_1524448676972_0.49216790410003486"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.44",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.44",
+        "@babel/types" : "7.0.0-beta.44",
+        "babylon" : "7.0.0-beta.44",
+        "lodash" : "^4.2.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.44",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.44.tgz",
+        "shasum" : "f8832f4fdcee5d59bf515e595fc5106c529b394f",
+        "integrity" : "sha512-w750Sloq0UNifLx1rUqwfbnC6uSUk0mfwwgGRfdLiaUzfAOiH0tHJE6ILQIUi3KYkjiCDTskoIsnfqZvWLBDng=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.44_1522707626275_0.13392116826667722"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.15.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.15.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.14.5",
+        "@babel/parser" : "^7.15.4",
+        "@babel/types" : "^7.15.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.15.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.15.4.tgz",
+        "shasum" : "51898d35dcf3faa670c4ee6afcfd517ee139f194",
+        "integrity" : "sha512-UgBAfEa1oGuYgDIPM2G+aHa4Nlo9Lh6mGD2bDBGMTbYnc38vulXPuC1MGjYILIEmlwl6Rd+BPR9ee3gm20CBtg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.15.4_1630618777175_0.5057245920775382"
+      }
+    },
+    "7.0.0-rc.1" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-rc.1",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-rc.1",
+        "@babel/parser" : "7.0.0-rc.1",
+        "@babel/types" : "7.0.0-rc.1",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-rc.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-rc.1.tgz",
+        "shasum" : "5f9c0a481c9f22ecdb84697b3c3a34eadeeca23c",
+        "integrity" : "sha512-gPLng2iedNlkaGD0UdwaUByQXK8k4bnaoq2RH5JgR2mqHvh2RyjkDdaMbZFlSss1Iu8+PrXwbIRworTl8iRqbA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-rc.1_1533845351039_0.9378156713155144"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-rc.2",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-rc.2",
+        "@babel/parser" : "7.0.0-rc.2",
+        "@babel/types" : "7.0.0-rc.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-rc.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-rc.2.tgz",
+        "shasum" : "53f6be6c1336ddc7744625c9bdca9d10be5d5d72",
+        "integrity" : "sha512-CryGZ01Nko2/g8gkYiiPc7x9ZinrX59/BTWMZV1sDj5cAeia64vhyNnXTcNeim885IdGOdYyia1PNBWKnFxuSw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-rc.2_1534879519759_0.8641797599570287"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-rc.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-rc.0",
+        "@babel/parser" : "7.0.0-rc.0",
+        "@babel/types" : "7.0.0-rc.0",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-rc.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-rc.0.tgz",
+        "shasum" : "ef2e7d5bfe1681909dab445a97dcc097d68bf11c",
+        "integrity" : "sha512-xyCTQ5PlSUn0SSwp0ea7zf9xv19UHTB2UGHNE8INqNCIlUBYK+P57DikxBE6cmc5bQTsw/O8uv777RYrTh74sQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-rc.0_1533830364084_0.525186667452183"
+      }
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-rc.3",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-rc.3",
+        "@babel/parser" : "7.0.0-rc.3",
+        "@babel/types" : "7.0.0-rc.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-rc.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-rc.3.tgz",
+        "shasum" : "2ba7d00f86744762632d06a0ffb0494f8443581f",
+        "integrity" : "sha512-UaP8IpJkOuo4w7dUl7Wn/zvW3HTp+OHWX2Rve3xF/TnzFni06hOUEzb5XOZqvAkMNbchPA179OUQuXsobnPB6Q=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-rc.3_1535134141269_0.8806934820999559"
+      }
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-rc.4",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0-rc.4",
+        "@babel/parser" : "^7.0.0-rc.4",
+        "@babel/types" : "^7.0.0-rc.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-rc.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-rc.4.tgz",
+        "shasum" : "695b6d9bf90ec193fd90d533a7b8b3b904f21eae",
+        "integrity" : "sha512-zI5LcbmvFwGYT8/5t75sj7OpzYizm7PkJlpAujDl50NE1mFxArfq13maUEmjRmjfgl7jeUlbv0YyuyRkDot54w=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-rc.4_1535388330679_0.7331847851545827"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.54",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.54",
+        "@babel/parser" : "7.0.0-beta.54",
+        "@babel/types" : "7.0.0-beta.54",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.54",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.54.tgz",
+        "shasum" : "d5b0d2d2d55c0e78b048c61a058f36cfd7d91af3",
+        "integrity" : "sha512-O2mMamX6TuGftCRCtIhmIQJxLNghsUjrOK/VgMxTmc1B6XYg0cp2jqOxF1kY0j8xiPf59J7ejGfqEtm55VpnFQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.54_1531764020734_0.35224206075566555"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.53",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.53",
+        "@babel/parser" : "7.0.0-beta.53",
+        "@babel/types" : "7.0.0-beta.53",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.53",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.53.tgz",
+        "shasum" : "3322290900d0b187b0a7174381e1f3bb71050d2e",
+        "integrity" : "sha512-MCZLPfGfNBHdE5wNfY5eK1hpY3fyq8zq+NfbfFCUtIzHl7SfUzHzH8rKPBXSB2Ypetq2sBHdDyslSSgnG0Watg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.53_1531316438299_0.17394379011193295"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.52",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.52",
+        "@babel/parser" : "7.0.0-beta.52",
+        "@babel/types" : "7.0.0-beta.52",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.52",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.52.tgz",
+        "shasum" : "44e18fac38251f57f92511d6748f095ab02f996e",
+        "integrity" : "sha512-XSqa4UhgqF8lP1eqrPqYxqbmW3qIqmSyyTm3CW8RvosU/5aGP0RqQ5sGm500SHDAQ4KlzhXPyKC2L8yNIv4D/Q=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.52_1530838778757_0.19550432741747947"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.51",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.51",
+        "@babel/parser" : "7.0.0-beta.51",
+        "@babel/types" : "7.0.0-beta.51",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.51",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.51.tgz",
+        "shasum" : "9602a40aebcf357ae9677e2532ef5fc810f5fbff",
+        "integrity" : "sha512-vFaropWUPgRrjBySSlOwhTBPDiKClblPrX3TBPrDnL4zyN17Rr6JwnmpsazK8juLwv8Qsf6fdOdDl6eNVh0edA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.51_1528838424893_0.7294445366796298"
+      }
+    },
+    "7.8.6" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.8.6",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.8.3",
+        "@babel/parser" : "^7.8.6",
+        "@babel/types" : "^7.8.6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.7.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.8.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.8.6.tgz",
+        "shasum" : "86b22af15f828dfb086474f964dcc3e39c43ce2b",
+        "integrity" : "sha512-zbMsPMy/v0PWFZEhQJ66bqjhH+z0JgMoBWuikXybgG3Gkd/3t5oQ1Rw2WQhnSrsOmsKXnZOx15tkC4qON/+JPg=="
+      },
+      "gitHead" : "750d3dde3bd2d390819820fd22c05441da78751b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.8.6_1582806092994_0.12577470391090428"
+      },
+      "_nodeVersion" : "13.7.0"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.56",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.56",
+        "@babel/parser" : "7.0.0-beta.56",
+        "@babel/types" : "7.0.0-beta.56",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.56",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.56.tgz",
+        "shasum" : "a428197e0c9db142f8581cbfdcfa9289b0dd7fd7",
+        "integrity" : "sha512-rsR9K18h0oiJTUmS/ICYREbV8qhPTic4SIqDSkzv9xOxupt7dKj8hWmZQLGPySO5x6cdn8py039o1wPQnsEGHg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.56_1533344865690_0.29637059352641737"
+      }
+    },
+    "7.22.15" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.22.15",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.22.13",
+        "@babel/parser" : "^7.22.15",
+        "@babel/types" : "^7.22.15"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.22.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.22.15.tgz",
+        "shasum" : "09576efc3830f0430f4548ef971dde1350ef2f38",
+        "integrity" : "sha512-QPErUVm4uyJa60rkI73qneDacvdvzxshT3kksGqlGWYdOTIUOwJ7RDUL8sGqslY1uXWSL6xMFKEXDS3ox2uF0w=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.22.15_1693830318652_0.8097690830980684"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.55",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.55",
+        "@babel/parser" : "7.0.0-beta.55",
+        "@babel/types" : "7.0.0-beta.55",
+        "lodash" : "^4.17.10"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.55",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.55.tgz",
+        "shasum" : "c6cab0e2722ba5e33fe034073b6d31673aba326e",
+        "integrity" : "sha512-CyXscoMFwh6IWtGixSRon+cFHG36WRDdlQxECAeQ3GLp9EBWb59caK2xV00/saE0r9HAKtolEa2LQuVkuRvqrg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.55_1532815663521_0.8432258365467495"
+      }
+    },
+    "7.23.9" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.23.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.23.5",
+        "@babel/parser" : "^7.23.9",
+        "@babel/types" : "^7.23.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.23.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.23.9.tgz",
+        "shasum" : "f881d0487cba2828d3259dcb9ef5005a9731011a",
+        "integrity" : "sha512-+xrD2BWLpvHKNmX2QbpdpsBaWnRxahMwJjO+KZk2JOElj5nSmKezyS1B4u+QbHMTX69t4ukm6hh9lsYQ7GHCKA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.23.9_1706201873282_0.5250661562866343"
+      },
+      "type" : "commonjs"
+    },
+    "7.8.3" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.8.3",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.8.3",
+        "@babel/parser" : "^7.8.3",
+        "@babel/types" : "^7.8.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.8.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.8.3.tgz",
+        "shasum" : "e02ad04fe262a657809327f578056ca15fd4d1b8",
+        "integrity" : "sha512-04m87AcQgAFdvuoyiQ2kgELr2tV8B4fP/xJAVUL3Yb3bkNdMedD3d0rlSQr3PegP0cms3eHjl1F7PWlvWbU8FQ=="
+      },
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.8.3_1578951722808_0.18120116454852164"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.21.9" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.21.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.21.4",
+        "@babel/parser" : "^7.21.9",
+        "@babel/types" : "^7.21.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.21.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.21.9.tgz",
+        "shasum" : "bf8dad2859130ae46088a99c1f265394877446fb",
+        "integrity" : "sha512-MK0X5k8NKOuWRamiEfc3KEJiHMTkGZNUjzMipqCGDDc6ijRl/B7RGSKVGncu4Ro/HdyzzY6cmoXuKI2Gffk7vQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.21.9_1684749741615_0.044159592247818846"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.0.0-beta.50",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.0.0-beta.50",
+        "@babel/parser" : "7.0.0-beta.50",
+        "@babel/types" : "7.0.0-beta.50",
+        "lodash" : "^4.17.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.0.0-beta.50",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.0.0-beta.50.tgz",
+        "shasum" : "c534b70d3510f2bca7bccaafbe0885220edd9e47",
+        "integrity" : "sha512-9h8v3lTlcnfo57M7FVWq2ZaaJry9ZtG0uxMB7ErXvWmfj3zOHKYIIYZV+T0Ecx10jtb+yY3VKBPPUIjgdSRV/Q=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.0.0-beta.50_1528832866686_0.0033106983590218686"
+      }
+    },
+    "7.6.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.6.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.6.0",
+        "@babel/types" : "^7.6.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v11.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.6.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.6.0.tgz",
+        "shasum" : "7f0159c7f5012230dad64cca42ec9bdb5c9536e6",
+        "integrity" : "sha512-5AEH2EXD8euCk446b7edmgFdub/qfH1SN6Nii3+fyXP807QRx9Q73A2N5hNwRRslC2H9sNzaFhsPubkS4L8oNQ=="
+      },
+      "gitHead" : "cbd5a26e57758e3f748174ff84aa570e8780e85d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.6.0_1567791232093_0.8906835466423977"
+      },
+      "_nodeVersion" : "11.14.0"
+    },
+    "7.4.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.4.4",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.4.4",
+        "@babel/types" : "^7.4.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.4.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.4.4.tgz",
+        "shasum" : "f4b88d1225689a08f5bc3a17483545be9e4ed237",
+        "integrity" : "sha512-CiGzLN9KgAvgZsnivND7rkA+AeJ9JB0ciPOD4U59GKbQP2iQl+olF1l76kJOupqidozfZ32ghwBEJDhnk9MEcw=="
+      },
+      "gitHead" : "2c88694388831b1e5b88e4bbed6781eb2be1edba",
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-present Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.4.4_1556312678207_0.7036806719627691"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.8.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.8.0",
+        "@babel/parser" : "^7.8.0",
+        "@babel/types" : "^7.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.8.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.8.0.tgz",
+        "shasum" : "a32f57ad3be89c0fa69ae87b53b4826844dc6330",
+        "integrity" : "sha512-0NNMDsY2t3ltAVVK1WHNiaePo3tXPUeJpCX4I3xSKFoEl852wJHG8mrgHVADf8Lz1y+8al9cF7cSSfzSnFSYiw=="
+      },
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.8.0_1578788210916_0.39301972791909723"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.21.4-esm" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.21.4-esm",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.21.4-esm",
+        "@babel/parser" : "^7.21.4-esm",
+        "@babel/types" : "^7.21.4-esm"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.21.4-esm",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.21.4-esm.tgz",
+        "shasum" : "731712e90b8510bdb448b94b7b9ca2c1e6ec1ec5",
+        "integrity" : "sha512-MsV7CTAUQ9z0Tiqk41IGZRLDie0QbYYn09wi6YOnoaeiGpQH7DD0ACJiuo+rxSG2rj4WSzCfP5GlP8RatfSDHw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.21.4-esm_1680617385916_0.6131871937495765"
+      },
+      "type" : "commonjs"
+    },
+    "7.1.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.1.0",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.1.0.tgz",
+        "shasum" : "58cc9572e1bfe24fe1537fdf99d839d53e517e22",
+        "integrity" : "sha512-yZ948B/pJrwWGY6VxG6XRFsVTee3IQ7bihq9zFpM00Vydu6z5Xwg0C3J644kxI9WOTzd+62xcIsQ+AT1MGhqhA=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.1.0_1537212629037_0.16583121514978583"
+      }
+    },
+    "8.0.0-alpha.6" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.6",
+        "@babel/parser" : "^8.0.0-alpha.6",
+        "@babel/types" : "^8.0.0-alpha.6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.6.tgz",
+        "shasum" : "297ed62932e9b27b604598692694c9619783963d",
+        "integrity" : "sha512-K/EP33UFTLdopfhsy1wraInMn0MfhwyAB8+qMCPwYHu/U1mpox43i7z6IrnbtYHPH8RxUWrolVHRt73qiGmIqQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.6_1706285668408_0.41085167473024686"
+      },
+      "type" : "module"
+    },
+    "7.1.1" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.1.1",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.1.1",
+        "@babel/types" : "^7.1.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.1.1.tgz",
+        "shasum" : "21430719f1c6cbbbcf274623b42bbe96fda896dc",
+        "integrity" : "sha512-TnZ0OJeQ1isSbrZewCV4Y3qzVtC9mTsXlmGPSMkka6AN5DNBbIxevqeuhuDwosTB6QqaKUUaMfkOyAcp6Jn9MA=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.1.1_1538164981973_0.7493697494638516"
+      }
+    },
+    "8.0.0-alpha.5" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.5",
+        "@babel/parser" : "^8.0.0-alpha.5",
+        "@babel/types" : "^8.0.0-alpha.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.5.tgz",
+        "shasum" : "f7eb9b1a22effc1e4288a492a1e73db5ce936451",
+        "integrity" : "sha512-YhAi3napojKO4lD5Mfp627fnReKpGEvZN6yU7IPWI8ib64d/j7ReHX4WJW/sMyHDyZqRHtlWaqsJ+l7jUUDqzA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.5_1702307969113_0.12194600552628376"
+      },
+      "type" : "module"
+    },
+    "7.1.2" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.1.2",
+      "author" : {
+        "name" : "Sebastian McKenzie",
+        "email" : "sebmck@gmail.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.0.0",
+        "@babel/parser" : "^7.1.2",
+        "@babel/types" : "^7.1.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/template@7.1.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.1.2.tgz",
+        "shasum" : "090484a574fef5a2d2d7726a674eceda5c5b5644",
+        "integrity" : "sha512-SY1MmplssORfFiLDcOETrW7fCLl+PavlwMh92rrGcikQaRq4iWPVH0MpwPpY3etVMx6RnDjXtr6VZYr/IbP/Ag=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie and other contributors\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.1.2_1538173197451_0.06801225069014816"
+      }
+    },
+    "8.0.0-alpha.7" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.7",
+        "@babel/parser" : "^8.0.0-alpha.7",
+        "@babel/types" : "^8.0.0-alpha.7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.7.tgz",
+        "shasum" : "2fd979901557badd52d0bc65357af670acb6d511",
+        "integrity" : "sha512-lbg78WoTM22uJJxH+w4uP+8A4KAvH+sqRSNHBelQEgItSFjHhLaq6f031edsMRQeRN6ybpn7/n5U0DJKPCZWxQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.7_1709129128486_0.8859307889196886"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.2" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.2",
+        "@babel/parser" : "^8.0.0-alpha.2",
+        "@babel/types" : "^8.0.0-alpha.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.2.tgz",
+        "shasum" : "719b3a706e9364692e32d8be462a7fa9f9045dbf",
+        "integrity" : "sha512-XSwu2Nu/SNhQY52iFLOTlCZxlgMUWCrcXv7dhj9dnz5I7wTiCgInfzlh3jIq5wE4TbgdfQAKSLfxywGbFNYxxw=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.2_1691594114387_0.06557443984919731"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.1" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.1",
+        "@babel/parser" : "^8.0.0-alpha.1",
+        "@babel/types" : "^8.0.0-alpha.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.1.tgz",
+        "shasum" : "beff179a65eda4e6ccb1bff5e6be21bbf8045d1c",
+        "integrity" : "sha512-dj/zFHfhS5Htz6d5FsO3si1FSWdOa1930+LlqW2KeXNY5ut7PKIc5nJ4cpKDgb3ynzdQbz0fwpmnVIRlv0pdCQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.1_1690221170815_0.3193626084649577"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.4",
+        "@babel/parser" : "^8.0.0-alpha.4",
+        "@babel/types" : "^8.0.0-alpha.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.4.tgz",
+        "shasum" : "c041e38d0e04d1c74263b520463c22fb9cec799a",
+        "integrity" : "sha512-B0htsMkRDXeZT2wrdJcYDcW35l9IfXadv3T1fevkMTfI3rnBrb84E6wdleEKLdbkMsS2wM9n6FKt23pQZ0hEAQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.4_1697076399883_0.6609043030369368"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.3" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.3",
+        "@babel/parser" : "^8.0.0-alpha.3",
+        "@babel/types" : "^8.0.0-alpha.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.3.tgz",
+        "shasum" : "352a0d357766ff54dce6a2c6eb8b7af94a1225d2",
+        "integrity" : "sha512-E/rTIpPkQ278L2yCaQ8u+WU0/6TdGX7gaJcJ8cXDZO2x6nINVZATavAmx0XLDeQ/GqCUYnfh8un98dfTldHZkQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.3_1695740245769_0.767090484080305"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.4" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.21.4-esm.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.21.4-esm.4",
+        "@babel/parser" : "7.21.4-esm.4",
+        "@babel/types" : "7.21.4-esm.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.21.4-esm.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.21.4-esm.4.tgz",
+        "shasum" : "453f1dda94575433360b99da6c42739c5ca6888a",
+        "integrity" : "sha512-/H7EQ4Eu47sHNmCUUKFjvgz1wcdcWt1UbCqnjIvSrus5cvaEnm71/2k4byHa4FbvGJywynymj90826zhwAWlNg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.21.4-esm.4_1680621218717_0.2730631537131072"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.1" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.21.4-esm.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.21.4-esm.1",
+        "@babel/parser" : "^7.21.4-esm.1",
+        "@babel/types" : "^7.21.4-esm.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.21.4-esm.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.21.4-esm.1.tgz",
+        "shasum" : "b03f5ed11017087a2ef41337b6f3cabf2f6acae1",
+        "integrity" : "sha512-S6tw6gO/RqeRcDXp8tDxwYCau5babRnUcVrPMFGv8ltjxkNNM6Y56u/srvVWJNVLPfgxo5D5QTzDdSnJLVwHkQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.21.4-esm.1_1680618103227_0.37075686714192835"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.3" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.21.4-esm.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.21.4-esm.3",
+        "@babel/parser" : "7.21.4-esm.3",
+        "@babel/types" : "7.21.4-esm.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.21.4-esm.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.21.4-esm.3.tgz",
+        "shasum" : "a45835e684ad924f2c3dda65fe1a289e2adf4fdb",
+        "integrity" : "sha512-0v9DbfQ2c5OYBflHoaUbDNQsbK8DSBuAaj6w3vSpLK6r2kpMI37mazZK/fo2SANdt/aFwn6qVsI8ztSM/ZxzmA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.21.4-esm.3_1680620188006_0.30314706345235787"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.2" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.21.4-esm.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "7.21.4-esm.2",
+        "@babel/parser" : "7.21.4-esm.2",
+        "@babel/types" : "7.21.4-esm.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.21.4-esm.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.21.4-esm.2.tgz",
+        "shasum" : "0635a3fa79184d7d49fbce8fb2397c3117e8d051",
+        "integrity" : "sha512-MYWDBKNIzEufIsfxF/0LU8WkU8XCISUj70U3gWDmVQ/JT2YmODbvvgtcRmA9yowe9XzJ7PGf3e0/NoCEPGnGPw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.21.4-esm.2_1680619179738_0.47565168515146294"
+      },
+      "type" : "module"
+    },
+    "7.12.7" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.12.7",
+      "author" : "Sebastian McKenzie <sebmck@gmail.com>",
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.10.4",
+        "@babel/parser" : "^7.12.7",
+        "@babel/types" : "^7.12.7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.12.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.12.7.tgz",
+        "shasum" : "c817233696018e39fbb6c491d2fb684e05ed43bc",
+        "integrity" : "sha512-GkDzmHS6GV7ZeXfJZ0tLRBhZcMcY0/Lnb+eEbXDBfCAcZCjrZKe6p3J4we/D24O9Y8enxWAg1cWwof59yLh2ow=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.12.7_1605906355330_0.09688804058103662"
+      }
+    },
+    "7.14.5" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.14.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.14.5",
+        "@babel/parser" : "^7.14.5",
+        "@babel/types" : "^7.14.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.14.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.14.5.tgz",
+        "shasum" : "a9bc9d8b33354ff6e55a9c60d1109200a68974f4",
+        "integrity" : "sha512-6Z3Po85sfxRGachLULUhOmvAaOo7xCvqGQtxINai2mEGPFm6pQ4z5QInFnUrRpfoSV60BnjyF5F3c+15fxFV1g=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.14.5_1623280368760_0.034582737498955574"
+      }
+    },
+    "8.0.0-alpha.0" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "8.0.0-alpha.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^8.0.0-alpha.0",
+        "@babel/parser" : "^8.0.0-alpha.0",
+        "@babel/types" : "^8.0.0-alpha.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@8.0.0-alpha.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-8.0.0-alpha.0.tgz",
+        "shasum" : "76a582278e4aab060416914094bf8830db10a20b",
+        "integrity" : "sha512-F8fXClPBbJiZPeJZx+nGQad8wVWz6QL4DytTJk5wm8JthTExC+Tjr/wpzam1KawEik72o7GGYQuLbEUCbTGcFQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_8.0.0-alpha.0_1689861617497_0.2952277289040497"
+      },
+      "type" : "module"
+    },
+    "7.16.7" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.16.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.16.7",
+        "@babel/parser" : "^7.16.7",
+        "@babel/types" : "^7.16.7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.16.7.tgz",
+        "shasum" : "8d126c8701fde4d66b264b3eba3d96f07666d155",
+        "integrity" : "sha512-I8j/x8kHUrbYRTUxXrrMbfCa7jxkE7tZre39x3kjr9hvI82cK1FfqLygotcWN5kdPGWcLdWMHpSBavse5tWw3w=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.16.7_1640910160088_0.14647672717666227"
+      }
+    },
+    "7.18.6" : {
+      "name" : "@babel/template",
+      "description" : "Generate an AST from a string template.",
+      "version" : "7.18.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-template",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-template"
+      },
+      "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/code-frame" : "^7.18.6",
+        "@babel/parser" : "^7.18.6",
+        "@babel/types" : "^7.18.6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/template@7.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/template/-/template-7.18.6.tgz",
+        "shasum" : "1283f4993e00b929d6e2d3c72fdc9168a2977a31",
+        "integrity" : "sha512-JoDWzPe+wgBsTTgdnIma3iHNFC7YVJoPssVBDjiHfNlyt4YcunDtcDOUmfVDfCK5MfdsaIoX9PkijPhjH3nYUw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/template_7.18.6_1656359422407_0.5096210653995918"
+      },
+      "type" : "commonjs"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "hzoo",
+    "email" : "hi@henryzoo.com"
+  }, {
+    "name" : "existentialism",
+    "email" : "bng412@gmail.com"
+  }, {
+    "name" : "nicolo-ribaudo",
+    "email" : "nicolo.ribaudo@gmail.com"
+  }, {
+    "name" : "jlhwung",
+    "email" : "jlhwung@gmail.com"
+  } ],
+  "author" : "The Babel Team (https://babel.dev/team)",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:07:48.424Z",
+    "7.10.0" : "2020-05-26T21:43:30.312Z",
+    "7.10.3" : "2020-06-19T20:54:32.896Z",
+    "7.10.4" : "2020-06-30T13:12:43.921Z",
+    "7.16.0" : "2021-10-29T23:47:49.111Z",
+    "7.0.0-beta.39" : "2018-01-30T20:27:53.383Z",
+    "7.0.0-beta.38" : "2018-01-17T16:32:24.609Z",
+    "7.0.0-beta.37" : "2018-01-08T16:02:56.542Z",
+    "7.0.0-beta.5" : "2017-10-30T20:57:10.361Z",
+    "7.0.0-beta.4" : "2017-10-30T18:35:33.711Z",
+    "7.18.10" : "2022-08-01T18:46:45.502Z",
+    "7.0.0-beta.32" : "2017-11-12T13:33:45.470Z",
+    "7.0.0-beta.31" : "2017-11-03T20:04:00.039Z",
+    "7.0.0-beta.36" : "2017-12-25T19:05:16.354Z",
+    "7.0.0-beta.35" : "2017-12-14T21:48:13.698Z",
+    "7.0.0-beta.34" : "2017-12-02T14:39:55.211Z",
+    "7.0.0-beta.33" : "2017-12-01T14:28:55.185Z",
+    "modified" : "2024-02-28T14:05:29.084Z",
+    "7.7.4" : "2019-11-22T23:33:28.291Z",
+    "7.7.0" : "2019-11-05T10:53:28.805Z",
+    "7.24.0" : "2024-02-28T11:47:43.818Z",
+    "7.2.2" : "2018-12-15T10:05:38.929Z",
+    "7.4.0" : "2019-03-19T20:45:04.692Z",
+    "7.20.7" : "2022-12-22T09:45:34.079Z",
+    "7.22.5" : "2023-06-08T18:21:35.789Z",
+    "created" : "2017-10-30T18:35:33.711Z",
+    "7.0.0" : "2018-08-27T21:44:17.393Z",
+    "7.12.13" : "2021-02-03T01:11:31.852Z",
+    "7.0.0-beta.49" : "2018-05-25T16:03:39.692Z",
+    "7.0.0-beta.48" : "2018-05-24T19:24:09.406Z",
+    "7.0.0-beta.43" : "2018-04-02T16:48:45.508Z",
+    "7.0.0-beta.42" : "2018-03-15T20:51:50.480Z",
+    "7.0.0-beta.41" : "2018-03-14T16:26:37.157Z",
+    "7.0.0-beta.40" : "2018-02-12T16:42:25.501Z",
+    "7.0.0-beta.47" : "2018-05-15T00:10:11.879Z",
+    "7.0.0-beta.46" : "2018-04-23T04:32:16.385Z",
+    "7.0.0-beta.45" : "2018-04-23T01:57:57.075Z",
+    "7.0.0-beta.44" : "2018-04-02T22:20:26.488Z",
+    "7.15.4" : "2021-09-02T21:39:37.380Z",
+    "7.0.0-rc.1" : "2018-08-09T20:09:11.125Z",
+    "7.0.0-rc.2" : "2018-08-21T19:25:19.823Z",
+    "7.0.0-rc.0" : "2018-08-09T15:59:24.133Z",
+    "7.0.0-rc.3" : "2018-08-24T18:09:01.331Z",
+    "7.0.0-rc.4" : "2018-08-27T16:45:30.727Z",
+    "7.0.0-beta.54" : "2018-07-16T18:00:20.811Z",
+    "7.0.0-beta.53" : "2018-07-11T13:40:38.388Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:38.857Z",
+    "7.0.0-beta.51" : "2018-06-12T21:20:24.948Z",
+    "7.8.6" : "2020-02-27T12:21:33.135Z",
+    "7.0.0-beta.56" : "2018-08-04T01:07:45.770Z",
+    "7.22.15" : "2023-09-04T12:25:18.841Z",
+    "7.0.0-beta.55" : "2018-07-28T22:07:43.570Z",
+    "7.23.9" : "2024-01-25T16:57:53.506Z",
+    "7.8.3" : "2020-01-13T21:42:02.911Z",
+    "7.21.9" : "2023-05-22T10:02:21.779Z",
+    "7.0.0-beta.50" : "2018-06-12T19:47:46.796Z",
+    "7.6.0" : "2019-09-06T17:33:52.250Z",
+    "7.4.4" : "2019-04-26T21:04:38.296Z",
+    "7.8.0" : "2020-01-12T00:16:51.065Z",
+    "7.21.4-esm" : "2023-04-04T14:09:46.050Z",
+    "7.1.0" : "2018-09-17T19:30:29.158Z",
+    "8.0.0-alpha.6" : "2024-01-26T16:14:28.565Z",
+    "7.1.1" : "2018-09-28T20:03:02.198Z",
+    "8.0.0-alpha.5" : "2023-12-11T15:19:29.318Z",
+    "7.1.2" : "2018-09-28T22:19:57.594Z",
+    "8.0.0-alpha.7" : "2024-02-28T14:05:28.624Z",
+    "8.0.0-alpha.2" : "2023-08-09T15:15:14.569Z",
+    "8.0.0-alpha.1" : "2023-07-24T17:52:51.077Z",
+    "8.0.0-alpha.4" : "2023-10-12T02:06:40.112Z",
+    "8.0.0-alpha.3" : "2023-09-26T14:57:25.939Z",
+    "7.21.4-esm.4" : "2023-04-04T15:13:38.915Z",
+    "7.21.4-esm.1" : "2023-04-04T14:21:43.400Z",
+    "7.21.4-esm.3" : "2023-04-04T14:56:28.144Z",
+    "7.21.4-esm.2" : "2023-04-04T14:39:39.905Z",
+    "7.12.7" : "2020-11-20T21:05:55.452Z",
+    "7.14.5" : "2021-06-09T23:12:48.888Z",
+    "8.0.0-alpha.0" : "2023-07-20T14:00:17.794Z",
+    "7.16.7" : "2021-12-31T00:22:40.223Z",
+    "7.18.6" : "2022-06-27T19:50:22.582Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel.git",
+    "directory" : "packages/babel-template"
+  },
+  "users" : {
+    "flumpus-dev" : true,
+    "colshacol" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://babel.dev/docs/en/next/babel-template",
+  "bugs" : "https://github.com/babel/babel/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3A%22pkg%3A%20template%22+is%3Aopen",
+  "license" : "MIT"
+}

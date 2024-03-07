@@ -1,0 +1,313 @@
+{
+  "_id" : "@esbuild/aix-ppc64",
+  "_rev" : "6-72e5ee7fab8d99eaa331e3619c1c7262",
+  "name" : "@esbuild/aix-ppc64",
+  "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.20.1"
+  },
+  "versions" : {
+    "0.19.10" : {
+      "name" : "@esbuild/aix-ppc64",
+      "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "aix" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/aix-ppc64@0.19.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/aix-ppc64/-/aix-ppc64-0.19.10.tgz",
+        "shasum" : "fb3922a0183d27446de00cf60d4f7baaadf98d84",
+        "integrity" : "sha512-Q+mk96KJ+FZ30h9fsJl+67IjNJm3x2eX+GBWGmocAKgzp27cowCOOqSdscX80s0SpdFXZnIv/+1xD1EctFx96Q=="
+      },
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/aix-ppc64_0.19.10_1702945339726_0.15572327532956098"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/aix-ppc64",
+      "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "aix" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/aix-ppc64@0.19.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/aix-ppc64/-/aix-ppc64-0.19.9.tgz",
+        "shasum" : "61e68b057ddef9f475a2fecd2f22d2aa1240a016",
+        "integrity" : "sha512-qLsbajokX6/mP7lvjIN5Ssh0x9Tk++VPQJphlSrsWBc0yKw6Mm5/LvOiVN9BqfLNjXCHcTF+PX+EAMkQUJRcvw=="
+      },
+      "gitHead" : "f3214ad2857610ef1f45f3fbb636328f68ec032a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/aix-ppc64_0.19.9_1702918150462_0.2729228620977031"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/aix-ppc64",
+      "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "aix" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/aix-ppc64@0.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/aix-ppc64/-/aix-ppc64-0.20.0.tgz",
+        "shasum" : "509621cca4e67caf0d18561a0c56f8b70237472f",
+        "integrity" : "sha512-fGFDEctNh0CcSwsiRPxiaqX0P5rq+AqE0SRhYGZ4PX46Lg1FNR6oCxJghf8YgY0WQEgQuh3lErUFE4KxLeRmmw=="
+      },
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/aix-ppc64_0.20.0_1706374210248_0.466318592074767"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/aix-ppc64",
+      "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "aix" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/aix-ppc64@0.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/aix-ppc64/-/aix-ppc64-0.20.1.tgz",
+        "shasum" : "eafa8775019b3650a77e8310ba4dbd17ca7af6d5",
+        "integrity" : "sha512-m55cpeupQ2DbuRGQMMZDzbv9J9PgVelPjlcmM5kxHnrBdBx6REaEd7LamYV7Dm8N7rCyR/XwU6rVP8ploKtIkA=="
+      },
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/aix-ppc64_0.20.1_1708324780598_0.9996661698638991"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/aix-ppc64",
+      "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "aix" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/aix-ppc64@0.19.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/aix-ppc64/-/aix-ppc64-0.19.12.tgz",
+        "shasum" : "d1bc06aedb6936b3b6d313bf809a5a40387d2b7f",
+        "integrity" : "sha512-bmoCYyWdEL3wDQIVbcyzRyeKLgk2WtWLTWz1ZIAZF/EGbNOwSA6ew3PftJ1PqMiOOGu0OyFMzG53L0zqIpPeNA=="
+      },
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/aix-ppc64_0.19.12_1706031683873_0.15893641049103913"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/aix-ppc64",
+      "description" : "The IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "aix" ],
+      "cpu" : [ "ppc64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/aix-ppc64@0.19.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/aix-ppc64/-/aix-ppc64-0.19.11.tgz",
+        "shasum" : "2acd20be6d4f0458bc8c784103495ff24f13b1d3",
+        "integrity" : "sha512-FnzU0LyE3ySQk7UntJO4+qIiQgI7KoODnZg5xzXIrFJlKd2P2gwHsHY4927xj9y5PJmJSzULiUCWmv7iWnNa7g=="
+      },
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/aix-ppc64_0.19.11_1703881989349_0.1683032913928546"
+      },
+      "_nodeVersion" : "18.16.1"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the IBM AIX PowerPC 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.19.10" : "2023-12-19T00:22:19.988Z",
+    "created" : "2023-12-18T16:49:10.322Z",
+    "0.19.9" : "2023-12-18T16:49:10.744Z",
+    "0.20.0" : "2024-01-27T16:50:10.481Z",
+    "0.20.1" : "2024-02-19T06:39:40.907Z",
+    "modified" : "2024-02-19T06:39:41.349Z",
+    "0.19.12" : "2024-01-23T17:41:24.141Z",
+    "0.19.11" : "2023-12-29T20:33:09.641Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

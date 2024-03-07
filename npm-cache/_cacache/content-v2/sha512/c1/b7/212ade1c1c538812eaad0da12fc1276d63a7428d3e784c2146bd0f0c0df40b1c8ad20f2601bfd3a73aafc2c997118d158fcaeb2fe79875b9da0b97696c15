@@ -1,0 +1,981 @@
+{
+  "_id" : "array.prototype.findlast",
+  "_rev" : "9-05a3726267eace3e07a08af1e27b14ab",
+  "name" : "array.prototype.findlast",
+  "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+  "dist-tags" : {
+    "latest" : "1.2.4"
+  },
+  "versions" : {
+    "1.2.1" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.2.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.19.2",
+        "es-shim-unscopables" : "^1.0.0",
+        "get-intrinsic" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.3",
+        "@ljharb/eslint-config" : "^21.0.0",
+        "aud" : "^2.0.0",
+        "auto-changelog" : "^2.4.0",
+        "es-value-fixtures" : "^1.2.1",
+        "eslint" : "=8.8.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "has" : "^1.0.3",
+        "has-strict-mode" : "^1.0.1",
+        "in-publish" : "^2.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.12.0",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.5.3"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "8.3.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.2.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.2.1.tgz",
+        "shasum" : "4812212b125e1fafa3ea222f4430d60a3454e265",
+        "integrity" : "sha512-oX9U2Jhro0MZ+uhhgFxVmlsf+Og/le4qim7lmZ1zSt7tNHPFalmYLqZkSYykTYHT56f8TAQLBphuuLw3uRaOXA=="
+      },
+      "gitHead" : "63745f0e606b707155cccb0026c8e9fd6da7057c",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : "./auto.js",
+        "./polyfill" : "./polyfill.js",
+        "./implementation" : "./implementation.js",
+        "./shim" : "./shim.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.2.1_1649708605286_0.843468158322856"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "17.9.0"
+    },
+    "1.2.2" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.2.2",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.4",
+        "es-abstract" : "^1.20.4",
+        "es-shim-unscopables" : "^1.0.0",
+        "get-intrinsic" : "^1.1.3"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.3",
+        "@ljharb/eslint-config" : "^21.0.0",
+        "aud" : "^2.0.1",
+        "auto-changelog" : "^2.4.0",
+        "es-value-fixtures" : "^1.4.2",
+        "eslint" : "=8.8.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "has" : "^1.0.3",
+        "has-strict-mode" : "^1.0.1",
+        "in-publish" : "^2.0.1",
+        "npmignore" : "^0.3.0",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.12.2",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.6.1"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepack" : "npmignore --auto --commentLines=autogenerated",
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "publishConfig" : {
+        "ignore" : [ ".github/workflows" ]
+      },
+      "_npmVersion" : "8.19.2",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.2.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.2.2.tgz",
+        "shasum" : "134ef6b7215f131a8884fafe6af46846a032c518",
+        "integrity" : "sha512-p1YDNPNqA+P6cPX9ATsxg7DKir7gOmJ+jh5dEP3LlumMNYVC1F2Jgnyh6oI3n/qD9FeIkqR2jXfd73G68ImYUQ=="
+      },
+      "gitHead" : "28bb5b27a293c463146064799e863312a0242203",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : "./auto.js",
+        "./polyfill" : "./polyfill.js",
+        "./implementation" : "./implementation.js",
+        "./shim" : "./shim.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.2.2_1667448105597_0.9239526488114376"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "19.0.0"
+    },
+    "1.2.3" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.2.3",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.2.0",
+        "es-abstract" : "^1.22.1",
+        "es-shim-unscopables" : "^1.0.0",
+        "get-intrinsic" : "^1.2.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.4.2",
+        "@ljharb/eslint-config" : "^21.1.0",
+        "aud" : "^2.0.3",
+        "auto-changelog" : "^2.4.0",
+        "es-value-fixtures" : "^1.4.2",
+        "eslint" : "=8.8.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "globalthis" : "^1.0.3",
+        "has" : "^1.0.3",
+        "has-strict-mode" : "^1.0.1",
+        "in-publish" : "^2.0.1",
+        "npmignore" : "^0.3.0",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.12.3",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.6.6"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepack" : "npmignore --auto --commentLines=autogenerated",
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "publishConfig" : {
+        "ignore" : [ ".github/workflows" ]
+      },
+      "_npmVersion" : "9.8.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.2.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.2.3.tgz",
+        "shasum" : "4e4b375de5adf4897fed155e2d2771564865cc3b",
+        "integrity" : "sha512-kcBubumjciBg4JKp5KTKtI7ec7tRefPk88yjkWJwaVKYd9QfTaxcsOxoMNKd7iBr447zCfDV0z1kOF47umv42g=="
+      },
+      "gitHead" : "e58b02f009ebfbcac7ae2152e97e90e6ceaecd6c",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : "./auto.js",
+        "./polyfill" : "./polyfill.js",
+        "./implementation" : "./implementation.js",
+        "./shim" : "./shim.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.2.3_1693370259984_0.11899473961040519"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "20.5.1"
+    },
+    "1.2.4" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.2.4",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.5",
+        "define-properties" : "^1.2.1",
+        "es-abstract" : "^1.22.3",
+        "es-errors" : "^1.3.0",
+        "es-shim-unscopables" : "^1.0.2"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.4.2",
+        "@ljharb/eslint-config" : "^21.1.0",
+        "aud" : "^2.0.4",
+        "auto-changelog" : "^2.4.0",
+        "es-value-fixtures" : "^1.4.2",
+        "eslint" : "=8.8.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "globalthis" : "^1.0.3",
+        "has-strict-mode" : "^1.0.1",
+        "hasown" : "^2.0.0",
+        "in-publish" : "^2.0.1",
+        "npmignore" : "^0.3.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.13.1",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.7.4"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepack" : "npmignore --auto --commentLines=autogenerated",
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "publishConfig" : {
+        "ignore" : [ ".github/workflows" ]
+      },
+      "_npmVersion" : "10.2.4",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.2.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.2.4.tgz",
+        "shasum" : "eeb9e45fc894055c82e5675c463e8077b827ad36",
+        "integrity" : "sha512-BMtLxpV+8BD+6ZPFIWmnUBpQoy+A+ujcg4rhp2iwCRJYA7PEh2MS4NL3lz8EiDlLrJPp2hg9qWihr5pd//jcGw=="
+      },
+      "gitHead" : "87ac8a235c35d726d3fd05937faea770467d3346",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : "./auto.js",
+        "./polyfill" : "./polyfill.js",
+        "./implementation" : "./implementation.js",
+        "./shim" : "./shim.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.2.4_1707204914810_0.002040245895831294"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "21.6.0"
+    },
+    "1.0.0" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.18.3",
+        "get-intrinsic" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^17.6.0",
+        "aud" : "^1.1.5",
+        "auto-changelog" : "^2.3.0",
+        "es-value-fixtures" : "^1.2.1",
+        "eslint" : "^7.30.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "has-strict-mode" : "^1.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.11.0",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.2.2"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "test" : "npm run tests-only",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "lint" : "eslint .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "7.18.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.0.0.tgz",
+        "shasum" : "31a4e541fa08afad6c485ef34640bfc589cb20f5",
+        "integrity" : "sha512-CzIfzno574WUuRkZJgey74/GAZ9dAw9UGrPIIKbCA+0nNpAiMHwUpfRhVMfkf5hW/Fj9nIHS+OuJUM77USgnag=="
+      },
+      "gitHead" : "250c7ffd414b364a2c1657e65050c8d51aa7e843",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : "./index.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.0.0_1626244668088_0.002651341006817187"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "16.4.2"
+    },
+    "1.1.0" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.18.5",
+        "get-intrinsic" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.1.2",
+        "@ljharb/eslint-config" : "^17.6.0",
+        "aud" : "^1.1.5",
+        "auto-changelog" : "^2.3.0",
+        "es-value-fixtures" : "^1.2.1",
+        "eslint" : "^7.32.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "has-strict-mode" : "^1.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.11.0",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.3.1"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "7.20.3",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.1.0.tgz",
+        "shasum" : "d10bfd5cc40c74549508934626f8d7a10f019bc1",
+        "integrity" : "sha512-3TAea6O20kE30yAeuZ+Q021KKsjHMooRoDFH7qpDBsnNM8SEXivgsEIdjlxEj78SolInKOQfwLKLd8LHiTwxGg=="
+      },
+      "gitHead" : "4825faa80108205b7eeed369400865621577ae0b",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : [ {
+          "import" : "./auto.mjs",
+          "require" : "./auto.js",
+          "default" : "./auto.js"
+        }, "./auto.js" ],
+        "./implementation" : [ {
+          "import" : "./implementation.mjs",
+          "require" : "./implementation.js",
+          "default" : "./implementation.js"
+        }, "./implementation.js" ],
+        "./polyfill" : [ {
+          "import" : "./polyfill.mjs",
+          "require" : "./polyfill.js",
+          "default" : "./polyfill.js"
+        }, "./polyfill.js" ],
+        "./shim" : [ {
+          "import" : "./shim.mjs",
+          "require" : "./shim.js",
+          "default" : "./shim.js"
+        }, "./shim.js" ],
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.1.0_1628360019063_0.474334804581902"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "16.6.1"
+    },
+    "1.1.1" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.1.1",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.19.0",
+        "get-intrinsic" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.1",
+        "@ljharb/eslint-config" : "^18.0.0",
+        "aud" : "^1.1.5",
+        "auto-changelog" : "^2.3.0",
+        "es-value-fixtures" : "^1.2.1",
+        "eslint" : "^7.32.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "has-strict-mode" : "^1.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.11.0",
+        "safe-publish-latest" : "^1.1.4",
+        "tape" : "^5.3.1"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublish" : "safe-publish-latest",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "7.24.0",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.1.1.tgz",
+        "shasum" : "72caf7a9347c6e5e747c743823ea261143d9242b",
+        "integrity" : "sha512-E+plaY4e438D6Z4pStp9jrnd5sUN2xAOjhYeV6/CJTrA1ZFCErHofZydvu9om8o6dssXahyV07tbdqNS3kVoYw=="
+      },
+      "gitHead" : "4e701579474c45943e35e7e7a318bd4dd2c13ab0",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : "./auto.js",
+        "./implementation" : "./implementation.js",
+        "./polyfill" : "./polyfill.js",
+        "./shim" : "./shim.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.1.1_1633109504585_0.02450764313697218"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "16.10.0"
+    },
+    "1.2.0" : {
+      "name" : "array.prototype.findlast",
+      "description" : "An ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      },
+      "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+      },
+      "contributors" : [ {
+        "name" : "Jordan Harband",
+        "email" : "ljharb@gmail.com",
+        "url" : "http://ljharb.codes"
+      } ],
+      "bugs" : {
+        "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+      },
+      "engines" : {
+        "node" : ">= 0.4"
+      },
+      "main" : "index.js",
+      "dependencies" : {
+        "call-bind" : "^1.0.2",
+        "define-properties" : "^1.1.3",
+        "es-abstract" : "^1.19.2",
+        "get-intrinsic" : "^1.1.1"
+      },
+      "devDependencies" : {
+        "@es-shims/api" : "^2.2.3",
+        "@ljharb/eslint-config" : "^21.0.0",
+        "aud" : "^2.0.0",
+        "auto-changelog" : "^2.4.0",
+        "es-value-fixtures" : "^1.2.1",
+        "eslint" : "=8.8.0",
+        "evalmd" : "^0.0.19",
+        "for-each" : "^0.3.3",
+        "has" : "^1.0.3",
+        "has-strict-mode" : "^1.0.1",
+        "in-publish" : "^2.0.1",
+        "nyc" : "^10.3.2",
+        "object-inspect" : "^1.12.0",
+        "safe-publish-latest" : "^2.0.0",
+        "tape" : "^5.5.3"
+      },
+      "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "prepublishOnly" : "safe-publish-latest",
+        "prepublish" : "not-in-publish || npm run prepublishOnly",
+        "pretest" : "npm run --silent lint && evalmd README.md",
+        "posttest" : "aud --production",
+        "tests-only" : "nyc tape 'test/**/*.js'",
+        "tests-esm" : "nyc node test/index.mjs",
+        "test" : "npm run tests-only && npm run tests-esm",
+        "lint" : "eslint --ext=js,mjs .",
+        "postlint" : "es-shim-api --bound",
+        "version" : "auto-changelog && git add CHANGELOG.md",
+        "postversion" : "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
+      },
+      "_npmVersion" : "8.3.1",
+      "_npmUser" : {
+        "name" : "ljharb",
+        "email" : "ljharb@gmail.com"
+      },
+      "_id" : "array.prototype.findlast@1.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/array.prototype.findlast/-/array.prototype.findlast-1.2.0.tgz",
+        "shasum" : "49f3453a43d37e38105fbce8867062ac39ad2507",
+        "integrity" : "sha512-z+GIL1UiAezq8uJjD5ZGy3XPRjnwn2og0PMcimylVih5jXW6Icj6Ka9/UAlqEoGRrywmWlWJq2ds4QVO0c9X8Q=="
+      },
+      "gitHead" : "b8c4784c9556d03e868dd4435bb32b3780f3a74a",
+      "funding" : {
+        "url" : "https://github.com/sponsors/ljharb"
+      },
+      "exports" : {
+        "." : [ {
+          "import" : "./index.mjs",
+          "require" : "./index.js",
+          "default" : "./index.js"
+        }, "./index.js" ],
+        "./auto" : "./auto.js",
+        "./polyfill" : "./polyfill.js",
+        "./implementation" : "./implementation.js",
+        "./shim" : "./shim.js",
+        "./package.json" : "./package.json"
+      },
+      "testling" : {
+        "files" : [ "test/index.js", "test/shimmed.js" ]
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/array.prototype.findlast_1.2.0_1649684775844_0.4607520709668751"
+      },
+      "auto-changelog" : {
+        "output" : "CHANGELOG.md",
+        "template" : "keepachangelog",
+        "unreleased" : false,
+        "commitLimit" : false,
+        "backfillLimit" : false,
+        "hideCredit" : true
+      },
+      "_nodeVersion" : "17.9.0"
+    }
+  },
+  "readme" : "# array.prototype.findlast <sup>[![Version Badge][npm-version-svg]][package-url]</sup>\n\n[![github actions][actions-image]][actions-url]\n[![coverage][codecov-image]][codecov-url]\n[![dependency status][deps-svg]][deps-url]\n[![dev dependency status][dev-deps-svg]][dev-deps-url]\n[![License][license-image]][license-url]\n[![Downloads][downloads-image]][downloads-url]\n\n[![npm badge][npm-badge-png]][package-url]\n\nAn ESnext spec-compliant `Array.prototype.findLast` shim/polyfill/replacement that works as far down as ES3.\n\nThis package implements the [es-shim API](https://github.com/es-shims/api) interface. It works in an ES3-supported environment and complies with the proposed [spec](https://tc39.es/proposal-array-find-from-last).\n\nBecause `Array.prototype.findLast` depends on a receiver (the `this` value), the main export takes the array to operate on as the first argument.\n\n## Getting started\n\n```sh\nnpm install --save array.prototype.findlast\n```\n\n## Usage/Examples\n\n```js\nvar findLast = require('array.prototype.findlast');\nvar assert = require('assert');\n\nvar arr = [1, [2], [], 3, [[4]]];\nvar isNumber = function (x) { return typeof x === 'number' };\n\nassert.deepEqual(findLast(arr, isNumber), 3);\n```\n\n```js\nvar findLast = require('array.prototype.findlast');\nvar assert = require('assert');\n/* when Array#findLast is not present */\ndelete Array.prototype.findLast;\nvar shimmed = findLast.shim();\n\nassert.equal(shimmed, findLast.getPolyfill());\nassert.deepEqual(arr.findLast(isNumber), findLast(arr, isNumber));\n```\n\n```js\nvar findLast = require('array.prototype.findlast');\nvar assert = require('assert');\n/* when Array#findLast is present */\nvar shimmed = findLast.shim();\n\nassert.equal(shimmed, Array.prototype.findLast);\nassert.deepEqual(arr.findLast(isNumber), findLast(arr, isNumber));\n```\n\n## Tests\nSimply clone the repo, `npm install`, and run `npm test`\n\n[package-url]: https://npmjs.org/package/array.prototype.findlast\n[npm-version-svg]: https://versionbadg.es/es-shims/Array.prototype.findLast.svg\n[deps-svg]: https://david-dm.org/es-shims/Array.prototype.findLast.svg\n[deps-url]: https://david-dm.org/es-shims/Array.prototype.findLast\n[dev-deps-svg]: https://david-dm.org/es-shims/Array.prototype.findLast/dev-status.svg\n[dev-deps-url]: https://david-dm.org/es-shims/Array.prototype.findLast#info=devDependencies\n[npm-badge-png]: https://nodei.co/npm/array.prototype.findlast.png?downloads=true&stars=true\n[license-image]: https://img.shields.io/npm/l/array.prototype.findlast.svg\n[license-url]: LICENSE\n[downloads-image]: https://img.shields.io/npm/dm/array.prototype.findlast.svg\n[downloads-url]: https://npm-stat.com/charts.html?package=array.prototype.findlast\n[codecov-image]: https://codecov.io/gh/es-shims/Array.prototype.findLast/branch/main/graphs/badge.svg\n[codecov-url]: https://app.codecov.io/gh/es-shims/Array.prototype.findLast/\n[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/es-shims/Array.prototype.findLast\n[actions-url]: https://github.com/es-shims/Array.prototype.findLast\n",
+  "maintainers" : [ {
+    "name" : "ljharb",
+    "email" : "ljharb@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com",
+    "url" : "http://ljharb.codes"
+  },
+  "time" : {
+    "1.2.1" : "2022-04-11T20:23:25.408Z",
+    "1.2.2" : "2022-11-03T04:01:45.803Z",
+    "1.2.3" : "2023-08-30T04:37:40.223Z",
+    "1.2.4" : "2024-02-06T07:35:15.023Z",
+    "created" : "2021-07-14T06:37:48.088Z",
+    "modified" : "2024-02-06T07:35:15.226Z",
+    "1.0.0" : "2021-07-14T06:37:48.192Z",
+    "1.1.0" : "2021-08-07T18:13:39.184Z",
+    "1.1.1" : "2021-10-01T17:31:44.761Z",
+    "1.2.0" : "2022-04-11T13:46:15.978Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/es-shims/Array.prototype.findLast.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/es-shims/Array.prototype.findLast#readme",
+  "keywords" : [ "Array.prototype.findLast", "find", "findLast", "array", "ESnext", "shim", "polyfill", "last", "es-shim API" ],
+  "contributors" : [ {
+    "name" : "Jordan Harband",
+    "email" : "ljharb@gmail.com",
+    "url" : "http://ljharb.codes"
+  } ],
+  "bugs" : {
+    "url" : "https://github.com/es-shims/Array.prototype.findLast/issues"
+  },
+  "license" : "MIT"
+}

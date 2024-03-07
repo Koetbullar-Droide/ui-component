@@ -1,0 +1,4443 @@
+{
+  "_id" : "@restart/hooks",
+  "_rev" : "66-fc63b143acd2d0b6e33b7d3cad15f32f",
+  "name" : "@restart/hooks",
+  "description" : "A set of utility and general-purpose React hooks.",
+  "dist-tags" : {
+    "latest" : "0.4.16"
+  },
+  "versions" : {
+    "0.4.2" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.2.tgz",
+        "shasum" : "1d2f3b4cbeb9b5a7392e39282f3b7ea72756f89b",
+        "integrity" : "sha512-DB+iJcAcPWkVNeiErBV5Edx33YKEx7mHP9VDmyY8QQtfRYK3axRcXG+pzy6UTtx01m1ERvHzmVe4/l/KfRPw9w=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.2_1638893485595_0.9409368113206311"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "0.2.5" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.5.tgz",
+        "shasum" : "e29ef72f90cc7cdb69b3938c7b6cb463a02a40c9",
+        "integrity" : "sha512-VX+Lxk4fOycsM/V9+9z6XArjC8XEI5c01pkSlzHazVpChMhDfEfVWf+acqJaCbXKwCEvsOsuHOykz0uTI3DfZA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.5_1554917580655_0.4406960615063522"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.3" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.3.tgz",
+        "shasum" : "25aa0aecbb51a8febb8660c25d7b46afc9e0b229",
+        "integrity" : "sha512-5haGybUZVy/fuzbJ62GDpnihxrsotCuPKqb1lV1/qCw6npxpsvQKb/9iXvBKsp1bPt57SopLreJ0EnxZkWx7FQ=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.3_1638895276792_0.4639465217088281"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "0.2.2" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general purpose react hooks",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.2.tgz",
+        "shasum" : "7078d00efed33bc6f4897ef1d222b65241bbd1a2",
+        "integrity" : "sha512-nUBtCQP+D2s0g1w8PHan2cW6C8dB4s8wk+ypWKLKOw9pyD1fBRC+brj1OYGCXjYK/H6xz2hA8KNrA9IPNeHleQ=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.2_1553779706231_0.46114413221052364"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.0" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.0.tgz",
+        "shasum" : "f923d7c96b9bce969de097dd458c822b5c8072ee",
+        "integrity" : "sha512-+RenTVobiCHPjUTbhQDV8m0PU1xEWqgloMIIOlf86oKnfghKR/l4tKto7TH543shEQZZa7ARSMTvT0cXN9u8+g=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.0_1623938744229_0.2775405257696326"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.2.3" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general purpose react hooks",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.3.tgz",
+        "shasum" : "36ba57a574732cfcbc279324bf71bd7f241802bd",
+        "integrity" : "sha512-0ujR9lIPo1APt8+spXZDG45AqERUsH/0JL8ODxivMZNf65FJBUehnqu2Rzufd3MmEboSiiv86Ft59KD8n8UwSg=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.3_1553785920816_0.5069353895195348"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.1" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.1.tgz",
+        "shasum" : "716b1fd7a67650a6d4ed441b5d704b4f73ca2612",
+        "integrity" : "sha512-87UMGZcFwbj0Gr+8eEBAzL6H8xF5pMwq/S3LWeFK9cg4+lTqLFMsiVQFT4ncMJzqgpdD7T6ktF8PsEHeN2O+MQ=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.1_1632751457663_0.3772713022306933"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.2.8" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.8",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.8.tgz",
+        "shasum" : "ce46e27f1ade48dda8807c81163742611c694a91",
+        "integrity" : "sha512-+UIQvsyGY0j+1ohXZ74rDiN+axIaiseWx9ZWwfq8gnAIWJF3toeNx57RMScmS41R2iknPfbqiW9u5q7oFsrTtQ=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.8_1555961994765_0.3324687272860578"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.4.6" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.6.tgz",
+        "shasum" : "15dcf34631a618c513efc924705c7cbe349a4a0c",
+        "integrity" : "sha512-FzpEzy6QeLB3OpUrC9OQD/lWCluQmilLfRGa/DqbB6OmV05AEt/0Lgn3Jf6l27UIJMK0qFmNcps6p8DNLXa6Pw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.6_1648830224191_0.9254938452644292"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.2.9" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.9",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.4.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.9.tgz",
+        "shasum" : "3ff9b64e3d17a92c277566d99bcbb7ffe07a39e5",
+        "integrity" : "sha512-57KkRovmDgELedda1nNTafmUm8BywtfYOZLI5LrWEaeR/RzYITO+LAgioqWqOIatlEn/GionoPWjvgFu/BmXzg=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.9_1555963441296_0.6329270116593793"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.4.7" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.7",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.7.tgz",
+        "shasum" : "d79ca6472c01ce04389fc73d4a79af1b5e33cd39",
+        "integrity" : "sha512-ZbjlEHcG+FQtpDPHd7i4FzNNvJf2enAwZfJbpM8CW7BhmOAbsHpZe3tsHwfQUrBuyrxWqPYp2x5UMnilWcY22A=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.7_1651087441225_0.8929209312053994"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.2.6" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.6.tgz",
+        "shasum" : "e4cb437b6c97ce3821d7f09a0a3c41ab6784b552",
+        "integrity" : "sha512-7J7XQzqeXQ+VwpESflaCGds5bBjvPPz7JdbVCGaHEODcSLdD5N7upVJ7XU/psjWFHf2bWFw8c/WhIBXFpVYpOA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.6_1555347521891_0.5603032502630181"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.4" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.4.tgz",
+        "shasum" : "1d68576371687e9af64c3ca233cffaffc921ff76",
+        "integrity" : "sha512-+7PS1Sh6Fv7WM6vbsi0eUDDfO/Ql2+ADOSwvQ2Sf4Xz66QExmI9FEPVsekxGpaFHqzciNUIEgIigv2ix6/gE4w=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.4_1638897215824_0.8833078858866945"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "0.2.7" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.7",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.7.tgz",
+        "shasum" : "fc359198769c74ffe839f1e5c4b6694a92f2f9d5",
+        "integrity" : "sha512-9XydjsOXaZbAk8UuHQSUYk6m+AiWswAk7VyFj/l002VtoaqX3HaRitiyg6O0XnzXkzo8YeoLqMxogNkEVKLsug=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.7_1555426699689_0.23409929447599054"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.5" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.5.tgz",
+        "shasum" : "e7acbea237bfc9e479970500cf87538b41a1ed02",
+        "integrity" : "sha512-tLGtY0aHeIfT7aPwUkvQuhIy3+q3w4iqmUzFLPlOAf/vNUacLaBt1j/S//jv/dQhenRh8jvswyMojCwmLvJw8A=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.5_1639163086235_0.2815559076058558"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "0.2.0" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general purpose react hooks",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.0.tgz",
+        "shasum" : "24b839b64f05fe752810fcb6091f75fa460e5406",
+        "integrity" : "sha512-r0kyimrd5n2V7fkNl/T4s6AidEr+Nzfobwyi06b+wl3EiqK4A7M2iL+Zp3X+QraYQ2Nk2gp8UscBTPg2tinM8Q=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.0_1553779169560_0.5296384445209801"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.2.1" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general purpose react hooks",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.1.tgz",
+        "shasum" : "bb61b210a99991251241a674361c5256c3c53ebf",
+        "integrity" : "sha512-yTHV5kwrc1yaim+HTSWw2xqU8c8B3urVuGQDvNem1HZO0TBesjWDbbNvewSf/MfCfqwjtDQBZsjQDz2poJ+y1w=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.1_1553779561422_0.6040612074885678"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.4.12" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.12",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.12.tgz",
+        "shasum" : "734d10c3682f17eca8de0dcb43abfab8962d29a9",
+        "integrity" : "sha512-WkYOLLtpKEP92BFnNyxifM+qnsJI/aRpNyQd+zQsO3C24Srn0MhjzTwdVIXKRyzfxOu53E8bUV5KPTcDldebYA=="
+      },
+      "gitHead" : "d0855bd3a06c6e6a7aed14d27899dc4850065839",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.12_1701889584784_0.045803442461954225"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.4.11" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.11",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.11.tgz",
+        "shasum" : "8876ccce1d4ad2a4b793a31689d63df36cf56088",
+        "integrity" : "sha512-Ft/ncTULZN6ldGHiF/k5qt72O8JyRMOeg0tApvCni8LkoiEahO+z3TNxfXIVGy890YtWVDvJAl662dVJSJXvMw=="
+      },
+      "gitHead" : "2464d25ea97e7123d61889b04462840b586165c7",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.11_1689606642653_0.6672325602926732"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.4.14" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.14",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.14.tgz",
+        "shasum" : "df1fd390e9982426fdaa033030390940bad9acfe",
+        "integrity" : "sha512-jlb2nPhXY3b3wn6ffD86z+lvwQ494kptEmshW0ghELyHXrLPkP2x8GKgr5WtgX4U3aQkOl/tM+r+DEQajSsxKw=="
+      },
+      "gitHead" : "69fa4aa96a0cd8ccafcad74ac5eb5fab8c9bb624",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.14_1701962781858_0.37771007064121376"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.4.13" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.13",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.13.tgz",
+        "shasum" : "e042accfb8748dab06e60c4fe71d43e86457c411",
+        "integrity" : "sha512-bwgbkNZEvQWfKIQaUM+QCvs8DAq6MDZ7QPS4ajFOmJY3jP52wJx/vHS6iKNKTaFjjRNF8UWVipKZ5xOJEaFIFg=="
+      },
+      "gitHead" : "75da843034d076e2ab865c9a84b05ed37180c5e2",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.13_1701895202312_0.6775794883755593"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.4.16" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.16",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "10.2.4",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.16.tgz",
+        "shasum" : "95ae8ac1cc7e2bd4fed5e39800ff85604c6d59fb",
+        "integrity" : "sha512-f7aCv7c+nU/3mF7NWLtVVr0Ra80RqsO89hO72r+Y/nvQr5+q0UFGkocElTH6MJApvReVh6JHUFYn2cw1WdHF3w=="
+      },
+      "gitHead" : "f249c92c7d67667415455374af8933e9b4d73a69",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.16_1707524482713_0.18733495662142285"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "20.11.0"
+    },
+    "0.4.15" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.15",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.15.tgz",
+        "shasum" : "70990085c9b79d1f3e140db824b29218bdc2b5bb",
+        "integrity" : "sha512-cZFXYTxbpzYcieq/mBwSyXgqnGMHoBVh3J7MU0CCoIB4NRZxV9/TuwTBAaLMqpNhC3zTPMCgkQ5Ey07L02Xmcw=="
+      },
+      "gitHead" : "242ab0bf8c4289f5e0182ed1125ead5d3ab391ad",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.15_1701967645550_0.5642779750176505"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.4.10" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.10",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.10.tgz",
+        "shasum" : "651741c7965738650e8a2c3d5624a85892f05376",
+        "integrity" : "sha512-HVZhYHb+9xnN6vDPyiTmw6N4V5wD9tatL3y0zpHFeeatP1ooOD1edzd3MnJCXYlb3OeleDg+Vv16EikGrH57eA=="
+      },
+      "gitHead" : "427cef86adf1df5de51aba28b028a8b43e62cdfe",
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.10_1689278387087_0.6757058232018476"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "testEnvironment" : "jsdom",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.3.10" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.10",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.10.tgz",
+        "shasum" : "064f896df66ed4322b58307faed78bec07e22bda",
+        "integrity" : "sha512-GtNYQS8ZUuSc3M3yCTe8+mH4YjyELy3VI6t1/9n5c6pnfBdtcXzLaKdzdpivhC1ClO0HCuTn6b8yDnSFQTgI/g=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.10_1565365704220_0.8793492231342206"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.11" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.11",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.11.tgz",
+        "shasum" : "79ef8b872710838fac8c540f499915ed97935a7a",
+        "integrity" : "sha512-EcKbmMEMJBGNXl2u5WLpwmQnH47+USJW4wIQlwkStmsdt/igq+EUJX7tp0fha0GGIliJoxg69FSe06i5/B6HpA=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.11_1565381079683_0.1264997586619565"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.12" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.12",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.12.tgz",
+        "shasum" : "c68e6b4048d80ab51f6694cb6921bd091318f80f",
+        "integrity" : "sha512-nltMFo5JkYcnntf0Cs3Kq7jskrKeGcftAKOqbEEa74sxlx0bfO3RjBly2aiRb7hnsYJCB8/99l+acQcl2lnq1w=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.12_1565627319562_0.8459784724460804"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.13" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.13",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.13.tgz",
+        "shasum" : "656a62d6be3f3d72b9437101c557c864c0b34e36",
+        "integrity" : "sha512-qQ+QYoU9rfxltGSjJH0Ah65N41vhSe4bnaAGV+8J/mEOXnZh0ejN5P2sGoMYIGiOPCVj0Y1k2kL1Rp/wL0YHGA=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.13_1567801979013_0.37124373565544144"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.9.0"
+    },
+    "0.3.14" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.14",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.14.tgz",
+        "shasum" : "1e0f045aadf0b06229b58eeba91351d90fb9452a",
+        "integrity" : "sha512-k57+iyGr6o1XHeWWsGe5aMHKYcw7fukL6mCE+ZrPjtt1gXei5wCUxj71yQYfFbNjg0z5xxX8Els/UmyJiEn4nw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.14_1568988249218_0.3977442491889902"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.9.0"
+    },
+    "0.3.15" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.15",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.15.tgz",
+        "shasum" : "17cb37a272dfb9cbacf83614a5a7170e68f17d75",
+        "integrity" : "sha512-rVNba1A2oMzKBg16fCrrHmCf4JjOzFhT9TWR8J+Y8iOcY4zffxtP3ke7mEsakvghHZT+9//uDOPSSeuBDW41GQ=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.15_1571840516683_0.7548511517394825"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.9.0"
+    },
+    "0.3.16" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.16",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "lib/cjs/index.js",
+      "devDependencies" : {
+        "@4c/babel-preset" : "^6.0.3",
+        "@4c/cli" : "^0.8.3",
+        "@4c/jest-preset" : "^1.4.3",
+        "@4c/rollout" : "^1.3.6",
+        "@4c/tsconfig" : "^0.1.2",
+        "@babel/cli" : "^7.5.5",
+        "@babel/core" : "^7.5.5",
+        "@babel/preset-typescript" : "^7.3.3",
+        "@types/enzyme" : "^3.10.3",
+        "@types/jest" : "^24.0.17",
+        "@types/react" : "^16.9.1",
+        "babel-jest" : "^24.8.0",
+        "cherry-pick" : "^0.4.0",
+        "codecov" : "^3.5.0",
+        "enzyme" : "^3.10.0",
+        "enzyme-adapter-react-16" : "^1.14.0",
+        "eslint" : "^5.16.0",
+        "husky" : "^3.0.3",
+        "jest" : "^24.8.0",
+        "lint-staged" : "^9.2.1",
+        "mq-polyfill" : "^1.1.8",
+        "prettier" : "^1.18.2",
+        "react" : "^16.9.0",
+        "react-dom" : "^16.9.0",
+        "rimraf" : "^2.6.3",
+        "rollout" : "^0.1.0",
+        "typescript" : "^3.5.3"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "test" : "jest --coverage",
+        "tdd" : "jest --watch",
+        "build:pick" : "cherry-pick --name=@restart/hooks --cwd=lib --input-dir=../src --cjs-dir=cjs --esm-dir=esm",
+        "build" : "rimraf lib && 4c build src && yarn build:pick",
+        "prepublishOnly" : "yarn build"
+      },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.16.tgz",
+        "shasum" : "92bf1100610a3f9017ab18b650e39fd5b71249f0",
+        "integrity" : "sha512-65r81iFx7xuuceoaLC/vlGJdAOUR4ZXWjsFhX9pEgqdo1Oaeyq20ahuOi0VvISVI9kxtFrCntOZ6ZmGIKD5xnA=="
+      },
+      "gitHead" : "4066dc41178f54772991b7b905697bd3817eb87b",
+      "types" : "lib/cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "lib/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.16_1574449140301_0.34010357589847984"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "0.3.17" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.17",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.12.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.17.tgz",
+        "shasum" : "83331af946b879d94871c957b67b37b98ce6927c",
+        "integrity" : "sha512-pxmdnv3nLoMU1LM2VOmMnAPJRdIapsl7W+jnsqX3vRVJ8Flfc0Yfmjk3upd3KpfFGEN9O19dzh8CNvthpKRqhA=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.17_1574450597878_0.03419480448925216"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "0.3.9" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.9",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.10.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.9.tgz",
+        "shasum" : "b2849bee3faec1d3fc531fdf301f4b27649baa8e",
+        "integrity" : "sha512-6gL84qcdZHUN0V5czyMXzAbcBBpHm8H5Gwj7eqnVi6p3JzGwJ5m2at19dKE9Gv3SsU3Hv9SPDX+6zQSExCjjkQ=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.9_1565023353991_0.9502351793003148"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.5" : {
+      "name" : "@restart/hooks",
+      "description" : "",
+      "version" : "0.1.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.1.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.1.5.tgz",
+        "shasum" : "2aabca8b2c6af016f61fb7a203520bb104b0954d",
+        "integrity" : "sha512-vvSNiMzj7YZwDIpHOwqQ1mJvOwyCbgrak64qg90yR09c3ZLFhmjZIUC5GWF7BZa7Axi8m9Z5kne+8CIKCn+o6w=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.1.5_1553643495026_0.23283341965842808"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupTestFrameworkScriptFile" : "./test/setup.js"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.3.3" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.3.tgz",
+        "shasum" : "90b2d823984352f6d70219fe95462460c6e80a81",
+        "integrity" : "sha512-F0qyjph2XvOq/n073Cw06A9Df90GOKfp3EcT0l5yqiD5Bs9BeWKtaGbbc9DowR+zaaFmdz9KFnPxMDDduKsYmw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.3_1562189565925_0.8682928980497426"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.6" : {
+      "name" : "@restart/hooks",
+      "description" : "",
+      "version" : "0.1.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.1.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.1.6.tgz",
+        "shasum" : "5417f9f239b19c8427ee6f034940984bd6b4084e",
+        "integrity" : "sha512-eP1NykkdPlagH60YV+k2qGDCq3rkNtY6Sz0T2DVU1MQPa4pVRofIj+leFM2SLZLzy5nQFga4YnX7oM2d2LJRpA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.1.6_1553695153146_0.9233555235355737"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupTestFrameworkScriptFile" : "./test/setup.js"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.3.4" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.4.tgz",
+        "shasum" : "f090389900245b70ad3347bb920252428dc9e30d",
+        "integrity" : "sha512-j3kZG3/wK5BK3Xn3qiOqRvQQBRXfg/q2yMhS2odgj4zcucUJpWJLMDkA7eEh1HaObbGfo/lTfo21mDDPr2Pqmw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.4_1562205396312_0.5406851153730201"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.3" : {
+      "name" : "@restart/hooks",
+      "description" : "",
+      "version" : "0.1.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.1.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.1.3.tgz",
+        "shasum" : "a7b98fe0e4b29ae73656abb4bf52f9df5ef75375",
+        "integrity" : "sha512-mDr/V02tHSNrKNIwCR/mN1tstaLdiFzBoNJm1mnG3tyD5aKR3FyMgfxaCk8qNg04NERxBUghVAJniVzodOmf3Q=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.1.3_1553642850308_0.5923296552585178"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupTestFrameworkScriptFile" : "./test/setup.js"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.3.1" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.1.tgz",
+        "shasum" : "bcc0ee82500bb2ac5849c3c3384d520a196cb7a0",
+        "integrity" : "sha512-kjGGlli8iTe5TFDw6qHZJ5QK1naITMveIO+o8yQJJqwX8VIkiQzLddK98Lduga2krJMzWlNqDR/4isGLiyBlUA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.1_1559915398257_0.7017522992647545"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.4" : {
+      "name" : "@restart/hooks",
+      "description" : "",
+      "version" : "0.1.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.1.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.1.4.tgz",
+        "shasum" : "783398832de3820fef5e005094ea68f2100a0d94",
+        "integrity" : "sha512-e/Xf7MhM0iVXpPQ5KV91ZRo3edrUki0TZ5oW4IXG1Z8mTradeuuG/r3+Ln6p+FTBFc/dIodyumL6V6pGpBYYPQ=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.1.4_1553642994286_0.4641133889223801"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupTestFrameworkScriptFile" : "./test/setup.js"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.3.2" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.2.tgz",
+        "shasum" : "8060f96cd45fb7d89b7f97150f20deb159b1b613",
+        "integrity" : "sha512-gZF+r35a5R3sHhtoQi6YhtG2fRzwVuassZ+GvrlieHG531ocF2oJvwe0/gYtAd8bDr30MlET3ctFyJ/r6gJZfw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.2_1561582348092_0.92499016864713"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.7" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.7",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.7.tgz",
+        "shasum" : "8d2768be4822260db7ce074f23ee70d19317fba1",
+        "integrity" : "sha512-6jcSoS7VIJf/KMN4AoSwWyZfvl3pFwIrZAD0krvcawnKlMQ68mFkHLjZskPnp0nP7oTMnirNIgn4flIegD+sJw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.7_1562860054605_0.3781306815514591"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.8" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.8",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.8.tgz",
+        "shasum" : "2f34f503d92ad95586c34f1175d6743f3a520a4e",
+        "integrity" : "sha512-0AO6p7iOqWeLu9++Qz1P0efRmA7nDT3uMx4banEUj0KZLNOBkK98zddsKtRjwBlJw2dbL/V+u5+recuCwjO/pg=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.8_1563465691802_0.718567921168658"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.5" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.5.tgz",
+        "shasum" : "d21f46eabd5bf23e1e31dfc0e2bb8d2416486b1c",
+        "integrity" : "sha512-1fvKNSpanqW7yS4Z02eXm1Y1ggi+9nsT9YTPaDqrInWXPdyNizt2VgWb89L3Bi36+l1YxXbqhUxKO8tASk+iWw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.5_1562436692412_0.5554907179742319"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.6" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.6.tgz",
+        "shasum" : "2c82ae4a9306588b84d350d5b756fee2358cc646",
+        "integrity" : "sha512-EfSgkyC9I4PukxiSe/5q+CAfW4TgNhi+BYY5Vi536+S0C8z9z7Y8pRAcP/gjcQ6Y92FgkUmoGYAGNKfAApiy+A=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.6_1562604547662_0.21431104715238036"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.18" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.18",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.11.3",
+      "_npmUser" : {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.18.tgz",
+        "shasum" : "2af4f0f34f2f341f2798b1dc3727db7f62c7ada7",
+        "integrity" : "sha512-pj2o4D8IETBtM3VUXbyypGapjKMchvHdn5WrJGfBj8c7dyOyx56ldgltYd+JTTS6KqbRGJVaAxN5T81D0AcZ5w=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.18_1574450853262_0.2930129465222948"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.12.0"
+    },
+    "0.3.19" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.19",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.19.tgz",
+        "shasum" : "1b54b4a61dca6157f3bfcd4f348855187d67d51f",
+        "integrity" : "sha512-8bskLEkiDvuZztnfGN+vM56q2HQV8dyXS/Eb0nhXPx6fonii3hQLxfNVA2r5NTMbvEkwDo59bAau3idUXaGvww=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.19_1574792868951_0.8765721500480721"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.1.1" : {
+      "name" : "@restart/hooks",
+      "description" : "",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.1.1.tgz",
+        "shasum" : "6b955b4e36a6d44bd596caf1233abc3ecfb138c7",
+        "integrity" : "sha512-vG1aw5274RKfDX6LiUsiIrnKSKJ42xQq8TDXUFHFZeV4T6jGBxlCATOrfYKyMvmAyd2YkHfxXo59ZYVjW9aqzA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.1.1_1551987226062_0.10568569500500824"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupTestFrameworkScriptFile" : "./test/setup.js"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.3.0" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.0.tgz",
+        "shasum" : "176a73e703133230e613cca4e536265657099bb5",
+        "integrity" : "sha512-meqDR+pO53h6Aq1Fk/I1U9uF0pj4tugZb3PWWwYFwKGtr7fPwgyxxkkdddSo1zhL/VDAUxwqFKB3wuP2Z1txjg=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.0_1559079373495_0.16036645247121073"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.1.0" : {
+      "name" : "@restart/hooks",
+      "description" : "",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.7.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.1.0.tgz",
+        "shasum" : "6429c5af195435dc7e4077499f91cbc5d93a4d97",
+        "integrity" : "sha512-C9clqofqIYccpNwpVE3Ag5BQtbtysfbaKVN22Tt8Af5pm8rXyJM2yACfW6+M7S/rTzctdtWTa5OhOrixXaqR6Q=="
+      },
+      "release" : {
+        "publishDir" : "lib"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.1.0_1550113261761_0.41702124788517914"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupTestFrameworkScriptFile" : "./test/setup.js"
+      },
+      "_nodeVersion" : "10.1.0"
+    },
+    "0.3.21" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.21",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.21",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.21.tgz",
+        "shasum" : "5264d12019ffb844dc1fc44d55517ded7b580ee2",
+        "integrity" : "sha512-Wcu3CFJV+iiqPEIoPVx3/CYnZBRgPeRABo6bLJByRH9ptJXyObn7WYPG7Rv0cg3+55bqcBbG0xEfovzwE2PNXg=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.21_1582651983201_0.7415788224097337"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.10" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.10",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.10.tgz",
+        "shasum" : "b5af041ed54ad380b4e665ee822bf8180f8c8401",
+        "integrity" : "sha512-nW+yJ6ewPVCbfjdFFABJ5JPPPO+wMlxHYZS0WCt+6QNWQ4TpDLdZu3EODqqFluMVUjX7vNZ3pGVBeEpkvs1DDg=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.10_1556809990955_0.44903450605448825"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.22" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.22",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "lodash" : "^4.17.15",
+        "lodash-es" : "^4.17.15"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.22",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.22.tgz",
+        "shasum" : "bb7e27c832bf576f56977d0a0b8b9d8ccee877b8",
+        "integrity" : "sha512-tW0T3hP6emYNOc76/iC96rlu+f7JYLSVk/Wnn+7dj1gJUcw4CkQNLy16vx2mBLtVKsFMZ9miVEZXat8blruDHQ=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.22_1584560222153_0.8174110450897583"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.11" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.11",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.11.tgz",
+        "shasum" : "5968dd5b9ce880522259e5177413ce011529cad8",
+        "integrity" : "sha512-1FcdDKzz4YB+zC6Nu6exSPjuDoNsivalKcKhDHS6VTMo3xLQNrv4lwDOkhHv4/Mz1VtcLDUhbgb9fheZ+QMEcA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.11_1556811450012_0.31380349240053307"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.23" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.23",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "lodash" : "^4.17.15",
+        "lodash-es" : "^4.17.15"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.23",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.23.tgz",
+        "shasum" : "531b487b68e54ff4be484c1e6a2cc8aa65f9447b",
+        "integrity" : "sha512-nKte/6bLyJZ/jh/U3gewTNU3SROXrvUTk54DBrk2Hsf3Ye4kkna1HAvPTISTDo2uNY6KltGBnfZsYepxDFzvOA=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.23_1589381590319_0.35547488020036955"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.12" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.12",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.12.tgz",
+        "shasum" : "f3cc23096d3a3cd85e438716433ba5775b3f8234",
+        "integrity" : "sha512-bRLach8/0316PQrx6ssswGdxytwakatLH2BN5sRpybXb6bkwBs2t3NfZ/N2rNZxPt3vFldHd0L4MYTg3eNt7Fw=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.12_1557326780695_0.6763522809846878"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.24" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.24",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "lodash" : "^4.17.15",
+        "lodash-es" : "^4.17.15"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.24",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.24.tgz",
+        "shasum" : "e8c6187fa0b788669258e76c4abf3e8f6d4d7b4b",
+        "integrity" : "sha512-q5Ga0G8fO8z8/4+4Hj76zzNJ1ycJAAkC8bEetFw0VssGa16bRh06+HrUoZXHyES6+KEX32Rs4k8znkzhCfkkvg=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.24_1589395083874_0.18025217731468235"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.13" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.13",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.13.tgz",
+        "shasum" : "de9a2dfd6dacac3b60f9b19614cdd49f90e434c3",
+        "integrity" : "sha512-riuYub4Xx/Pk+YUPRHZPwJd2+rAJSsRd4Pqkqvhzu+AbkDdNi4y+kYEQicnAofbfTA5apRPm3cK9sWc6Gj5DNg=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.13_1557939958059_0.9221954754917738"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.25" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.25",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "lodash" : "^4.17.15",
+        "lodash-es" : "^4.17.15"
+      },
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.2",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.25",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.25.tgz",
+        "shasum" : "11004139ad1c70d2f5965a8939dcb5aeb96aa652",
+        "integrity" : "sha512-m2v3N5pxTsIiSH74/sb1yW8D9RxkJidGW+5Mfwn/lHb2QzhZNlaU1su7abSyT9EGf0xS/0waLjrf7/XxQHUk7w=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.25_1589481212298_0.18983955499096217"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.2.14" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.2.14",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/jquense/react-common-hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/jquense/react-common-hooks/issues"
+      },
+      "main" : "index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0-0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.2.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.2.14.tgz",
+        "shasum" : "564f278c520a44f402e6cfd90c9b7fefdd79f21d",
+        "integrity" : "sha512-wZCvH309EuidZhfG7RETgYX7DYatg06USyOX+BF8Zt/JZd3PJCjv3XVb2Jc4xVafDDa8FgWjt+S8HN6P2vZbFA=="
+      },
+      "types" : "index.d.ts",
+      "release" : {
+        "publishDir" : "lib",
+        "conventionalCommits" : true
+      },
+      "module" : "es/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.2.14_1559077463505_0.00975578578984515"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFiles" : [ "./test/setup.js" ]
+      },
+      "_nodeVersion" : "10.15.3"
+    },
+    "0.3.26" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.26",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "lodash" : "^4.17.20",
+        "lodash-es" : "^4.17.20"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.9",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.26",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.26.tgz",
+        "shasum" : "ade155a7b0b014ef1073391dda46972c3a14a129",
+        "integrity" : "sha512-7Hwk2ZMYm+JLWcb7R9qIXk1OoUg1Z+saKWqZXlrvFwT3w6UArVNWgxYOzf+PJoK9zZejp8okPAKTctthhXLt5g=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.26_1609873047983_0.41985477770043644"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.3.27" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.3.27",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.27",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.27.tgz",
+        "shasum" : "91f356d66d4699a8cd8b3d008402708b6a9dc505",
+        "integrity" : "sha512-s984xV/EapUIfkjlf8wz9weP2O9TNKR96C68FfMEy2bE69+H4cNv3RD4Mf97lW7Htt7PjZrYTjSC8f3SB9VCXw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.27_1623878024844_0.16108150774629904"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.3.20" : {
+      "name" : "@restart/hooks",
+      "version" : "0.3.20",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "peerDependencies" : {
+        "react" : "^16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.12.0",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.3.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.3.20.tgz",
+        "shasum" : "e7179ab41e5f346b2feca091261fbdad77e8bc19",
+        "integrity" : "sha512-Q1eeEqcxHQ4oqty7C5Me8/hzWwdCRR643nR/6EHxv8BVxLVYHe4IoWAHg8MIGkE4VtSm3/JnNhkoLJhCkLx5aw=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.3.20_1579791401367_0.6903863084321975"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "setupFilesAfterEnv" : [ "./test/setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "12.13.0"
+    },
+    "0.4.8" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.8",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.8.tgz",
+        "shasum" : "67ada92e36527956865ab9b1ddfb87d37aa1db42",
+        "integrity" : "sha512-Ivvp1FZ0Lja80iUTYAhbzy+stxwO7FbPHP95ypCtIh0wyOLiayQywXhVJ2ZYP5S1AjW2GmKHeRU4UglMwTG2sA=="
+      },
+      "types" : "cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.8_1674667718166_0.7844182782305433"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.4.9" : {
+      "name" : "@restart/hooks",
+      "description" : "A set of utility and general-purpose React hooks.",
+      "version" : "0.4.9",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/hooks#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/jquense/react-common-hooks.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/hooks/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "dequal" : "^2.0.2"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.8.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/hooks@0.4.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/hooks/-/hooks-0.4.9.tgz",
+        "shasum" : "ad858fb39d99e252cccce19416adc18fc3f18fcb",
+        "integrity" : "sha512-3BekqcwB6Umeya+16XPooARn4qEPW6vNvwYnlofIYe6h9qG1/VeD7UvShCWx11eFz5ELYmwIEshz+MkPX3wjcQ=="
+      },
+      "types" : "cjs/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/hooks_0.4.9_1676050357896_0.7374688334838138"
+      },
+      "jest" : {
+        "preset" : "@4c",
+        "rootDir" : "./test",
+        "setupFilesAfterEnv" : [ "./setup.js" ]
+      },
+      "prettier" : {
+        "singleQuote" : true,
+        "semi" : false,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    }
+  },
+  "readme" : "# @restart/hooks [![npm][npm-badge]][npm]\n\nA set of utility and general-purpose React hooks.\n\n## Install\n\n```sh\nnpm install @restart/hooks\n```\n\n## Usage\n\n```js\nimport useInterval from '@restart/hooks/useInterval'\n\nuseInterval(() => loop(), 300, false)\n```\n\n[npm-badge]: https://img.shields.io/npm/v/@restart/hooks.svg\n[npm]: https://www.npmjs.org/package/@restart/hooks\n",
+  "maintainers" : [ {
+    "name" : "monastic.panic",
+    "email" : "monastic.panic@gmail.com"
+  }, {
+    "name" : "taion",
+    "email" : "tesrin@gmail.com"
+  }, {
+    "name" : "kytsang",
+    "email" : "ktsang.work@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jason Quense",
+    "email" : "monastic.panic@gmail.com"
+  },
+  "time" : {
+    "0.4.2" : "2021-12-07T16:11:25.770Z",
+    "0.2.5" : "2019-04-10T17:33:00.798Z",
+    "0.4.3" : "2021-12-07T16:41:17.033Z",
+    "0.2.2" : "2019-03-28T13:28:26.373Z",
+    "0.4.0" : "2021-06-17T14:05:44.346Z",
+    "0.2.3" : "2019-03-28T15:12:00.940Z",
+    "0.4.1" : "2021-09-27T14:04:17.858Z",
+    "0.2.8" : "2019-04-22T19:39:54.888Z",
+    "0.4.6" : "2022-04-01T16:23:44.466Z",
+    "0.2.9" : "2019-04-22T20:04:01.499Z",
+    "0.4.7" : "2022-04-27T19:24:01.406Z",
+    "0.2.6" : "2019-04-15T16:58:41.999Z",
+    "0.4.4" : "2021-12-07T17:13:36.008Z",
+    "0.2.7" : "2019-04-16T14:58:19.821Z",
+    "0.4.5" : "2021-12-10T19:04:46.441Z",
+    "0.2.0" : "2019-03-28T13:19:29.673Z",
+    "0.2.1" : "2019-03-28T13:26:01.542Z",
+    "0.4.12" : "2023-12-06T19:06:25.067Z",
+    "0.4.11" : "2023-07-17T15:10:42.918Z",
+    "0.4.14" : "2023-12-07T15:26:22.158Z",
+    "0.4.13" : "2023-12-06T20:40:02.605Z",
+    "0.4.16" : "2024-02-10T00:21:22.944Z",
+    "0.4.15" : "2023-12-07T16:47:25.833Z",
+    "modified" : "2024-02-10T00:21:23.202Z",
+    "0.4.10" : "2023-07-13T19:59:47.364Z",
+    "created" : "2019-02-14T03:01:01.603Z",
+    "0.3.10" : "2019-08-09T15:48:24.350Z",
+    "0.3.11" : "2019-08-09T20:04:39.815Z",
+    "0.3.12" : "2019-08-12T16:28:39.715Z",
+    "0.3.13" : "2019-09-06T20:32:59.144Z",
+    "0.3.14" : "2019-09-20T14:04:09.361Z",
+    "0.3.15" : "2019-10-23T14:21:56.812Z",
+    "0.3.16" : "2019-11-22T18:59:00.442Z",
+    "0.3.17" : "2019-11-22T19:23:18.046Z",
+    "0.3.9" : "2019-08-05T16:42:34.188Z",
+    "0.1.5" : "2019-03-26T23:38:15.163Z",
+    "0.3.3" : "2019-07-03T21:32:46.051Z",
+    "0.1.6" : "2019-03-27T13:59:13.254Z",
+    "0.3.4" : "2019-07-04T01:56:36.435Z",
+    "0.1.3" : "2019-03-26T23:27:30.478Z",
+    "0.3.1" : "2019-06-07T13:49:58.431Z",
+    "0.1.4" : "2019-03-26T23:29:54.453Z",
+    "0.3.2" : "2019-06-26T20:52:28.239Z",
+    "0.3.7" : "2019-07-11T15:47:34.724Z",
+    "0.3.8" : "2019-07-18T16:01:32.747Z",
+    "0.3.5" : "2019-07-06T18:11:32.539Z",
+    "0.3.6" : "2019-07-08T16:49:07.812Z",
+    "0.3.18" : "2019-11-22T19:27:33.407Z",
+    "0.3.19" : "2019-11-26T18:27:49.135Z",
+    "0.1.1" : "2019-03-07T19:33:46.298Z",
+    "0.3.0" : "2019-05-28T21:36:13.646Z",
+    "0.1.0" : "2019-02-14T03:01:01.906Z",
+    "0.3.21" : "2020-02-25T17:33:03.372Z",
+    "0.2.10" : "2019-05-02T15:13:11.102Z",
+    "0.3.22" : "2020-03-18T19:37:02.321Z",
+    "0.2.11" : "2019-05-02T15:37:30.183Z",
+    "0.3.23" : "2020-05-13T14:53:10.441Z",
+    "0.2.12" : "2019-05-08T14:46:20.897Z",
+    "0.3.24" : "2020-05-13T18:38:03.981Z",
+    "0.2.13" : "2019-05-15T17:05:58.208Z",
+    "0.3.25" : "2020-05-14T18:33:32.468Z",
+    "0.2.14" : "2019-05-28T21:04:23.656Z",
+    "0.3.26" : "2021-01-05T18:57:28.174Z",
+    "0.3.27" : "2021-06-16T21:13:45.300Z",
+    "0.3.20" : "2020-01-23T14:56:41.529Z",
+    "0.4.8" : "2023-01-25T17:28:38.370Z",
+    "0.4.9" : "2023-02-10T17:32:38.130Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/jquense/react-common-hooks.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/react-restart/hooks#readme",
+  "bugs" : {
+    "url" : "https://github.com/react-restart/hooks/issues"
+  },
+  "license" : "MIT"
+}

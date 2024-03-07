@@ -1,0 +1,3556 @@
+{
+  "_id" : "@esbuild/freebsd-x64",
+  "_rev" : "75-dbef33dfd15a07b5ce69376f5cf9eefc",
+  "name" : "@esbuild/freebsd-x64",
+  "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.20.1"
+  },
+  "versions" : {
+    "0.15.18" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.15.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.15.18.tgz",
+        "shasum" : "a1b6a944897343b23cc8e2081e755ccd3aa95f4d",
+        "integrity" : "sha512-fVhmZ5u46PsEHl9a0C9zSqFdVfItDsbAULouO+HSlWrVgDs4iParA6OELx/PcJ58XLsQOlwM285qwYWgdI65Sg=="
+      },
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.15.18_1670283849419_0.12298826077969083"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.10.tgz",
+        "shasum" : "8ad9e5ca9786ca3f1ef1411bfd10b08dcd9d4cef",
+        "integrity" : "sha512-G5UPPspryHu1T3uX8WiOEUa6q6OlQh6gNl4CO4Iw5PS+Kg5bVggVFehzXBJY6X6RSOMS8iXDv2330VzaObm4Ag=="
+      },
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.10_1702945287513_0.5994425128192455"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.12.tgz",
+        "shasum" : "37a693553d42ff77cd7126764b535fb6cc28a11c",
+        "integrity" : "sha512-EYoXZ4d8xtBoVN7CEwWY2IN4ho76xjYXqSXMNccFSx2lgqOG/1TBPW0yPx1bJZk94qu3tX0fycJeeQsKovA8gg=="
+      },
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.12_1706031617535_0.8611157914376655"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.11.tgz",
+        "shasum" : "7bdcc1917409178257ca6a1a27fe06e797ec18a2",
+        "integrity" : "sha512-JkUqn44AffGXitVI6/AbQdoYAq0TEullFdqcMY/PCUZ36xJ9ZJRtQabzMA+Vi7r78+25ZIBosLTOKnUXBSi1Kw=="
+      },
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.11_1703881905881_0.5710998025008671"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.2.tgz",
+        "shasum" : "7e68876fbe0e6e8fc9f45f880a2b393e61f54bf3",
+        "integrity" : "sha512-uvbv99Wg2T489bqUz4gYVb2IpSSZZP/uTkaZpaLN+h3x58FmsLT4o7bF1Refd2JIKuONxSobljlk5/K/RD9SsQ=="
+      },
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.2_1670482783290_0.2508954760928035"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.0.tgz",
+        "shasum" : "c6a1bd133747de0c687abb137e17a197a2cced03",
+        "integrity" : "sha512-GdkJAB3ZBiYnie9iFO9v/CM4ko0dm5SYkUs97lBKNLHw9mo4H9IXwGNKtUztisEsmUP0IWfEi4YTWOJF3DIO4w=="
+      },
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.0_1686345857628_0.37221173529411145"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.1.tgz",
+        "shasum" : "48fba6c63463409452ebc8544139e091b7797afb",
+        "integrity" : "sha512-BKYAYhsgD/6/mOeOwMSEcTyL9GlFBNr2LkgWEaugUp/oXCC+ScCH/EqphD3Jp5MsMNIk71b0YqDDveDHXuwcLw=="
+      },
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.1_1670388488947_0.4895033590982949"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.0.tgz",
+        "shasum" : "40836988ae0a31d3deeb5788765a81428d4ec071",
+        "integrity" : "sha512-70LMjM1P72raUNIzNtuV9mbzx5A+dY9+idS/9pdwWyle8/QeS5u3XF/6NO868XsOG+LhY4B3+nY0T1u9DjVApw=="
+      },
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.0_1670385300263_0.8685998137111461"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.17.tgz",
+        "shasum" : "636306f19e9bc981e06aa1d777302dad8fddaf72",
+        "integrity" : "sha512-8ScTdNJl5idAKjH8zGAsN7RuWcyHG3BAvMNpKOBaqqR7EbUhhVHOqXRdL7oZvz8WNHL2pr5+eIT5c65kA6NHug=="
+      },
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.17_1673474274884_0.17474471727909835"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.16.tgz",
+        "shasum" : "02e8a81b7e56040b5eb883896de445a6cd3501f0",
+        "integrity" : "sha512-8p3v1D+du2jiDvSoNVimHhj7leSfST9YlKsAEO7etBfuqjaBMndo0fmjNLp0JCMld+XIx9L80tooOkyUv1a1PQ=="
+      },
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.16_1673217828728_0.5307014173853897"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.8.tgz",
+        "shasum" : "764ab393d3df7c34815508ce12eb2eb57b4f0a48",
+        "integrity" : "sha512-j0dgVXUyInggnvEgFGS7FXTQncRwAmHkgAy8YE52kOsozkimpapE3Kuuwb6MXbhnqLvJevaFgGSAlseDlkXAlg=="
+      },
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.8_1687663149075_0.1058725563206595"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.9.tgz",
+        "shasum" : "2db48ffeeab149c2b970494a60b82bf3004b8630",
+        "integrity" : "sha512-GNors4vaMJ7lzGOuhzNc7jvgsQZqErGA8rsW+nck8N1nYu86CvsJW2seigVrQQWOV4QzEP8Zf3gm+QCjA2hnBQ=="
+      },
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.9_1671337876936_0.7355612004844461"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.7.tgz",
+        "shasum" : "8eb59bf0015e4abd5ce3fc16094eb11174167b83",
+        "integrity" : "sha512-rbfjbgSvzWRjQMKIntogK1d2oIAiA/ZVayXfK1WjcIIMQYLg74sAoT8CZBj30+bwn13YR0t6lgIxA1mJaS2Lhw=="
+      },
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.7_1687574782133_0.8005108288518301"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.8.tgz",
+        "shasum" : "fbec93f8fd4864b5882d62e45d2adf535ef2f582",
+        "integrity" : "sha512-UcsCaR25C0tZWnoImprPzr7vMEMjLImlTQAIfWXU2wvjF4gBWKO9GEH2JlsKYqBjfWfGgH+HHoGSF/evZbKyxA=="
+      },
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.8_1671233914505_0.24366164482377206"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.6.tgz",
+        "shasum" : "59195dbc35a1c73acf9f3804f4245702fc0669de",
+        "integrity" : "sha512-HbDLlkDZqUMBQaiday0pJzB6/8Xx/10dI3xRebJBReOEeDSeS+7GzTtW9h8ZnfB7/wBCqvtAjGtWQLTNPbR2+g=="
+      },
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.6_1687303490116_0.4853135382509679"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.7.tgz",
+        "shasum" : "bc01c146e6af5430c5eb325844de43f01e0264c4",
+        "integrity" : "sha512-5Ahf6jzWXJ4J2uh9dpy5DKOO+PeRUE/9DMys6VuYfwgQzd6n5+pVFm58L2Z2gRe611RX6SdydnNaiIKM3svY7g=="
+      },
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.7_1671058012971_0.6640320625542193"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.5.tgz",
+        "shasum" : "5374704c357d7d60b8af674c2e61adea383b1b02",
+        "integrity" : "sha512-GNTMSJ55gl7Tf5VUqVRkMJhRGzH6vI9vFBfZCj4Zjm7RgfXCWxLnTyjMgZZKT8pOzW40KD2KlrGbqwnnJWyGWw=="
+      },
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.5_1687222351050_0.8739987974249692"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.6.tgz",
+        "shasum" : "7e892ec08c9a11863e86feff169452f3cde967af",
+        "integrity" : "sha512-/BneBfb5v+VAqjDLt8Q/5llb7smIEJVPd1afNJDShRfj2qr5nIwh1FJaOjoEWe6I1sucdKJ/EbwOujH+iBkW/g=="
+      },
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.6_1670995389808_0.7113207567585873"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.4.tgz",
+        "shasum" : "7c942bc3ca10ed140764a58dcc04e60e5bdca11a",
+        "integrity" : "sha512-1bHfgMz/cNMjbpsYxjVgMJ1iwKq+NdDPlACBrWULD7ZdFmBQrhMicMaKb5CdmdVyvIwXmasOuF4r6Iq574kUTA=="
+      },
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.4_1686929896030_0.6295392772188135"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.5.tgz",
+        "shasum" : "79bf9368634f390d16f5032a9b6603f02b0d999b",
+        "integrity" : "sha512-qCdC0T7XUxngX8otO4nmPUE/cHZfvF8jk+GMr9qkAGP0nIMACD7t/AWoY2N5rsn5/dOJ1VKM/aMF4wCFBP5AqQ=="
+      },
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.5_1670953659273_0.5184008928424153"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.3.tgz",
+        "shasum" : "c1a268389a4e8147b55bad8325521563202fa3b9",
+        "integrity" : "sha512-xyITfrF0G3l1gwR79hvNCCWKQ/16uK14xNNPFgzjbIqF4EpBvhO6l3jrWxXFUW51z6dVIl2Szh3x3uIbBWzH1Q=="
+      },
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.3_1686831650915_0.7026703854673726"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.4.tgz",
+        "shasum" : "44701ba4a5497ba64eec0a6c9e221d8f46a25e72",
+        "integrity" : "sha512-vAP+eYOxlN/Bpo/TZmzEQapNS8W1njECrqkTpNgvXskkkJC2AwOXwZWai/Kc2vEFZUXQttx6UJbj9grqjD/+9Q=="
+      },
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.4_1670644225286_0.9220731468799828"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.2.tgz",
+        "shasum" : "dce7efd96172d8a2e728296b041a04be7f44f26e",
+        "integrity" : "sha512-ZSR9On/rXoYuAtrXo5hYKy7OuZwKZyFh2rr6L3TX4UeR1tWLf84aLyAFt7e0tlRbh4zNgqFx+ePWmsSHw7L9Bw=="
+      },
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.2_1686624027654_0.9349787227432143"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.3.tgz",
+        "shasum" : "f4edd1464cb072799ed6b8ab5178478e71c13459",
+        "integrity" : "sha512-TfoDzLw+QHfc4a8aKtGSQ96Wa+6eimljjkq9HKR0rHlU83vw8aldMOUSJTUDxbcUdcgnJzPaX8/vGWm7vyV7ug=="
+      },
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.3_1670530371580_0.7589875153577739"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.1.tgz",
+        "shasum" : "3ab647a9f1557ce8f099e4910854000cd831989a",
+        "integrity" : "sha512-w03zjxyg51qktv0JKsV+AbY3uSb1Awifs8IkKQSUXdP3sdPxxmPzZLrlJ1+LjKZRiSa4yP/Haayi/hriNVoIdQ=="
+      },
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.1_1686545503049_0.9167530839761577"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.9.tgz",
+        "shasum" : "87a33b75e4be4c7b3d2cf15aef0cd1e1b0d24043",
+        "integrity" : "sha512-BsOYio/4p/6RWG+sDQXVYet8qQ0bB91rfO0YNk5s0HlqE9vEth3Yi1jFNi4v7bUA4vQDWWoybpA/9NTz1sM88A=="
+      },
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.9_1687757270298_0.9851365903757257"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.13.tgz",
+        "shasum" : "ec64a31cabb08343bb4520a221324b40509dffc8",
+        "integrity" : "sha512-Ez15oqV1vwvZ30cVLeBW14BsWq/fdWNQGMOxxqaSJVQVLqHhvgfQ7gxGDiN9tpJdeQhqJO+Q0r02/Tce5+USNg=="
+      },
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.13_1672700237130_0.06078666722237425"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.12.tgz",
+        "shasum" : "e682a61cde8d6332aaeb4c2b28fce0d833928903",
+        "integrity" : "sha512-KUKB9w8G/xaAbD39t6gnRBuhQ8vIYYlxGT2I+mT6UGRnCGRr1+ePFIGBQmf5V16nxylgUuuWVW1zU2ktKkf6WQ=="
+      },
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.12_1672193081252_0.04074298025466416"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.15.tgz",
+        "shasum" : "68855666ecf1616e2a927154148d4409cd8bc55b",
+        "integrity" : "sha512-LE8mKC6JPR04kPLRP9A6k7ZmG0k2aWF4ru79Sde6UeWCo7yDby5f48uJNFQ2pZqzUUkLrHL8xNdIHerJeZjHXg=="
+      },
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.15_1673065133634_0.3677801486623353"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.14.tgz",
+        "shasum" : "d3cf84ff28357ac8d0123309bac37fcfcdd98f53",
+        "integrity" : "sha512-7ALTAn6YRRf1O6fw9jmn0rWmOx3XfwDo7njGtjy1LXhDGUjTY/vohEPM3ii5MQ411vJv1r498EEx2aBQTJcrEw=="
+      },
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.14_1672863175031_0.24653172609393392"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.11.tgz",
+        "shasum" : "9bfc8cfaed2dbd9afd94347bd5b22fa6c937393a",
+        "integrity" : "sha512-L7hr6VnpqZzYEDVQeaViz1QnmfFRCRm3zVtljbYi/CU6InKs6tda1J3pAvqVsbNpbGMA9AvyiyBrgjJAFCawVg=="
+      },
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.11_1672105140032_0.35154024510936543"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.16.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.16.10.tgz",
+        "shasum" : "a9804ab1b9366f915812af24ad5cfc1c0db01441",
+        "integrity" : "sha512-5YVc1zdeaJGASijZmTzSO4h6uKzsQGG3pkjI6fuXvolhm3hVRhZwnHJkforaZLmzvNv5Tb7a3QL2FAVmrgySIA=="
+      },
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.16.10_1671492391223_0.3960220065923894"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.19.tgz",
+        "shasum" : "0769456eee2a08b8d925d7c00b79e861cb3162e4",
+        "integrity" : "sha512-4lu+n8Wk0XlajEhbEffdy2xy53dpR06SlzvhGByyg36qJw6Kpfk7cp45DR/62aPH9mtJRmIyrXAS5UWBrJT6TQ=="
+      },
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.19_1683936386611_0.9789711648085315"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.17.tgz",
+        "shasum" : "4dd99acbaaba00949d509e7c144b1b6ef9e1815b",
+        "integrity" : "sha512-lQRS+4sW5S3P1sv0z2Ym807qMDfkmdhUYX30GRBURtLTrJOPDpoU0kI6pVz1hz3U0+YQ0tXGS9YWveQjUewAJw=="
+      },
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.17_1681680218756_0.4159180495987096"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.18.tgz",
+        "shasum" : "af59e0e03fcf7f221b34d4c5ab14094862c9c864",
+        "integrity" : "sha512-FQFbRtTaEi8ZBi/A6kxOC0V0E9B/97vPdYjY9NdawyLd4Qk5VD5g2pbWN2VR1c0xhzcJm74HWpObPszWC+qTew=="
+      },
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.18_1682196082835_0.0739949194021392"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.20.tgz",
+        "shasum" : "c1eb2bff03915f87c29cece4c1a7fa1f423b066e",
+        "integrity" : "sha512-tgWRPPuQsd3RmBZwarGVHZQvtzfEBOreNuxEMKFcd5DaDn2PbBxfwLcj4+aenoh7ctXcbXmOQIn8HI6mCSw5MQ=="
+      },
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.20_1691468092511_0.38298274968424884"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.15.tgz",
+        "shasum" : "b513a48446f96c75fda5bef470e64d342d4379cd",
+        "integrity" : "sha512-3TWAnnEOdclvb2pnfsTWtdwthPfOz7qAfcwDLcfZyGJwm1SRZIMOeB5FODVhnM93mFSPsHB9b/PmxNNbSnd0RQ=="
+      },
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.15_1680388007161_0.24243072023274004"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.16.tgz",
+        "shasum" : "84af4430a07730b50bbc945a90cf7036c1853b76",
+        "integrity" : "sha512-rHV6zNWW1tjgsu0dKQTX9L0ByiJHHLvQKrWtnz8r0YYJI27FU3Xu48gpK2IBj1uCSYhJ+pEk6Y0Um7U3rIvV8g=="
+      },
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.16_1681101298582_0.6869392817770115"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.13.tgz",
+        "shasum" : "349b22850b18323690f90127117d83f351303a7b",
+        "integrity" : "sha512-/zbkgEO4gY2qGZr9UNAGI38w/FwUY4bx4EC88k9VeiCKNr3ukNgwH/oIgB5Z9/OqpkNLlcS4w9e2d/MIiy5fbw=="
+      },
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.13_1679684224287_0.3984889722695888"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.14.tgz",
+        "shasum" : "a6b6b01954ad8562461cb8a5e40e8a860af69cbe",
+        "integrity" : "sha512-hd9mPcxfTgJlolrPlcXkQk9BMwNBvNBsVaUe5eNUqXut6weDQH8whcNaKNF2RO8NbpT6GY8rHOK2A9y++s+ehw=="
+      },
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.14_1679798860698_0.27107211251218644"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.11.tgz",
+        "shasum" : "e850b58b8fabf8e9ef0e125af3c25229ad2d6c38",
+        "integrity" : "sha512-iPgenptC8i8pdvkHQvXJFzc1eVMR7W2lBPrTE6GbhR54sLcF42mk3zBOjKPOodezzuAz/KSu8CPyFSjcBMkE9g=="
+      },
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.11_1677883209747_0.25007013744260576"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.12.tgz",
+        "shasum" : "0e090190fede307fb4022f671791a50dd5121abd",
+        "integrity" : "sha512-A0Xg5CZv8MU9xh4a+7NUpi5VHBKh1RaGJKqjxe4KG87X+mTjDE6ZvlJqpWoeJxgfXHT7IMP9tDFu7IZ03OtJAw=="
+      },
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.12_1679033779055_0.2736229975843678"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.10.tgz",
+        "shasum" : "cd0a1b68bffbcb5b65e65b3fd542e8c7c3edd86b",
+        "integrity" : "sha512-0m0YX1IWSLG9hWh7tZa3kdAugFbZFFx9XrvfpaCMMvrswSTvUZypp0NFKriUurHpBA3xsHVE9Qb/0u2Bbi/otg=="
+      },
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.10_1676915693439_0.7855623831970417"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.1.tgz",
+        "shasum" : "224c915e03cdc66bc59a9578c97f15c75bbaa638",
+        "integrity" : "sha512-wBoJECwLWzapCND5Ime9G5QY5B/cLLXh4oCtUMnckcV5D4rL5M5WN63zOMWjFDDGpiPhnePHaDnRSV8AhxdUMg=="
+      },
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.1_1673892333574_0.7746090417274927"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.0.tgz",
+        "shasum" : "427f2a07c997fb30f1a8906b070e28959f38f1e2",
+        "integrity" : "sha512-qCsNRsVTaC3ekwZcb2sa7l1gwCtJK3EqCWyDgpoQocYf3lRpbAzaCvqZSF2+NOO64cV+JbedXPsFiXU1aaVcIg=="
+      },
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.0_1673670819360_0.4727241350326383"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.18.tgz",
+        "shasum" : "f00e54a3b65824ac3c749173bec9cd56d95fe73b",
+        "integrity" : "sha512-n823w35wm0ZOobbuE//0sJjuz1Qj619+AwjgOcAJMN2pomZhH9BONCtn+KlfrmM/NWZ+27yB/eGVFzUIWLeh3w=="
+      },
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.18_1691255185410_0.15433705029272526"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.19.tgz",
+        "shasum" : "ef6f5a85c1bb029fb0076da5b223e50b353e615c",
+        "integrity" : "sha512-hBxgRlG42+W+j/1/cvlnSa+3+OBKeDCyO7OG2ICya1YJaSCYfSpuG30KfOnQHI7Ytgu4bRqCgrYXxQEzy0zM5Q=="
+      },
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.19_1691376674365_0.06455130892600947"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.9.tgz",
+        "shasum" : "1d2889efe8e7a824d15175081c7992f7ae8be925",
+        "integrity" : "sha512-o/qhS0gbIdS0AjgiT0mbdiRIyNVRD31N81c1H7NNM4p6jVkSvScqo0v9eYJ+30mPhJsL26BwSNiuFJzD/SCyuw=="
+      },
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.9_1676828719026_0.7886565278828306"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.7.tgz",
+        "shasum" : "ec3708488625d70e565968ceea1355e7c8613865",
+        "integrity" : "sha512-CdXOxIbIzPJmJhrpmJTLx+o35NoiKBIgOvmvT+jeSadYiWJn0vFKsl+0bSG/5lwjNHoIDEyMYc/GAPR9jxusTA=="
+      },
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.7_1700528451606_0.21398236843775087"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.8.tgz",
+        "shasum" : "1855e562f2b730f4483f6e94086e9e2597feb4c3",
+        "integrity" : "sha512-xpFJb08dfXr5+rZc4E+ooZmayBW6R3q59daCpKZ/cDU96/kvDM+vkYzNeTJCGd8rtO6fHWMq5Rcv/1cY6p6/0Q=="
+      },
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.8_1676270138016_0.2865249585732563"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.6.tgz",
+        "shasum" : "ae0230860e27df204a616671e028ff8fdffa009a",
+        "integrity" : "sha512-hn9qvkjHSIB5Z9JgCCjED6YYVGCNpqB7dEGavBdG6EjBD8S/UcNUIlGcB35NCkMETkdYwfZSvD9VoDJX6VeUVA=="
+      },
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.6_1700377888666_0.14016761005213652"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.7.tgz",
+        "shasum" : "b0e409e1c7cc05412c8dd149c2c39e0a1dee9567",
+        "integrity" : "sha512-8kSxlbjuLYMoIgvRxPybirHJeW45dflyIgHVs+jzMYJf87QOay1ZUTzKjNL3vqHQjmkSn8p6KDfHVrztn7Rprw=="
+      },
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.7_1675981600626_0.48574101102969425"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.5.tgz",
+        "shasum" : "288f7358a3bb15d99e73c65c9adaa3dabb497432",
+        "integrity" : "sha512-1CCwDHnSSoA0HNwdfoNY0jLfJpd7ygaLAp5EHFos3VWJCRX9DMwWODf96s9TSse39Br7oOTLryRVmBoFwXbuuQ=="
+      },
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.5_1697519428398_0.37851658968808466"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.6.tgz",
+        "shasum" : "1896170b3c9f63c5e08efdc1f8abc8b1ed7af29f",
+        "integrity" : "sha512-Uh3HLWGzH6FwpviUcLMKPCbZUAFzv67Wj5MTwK6jn89b576SR2IbEp+tqUHTr8DIl0iDmBAf51MVaP7pw6PY5Q=="
+      },
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.6_1675702841154_0.8789979905341776"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.4.tgz",
+        "shasum" : "873edc0f73e83a82432460ea59bf568c1e90b268",
+        "integrity" : "sha512-3sRbQ6W5kAiVQRBWREGJNd1YE7OgzS0AmOGjDmX/qZZecq8NFlQsQH0IfXjjmD0XtUYqr64e0EKNFjMUlPL3Cw=="
+      },
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.4_1695865607369_0.2388210969030855"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.5.tgz",
+        "shasum" : "c9c1960fa3e1eada4e5d4be2a11a2f04ce14198f",
+        "integrity" : "sha512-olgGYND1/XnnWxwhjtY3/ryjOG/M4WfcA6XH8dBTH1cxMeBemMODXSFhkw71Kf4TeZFFTN25YOomaNh0vq2iXg=="
+      },
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.5_1674837465547_0.9898123006129054"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.3.tgz",
+        "shasum" : "3f283099810ef1b8468cd1a9400c042e3f12e2a7",
+        "integrity" : "sha512-nXesBZ2Ad1qL+Rm3crN7NmEVJ5uvfLFPLJev3x1j3feCQXfAhoYrojC681RhpdOph8NsvKBBwpYZHR7W0ifTTA=="
+      },
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.3_1694653939544_0.14832258109301266"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.4.tgz",
+        "shasum" : "314eff900a71abf64d4e5bea31e430d8ebd78d79",
+        "integrity" : "sha512-U4iWGn/9TrAfpAdfd56eO0pRxIgb0a8Wj9jClrhT8hvZnOnS4dfMPW7o4fn15D/KqoiVYHRm43jjBaTt3g/2KA=="
+      },
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.4_1674368018798_0.6674518627840644"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.2.tgz",
+        "shasum" : "01b96604f2540db023c73809bb8ae6cd1692d6f3",
+        "integrity" : "sha512-nSO5uZT2clM6hosjWHAsS15hLrwCvIWx+b2e3lZ3MwbYSaXwvfO528OF+dLjas1g3bZonciivI8qKR/Hm7IWGw=="
+      },
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.2_1691978296565_0.30412266191249016"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.3.tgz",
+        "shasum" : "8760eedc466af253c3ed0dfa2940d0e59b8b0895",
+        "integrity" : "sha512-feq+K8TxIznZE+zhdVurF3WNJ/Sa35dQNYbaqM/wsCbWdzXr5lyq+AaTUSER2cUR+SXPnd/EY75EPRjf4s1SLg=="
+      },
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.3_1674069259757_0.2902569468218552"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.1.tgz",
+        "shasum" : "f7658f988c88d6b63777678b89fb8137a07a9df6",
+        "integrity" : "sha512-DrFMGLF0/aAcZgwhtZr1cby7aHlalpFjLCe5CiI8mm0Kqhhc8gyNZKreaZzvir8CQe0H17p9xx6M9ben5R3r0g=="
+      },
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.1_1691769447219_0.11401217698137311"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.17.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.17.2.tgz",
+        "shasum" : "7b29d68def0ab7c5a21e3d8ec67a7a47db5f9993",
+        "integrity" : "sha512-NgooSKWSnrNKRuiumY1dg7KAGpsyXIMcwyOXN9imnqe8VFjqqrEOMqZRik0C1wlfLjiSCuMsj+YUSmBMAJMt0A=="
+      },
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.17.2_1673937578826_0.27832397318465185"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.0.tgz",
+        "shasum" : "14d497e9e858fba2bb9b16130602b7f5944bc09c",
+        "integrity" : "sha512-NMdBSSdgwHCqCsucU5k1xflIIRU0qi1QZnM6+vdGy5fvxm1c8rKh50VzsWsIVTFUG3l91AtRxVwoz3Lcvy3I5w=="
+      },
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.0_1691509942984_0.4263449525048275"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.9.tgz",
+        "shasum" : "a3db52595be65360eae4de1d1fa3c1afd942e1e4",
+        "integrity" : "sha512-WMLgWAtkdTbTu1AWacY7uoj/YtHthgqrqhf1OaEWnZb7PQgpt8eaA/F3LkV0E6K/Lc0cUr/uaVP/49iE4M4asA=="
+      },
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.9_1702184962032_0.8515982372837181"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.20.0.tgz",
+        "shasum" : "3f9ce53344af2f08d178551cd475629147324a83",
+        "integrity" : "sha512-uG8B0WSepMRsBNVXAQcHf9+Ko/Tr+XqmK7Ptel9HVmnykupXdS4J7ovSQUIi0tQGIndhbqWLaIL/qO/cWhXKyQ=="
+      },
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.20.0_1706374167481_0.9320249405267693"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.19.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.19.8.tgz",
+        "shasum" : "abac03e1c4c7c75ee8add6d76ec592f46dbb39e3",
+        "integrity" : "sha512-ICvZyOplIjmmhjd6mxi+zxSdpPTKFfyPPQMQTK/w+8eNK6WV01AjIztJALDtwNNfFhfZLux0tZLC+U9nSyA5Zg=="
+      },
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.19.8_1701040074696_0.4206246603164834"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.20.1.tgz",
+        "shasum" : "41c9243ab2b3254ea7fb512f71ffdb341562e951",
+        "integrity" : "sha512-itPwCw5C+Jh/c624vcDd9kRCCZVpzpQn8dtwoYIt2TJF3S9xJLiRohnnNrKwREvcZYx0n8sCSbvGH349XkcQeg=="
+      },
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.20.1_1708324677162_0.38906837811796047"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.16.tgz",
+        "shasum" : "24f73956436495cc7a5a4bf06be6b661aea6a2c1",
+        "integrity" : "sha512-YM98f+PeNXF3GbxIJlUsj+McUWG1irguBHkszCIwfr3BXtXZsXo0vqybjUDFfu9a8Wr7uUD/YSmHib+EeGAFlg=="
+      },
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.16_1690087677245_0.4011257835333579"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.17.tgz",
+        "shasum" : "16b6e90ba26ecc865eab71c56696258ec7f5d8bf",
+        "integrity" : "sha512-sOxEvR8d7V7Kw8QqzxWc7bFfnWnGdaFBut1dRUYtu+EIRXefBc/eIsiUiShnW0hM3FmQ5Zf27suDuHsKgZ5QrA=="
+      },
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.17_1690335650606_0.5514780028635891"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.14.tgz",
+        "shasum" : "effaa4c5d7bab695b5e6fae459eaf49121fbc7c3",
+        "integrity" : "sha512-ha4BX+S6CZG4BoH9tOZTrFIYC1DH13UTCRHzFc3GWX74nz3h/N6MPF3tuR3XlsNjMFUazGgm35MPW5tHkn2lzQ=="
+      },
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.14_1689656416183_0.287429331364665"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.15.tgz",
+        "shasum" : "09694fc601dd8d3263a1075977ee7d3488514ef8",
+        "integrity" : "sha512-62jX5n30VzgrjAjOk5orYeHFq6sqjvsIj1QesXvn5OZtdt5Gdj0vUNJy9NIpjfdNdqr76jjtzBJKf+h2uzYuTQ=="
+      },
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.15_1689857591813_0.7915997265879828"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.12.tgz",
+        "shasum" : "367ebe738a43caced16564a4d2f05d24880b767c",
+        "integrity" : "sha512-zK0b9a1/0wZY+6FdOS3BpZcPc1kcx2G5yxxfEJtEUzVxI6n/FrC2Phsxj/YblPuBchhBZ/1wwn7AyEBUyNSa6g=="
+      },
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.12_1689212042993_0.26981786230009"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.13.tgz",
+        "shasum" : "0b1dfde3ff1b18f03f71e460f91dc463e6a23903",
+        "integrity" : "sha512-pGzWWZJBInhIgdEwzn8VHUBang8UvFKsvjDkeJ2oyY5gZtAM6BaxK0QLCuZY+qoj/nx/lIaItH425rm/hloETA=="
+      },
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.13_1689388632497_0.6128228993915215"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.10.tgz",
+        "shasum" : "e96ba0a380ec38055fd4654dd7a96c90e32e4bbb",
+        "integrity" : "sha512-Hi/ycUkS6KTw+U9G5PK5NoK7CZboicaKUSVs0FSiPNtuCTzK6HNM4DIgniH7hFaeuszDS9T4dhAHWiLSt/Y5Ng=="
+      },
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.10_1687814424555_0.011408970728751244"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/freebsd-x64",
+      "description" : "The FreeBSD 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "freebsd" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/freebsd-x64@0.18.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/freebsd-x64/-/freebsd-x64-0.18.11.tgz",
+        "shasum" : "c5de1199f70e1f97d5c8fca51afa9bf9a2af5969",
+        "integrity" : "sha512-XtuPrEfBj/YYYnAAB7KcorzzpGTvOr/dTtXPGesRfmflqhA4LMF0Gh/n5+a9JBzPuJ+CGk17CA++Hmr1F/gI0Q=="
+      },
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/freebsd-x64_0.18.11_1688191430122_0.39893529920113724"
+      },
+      "_nodeVersion" : "16.13.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the FreeBSD 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.15.18" : "2022-12-05T23:44:09.696Z",
+    "0.19.10" : "2023-12-19T00:21:27.781Z",
+    "modified" : "2024-02-19T06:37:57.795Z",
+    "0.19.12" : "2024-01-23T17:40:17.815Z",
+    "0.19.11" : "2023-12-29T20:31:46.141Z",
+    "0.16.2" : "2022-12-08T06:59:43.592Z",
+    "0.18.0" : "2023-06-09T21:24:18.003Z",
+    "0.16.1" : "2022-12-07T04:48:09.205Z",
+    "0.16.0" : "2022-12-07T03:55:00.553Z",
+    "0.16.17" : "2023-01-11T21:57:55.156Z",
+    "0.16.16" : "2023-01-08T22:43:48.980Z",
+    "created" : "2022-12-05T23:44:09.356Z",
+    "0.18.8" : "2023-06-25T03:19:09.500Z",
+    "0.16.9" : "2022-12-18T04:31:17.288Z",
+    "0.18.7" : "2023-06-24T02:46:22.427Z",
+    "0.16.8" : "2022-12-16T23:38:34.780Z",
+    "0.18.6" : "2023-06-20T23:24:50.358Z",
+    "0.16.7" : "2022-12-14T22:46:53.276Z",
+    "0.18.5" : "2023-06-20T00:52:31.307Z",
+    "0.16.6" : "2022-12-14T05:23:09.984Z",
+    "0.18.4" : "2023-06-16T15:38:16.327Z",
+    "0.16.5" : "2022-12-13T17:47:39.554Z",
+    "0.18.3" : "2023-06-15T12:20:51.285Z",
+    "0.16.4" : "2022-12-10T03:50:25.560Z",
+    "0.18.2" : "2023-06-13T02:40:27.912Z",
+    "0.16.3" : "2022-12-08T20:12:51.859Z",
+    "0.18.1" : "2023-06-12T04:51:43.297Z",
+    "0.18.9" : "2023-06-26T05:27:50.536Z",
+    "0.16.13" : "2023-01-02T22:57:17.395Z",
+    "0.16.12" : "2022-12-28T02:04:41.511Z",
+    "0.16.15" : "2023-01-07T04:18:53.974Z",
+    "0.16.14" : "2023-01-04T20:12:55.347Z",
+    "0.16.11" : "2022-12-27T01:39:00.340Z",
+    "0.16.10" : "2022-12-19T23:26:31.418Z",
+    "0.17.19" : "2023-05-13T00:06:26.905Z",
+    "0.17.17" : "2023-04-16T21:23:38.984Z",
+    "0.17.18" : "2023-04-22T20:41:23.064Z",
+    "0.18.20" : "2023-08-08T04:14:52.850Z",
+    "0.17.15" : "2023-04-01T22:26:47.376Z",
+    "0.17.16" : "2023-04-10T04:34:58.879Z",
+    "0.17.13" : "2023-03-24T18:57:04.597Z",
+    "0.17.14" : "2023-03-26T02:47:40.948Z",
+    "0.17.11" : "2023-03-03T22:40:10.036Z",
+    "0.17.12" : "2023-03-17T06:16:19.440Z",
+    "0.17.10" : "2023-02-20T17:54:53.780Z",
+    "0.17.1" : "2023-01-16T18:05:33.852Z",
+    "0.17.0" : "2023-01-14T04:33:39.684Z",
+    "0.18.18" : "2023-08-05T17:06:25.685Z",
+    "0.18.19" : "2023-08-07T02:51:14.661Z",
+    "0.17.9" : "2023-02-19T17:45:19.317Z",
+    "0.19.7" : "2023-11-21T01:00:51.979Z",
+    "0.17.8" : "2023-02-13T06:35:38.265Z",
+    "0.19.6" : "2023-11-19T07:11:28.956Z",
+    "0.17.7" : "2023-02-09T22:26:40.917Z",
+    "0.19.5" : "2023-10-17T05:10:28.642Z",
+    "0.17.6" : "2023-02-06T17:00:41.421Z",
+    "0.19.4" : "2023-09-28T01:46:47.712Z",
+    "0.17.5" : "2023-01-27T16:37:45.768Z",
+    "0.19.3" : "2023-09-14T01:12:19.827Z",
+    "0.17.4" : "2023-01-22T06:13:39.089Z",
+    "0.19.2" : "2023-08-14T01:58:16.878Z",
+    "0.17.3" : "2023-01-18T19:14:20.000Z",
+    "0.19.1" : "2023-08-11T15:57:27.481Z",
+    "0.17.2" : "2023-01-17T06:39:39.085Z",
+    "0.19.0" : "2023-08-08T15:52:23.296Z",
+    "0.19.9" : "2023-12-10T05:09:22.302Z",
+    "0.20.0" : "2024-01-27T16:49:27.745Z",
+    "0.19.8" : "2023-11-26T23:07:55.007Z",
+    "0.20.1" : "2024-02-19T06:37:57.393Z",
+    "0.18.16" : "2023-07-23T04:47:57.489Z",
+    "0.18.17" : "2023-07-26T01:40:50.852Z",
+    "0.18.14" : "2023-07-18T05:00:16.376Z",
+    "0.18.15" : "2023-07-20T12:53:12.250Z",
+    "0.18.12" : "2023-07-13T01:34:03.309Z",
+    "0.18.13" : "2023-07-15T02:37:12.792Z",
+    "0.18.10" : "2023-06-26T21:20:24.865Z",
+    "0.18.11" : "2023-07-01T06:03:50.442Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

@@ -1,0 +1,3556 @@
+{
+  "_id" : "@esbuild/darwin-x64",
+  "_rev" : "75-053d3f458c395bfe054e76addf90a0fb",
+  "name" : "@esbuild/darwin-x64",
+  "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+  "dist-tags" : {
+    "latest" : "0.20.1"
+  },
+  "versions" : {
+    "0.15.18" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.15.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.15.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.15.18.tgz",
+        "shasum" : "d2484bc3356ce47307210cc67c0bf47dba1bc5cd",
+        "integrity" : "sha512-pKNpGvjvDwzLLguZ00N36Z4oYi4Th70811GA6cd9/TumpnHdE96vCtqqjY9YXh81q4NqEssEhJosOD4UbYvAPw=="
+      },
+      "gitHead" : "07e607164c880e03e13f86aa50a58cd6d44ec084",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.15.18_1670283725963_0.9569404288444563"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.10" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.10.tgz",
+        "shasum" : "d1de20bfd41bb75b955ba86a6b1004539e8218c1",
+        "integrity" : "sha512-alfGtT+IEICKtNE54hbvPg13xGBe4GkVxyGWtzr+yHO7HIiRJppPDhOKq3zstTcVf8msXb/t4eavW3jCDpMSmA=="
+      },
+      "gitHead" : "55e1127a49db0c26f1abd97f1b180bbc728aa95a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.10_1702945301748_0.655678259971435"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.12" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.12.tgz",
+        "shasum" : "e37d9633246d52aecf491ee916ece709f9d5f4cd",
+        "integrity" : "sha512-hKoVkKzFiToTgn+41qGhsUJXFlIjxI/jSYeZf3ugemDYZldIXIxhvwN6erJGlX4t5h417iFuheZ7l+YVn05N3A=="
+      },
+      "gitHead" : "d7fd1ad35715cda76eb33343b7c07b275e402a2e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.12_1706031631811_0.7656747794448684"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.11" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.11.tgz",
+        "shasum" : "62f3819eff7e4ddc656b7c6815a31cf9a1e7d98e",
+        "integrity" : "sha512-fkFUiS6IUK9WYUO/+22omwetaSNl5/A8giXvQlcinLIjVkxwTLSktbF5f/kJMftM2MJp9+fXqZ5ezS7+SALp4g=="
+      },
+      "gitHead" : "6ee82255bdfdffef2de60827e9d35a425a7cbff6",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.11_1703881918292_0.6431343698447789"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.16.2" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.2.tgz",
+        "shasum" : "d2695c66fd8a4e17a2f7d2c9f2bd6babf1c9c161",
+        "integrity" : "sha512-nq5cXgzbXHhBqZEPpuXrf2+BV6QWUM8vAyT/ElJrdIkoGOHwNQJEqZHl3KOWK+1V3KXEXgJhh7DsLixIc677ZQ=="
+      },
+      "gitHead" : "0829d74c0b3a913c0cf6d3f59902871bf63e0d16",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.2_1670482797122_0.17338867163333638"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.0" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.0.tgz",
+        "shasum" : "e9392250ed9701c659914321a9b180efe233af99",
+        "integrity" : "sha512-4K/QCksQ8F58rvC1D62Xi4q4E7YWpiyc3zy2H/n1W7y0hjQpOBBxciLn0qycMskP/m/I5h9HNbRlu1aK821sHg=="
+      },
+      "gitHead" : "4dda49d4ea86afcbe715bdca5e8f4b13659e0c2f",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.0_1686345868338_0.16628620041836717"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.1" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.1.tgz",
+        "shasum" : "9036cf2c6d796cf6040693c77e7343d2cc37fbed",
+        "integrity" : "sha512-UFJ8swS3ZiQgT51ll9P3K+WOiYSc3Dw68kbZqXlmF5zwB7p/nx31jilW6ie+UlKIFRw4X0Z1SejwVC6ZpH7PSQ=="
+      },
+      "gitHead" : "3b62a3680cdd1c9d76bed3e2e60841e371670c35",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.1_1670388498727_0.8040944126870202"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.0" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.0.tgz",
+        "shasum" : "635265146bdb70fdbf15726473225bb97564fe62",
+        "integrity" : "sha512-bp9Nbh1LTzxPvdCxLTuGiUlWJ4qITaLaV4Ku8FikrLO0cLuoppju4p7UXwBQGHXrCY3TYS0zON2Mi/ujGp3oew=="
+      },
+      "gitHead" : "6c8d15d404874fd939d7f4062cc6a660dffdabcb",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.0_1670385310228_0.03588577994559894"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.17" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.17.tgz",
+        "shasum" : "42829168730071c41ef0d028d8319eea0e2904b4",
+        "integrity" : "sha512-2By45OBHulkd9Svy5IOCZt376Aa2oOkiE9QWUK9fe6Tb+WDr8hXL3dpqi+DeLiMed8tVXspzsTAvd0jUl96wmg=="
+      },
+      "gitHead" : "d751dfb82002d332aa4dbfa89c74d25203d28123",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.17_1673474289681_0.5750515753013783"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.16" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.16.tgz",
+        "shasum" : "e9756d34cd9b3737a5354e89ca0fdca32d8df64c",
+        "integrity" : "sha512-CYkxVvkZzGCqFrt7EgjFxQKhlUPyDkuR9P0Y5wEcmJqVI8ncerOIY5Kej52MhZyzOBXkYrJgZeVZC9xXXoEg9A=="
+      },
+      "gitHead" : "edede3c49ad6adddc6ea5b3c78c6ea7507e03020",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.16_1673217837234_0.15939409410593175"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.8" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.8.tgz",
+        "shasum" : "d45d478085453635688466e62f8d64cf38badd94",
+        "integrity" : "sha512-OyEf+21R32glxR+IJpPhBgcbxSbc7adPe4hYggu2mbjqAAjJJAaYoYjNeojyp+ZKY2ZRX3FimBbeExVoPdEDfg=="
+      },
+      "gitHead" : "9b233a4f670a73173dcc7e83ebf7648d0007b082",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.8_1687663160969_0.7310771802642257"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.9" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.9.tgz",
+        "shasum" : "5a19c00781595e0dfeef1826b3512d04c37b98ff",
+        "integrity" : "sha512-LZc+Wlz06AkJYtwWsBM3x2rSqTG8lntDuftsUNQ3fCx9ZttYtvlDcVtgb+NQ6t9s6K5No5zutN3pcjZEC2a4iQ=="
+      },
+      "gitHead" : "29ae56a2ca081ed980ac9c73fcced1fdbc479f90",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.9_1671337892719_0.8663988649759995"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.7" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.7.tgz",
+        "shasum" : "9ad104e7cddbca36da7474a039bb557d33616fbd",
+        "integrity" : "sha512-w7aeD1UjDFXqyrZQLBIPYGmLR+gJsl+7QSwmSz+nVrCZOB7cyWEkIjCF8s4inUD3ja3WtKUIqzX5S4qDnU5q7Q=="
+      },
+      "gitHead" : "adb8d19b56d2ae2d65128305c875b577476fac93",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.7_1687574790505_0.4982145439171457"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.8" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.8.tgz",
+        "shasum" : "a1de180765d63a247a892c3abdf32cc9497f55ab",
+        "integrity" : "sha512-XXh2070hatspZdG/uPqyHLFlHlGbytvT4JlqZuTU3AizcyOvmatPBSnuARvwCtJMw30wjjehcYY8DWPZ5UF2og=="
+      },
+      "gitHead" : "0ddb995d7d9bbcefa8e74c5a29c700111427bf18",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.8_1671233934784_0.7552415519297402"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.6" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.6.tgz",
+        "shasum" : "16a4c802000d00b139281198017fc00134b8df12",
+        "integrity" : "sha512-L7IQga2pDT+14Ti8HZwsVfbCjuKP4U213T3tuPggOzyK/p4KaUJxQFXJgfUFHKzU0zOXx8QcYRYZf0hSQtppkw=="
+      },
+      "gitHead" : "f0b5803694c3d74c1d84851a518e3e25916ec005",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.6_1687303499210_0.3142375959726509"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.7" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.7.tgz",
+        "shasum" : "2206042ac4396bb18dd53b379df83bec47eeb5fb",
+        "integrity" : "sha512-duterlv3tit3HI9vhzMWnSVaB1B6YsXpFq1Ntd6Fou82BB1l4tucYy3FI9dHv3tvtDuS0NiGf/k6XsdBqPZ01w=="
+      },
+      "gitHead" : "be16d813dfaca257af7ba99e458f54d1abdc31a4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.7_1671058020592_0.3332365416873184"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.5" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.5.tgz",
+        "shasum" : "db1c70374da2e3833158b1e783cc7f9a9c48617a",
+        "integrity" : "sha512-eA39B8SxbxRdSSILD4AsePzvJiVao6ZaYrcTOJqg89jnnMEGR/EAh+ehV7E4GOx4WXQoWeJRP1P9JQSzIrROeg=="
+      },
+      "gitHead" : "931be1b9b2312609c5214812671b0d2a21cfe92b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.5_1687222368437_0.24853291874896533"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.6" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.6.tgz",
+        "shasum" : "873b80540e5e8f0d1b87e2a48e7bfaecc097bfc0",
+        "integrity" : "sha512-ND/o8hoEpXxIOqhRbt73tyvnu3WWA8MeuMAVww0crdubpzzEevH0S8r6uRjrHn1H4etRSmWwTbM3rHul68BJOA=="
+      },
+      "gitHead" : "ee8e0ddc78114b73836ee1c520d255fd28c1ab1a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.6_1670995400050_0.4002714900980364"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.4" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.4.tgz",
+        "shasum" : "a0a3b2270ba201331e8056d7c896598d8a96a12f",
+        "integrity" : "sha512-uEsRtYRUDsz7i2tXg/t/SyF+5gU1cvi9B6B8i5ebJgtUUHJYWyIPIesmIOL4/+bywjxsDMA/XrNFMgMffLnh5A=="
+      },
+      "gitHead" : "bfc5a0fe07b6f6855ff3ff11a91894066378c5dd",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.4_1686929919792_0.468112364327985"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.5" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.5.tgz",
+        "shasum" : "a9c466dbeca614edb5fe1a9c1ccd97bce30301af",
+        "integrity" : "sha512-ZDCAxAPwbtKJ5YxRZusQKDFuywH+7YNKbilss0DCRPtXMxrKRZETcuSfcgIWGYBBc+ypdOazousx3yZss2Az0A=="
+      },
+      "gitHead" : "bb9639c3e1f57a3fdfaadf073a35d87020253f70",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.5_1670953666911_0.6177214590012825"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.3" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.3.tgz",
+        "shasum" : "bdd2f75e6d53b3e47d542e2557a7e636cc4eea3a",
+        "integrity" : "sha512-NVBqMnxT9qvgu7Z322LUDlwjh4GDk6wEePyAQnHF9noxik/WvLFmr5v3Vgz5LSvqFducLCxsdmLztKhdpFW0Gg=="
+      },
+      "gitHead" : "9224cce93632b0fc6db8767676211fb44ac642a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.3_1686831672127_0.15028110161208086"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.4" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.4.tgz",
+        "shasum" : "b726bbc84a1e277f6ec2509d10b8ee03f242b776",
+        "integrity" : "sha512-e3doCr6Ecfwd7VzlaQqEPrnbvvPjE9uoTpxG5pyLzr2rI2NMjDHmvY1E5EO81O/e9TUOLLkXA5m6T8lfjK9yAA=="
+      },
+      "gitHead" : "643af8ed12345b3a249f1d4c7643c261d95c098c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.4_1670644242514_0.7076720880083245"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.2" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.2.tgz",
+        "shasum" : "194e9e907d9487325ba9e629644f9448c18764d0",
+        "integrity" : "sha512-cvH58adz9L10JNsIcgtkWNS/1eutjRTi3rtWz1s3ZhR64BpdmkxJBAXE/UjqybyNAWLhaN8mPJdlYI2f+tQA7g=="
+      },
+      "gitHead" : "a7a909605b1387b5c74d1bd0217af3fb4a843461",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.2_1686624037185_0.5864260145544293"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.3" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.3.tgz",
+        "shasum" : "7fc3570c2b16e9ff4fc178593a0a4adb1ae8ea57",
+        "integrity" : "sha512-uEqZQ2omc6BvWqdCiyZ5+XmxuHEi1SPzpVxXCSSV2+Sh7sbXbpeNhHIeFrIpRjAs0lI1FmA1iIOxFozKBhKgRQ=="
+      },
+      "gitHead" : "8ef19fefc9bfdd28fab95dec3783d3f100f25e3e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.3_1670530394648_0.511840492390349"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.1" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.1.tgz",
+        "shasum" : "733934692e038a50a209365b25836e2407e29328",
+        "integrity" : "sha512-p/ZIUt+NlW8qRNVTXoKJgRuc49teazvmXBquoGOm5D6IAimTfWJVJrEivqpoMKyDS/0/PxDMRM2lrkxlSa7XeQ=="
+      },
+      "gitHead" : "3aa3ec2da489dad64d90aa965c9782984defc904",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.1_1686545511689_0.34293840890716076"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.9" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.9.tgz",
+        "shasum" : "e42d4b0a5315a6eab3591baa0d3be4fccfca0fb9",
+        "integrity" : "sha512-tDbKKMUeS0PckRtIxdF3+NgkE19kTyLFmUQ0umgXDnBvcWC3/DqhZyu4P4Af3zBzOfWH5DAAmGW1hgy53Z706w=="
+      },
+      "gitHead" : "d568ff038d012a7894a9d4334b75f8559bf2532e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.9_1687757290652_0.03450826798543738"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.13" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.13.tgz",
+        "shasum" : "f1a6c9ea67d4eaaf4944e1cbceb800eabc6e7e74",
+        "integrity" : "sha512-Agajik9SBGiKD7FPXE+ExW6x3MgA/dUdpZnXa9y1tyfE4lKQx+eQiknSdrBnWPeqa9wL0AOvkhghmYhpVkyqkA=="
+      },
+      "gitHead" : "0db0b46399de81fb29f6fcb65dfb5fad3638b6d8",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.13_1672700246927_0.20617311380671333"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.12" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.12.tgz",
+        "shasum" : "3433e6432dd474994302bcfe35c5420fae46a206",
+        "integrity" : "sha512-ApGRA6X5txIcxV0095X4e4KKv87HAEXfuDRcGTniDWUUN+qPia8sl/BqG/0IomytQWajnUn4C7TOwHduk/FXBQ=="
+      },
+      "gitHead" : "ddda86edaae10abdc759601da6198b33e61c1220",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.12_1672193088819_0.163995731731998"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.15" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.15.tgz",
+        "shasum" : "38ec324a3653ade5acc5c190a7a27185caa6223e",
+        "integrity" : "sha512-qqrKJxoohceZGGP+sZ5yXkzW9ZiyFZJ1gWSEfuYdOWzBSL18Uy3w7s/IvnDYHo++/cxwqM0ch3HQVReSZy7/4Q=="
+      },
+      "gitHead" : "33a515951c626e56addc1dd4c6561a1514559fd0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.15_1673065149633_0.41048340856751864"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.14" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.14.tgz",
+        "shasum" : "519c9d127c5363d4a1e73b9d954460f798b41d2a",
+        "integrity" : "sha512-KV1E01eC2hGYA2qzFDRCK4wdZCRUvMwCNcobgpiiOzp5QXpJBqFPdxI69j8vvzuU7oxFXDgANwEkXvpeQqyOyg=="
+      },
+      "gitHead" : "93328af7dcf842f750c3e782bd83997e4f817e8d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.14_1672863189429_0.566501433043344"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.11" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.11.tgz",
+        "shasum" : "f3249b1170515d123aae1f517ac38f93f9b90d5e",
+        "integrity" : "sha512-Gqx2/nYqnK46dwEDPGv3SwLqgLIZQJ7m2xNoNRzO50VZPvoCWSUqDaoirrZZf7uVfl+fxHoZBcdQJx2gOdxffQ=="
+      },
+      "gitHead" : "17555921cbe672f6327f49a2436df1a69124623b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.11_1672105155162_0.7912531720520961"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.16.10" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.16.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.16.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.16.10.tgz",
+        "shasum" : "7eb71b8da4106627f01553def517d3c5e5942592",
+        "integrity" : "sha512-OXt7ijoLuy+AjDSKQWu+KdDFMBbdeaL6wtgMKtDUXKWHiAMKHan5+R1QAG6HD4+K0nnOvEJXKHeA9QhXNAjOTQ=="
+      },
+      "gitHead" : "0fea6aea59845d1c0bef9dc16dfff636c3f721d4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.16.10_1671492401268_0.7135992337346595"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.19" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.19.tgz",
+        "shasum" : "7751d236dfe6ce136cce343dce69f52d76b7f6cb",
+        "integrity" : "sha512-IJM4JJsLhRYr9xdtLytPLSH9k/oxR3boaUIYiHkAawtwNOXKE8KoU8tMvryogdcT8AU+Bflmh81Xn6Q0vTZbQw=="
+      },
+      "gitHead" : "d47ab43980c457db27d2671ab618cd5c40a618a7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.19_1683936400650_0.8891337170481233"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.17" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.17.tgz",
+        "shasum" : "b81f3259cc349691f67ae30f7b333a53899b3c20",
+        "integrity" : "sha512-4utIrsX9IykrqYaXR8ob9Ha2hAY2qLc6ohJ8c0CN1DR8yWeMrTgYFjgdeQ9LIoTOfLetXjuCu5TRPHT9yKYJVg=="
+      },
+      "gitHead" : "0776a4be2bb80980482b123a9a05dbf55cc35683",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.17_1681680227008_0.690516628429716"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.18" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.18.tgz",
+        "shasum" : "a6da308d0ac8a498c54d62e0b2bfb7119b22d315",
+        "integrity" : "sha512-Qq84ykvLvya3dO49wVC9FFCNUfSrQJLbxhoQk/TE1r6MjHo3sFF2tlJCwMjhkBVq3/ahUisj7+EpRSz0/+8+9A=="
+      },
+      "gitHead" : "ee646b4ed8d3b9567e1a0ce2e478241b68a2a2e4",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.18_1682196093463_0.007324752977380333"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.20" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.20",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.20.tgz",
+        "shasum" : "d70d5790d8bf475556b67d0f8b7c5bdff053d85d",
+        "integrity" : "sha512-pc5gxlMDxzm513qPGbCbDukOdsGtKhfxD1zJKXjCCcU7ju50O7MeAZ8c4krSJcOIJGFR+qx21yMMVYwiQvyTyQ=="
+      },
+      "gitHead" : "22f0818cf81024b63752d815c51fe737612b43ec",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.20_1691468109846_0.13805144670754332"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.15" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.15.tgz",
+        "shasum" : "9384e64c0be91388c57be6d3a5eaf1c32a99c91d",
+        "integrity" : "sha512-NbImBas2rXwYI52BOKTW342Tm3LTeVlaOQ4QPZ7XuWNKiO226DisFk/RyPk3T0CKZkKMuU69yOvlapJEmax7cg=="
+      },
+      "gitHead" : "ef912892181e27386205d110c622c55c4c1df856",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.15_1680388020501_0.5962073633135858"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.16" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.16.tgz",
+        "shasum" : "d5d68ee510507104da7e7503224c647c957e163e",
+        "integrity" : "sha512-SzBQtCV3Pdc9kyizh36Ol+dNVhkDyIrGb/JXZqFq8WL37LIyrXU0gUpADcNV311sCOhvY+f2ivMhb5Tuv8nMOQ=="
+      },
+      "gitHead" : "f0704baa38ef9a808b7e34cac75aa4ac285bb087",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.16_1681101310806_0.08929215160324788"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.13" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.13.tgz",
+        "shasum" : "330ad462247e5109079efbc1c782c981e584913f",
+        "integrity" : "sha512-Ku9Db2sblCxFvQdEO7X9nBaLR/S81uch81e2Q2+Os5z1NcnsFjuqhIYH0Gm6KNNpIKaEbC7gCLbiIPbLLMX4Pg=="
+      },
+      "gitHead" : "8dbb85531a9971058f4d8739cb52e98fa43b40a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.13_1679684235813_0.2931732307207995"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.14" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.14.tgz",
+        "shasum" : "4b49f195d9473625efc3c773fc757018f2c0d979",
+        "integrity" : "sha512-zN0U8RWfrDttdFNkHqFYZtOH8hdi22z0pFm0aIJPsNC4QQZv7je8DWCX5iA4Zx6tRhS0CCc0XC2m7wKsbWEo5g=="
+      },
+      "gitHead" : "b2b897870564a6b8e8bc802a140c55bf602de31b",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.14_1679798870476_0.8557094837866241"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.11" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.11.tgz",
+        "shasum" : "2405cfdf70eb961c7cf973463ca7263dc2004c88",
+        "integrity" : "sha512-iB0dQkIHXyczK3BZtzw1tqegf0F0Ab5texX2TvMQjiJIWXAfM4FQl7D909YfXWnB92OQz4ivBYQ2RlxBJrMJOw=="
+      },
+      "gitHead" : "38cfd53020d9e0454bae0956e549546c55a66aed",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.11_1677883220912_0.5499740379451077"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.12" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.12.tgz",
+        "shasum" : "e7b54bb3f6dc81aadfd0485cd1623c648157e64d",
+        "integrity" : "sha512-5D48jM3tW27h1qjaD9UNRuN+4v0zvksqZSPZqeSWggfMlsVdAhH3pwSfQIFJwcs9QJ9BRibPS4ViZgs3d2wsCA=="
+      },
+      "gitHead" : "495216dbea685cd0e10172a866eeb8ca4764a0bf",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.12_1679033835251_0.054668056326609316"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.10" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.10.tgz",
+        "shasum" : "362c7e988c61fe72d5edef4f717e4b4fc728da98",
+        "integrity" : "sha512-J4MJzGchuCRG5n+B4EHpAMoJmBeAE1L3wGYDIN5oWNqX0tEr7VKOzw0ymSwpoeSpdCa030lagGUfnfhS7OvzrQ=="
+      },
+      "gitHead" : "996d400a7ab25b67b80122e2d4a8515575918e79",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.10_1676915703720_0.7038840183027271"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.1" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.1.tgz",
+        "shasum" : "8c396dfb3ac35856778a99867614d559f2d5ce66",
+        "integrity" : "sha512-fOXElELW/5siabypVqKTH++WtxVR7IhGvRkS6VKzffW+Kx9Yi5WwRaKG8iwb9QGwFfAKGLYxv73k6NAekkzIvw=="
+      },
+      "gitHead" : "002ef9522a4103132cefb075aee3e09b0e4fa3f1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.1_1673892347072_0.8124012342601432"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.17.0" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.0.tgz",
+        "shasum" : "9a59890391f17cd3998d2c7959ea70a1aad28c93",
+        "integrity" : "sha512-R4WB6D6V9KGO/3LVTT8UlwRJO26IBFatOdo/bRXksfJR0vyOi2/lgmAAMBSpgcnnwvts9QsWiyM++mTTlwRseA=="
+      },
+      "gitHead" : "2a18b3d6ab3d1003afbcfcb4a6ffca61e04fcb57",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.0_1673670829464_0.9794867688493203"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.18" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.18",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.18.tgz",
+        "shasum" : "8aa691d0cbd3fb67f9f9083375c0c72e0463b8b2",
+        "integrity" : "sha512-ARFYISOWkaifjcr48YtO70gcDNeOf1H2RnmOj6ip3xHIj66f3dAbhcd5Nph5np6oHI7DhHIcr9MWO18RvUL1bw=="
+      },
+      "gitHead" : "e8e43ad19359f0b29d84607c89c6aa95a4d1637d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.18_1691255194335_0.48135287625822043"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.19" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.19",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.19.tgz",
+        "shasum" : "81024ab64232dd323f03796d449f018b59f04ca9",
+        "integrity" : "sha512-m6JdvXJQt0thNLIcWOeG079h2ivhYH4B5sVCgqb/B29zTcFd7EE8/J1nIUHhdtwGeItdUeqKaqqb4towwxvglQ=="
+      },
+      "gitHead" : "e08ee8990905f24b987a7ddffde89e20cbf3cf6a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.19_1691376685813_0.44686103370484087"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.9" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.9.tgz",
+        "shasum" : "c0d2c3b951b186fcdd851de08be2649c9e545331",
+        "integrity" : "sha512-GEZsUsDjJnCTVWuaq1cJ1Y3oV9GmNj/h4j6jA29VYSip7S7nSSiAo4dQFBJg734QKZZFos8fHc4abJpoN2ebGw=="
+      },
+      "gitHead" : "3765e880ed0a55b8e62bfa17b7e004e656eaf914",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.9_1676828727514_0.0026800363022749796"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.7" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.7.tgz",
+        "shasum" : "02d1f8a572874c90d8f55dde8a859e5145bd06f6",
+        "integrity" : "sha512-Lc0q5HouGlzQEwLkgEKnWcSazqr9l9OdV2HhVasWJzLKeOt0PLhHaUHuzb8s/UIya38DJDoUm74GToZ6Wc7NGQ=="
+      },
+      "gitHead" : "a7773b340bb216d053df91b7479b5aa2a152b0de",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.7_1700528468768_0.44510830877334095"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.8" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.8.tgz",
+        "shasum" : "8a1aadb358d537d8efad817bb1a5bff91b84734b",
+        "integrity" : "sha512-n5WOpyvZ9TIdv2V1K3/iIkkJeKmUpKaCTdun9buhGRWfH//osmUjlv4Z5mmWdPWind/VGcVxTHtLfLCOohsOXw=="
+      },
+      "gitHead" : "5e0b1cd2ce6297cf31b132e413134ffe2576c668",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.8_1676270146935_0.44073871076527626"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.6" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.6.tgz",
+        "shasum" : "400bf20f9a35a7d68a17f5898c0f9ecb099f062b",
+        "integrity" : "sha512-QCGHw770ubjBU1J3ZkFJh671MFajGTYMZumPs9E/rqU52md6lIil97BR0CbPq6U+vTh3xnTNDHKRdR8ggHnmxQ=="
+      },
+      "gitHead" : "6073a3a9a02909d54cedbaf9c06f5fa501f9f337",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.6_1700377902781_0.3993247158550357"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.7" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.7",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.7.tgz",
+        "shasum" : "58cd69d00d5b9847ad2015858a7ec3f10bf309ad",
+        "integrity" : "sha512-hRvIu3vuVIcv4SJXEKOHVsNssM5tLE2xWdb9ZyJqsgYp+onRa5El3VJ4+WjTbkf/A2FD5wuMIbO2FCTV39LE0w=="
+      },
+      "gitHead" : "e345b13687bc3ac86f18f4a266a162653544ad31",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.7_1675981609218_0.9543554598997788"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.5" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.5.tgz",
+        "shasum" : "2c553e97a6d2b4ae76a884e35e6cbab85a990bbf",
+        "integrity" : "sha512-Ly8cn6fGLNet19s0X4unjcniX24I0RqjPv+kurpXabZYSXGM4Pwpmf85WHJN3lAgB8GSth7s5A0r856S+4DyiA=="
+      },
+      "gitHead" : "a7fcc43fdb6b6edc58f781fe96328f4867f4b33e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.5_1697519439049_0.9590789002283062"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.6" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.6",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.6.tgz",
+        "shasum" : "f4dacd1ab21e17b355635c2bba6a31eba26ba569",
+        "integrity" : "sha512-xh2A5oPrYRfMFz74QXIQTQo8uA+hYzGWJFoeTE8EvoZGHb+idyV4ATaukaUvnnxJiauhs/fPx3vYhU4wiGfosg=="
+      },
+      "gitHead" : "e1143a75dd5e7d9fb8591096edfa123f6eedbe44",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.6_1675702852466_0.7802257063574043"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.4" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.4.tgz",
+        "shasum" : "d8e26e1b965df284692e4d1263ba69a49b39ac7a",
+        "integrity" : "sha512-YHbSFlLgDwglFn0lAO3Zsdrife9jcQXQhgRp77YiTDja23FrC2uwnhXMNkAucthsf+Psr7sTwYEryxz6FPAVqw=="
+      },
+      "gitHead" : "a75b16ec09e76a050cea8ad43588172dc297784d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.4_1695865639921_0.6785372289438005"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.5" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.5",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.5.tgz",
+        "shasum" : "54b770f0c49f524ae9ba24c85d6dea8b521f610d",
+        "integrity" : "sha512-ha7QCJh1fuSwwCgoegfdaljowwWozwTDjBgjD3++WAy/qwee5uUi1gvOg2WENJC6EUyHBOkcd3YmLDYSZ2TPPA=="
+      },
+      "gitHead" : "a8b660d85a0a57087a0f188857519f194f52b84c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.5_1674837475957_0.29472603396751285"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.3" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.3.tgz",
+        "shasum" : "ebe99f35049180023bb37999bddbe306b076a484",
+        "integrity" : "sha512-tPfZiwF9rO0jW6Jh9ipi58N5ZLoSjdxXeSrAYypy4psA2Yl1dAMhM71KxVfmjZhJmxRjSnb29YlRXXhh3GqzYw=="
+      },
+      "gitHead" : "673ad10ff752486aa90749b63ebeb952c29106a1",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.3_1694653949123_0.19213371823488012"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.4" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.4",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.4.tgz",
+        "shasum" : "67f0213b3333248b32a97a7fc3fee880c2157674",
+        "integrity" : "sha512-phQuC2Imrb3TjOJwLN8EO50nb2FHe8Ew0OwgZDH1SV6asIPGudnwTQtighDF2EAYlXChLoMJwqjAp4vAaACq6w=="
+      },
+      "gitHead" : "3c83a84d01e22664923b543998b5c03c0c5d8654",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.4_1674368025497_0.7597079344285138"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.2" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.2.tgz",
+        "shasum" : "982524af33a6424a3b5cb44bbd52559623ad719c",
+        "integrity" : "sha512-tP+B5UuIbbFMj2hQaUr6EALlHOIOmlLM2FK7jeFBobPy2ERdohI4Ka6ZFjZ1ZYsrHE/hZimGuU90jusRE0pwDw=="
+      },
+      "gitHead" : "09a100124e9daef9e0be57d21cc7729c6f3516e7",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.2_1691978305974_0.1981659486320657"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.3" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.3",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.3.tgz",
+        "shasum" : "cbcbfb32c8d5c86953f215b48384287530c5a38e",
+        "integrity" : "sha512-Eo2gq0Q/er2muf8Z83X21UFoB7EU6/m3GNKvrhACJkjVThd0uA+8RfKpfNhuMCl1bKRfBzKOk6xaYKQZ4lZqvA=="
+      },
+      "gitHead" : "acc5becf4d4e81473761091fc340efe16325da4a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.3_1674069278649_0.018425760452470685"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.1" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.1.tgz",
+        "shasum" : "445017aec28152dd340464565a6796276adbd234",
+        "integrity" : "sha512-SewtenJi6zCEfZRSUchb+LgJ/IQw8QvnKECPu/qHII1fLQKnVPUVR+VH2IuS03DD9WWnAi3yfOvBNwtrp3WXtg=="
+      },
+      "gitHead" : "49801f761347d53bd1f6a88767bb79e257f9fbb9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.1_1691769458383_0.9228265032206038"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.17.2" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.17.2",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.17.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.17.2.tgz",
+        "shasum" : "4ae5735e1cd09b584cff4b8066a246cc62b06c97",
+        "integrity" : "sha512-j750nyrwoRZd3VnPo5sd12/5U27TxFGmvmoDv93G2jiaGJPYKJ/+5IfRAvHahGePTUIRPyOlE5YLFw9MlzuBnw=="
+      },
+      "gitHead" : "a98870a2fa9f7af7024be24cb6833e638aa71da3",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.17.2_1673937588906_0.5820061037001156"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.19.0" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.0.tgz",
+        "shasum" : "b5bbde35468db093fdf994880b0eb4b62613b67c",
+        "integrity" : "sha512-9IRWJjqpWFHM9a5Qs3r3bK834NCFuDY5ZaLrmTjqE+10B6w65UMQzeZjh794JcxpHolsAHqwsN/33crUXNCM2Q=="
+      },
+      "gitHead" : "c337498cdad8cac87517ec49c923441b2dc67bf2",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.0_1691509958033_0.6024955590123546"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.19.9" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.9",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.9.tgz",
+        "shasum" : "8a216c66dcf51addeeb843d8cfaeff712821d12b",
+        "integrity" : "sha512-vE0VotmNTQaTdX0Q9dOHmMTao6ObjyPm58CHZr1UK7qpNleQyxlFlNCaHsHx6Uqv86VgPmR4o2wdNq3dP1qyDQ=="
+      },
+      "gitHead" : "9edc9d44c3d0480c27f68a71365f18e688b6184a",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.9_1702184970766_0.30809473818034894"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.0" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.0",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.20.0.tgz",
+        "shasum" : "9561d277002ba8caf1524f209de2b22e93d170c1",
+        "integrity" : "sha512-bsgTPoyYDnPv8ER0HqnJggXK6RyFy4PH4rtsId0V7Efa90u2+EifxytE9pZnsDgExgkARy24WUQGv9irVbTvIw=="
+      },
+      "gitHead" : "2af5ccf478812d2d7226ad4435d46fbbb3419a8c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.20.0_1706374178508_0.19259841026652613"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.19.8" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.19.8",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.19.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.19.8.tgz",
+        "shasum" : "75c5c88371eea4bfc1f9ecfd0e75104c74a481ac",
+        "integrity" : "sha512-3sur80OT9YdeZwIVgERAysAbwncom7b4bCI2XKLjMfPymTud7e/oY4y+ci1XVp5TfQp/bppn7xLw1n/oSQY3/Q=="
+      },
+      "gitHead" : "e97bd6706c7aaddb3770ae31b164d7ccaec8056c",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.19.8_1701040091057_0.5651626049851046"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.20.1" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.20.1",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.20.1.tgz",
+        "shasum" : "92504077424584684862f483a2242cfde4055ba2",
+        "integrity" : "sha512-pFIfj7U2w5sMp52wTY1XVOdoxw+GDwy9FsK3OFz4BpMAjvZVs0dT1VXs8aQm22nhwoIWUmIRaE+4xow8xfIDZA=="
+      },
+      "gitHead" : "9f9e4f85e6e28a58727531458663afd157b8b415",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.20.1_1708324688616_0.08791653026960056"
+      },
+      "_nodeVersion" : "20.10.0"
+    },
+    "0.18.16" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.16",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.16.tgz",
+        "shasum" : "a8f3b61bee2807131cbe28eb164ad2b0333b59f5",
+        "integrity" : "sha512-6w4Dbue280+rp3LnkgmriS1icOUZDyPuZo/9VsuMUTns7SYEiOaJ7Ca1cbhu9KVObAWfmdjUl4gwy9TIgiO5eA=="
+      },
+      "gitHead" : "22920366954b4d18aed77dfc2b5961f339d4e318",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.16_1690087690378_0.014802360260552927"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.17" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.17",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.17.tgz",
+        "shasum" : "92f8763ff6f97dff1c28a584da7b51b585e87a7b",
+        "integrity" : "sha512-XDre+J5YeIJDMfp3n0279DFNrGCXlxOuGsWIkRb1NThMZ0BsrWXoTg23Jer7fEXQ9Ye5QjrvXpxnhzl3bHtk0g=="
+      },
+      "gitHead" : "1771c7109f7f5d17d96543d6b17a6ab12d9d38d0",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.17_1690335658734_0.5149490070939513"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.14" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.14",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.14.tgz",
+        "shasum" : "bc1884d9f812647e2078fa4c46e4bffec53c7c09",
+        "integrity" : "sha512-ZnI3Dg4ElQ6tlv82qLc/UNHtFsgZSKZ7KjsUNAo1BF1SoYDjkGKHJyCrYyWjFecmXpvvG/KJ9A/oe0H12odPLQ=="
+      },
+      "gitHead" : "af0fe32eaea8112de45e17cb8d0ad487b2123132",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.14_1689656428310_0.4451857508961541"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.15" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.15",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.15.tgz",
+        "shasum" : "91cd2601c1604d123454d325e6b24fb6438350cf",
+        "integrity" : "sha512-bMqBmpw1e//7Fh5GLetSZaeo9zSC4/CMtrVFdj+bqKPGJuKyfNJ5Nf2m3LknKZTS+Q4oyPiON+v3eaJ59sLB5A=="
+      },
+      "gitHead" : "daf64732be2e05d1258023b5b7d5389e08e291a9",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.15_1689857603103_0.6932033625021135"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.12" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.12",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.12.tgz",
+        "shasum" : "1029cfbd5fe22e5426470dee63511b33eeeb8127",
+        "integrity" : "sha512-ohqLPc7i67yunArPj1+/FeeJ7AgwAjHqKZ512ADk3WsE3FHU9l+m5aa7NdxXr0HmN1bjDlUslBjWNbFlD9y12Q=="
+      },
+      "gitHead" : "d196e4c4898fc46dc553124e28b1b29829ef7f7d",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.12_1689212057714_0.36882401366380657"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.13" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.13",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.13.tgz",
+        "shasum" : "81965b690bae86bf1289b2ce0732506fd41fb545",
+        "integrity" : "sha512-RIrxoKH5Eo+yE5BtaAIMZaiKutPhZjw+j0OCh8WdvKEKJQteacq0myZvBDLU+hOzQOZWJeDnuQ2xgSScKf1Ovw=="
+      },
+      "gitHead" : "12a8a25b4ca8b650d7c96046b8a3e76491a119f5",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.13_1689388641530_0.8491358236912319"
+      },
+      "_nodeVersion" : "18.16.1"
+    },
+    "0.18.10" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.10",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.10.tgz",
+        "shasum" : "a8a8466559af303db881c7a760553bfc00593a62",
+        "integrity" : "sha512-tnz/mdZk1L1Z3WpGjin/L2bKTe8/AKZpI8fcCLtH+gq8WXWsCNJSxlesAObV4qbtTl6pG5vmqFXfWUQ5hV8PAQ=="
+      },
+      "gitHead" : "cdb6c7ce3f9419e51bd855fd61d07d2c615fb30e",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.10_1687814434784_0.7003603679935027"
+      },
+      "_nodeVersion" : "16.13.0"
+    },
+    "0.18.11" : {
+      "name" : "@esbuild/darwin-x64",
+      "description" : "The macOS 64-bit binary for esbuild, a JavaScript bundler.",
+      "version" : "0.18.11",
+      "homepage" : "https://github.com/evanw/esbuild#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/evanw/esbuild.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/evanw/esbuild/issues"
+      },
+      "engines" : {
+        "node" : ">=12"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      }, {
+        "name" : "esbuild",
+        "email" : "evan.exe+esbuild@gmail.com"
+      } ],
+      "directories" : { },
+      "os" : [ "darwin" ],
+      "cpu" : [ "x64" ],
+      "_npmVersion" : "8.1.0",
+      "_npmUser" : {
+        "name" : "evanw",
+        "email" : "evan.exe@gmail.com"
+      },
+      "_id" : "@esbuild/darwin-x64@0.18.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@esbuild/darwin-x64/-/darwin-x64-0.18.11.tgz",
+        "shasum" : "c5ac602ec0504a8ff81e876bc8a9811e94d69d37",
+        "integrity" : "sha512-N15Vzy0YNHu6cfyDOjiyfJlRJCB/ngKOAvoBf1qybG3eOq0SL2Lutzz9N7DYUbb7Q23XtHPn6lMDF6uWbGv9Fw=="
+      },
+      "gitHead" : "2703f90d47fd96f425fedcfd2a5c318a43b04d45",
+      "preferUnplugged" : true,
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/darwin-x64_0.18.11_1688191442203_0.060650478720550405"
+      },
+      "_nodeVersion" : "16.13.0"
+    }
+  },
+  "readme" : "# esbuild\n\nThis is the macOS 64-bit binary for esbuild, a JavaScript bundler and minifier. See https://github.com/evanw/esbuild for details.\n",
+  "maintainers" : [ {
+    "name" : "evanw",
+    "email" : "evan.exe@gmail.com"
+  }, {
+    "name" : "esbuild",
+    "email" : "evan.exe+esbuild@gmail.com"
+  } ],
+  "time" : {
+    "0.15.18" : "2022-12-05T23:42:06.231Z",
+    "0.19.10" : "2023-12-19T00:21:42.021Z",
+    "modified" : "2024-02-19T06:38:09.623Z",
+    "0.19.12" : "2024-01-23T17:40:32.023Z",
+    "0.19.11" : "2023-12-29T20:31:58.547Z",
+    "0.16.2" : "2022-12-08T06:59:57.425Z",
+    "0.18.0" : "2023-06-09T21:24:28.627Z",
+    "0.16.1" : "2022-12-07T04:48:19.075Z",
+    "0.16.0" : "2022-12-07T03:55:10.476Z",
+    "0.16.17" : "2023-01-11T21:58:09.947Z",
+    "0.16.16" : "2023-01-08T22:43:57.512Z",
+    "created" : "2022-12-05T23:42:05.909Z",
+    "0.18.8" : "2023-06-25T03:19:21.284Z",
+    "0.16.9" : "2022-12-18T04:31:33.009Z",
+    "0.18.7" : "2023-06-24T02:46:30.805Z",
+    "0.16.8" : "2022-12-16T23:38:55.070Z",
+    "0.18.6" : "2023-06-20T23:24:59.588Z",
+    "0.16.7" : "2022-12-14T22:47:00.840Z",
+    "0.18.5" : "2023-06-20T00:52:48.687Z",
+    "0.16.6" : "2022-12-14T05:23:20.347Z",
+    "0.18.4" : "2023-06-16T15:38:40.092Z",
+    "0.16.5" : "2022-12-13T17:47:47.207Z",
+    "0.18.3" : "2023-06-15T12:21:12.478Z",
+    "0.16.4" : "2022-12-10T03:50:42.823Z",
+    "0.18.2" : "2023-06-13T02:40:37.452Z",
+    "0.16.3" : "2022-12-08T20:13:14.928Z",
+    "0.18.1" : "2023-06-12T04:51:51.929Z",
+    "0.18.9" : "2023-06-26T05:28:10.944Z",
+    "0.16.13" : "2023-01-02T22:57:27.191Z",
+    "0.16.12" : "2022-12-28T02:04:49.038Z",
+    "0.16.15" : "2023-01-07T04:19:09.947Z",
+    "0.16.14" : "2023-01-04T20:13:09.647Z",
+    "0.16.11" : "2022-12-27T01:39:15.417Z",
+    "0.16.10" : "2022-12-19T23:26:41.518Z",
+    "0.17.19" : "2023-05-13T00:06:40.966Z",
+    "0.17.17" : "2023-04-16T21:23:47.290Z",
+    "0.17.18" : "2023-04-22T20:41:33.770Z",
+    "0.18.20" : "2023-08-08T04:15:10.097Z",
+    "0.17.15" : "2023-04-01T22:27:00.790Z",
+    "0.17.16" : "2023-04-10T04:35:11.190Z",
+    "0.17.13" : "2023-03-24T18:57:16.098Z",
+    "0.17.14" : "2023-03-26T02:47:50.761Z",
+    "0.17.11" : "2023-03-03T22:40:21.241Z",
+    "0.17.12" : "2023-03-17T06:17:15.526Z",
+    "0.17.10" : "2023-02-20T17:55:03.961Z",
+    "0.17.1" : "2023-01-16T18:05:47.336Z",
+    "0.17.0" : "2023-01-14T04:33:49.717Z",
+    "0.18.18" : "2023-08-05T17:06:34.576Z",
+    "0.18.19" : "2023-08-07T02:51:26.105Z",
+    "0.17.9" : "2023-02-19T17:45:27.800Z",
+    "0.19.7" : "2023-11-21T01:01:09.078Z",
+    "0.17.8" : "2023-02-13T06:35:47.267Z",
+    "0.19.6" : "2023-11-19T07:11:43.115Z",
+    "0.17.7" : "2023-02-09T22:26:49.524Z",
+    "0.19.5" : "2023-10-17T05:10:39.398Z",
+    "0.17.6" : "2023-02-06T17:00:52.879Z",
+    "0.19.4" : "2023-09-28T01:47:20.210Z",
+    "0.17.5" : "2023-01-27T16:37:56.243Z",
+    "0.19.3" : "2023-09-14T01:12:29.423Z",
+    "0.17.4" : "2023-01-22T06:13:45.788Z",
+    "0.19.2" : "2023-08-14T01:58:26.234Z",
+    "0.17.3" : "2023-01-18T19:14:38.915Z",
+    "0.19.1" : "2023-08-11T15:57:38.628Z",
+    "0.17.2" : "2023-01-17T06:39:49.178Z",
+    "0.19.0" : "2023-08-08T15:52:38.349Z",
+    "0.19.9" : "2023-12-10T05:09:31.020Z",
+    "0.20.0" : "2024-01-27T16:49:38.776Z",
+    "0.19.8" : "2023-11-26T23:08:11.357Z",
+    "0.20.1" : "2024-02-19T06:38:08.813Z",
+    "0.18.16" : "2023-07-23T04:48:10.629Z",
+    "0.18.17" : "2023-07-26T01:40:59.117Z",
+    "0.18.14" : "2023-07-18T05:00:28.622Z",
+    "0.18.15" : "2023-07-20T12:53:23.329Z",
+    "0.18.12" : "2023-07-13T01:34:17.955Z",
+    "0.18.13" : "2023-07-15T02:37:21.790Z",
+    "0.18.10" : "2023-06-26T21:20:34.983Z",
+    "0.18.11" : "2023-07-01T06:04:02.495Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/evanw/esbuild.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/evanw/esbuild#readme",
+  "bugs" : {
+    "url" : "https://github.com/evanw/esbuild/issues"
+  },
+  "license" : "MIT"
+}

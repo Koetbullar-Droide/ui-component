@@ -1,0 +1,792 @@
+{
+  "_id" : "@nodelib/fs.walk",
+  "_rev" : "16-362086f6829524b882f9eee64db9a9b4",
+  "name" : "@nodelib/fs.walk",
+  "description" : "A library for efficiently walking a directory recursively",
+  "dist-tags" : {
+    "latest" : "2.0.0"
+  },
+  "versions" : {
+    "2.0.0" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "2.0.0",
+      "homepage" : "https://github.com/nodelib/nodelib/tree/master#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/nodelib/nodelib.git#master"
+      },
+      "bugs" : {
+        "url" : "https://github.com/nodelib/nodelib/issues"
+      },
+      "engines" : {
+        "node" : ">=16.14.0"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "3.0.0",
+        "fastq" : "^1.15.0"
+      },
+      "devDependencies" : {
+        "@nodelib/fs.macchiato" : "2.0.0",
+        "@nodelib/fs.walk.previous" : "npm:@nodelib/fs.walk@2"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "eslint \"src/**/*.ts\" --cache",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -b . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch",
+        "bench" : "npm run bench:sync && npm run bench:async && npm run bench:stream",
+        "bench:sync" : "hereby bench:sync",
+        "bench:async" : "hereby bench:async",
+        "bench:stream" : "hereby bench:stream"
+      },
+      "_npmVersion" : "9.8.0",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@2.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-2.0.0.tgz",
+        "shasum" : "10499ac2210f6399770b465ba728adafc7d44bb1",
+        "integrity" : "sha512-54voNDBobGdMl3BUXSu7UaDh1P85PGHWlJ5e0XhPugo1JulOyCtp2I+5ri4wplGDJ8QGwPEQW7/x3yTLU7yF1A=="
+      },
+      "gitHead" : "230d20af919652208aa73c2f157613ef06e1886d",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_2.0.0_1690566674571_0.8453186546686764"
+      },
+      "_nodeVersion" : "20.5.0"
+    },
+    "1.2.1" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.0",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.4.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.1.tgz",
+        "shasum" : "9b73d8738588cc98c4806702a0850bed4fe8403c",
+        "integrity" : "sha512-rMBtL6EsICU4MmZ4Kxo2r1Zx3RJgvf5AJf3ybH1zqJZrDv9hRS9hhDHS+VNdtFGQJG/vnRAk/ymZDGLxLWZFNQ=="
+      },
+      "gitHead" : "da1b87f3157fdaccf849add548beb92f63fcf137",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.1_1561232183005_0.28114993368587404"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.2.2" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.1",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.4.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.2.tgz",
+        "shasum" : "6a6450c5e17012abd81450eb74949a4d970d2807",
+        "integrity" : "sha512-J/DR3+W12uCzAJkw7niXDcqcKBg6+5G5Q/ZpThpGNzAUz70eOR6RV4XnnSN01qHZiVl0eavoxJsBypQoKsV2QQ=="
+      },
+      "gitHead" : "f2e0caa6ff76566953dcfac75b916d80474a5e45",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.2_1561442839280_0.5354268747823958"
+      },
+      "_nodeVersion" : "12.4.0"
+    },
+    "1.2.3" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.2",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v12.8.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.3.tgz",
+        "shasum" : "a555dc256acaf00c62b0db29529028dd4d4cb141",
+        "integrity" : "sha512-l6t8xEhfK9Sa4YO5mIRdau7XSOADfmh3jCr0evNHdY+HNkW6xuQhgMH7D73VV6WpZOagrW0UludvMTiifiwTfA=="
+      },
+      "gitHead" : "b56e041e80bc6ae6c5fa31c327d5174ed1b8957a",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.3_1566984355409_0.3529282211164684"
+      },
+      "_nodeVersion" : "12.8.0"
+    },
+    "1.2.4" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.3",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "eslint \"src/**/*.ts\" --cache",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.16.4/node@v12.8.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.4.tgz",
+        "shasum" : "011b9202a70a6366e436ca5c065844528ab04976",
+        "integrity" : "sha512-1V9XOY4rDW0rehzbrcqAmHnz8e7SKvX27gh8Gt2WgB0+pdzdiLV83p72kZPU+jvMbS1qU5mauP2iOvO8rhmurQ=="
+      },
+      "gitHead" : "3b1ef7554ad7c061b3580858101d483fba847abf",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.4_1570173170330_0.925284813053447"
+      },
+      "_nodeVersion" : "12.8.0"
+    },
+    "1.2.5" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.4",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "eslint \"src/**/*.ts\" --cache",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v14.8.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.5.tgz",
+        "shasum" : "878445b7ce9b76e23d34b3cc155bd5e436358fe8",
+        "integrity" : "sha512-Wt4shGVXvjmpVCooNQ4EXlF+8t1zJ+AkQ0WfRaqcWL9aj0vA+z3/WA7UH7rl0lWpovaWI0L4YtSS1YxS7539kg=="
+      },
+      "gitHead" : "cb5f7e893a986164c3b847a4f1faef6c54cadd68",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.5_1609076329116_0.04348961502630999"
+      },
+      "_nodeVersion" : "14.8.0"
+    },
+    "1.2.6" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.4",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "eslint \"src/**/*.ts\" --cache",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v14.8.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.6.tgz",
+        "shasum" : "cce9396b30aa5afe9e3756608f5831adcb53d063",
+        "integrity" : "sha512-8Broas6vTtW4GIXTAHDoE32hnN2M5ykgCpWGbuXHQ15vEMqr23pB76e/GZcYsZCHALv50ktd24qhEyKr6wBtow=="
+      },
+      "gitHead" : "bd149ea6dc1ef18c234730278271f6a7f3882ed2",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.6_1609078942148_0.9264714616710352"
+      },
+      "_nodeVersion" : "14.8.0"
+    },
+    "1.2.7" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.5",
+        "fastq" : "^1.6.0"
+      },
+      "devDependencies" : {
+        "@nodelib/fs.macchiato" : "1.0.4"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "eslint \"src/**/*.ts\" --cache",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v14.14.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.7.tgz",
+        "shasum" : "94c23db18ee4653e129abd26fb06f870ac9e1ee2",
+        "integrity" : "sha512-BTIhocbPBSrRmHxOAJFtR18oLhxTtAFDAvL8hY1S3iU8k+E60W/YFs4jrixGzQjMpF4qPXxIQHcjVD9dz1C2QA=="
+      },
+      "gitHead" : "d6a7960d5281d3dd5f8e2efba49bb552d090f562",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.7_1622792607648_0.026153615943276032"
+      },
+      "_nodeVersion" : "14.14.0"
+    },
+    "1.2.8" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.5",
+        "fastq" : "^1.6.0"
+      },
+      "devDependencies" : {
+        "@nodelib/fs.macchiato" : "1.0.4"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "eslint \"src/**/*.ts\" --cache",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.22.1/node@v12.19.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz",
+        "shasum" : "e95737e8bb6746ddedf69c556953494f196fe69a",
+        "integrity" : "sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg=="
+      },
+      "gitHead" : "1e5bad48565da2b06b8600e744324ea240bf49d8",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.8_1625769665411_0.7353908438765198"
+      },
+      "_nodeVersion" : "12.19.0"
+    },
+    "1.0.0" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.0.0",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.0.0.tgz",
+        "shasum" : "b327877f2694a125fde5a1d45957e008ff8e001a",
+        "integrity" : "sha512-Y/3U4+A9HtqbkjwK/HGrM0Fk/lMvN5N2cXTdX1U/q/Zy1GTyoP0jSSWlKN2cHxfAoUM4gkA0vFcY4fuAro6lQg=="
+      },
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.0.0_1557656306966_0.2859177914170725"
+      },
+      "_nodeVersion" : "12.2.0"
+    },
+    "1.0.1" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.0.0",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "6.9.0",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.0.1.tgz",
+        "shasum" : "5ff69d4ca980da3947b4d1146b370486a72ccb57",
+        "integrity" : "sha512-QAY7YsuNZROqq4igYAdKafPk9crFW3/ZpZxZ+eVlReFFsQFNAlgk7auf/m9Njl1YZ8Tw0D45XDN473R2bqU0jQ=="
+      },
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.0.1_1557945866336_0.030485553908961682"
+      },
+      "_nodeVersion" : "12.2.0"
+    },
+    "1.1.0" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.0.0",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.14.1/node@v12.2.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.1.0.tgz",
+        "shasum" : "add64a2db65427bf37971d7de2f1bafe20ccd2b2",
+        "integrity" : "sha512-HnFO3Zv1GOExA+UbgPlpyg0K2cAtMDa1/qb0h4vyyqTyz0VJWpSOk54w0RRwZmTNO7vAz3Wc/3jqakJvUbEgqA=="
+      },
+      "gitHead" : "2ec9b1a53109f82138a342301b10257c1c409b91",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.1.0_1558192094376_0.07368416877420536"
+      },
+      "_nodeVersion" : "12.2.0"
+    },
+    "1.1.1" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.0.1",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.14.1/node@v12.3.1+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.1.1.tgz",
+        "shasum" : "62b9f903397ad32b14b88de30674e6350b0f35ed",
+        "integrity" : "sha512-MmjNq20/nGuDyc4PUSpTiiu5Hg9Q9VfQR78CGf2Yquhws9SCm+XDdxYa1niRqeVHW9nP8DQSX+tlM8bLUNsUGA=="
+      },
+      "gitHead" : "14a421c7401f269bf868e1a53fac0c3624247518",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.1.1_1559390412047_0.25616518049344217"
+      },
+      "_nodeVersion" : "12.3.1"
+    },
+    "1.2.0" : {
+      "name" : "@nodelib/fs.walk",
+      "description" : "A library for efficiently walking a directory recursively",
+      "version" : "1.2.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/nodelib/nodelib/tree/master/packages/fs/fs.walk"
+      },
+      "engines" : {
+        "node" : ">= 8"
+      },
+      "main" : "out/index.js",
+      "dependencies" : {
+        "@nodelib/fs.scandir" : "2.1.0",
+        "fastq" : "^1.6.0"
+      },
+      "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "clean" : "rimraf {tsconfig.tsbuildinfo,out}",
+        "lint" : "tslint \"src/**/*.ts\" -p . -t stylish",
+        "compile" : "tsc -b .",
+        "compile:watch" : "tsc -p . --watch --sourceMap",
+        "test" : "mocha \"out/**/*.spec.js\" -s 0",
+        "build" : "npm run clean && npm run compile && npm run lint && npm test",
+        "watch" : "npm run clean && npm run compile:watch"
+      },
+      "_npmVersion" : "lerna/3.15.0/node@v12.4.0+x64 (win32)",
+      "_npmUser" : {
+        "name" : "mrmlnc",
+        "email" : "dmalinochkin@rambler.ru"
+      },
+      "_id" : "@nodelib/fs.walk@1.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@nodelib/fs.walk/-/fs.walk-1.2.0.tgz",
+        "shasum" : "243c2a8f45a1d454827e1b9394bcf2c2d09a35fd",
+        "integrity" : "sha512-sFZwqgIOFXn/ijuVgF2U6HQTf/zTKeXQueljjOvzgM8tspbjts7EqWErUOyz3JYNWLaxnhWLfuYo8BWK7BExmg=="
+      },
+      "gitHead" : "e23fc3908c45a4a71f0cc844cbf5e4fbdd6c71aa",
+      "typings" : "out/index.d.ts",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/fs.walk_1.2.0_1561223706756_0.8515433783793782"
+      },
+      "_nodeVersion" : "12.4.0"
+    }
+  },
+  "readme" : "# @nodelib/fs.walk\n\n> A library for efficiently walking a directory recursively.\n\n## :bulb: Highlights\n\n* :moneybag: Returns useful information: `name`, `path`, `dirent` and `stats` (optional).\n* :gear: Built-in directories/files and error filtering system.\n* :link: Can safely work with broken symbolic links.\n\n## Install\n\n```console\nnpm install @nodelib/fs.walk\n```\n\n## Usage\n\n```ts\nimport * as fsWalk from '@nodelib/fs.walk';\n\nfsWalk.walk('path', (error, entries) => { /* … */ });\n```\n\n## API\n\n### .walk(path, [optionsOrSettings], callback)\n\nReads the directory recursively and asynchronously. Requires a callback function.\n\n> :book: If you want to use the Promise API, use `util.promisify`.\n\n```ts\nfsWalk.walk('path', (error, entries) => { /* … */ });\nfsWalk.walk('path', {}, (error, entries) => { /* … */ });\nfsWalk.walk('path', new fsWalk.Settings(), (error, entries) => { /* … */ });\n```\n\n### .walkStream(path, [optionsOrSettings])\n\nReads the directory recursively and asynchronously. [Readable Stream](https://nodejs.org/dist/latest-v12.x/docs/api/stream.html#stream_readable_streams) is used as a provider.\n\n```ts\nconst stream = fsWalk.walkStream('path');\nconst stream = fsWalk.walkStream('path', {});\nconst stream = fsWalk.walkStream('path', new fsWalk.Settings());\n```\n\n### .walkSync(path, [optionsOrSettings])\n\nReads the directory recursively and synchronously. Returns an array of entries.\n\n```ts\nconst entries = fsWalk.walkSync('path');\nconst entries = fsWalk.walkSync('path', {});\nconst entries = fsWalk.walkSync('path', new fsWalk.Settings());\n```\n\n#### path\n\n* Required: `true`\n* Type: `string | Buffer | URL`\n\nA path to a file. If a URL is provided, it must use the `file:` protocol.\n\n#### optionsOrSettings\n\n* Required: `false`\n* Type: `Options | Settings`\n* Default: An instance of `Settings` class\n\nAn [`Options`](#options) object or an instance of [`Settings`](#settings) class.\n\n> :book: When you pass a plain object, an instance of the `Settings` class will be created automatically. If you plan to call the method frequently, use a pre-created instance of the `Settings` class.\n\n### Settings([options])\n\nA class of full settings of the package.\n\n```ts\nconst settings = new fsWalk.Settings({ followSymbolicLinks: true });\n\nconst entries = fsWalk.walkSync('path', settings);\n```\n\n## Entry\n\n* `name` — The name of the entry (`unknown.txt`).\n* `path` — The path of the entry relative to call directory (`root/unknown.txt`).\n* `dirent` — An instance of [`fs.Dirent`](./src/types/index.ts) class.\n* [`stats`] — An instance of `fs.Stats` class.\n\n## Options\n\n### basePath\n\n* Type: `string`\n* Default: `undefined`\n\nBy default, all paths are built relative to the root path. You can use this option to set custom root path.\n\nIn the example below we read the files from the `root` directory, but in the results the root path will be `custom`.\n\n```ts\nfsWalk.walkSync('root'); // → ['root/file.txt']\nfsWalk.walkSync('root', { basePath: 'custom' }); // → ['custom/file.txt']\n```\n\n### concurrency\n\n* Type: `number`\n* Default: `Infinity`\n\nThe maximum number of concurrent calls to `fs.readdir`.\n\n> :book: The higher the number, the higher performance and the load on the File System. If you want to read in quiet mode, set the value to `4 * os.cpus().length` (4 is default size of [thread pool work scheduling](http://docs.libuv.org/en/v1.x/threadpool.html#thread-pool-work-scheduling)).\n\n### deepFilter\n\n* Type: [`DeepFilterFunction`](./src/settings.ts)\n* Default: `undefined`\n\nA function that indicates whether the directory will be read deep or not.\n\n```ts\n// Skip all directories that starts with `node_modules`\nconst filter: DeepFilterFunction = (entry) => !entry.path.startsWith('node_modules');\n```\n\n### entryFilter\n\n* Type: [`EntryFilterFunction`](./src/settings.ts)\n* Default: `undefined`\n\nA function that indicates whether the entry will be included to results or not.\n\n```ts\n// Exclude all `.js` files from results\nconst filter: EntryFilterFunction = (entry) => !entry.name.endsWith('.js');\n```\n\n### errorFilter\n\n* Type: [`ErrorFilterFunction`](./src/settings.ts)\n* Default: `undefined`\n\nA function that allows you to skip errors that occur when reading directories.\n\nFor example, you can skip `ENOENT` errors if required:\n\n```ts\n// Skip all ENOENT errors\nconst filter: ErrorFilterFunction = (error) => error.code == 'ENOENT';\n```\n\n### stats\n\n* Type: `boolean`\n* Default: `false`\n\nAdds an instance of `fs.Stats` class to the [`Entry`](#entry).\n\n> :book: Always use `fs.readdir` with additional `fs.lstat/fs.stat` calls to determine the entry type.\n\n### followSymbolicLinks\n\n* Type: `boolean`\n* Default: `false`\n\nFollow symbolic links or not. Call `fs.stat` on symbolic link if `true`.\n\n### `throwErrorOnBrokenSymbolicLink`\n\n* Type: `boolean`\n* Default: `true`\n\nThrow an error when symbolic link is broken if `true` or safely return `lstat` call if `false`.\n\n### `pathSegmentSeparator`\n\n* Type: `string`\n* Default: `path.sep`\n\nBy default, this package uses the correct path separator for your OS (`\\` on Windows, `/` on Unix-like systems). But you can set this option to any separator character(s) that you want to use instead.\n\n### `fs`\n\n* Type: `FileSystemAdapter`\n* Default: A default FS methods\n\nBy default, the built-in Node.js module (`fs`) is used to work with the file system. You can replace any method with your own.\n\n```ts\ninterface FileSystemAdapter {\n\tlstat: typeof fs.lstat;\n\tstat: typeof fs.stat;\n\tlstatSync: typeof fs.lstatSync;\n\tstatSync: typeof fs.statSync;\n\treaddir: typeof fs.readdir;\n\treaddirSync: typeof fs.readdirSync;\n}\n\nconst settings = new fsWalk.Settings({\n\tfs: { lstat: fakeLstat }\n});\n```\n\n## Changelog\n\nSee the [Releases section of our GitHub project](https://github.com/nodelib/nodelib/releases) for changelog for each release version.\n\n## License\n\nThis software is released under the terms of the MIT license.\n",
+  "maintainers" : [ {
+    "name" : "mrmlnc",
+    "email" : "dmalinochkin@rambler.ru"
+  } ],
+  "time" : {
+    "2.0.0" : "2023-07-28T17:51:14.755Z",
+    "created" : "2019-05-12T10:18:26.899Z",
+    "1.2.1" : "2019-06-22T19:36:23.133Z",
+    "1.2.2" : "2019-06-25T06:07:19.455Z",
+    "1.2.3" : "2019-08-28T09:25:55.524Z",
+    "1.2.4" : "2019-10-04T07:12:50.441Z",
+    "1.2.5" : "2020-12-27T13:38:49.252Z",
+    "1.2.6" : "2020-12-27T14:22:22.335Z",
+    "1.2.7" : "2021-06-04T07:43:27.772Z",
+    "1.2.8" : "2021-07-08T18:41:05.552Z",
+    "modified" : "2023-07-28T17:51:14.879Z",
+    "1.0.0" : "2019-05-12T10:18:27.085Z",
+    "1.0.1" : "2019-05-15T18:44:26.458Z",
+    "1.1.0" : "2019-05-18T15:08:14.501Z",
+    "1.1.1" : "2019-06-01T12:00:12.162Z",
+    "1.2.0" : "2019-06-22T17:15:06.936Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/nodelib/nodelib.git#master"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/nodelib/nodelib/tree/master#readme",
+  "keywords" : [ "NodeLib", "fs", "FileSystem", "file system", "walk", "scanner", "crawler" ],
+  "bugs" : {
+    "url" : "https://github.com/nodelib/nodelib/issues"
+  },
+  "license" : "MIT"
+}

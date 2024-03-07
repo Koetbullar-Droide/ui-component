@@ -1,0 +1,3239 @@
+{
+  "_id" : "@restart/ui",
+  "_rev" : "38-e13cca941159188dad6a594e6afa6142",
+  "name" : "@restart/ui",
+  "description" : "Utilities for creating robust overlay components",
+  "dist-tags" : {
+    "latest" : "1.6.6"
+  },
+  "versions" : {
+    "0.0.6" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.0.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.0.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.0.6.tgz",
+        "shasum" : "31e7ee452bdd57b1a03906dc2b4ce54968e83099",
+        "integrity" : "sha512-1GjkUZ1C44FS+x2zMxns6gnqntFa9thnBIdXwlKpYc5+rjYnzY7DylDglmbbUZ8qXs4izo6awq09spSJEMJqsQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.0.6_1626894581463_0.040927292300466434"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.2.4" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.4.tgz",
+        "shasum" : "a522ec75d1d74aa2637ded2c1b338317ff66770a",
+        "integrity" : "sha512-KUPvgDRXaJap9uGgyqRIeOPq94GBuCGDdlcRoCjV05LSfMrDN4pdMCV9lKt+NDXu+A4QpHRpFBKSUNIyDHzeQw=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.4_1638974192294_0.4511242739025869"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "0.2.5" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.5.tgz",
+        "shasum" : "e94204cbc88a9d13d1d20ce9cdf4713998b7c0fa",
+        "integrity" : "sha512-3dP8pMFickPpvAG5MVQW53HnJl0c17h7MwvI4nNy9QF66sHSYVchudlqlI8eOSaqnmc5YVjGura63vMb9LTNbQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.5_1639063637777_0.18998528052486563"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "0.0.4" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.0.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      }, {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.0.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.0.4.tgz",
+        "shasum" : "400d39e0edf1a0eba7af00e4d5cf62da0462a30a",
+        "integrity" : "sha512-RnweTupjJPVXsTaEu9ZIkLs79p9nrKb1nOHNSO79YZPM0bJzbA0WdS3BiSZykTN2z1YIJCH33r5Y32Q29w93WQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.0.4_1626283430784_0.439204459706809"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.2.2" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.2.tgz",
+        "shasum" : "57067918a5ac5761848bb70a74aa020025cc91ce",
+        "integrity" : "sha512-PgNkiyOaWwx8ttQ45KNABXU3780fB/UxNFxcsCpC4RRAlaByZHHbNLOKfhuFs+ZUU0uLxEH9wYQEhDAZc6ajkA=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.2_1628705102864_0.9757678964986904"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.0.5" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.0.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.0.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.0.5.tgz",
+        "shasum" : "c28c9dfd943f34781b43c313b5a2beaf20335875",
+        "integrity" : "sha512-JahykXG9Yf77QnGdENXYl4A0k2oj+lhwYGhItlctu3duLCglxIOVHUvarlKNdLywvW+zqGukNrgdDLvThMiVng=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.0.5_1626803934826_0.25378797854461266"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.2.3" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.3.tgz",
+        "shasum" : "8b68aa2ca07af799a65b288cc3c6039915c46a4c",
+        "integrity" : "sha512-FDhtjIR9QvUfMwvFsgVurRA1qdYxM0F0S07acywjG7gNI2YmQo78rtCYIe553V/pyBjEjaKAg3fzBFCocFTqyQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.3_1632153876216_0.3152360486589436"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.2.6" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.6.tgz",
+        "shasum" : "43ecf7160c90d723310388aa9820e88b4ec1f2d1",
+        "integrity" : "sha512-lcutEWPvsxz0uEyRxuysCbHBfXDFnMKNMNTsnuPmLFjZXgW9fVmhksS6rpFklXHMwxOM9g6hRTBq0gS3QRKgzQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.6_1642513568324_0.1379433088942701"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "1.6.5" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.5",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.21.0",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.5.0",
+        "@restart/hooks" : "^0.4.9",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^8.0.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.5.tgz",
+        "shasum" : "8bd14fdc5c8791424e9bf798343a9d422ad8b0c1",
+        "integrity" : "sha512-kDjhH8lk+aVGc+dPb8wEBXRDx4B1WX6/pqyWi22R3Oim6KQokeLGO2g8MYzwd2/UdjsrDt+HyYFpKihLIN7+/A=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "d7027d653548ed4a7d604b9e3cd2fe96b0ed9380",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "node" : "./cjs/index.js",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "node" : "./cjs/*.js",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.5_1684767737271_0.3700418949633886"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "1.6.6" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.6",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.21.0",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.5.0",
+        "@restart/hooks" : "^0.4.9",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^8.0.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.6.tgz",
+        "shasum" : "3481e2eaf15d7cae55bb2f518624e10d19c75800",
+        "integrity" : "sha512-eC3puKuWE1SRYbojWHXnvCNHGgf3uzHCb6JOhnF4OXPibOIPEkR1sqDSkL643ydigxwh+ruCa1CmYHlzk7ikKA=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "44dc346744b37c33bd0d0309e5cd827751fce9c4",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "node" : "./cjs/index.js",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "node" : "./cjs/*.js",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.6_1685719751456_0.4581042819279477"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "0.0.2" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.0.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@4c/docusaurus-preset" : "^0.2.4",
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.3.26",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.0.2.tgz",
+        "shasum" : "406300022b284344a4efa79c91cf0b2651e35889",
+        "integrity" : "sha512-1MpHtlUcxpR6arsN1D90romvclodFpwGcI3YCX/80EKjZerE4CFJyOxQmPnQYvM8o2NEQWTfy9Ij7ghEM4Mavg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.0.2_1619197336055_0.35382026687986134"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.1.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.1.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@0.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.1.1.tgz",
+        "shasum" : "7b867ca5ecc1d4ee48b1c2acf44126bca65bec36",
+        "integrity" : "sha512-D/EbRKjYiGogv7j4SmlZtF6DYSCb8KwQza9ajWv/8G9qY/I04wnqoqSJEH7JQwTiwUbzNG6hYQ7qMj2Nn1d8Qg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.1.1_1627536942896_0.1753459782399729"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.2.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.0.tgz",
+        "shasum" : "83419c3d1cf4802134384a689d03cb605f8a01e1",
+        "integrity" : "sha512-Aoc4jUQUu1KJnEwuT9JGU3+6c8zQhepIcDpcefMojZ/GT641WGN8sTDO0WMfR3AlusFD6mSwrEYVXuGVyOnwIw=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.0_1628208392656_0.6920698634651861"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.0.3" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.0.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.3.26",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.0.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.0.3.tgz",
+        "shasum" : "0fdf323f37b88da76f0545bfade8fdaac27f949b",
+        "integrity" : "sha512-9mmHrk267KEk8wenhs3GRi3EbgEIIhwaNKR5072k+TTJIpz9evjAv1Ga2/0p9jJcVEmIzmOswiuXR/Tk865k/Q=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.0.3_1620851160118_0.15502303857666866"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.2.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.2.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@0.2.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.2.1.tgz",
+        "shasum" : "75d533673194b5e2e8ab1682f0ed7cc4260825d2",
+        "integrity" : "sha512-9k3hJ03uC3kjmjZ7w5qf+OjZ19WnDhIZPaL6dDk0sbZyo0rhrHM7TKYA339W1he/EINeAWe0C63TnjUS0+lSsg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.2.1_1628553365885_0.19111251205258406"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "0.0.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.0.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@4c/docusaurus-preset" : "^0.2.4",
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.3.26",
+        "@types/warning" : "^3.0.0",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.0.1.tgz",
+        "shasum" : "81de3752ad58df904958d1e10ca5794cf07e948d",
+        "integrity" : "sha512-aYmA3g5sQCepL20DcmtY/SbO3SA9xIWJIgoQW4T4DJgdAHGo7jlGBU3l4AVchuhwz8t26MSLq08chFGQL3mwYQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.0.1_1619115169544_0.9296012694708644"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "0.1.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "0.1.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.9.2",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@0.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-0.1.0.tgz",
+        "shasum" : "9e7c64ef25498af057712c168c7d2cb88045b9db",
+        "integrity" : "sha512-t7ZVkvM5hxHUp/Ki+AUaie8WjoFcx4qb/iGj67IQz00C09RCW0Vv78E5oVR+AWyDfYIbtlyCA/qFsJQhkTsN9A=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_0.1.0_1627069733928_0.31856197726969104"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.15.0"
+    },
+    "1.3.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.3.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.18.3",
+        "@popperjs/core" : "^2.11.5",
+        "@react-aria/ssr" : "^3.2.0",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.3.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.3.0.tgz",
+        "shasum" : "a5589aaf752bbcc0d089ae5c7c52d7984c22cb9a",
+        "integrity" : "sha512-VRb330/6tDaHAHRkqe0GOawuj+hcZM7Zp5piWk/3AVwW18+0sQxGqqFeiH1ZeEMdn7w+D8bZPaY3QoLTmDKcGg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.3.0_1655941496552_0.29925287409925017"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "1.3.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.3.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.18.3",
+        "@popperjs/core" : "^2.11.5",
+        "@react-aria/ssr" : "^3.2.0",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.3.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.3.1.tgz",
+        "shasum" : "ae16be26128cc205efb7e0bf93d1f34deb1fe116",
+        "integrity" : "sha512-MYvMs2eeZTHu2dBJHOXKx72vxzEZeWbZx2z1QjeXq62iYjpjIyukBC2ZEy8x+sb9Gl0AiOiHkPXrl1wn95aOGQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.3.1_1658515976775_0.004060546595653358"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "1.4.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.4.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.18.3",
+        "@popperjs/core" : "^2.11.5",
+        "@react-aria/ssr" : "^3.2.0",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.4.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.4.0.tgz",
+        "shasum" : "8333294fefb045f58852d5bb34367c3323e2edb3",
+        "integrity" : "sha512-5dDj5uDzUgK1iijWPRg6AnxjkHM04XhTQDJirM1h/8tIc7KyLtF9YyjcCpNEn259hPMXswpkfXKNgiag0skPFg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.4.0_1662411272078_0.23335452764920883"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "1.4.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.4.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.18.3",
+        "@popperjs/core" : "^2.11.5",
+        "@react-aria/ssr" : "^3.2.0",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.4.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.4.1.tgz",
+        "shasum" : "c9057915f0708c411824eeb16c03d0108c0208d2",
+        "integrity" : "sha512-J7wFOx2DcmkBqCqiZgDsggLO7faiNh4Nv1/v80FmbRgP+MYpwaVDKKXLC69DA4+ejgNIsBP5ORtC74EZqO1j8A=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.4.1_1667769221772_0.8196507083969806"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "1.5.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.5.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "lib/cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.18.3",
+        "@popperjs/core" : "^2.11.5",
+        "@react-aria/ssr" : "^3.2.0",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "devDependencies" : {
+        "@4c/cli" : "^2.2.9",
+        "@4c/rollout" : "^2.2.1",
+        "@4c/tsconfig" : "^0.3.1",
+        "@babel/cli" : "^7.17.10",
+        "@babel/core" : "^7.18.5",
+        "@babel/preset-react" : "^7.17.12",
+        "@babel/preset-typescript" : "^7.17.12",
+        "@react-bootstrap/eslint-config" : "^2.0.0",
+        "@rollup/plugin-node-resolve" : "^11.2.1",
+        "@testing-library/react" : "^11.2.7",
+        "@testing-library/user-event" : "^13.5.0",
+        "@types/chai" : "^4.3.1",
+        "@types/classnames" : "^2.3.1",
+        "@types/mocha" : "^8.2.3",
+        "@types/react" : "^17.0.47",
+        "@types/react-dom" : "^17.0.17",
+        "@types/react-transition-group" : "^4.4.4",
+        "@types/sinon" : "^10.0.11",
+        "@types/sinon-chai" : "^3.2.8",
+        "@typescript-eslint/eslint-plugin" : "^4.33.0",
+        "@typescript-eslint/parser" : "^4.33.0",
+        "@wojtekmaj/enzyme-adapter-react-17" : "^0.6.7",
+        "babel-eslint" : "^10.1.0",
+        "babel-plugin-istanbul" : "^6.1.1",
+        "babel-preset-env-modules" : "^1.0.1",
+        "chai" : "^4.3.6",
+        "cherry-pick" : "^0.5.0",
+        "cross-env" : "^7.0.3",
+        "enzyme" : "^3.11.0",
+        "enzyme-adapter-react-16" : "^1.15.6",
+        "eslint" : "^7.24.0",
+        "eslint-config-4catalyzer-typescript" : "^3.2.1",
+        "eslint-config-prettier" : "^8.5.0",
+        "eslint-plugin-import" : "^2.26.0",
+        "eslint-plugin-jsx-a11y" : "^6.5.1",
+        "eslint-plugin-mocha" : "^8.1.0",
+        "eslint-plugin-prettier" : "^3.4.1",
+        "eslint-plugin-react" : "^7.30.0",
+        "eslint-plugin-react-hooks" : "^4.6.0",
+        "gh-pages" : "^3.1.0",
+        "hookem" : "^1.0.9",
+        "karma" : "^6.4.0",
+        "karma-chrome-launcher" : "^3.1.1",
+        "karma-coverage" : "^2.2.0",
+        "karma-firefox-launcher" : "^2.1.2",
+        "karma-mocha" : "^2.0.1",
+        "karma-mocha-reporter" : "^2.2.5",
+        "karma-sinon-chai" : "^2.0.2",
+        "karma-sourcemap-loader" : "^0.3.8",
+        "karma-webpack" : "5.0.0",
+        "lint-staged" : "^10.5.4",
+        "mocha" : "^8.3.2",
+        "prettier" : "^2.7.1",
+        "process" : "^0.11.10",
+        "react" : "^17.0.2",
+        "react-dom" : "^17.0.2",
+        "react-transition-group" : "^4.4.1",
+        "rimraf" : "^3.0.2",
+        "rollup" : "^2.75.6",
+        "simulant" : "^0.2.2",
+        "sinon" : "^13.0.1",
+        "sinon-chai" : "^3.6.0",
+        "stream-browserify" : "^3.0.0",
+        "typescript" : "^4.7.4",
+        "util" : "^0.12.3",
+        "webpack" : "^5.73.0",
+        "webpack-atoms" : "^16.0.1",
+        "webpack-cli" : "^4.1.0"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "scripts" : {
+        "bootstrap" : "yarn --network-timeout 100000 && yarn --cwd www --network-timeout 100000",
+        "build" : "rimraf lib && 4c build src && yarn build:popper && yarn build:pick",
+        "build:pick" : "cherry-pick --cwd=lib --input-dir=../src --cjs-dir=cjs --esm-dir=esm",
+        "build:popper" : "rollup src/popper.ts --file lib/cjs/popper.js --format cjs --name popper --plugin @rollup/plugin-node-resolve",
+        "deploy-docs" : "yarn --cwd www deploy",
+        "lint" : "eslint www/*.js www/src src test *.js  --ext .js,.ts,.tsx",
+        "prepublishOnly" : "yarn build",
+        "release" : "rollout",
+        "start" : "yarn --cwd www start",
+        "tdd" : "cross-env NODE_ENV=test karma start",
+        "test" : "yarn lint && yarn testonly",
+        "testonly" : "yarn tdd --single-run"
+      },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.5.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.5.0.tgz",
+        "shasum" : "ab00f8c3b30d77cd6467f0e947d2811b3348e7da",
+        "integrity" : "sha512-sZDeA2c98EioJxdgMTaTDb1fjqeFM4fZ+7qQk6H4EuhnwQb4Ou1o4U6U47ehe0MJkVpPzZYX94CaRrDGjv8j2g=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "db86d6ead64c099ae23328f72a6158daae6eaf77",
+      "types" : "./lib/cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "lib/esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.5.0_1673904883777_0.13559900647692746"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.13.0"
+    },
+    "1.5.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.5.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.20.7",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.4.1",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.5.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.5.1.tgz",
+        "shasum" : "ced0d28196b02b3d6ab51e09d81d903ca33e96e0",
+        "integrity" : "sha512-uPFE2ALgvtLetlzCQQz02Wa6DoVZ15WnvQmH3DwxC6Lh1BxbpmCR/rkYJKHcYvyJNWfC0AQn3R7xG4NddFiEhA=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "61931e18d8c2f27b4e1a70e5b9db4c94a9114e22",
+      "types" : "./cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.5.1_1673905537715_0.5869041787605473"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.13.0"
+    },
+    "1.6.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.20.7",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.4.1",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.0.tgz",
+        "shasum" : "ec39ba572a8ff1349e39e0e0248533ab7e273cc0",
+        "integrity" : "sha512-XPk7f5xSHj3ESlLx/DFyWYgkFegSEpb9MfT5ZCJxwWCK6htBPfwIFIYQDJttAs2CKYAxJj4mDe7Pdm/YNrNHEQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "428e4e25ffa067b2829936f94944ebce8f4d2866",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.0_1676051371678_0.06383313347451436"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.19.0"
+    },
+    "1.5.2" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.5.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.20.7",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.4.1",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.5.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.5.2.tgz",
+        "shasum" : "3c4a732c5d813adb3cc94d157777e06a349f2737",
+        "integrity" : "sha512-9LgjGBXo3p/hwwCxGZY2ZZIcwRy1xYl3kMzZy2NBIOhEip8iDHA3SIZ3PuK2Ta/Nl5vVMcvUmpYJdx/a0tGkdw=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "e89ba60409f03e9005dab961b95b55b43667a330",
+      "types" : "./cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.5.2_1674219878211_0.36369809562181366"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.13.0"
+    },
+    "1.6.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.20.7",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.4.1",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.1.tgz",
+        "shasum" : "1db9c11f13bafc0546e33fe0e2ffc7de920cb7dd",
+        "integrity" : "sha512-cMI9DdqZV5VGEyANYM4alHK9/2Lh/mKZAMydztMl6PBLm6EetFbwE2RfYqliloR+EtEULlI4TiZk/XPhQAovxw=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "14a38d2ba34a9f9cf2431956a7e4fd6fee295138",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.1_1676053546078_0.39907705807112115"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.19.0"
+    },
+    "1.5.3" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.5.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.20.7",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.4.1",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.5.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.5.3.tgz",
+        "shasum" : "13145f3163f9efe48a8b56c42c16ad721ab134d5",
+        "integrity" : "sha512-8Zx3HUMxOeC+ZmN7MwChkolpDQaV55prSgpNoGOw5heKnn32HgzEQ6Y0Rz0YqMBUtEKS0NsvNpsskve+O8qXAQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "b2897728a235383033e2d7971964feadc114b546",
+      "types" : "./cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.5.3_1674684655657_0.6441067053283618"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.13.0"
+    },
+    "1.6.2" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.21.0",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.5.0",
+        "@restart/hooks" : "^0.4.9",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^8.0.0",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.2.tgz",
+        "shasum" : "e4c28c893c934abf2f61ee44999b7625e7b79855",
+        "integrity" : "sha512-hcYs8PwpmHEtwjihLVn2Jr89yrYajfhxN5HtTq3HA9U3+feg1SC3swBM8/qibMTCFsXWToEEtzJMV+LWE+Qjpg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "c307379b5593c2e8210c3e31fbbbbc5606fa6d97",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.2_1679075662112_0.5521964443010425"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.19.0"
+    },
+    "1.5.4" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.5.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.20.7",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.4.1",
+        "@restart/hooks" : "^0.4.7",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.5.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.5.4.tgz",
+        "shasum" : "2537e1b7495f7ed4257dae3676c8d2b91e664e03",
+        "integrity" : "sha512-ziNtXY2PrjXrRUfR1D/ry1v1i5IF+kfMcH9d1kIcU2lOELfmDsVb+fzbyEDz3yKvKuqkphTunVDuLdYRJ0YsAg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "db0a150af18ec0ffbfde401980b6e689d43d91e1",
+      "types" : "./cjs/index.d.ts",
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.5.4_1675218235438_0.8074221870458693"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.13.0"
+    },
+    "1.6.3" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.3",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.21.0",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.5.0",
+        "@restart/hooks" : "^0.4.9",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "8.19.3",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.3.tgz",
+        "shasum" : "8063f5b5e0131d41db2cefe148b20cb08a208e76",
+        "integrity" : "sha512-7HM5aiSWvJBWr+FghZj/n3PSuH2kUrOPiu/D92aIv1zTL8IBwFoQ3oz/f76svoN5v2PKaP6pQbg6vTcIiSffzg=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "7dfae8a718db8897c122b73676ab0c1464e56491",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.3_1681519157441_0.21498866088612445"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "16.19.0"
+    },
+    "1.6.4" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.6.4",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.21.0",
+        "@popperjs/core" : "^2.11.6",
+        "@react-aria/ssr" : "^3.5.0",
+        "@restart/hooks" : "^0.4.9",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.3",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "9.5.1",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.6.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.6.4.tgz",
+        "shasum" : "7a3d8a1056f5df4e2a37a124abe21921806c7ee8",
+        "integrity" : "sha512-nMetfVGmEMLqKDGqoM97nMQJt2KzPd5FJGdmmU73Wt1X+Zh5WTvWFQ5ltvb2FwrSGs4sCUtAszBMyK63/v0G3Q=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "gitHead" : "e132aef7e03e3c61c29b4fab275551346b166af0",
+      "types" : "esm/index.d.ts",
+      "exports" : {
+        "." : {
+          "types" : "./esm/index.d.ts",
+          "node" : "./cjs/index.js",
+          "import" : "./esm/index.js",
+          "require" : "./cjs/index.js"
+        },
+        "./*" : {
+          "types" : "./esm/*.d.ts",
+          "node" : "./cjs/*.js",
+          "import" : "./esm/*.js",
+          "require" : "./cjs/*.js"
+        }
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.6.4_1684767331077_0.034622128942822794"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "18.16.0"
+    },
+    "1.0.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.0.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.0.0.tgz",
+        "shasum" : "2614ac6a9a03703c76bf740b79e2ea5b92c1b64b",
+        "integrity" : "sha512-X0JH+diKQy9q8aIaLIDdoA1lbQDT5OcV4lP5dNS+CjCDEsN+GlcA/1aNG9kfaJvD2hB8GYQTLyjvbkEps9T/GA=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.0.0_1642515916614_0.4671651156997685"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "1.0.1" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.0.1",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.0.1.tgz",
+        "shasum" : "379f8340ab14adc18522731a1be6e32eaa10ef92",
+        "integrity" : "sha512-hLAqltcAjQYtjGuHBHKyPpR3ScTxzdkSYNvniwBfN7rUDbYiHu/UZiI1hvV2idJeUvktRnz29l7W9BnNLHrG6Q=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.0.1_1643605104997_0.11342446019690922"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "1.1.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.1.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.15",
+      "_npmUser" : {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "_id" : "@restart/ui@1.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.1.0.tgz",
+        "shasum" : "46d436225162b47ecccdf191cfbcf9ec3d1d5f47",
+        "integrity" : "sha512-sYAO1LP78Suz5cT2VEkU4U/mvdjFXNg69QHanc5OAFTWyhCBG2lFJ9FITZ7hT8P8LPqcWXcwEGzHhuxPUDDDYQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.1.0_1647441581197_0.9820406349059569"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.18.0"
+    },
+    "1.0.2" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.0.2",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "prop-types" : "^15.7.2",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.0.2.tgz",
+        "shasum" : "009a06ae698d624672c5e6a776efd0e8a6017842",
+        "integrity" : "sha512-vKGe0UBJLnbvNAjr8ljlDvphf2HkpjBjXsblmgKPvKdZBDn/mtAz89wmznaomIaEJ9VNoSEY0vA5T5MDi2jIcQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.0.2_1646370863963_0.08489902458254117"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    },
+    "1.2.0" : {
+      "name" : "@restart/ui",
+      "description" : "Utilities for creating robust overlay components",
+      "version" : "1.2.0",
+      "author" : {
+        "name" : "Jason Quense",
+        "email" : "monastic.panic@gmail.com"
+      },
+      "homepage" : "https://github.com/react-restart/ui#readme",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/react-restart/ui.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/react-restart/ui/issues"
+      },
+      "main" : "cjs/index.js",
+      "dependencies" : {
+        "@babel/runtime" : "^7.13.16",
+        "@popperjs/core" : "^2.10.1",
+        "@react-aria/ssr" : "^3.0.1",
+        "@restart/hooks" : "^0.4.0",
+        "@types/warning" : "^3.0.0",
+        "dequal" : "^2.0.2",
+        "dom-helpers" : "^5.2.0",
+        "uncontrollable" : "^7.2.1",
+        "warning" : "^4.0.3"
+      },
+      "peerDependencies" : {
+        "react" : ">=16.14.0",
+        "react-dom" : ">=16.14.0"
+      },
+      "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "monastic.panic",
+        "email" : "monastic.panic@gmail.com"
+      }, {
+        "name" : "taion",
+        "email" : "tesrin@gmail.com"
+      }, {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public",
+        "directory" : "lib"
+      },
+      "_npmVersion" : "6.14.13",
+      "_npmUser" : {
+        "name" : "kytsang",
+        "email" : "ktsang.work@gmail.com"
+      },
+      "_id" : "@restart/ui@1.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@restart/ui/-/ui-1.2.0.tgz",
+        "shasum" : "fb90251aa25f99b41ccedc78a91d2a15f3c5e0fb",
+        "integrity" : "sha512-oIh2t3tG8drZtZ9SlaV5CY6wGsUViHk8ZajjhcI+74IQHyWy+AnxDv8rJR5wVgsgcgrPBUvGNkC1AEdcGNPaLQ=="
+      },
+      "lint-staged" : {
+        "*.js,*.tsx" : "eslint --fix --ext .js,.ts,.tsx"
+      },
+      "release" : {
+        "conventionalCommits" : true
+      },
+      "module" : "esm/index.js",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/ui_1.2.0_1648224965767_0.2957017440787859"
+      },
+      "gitHooks" : {
+        "pre-commit" : "lint-staged"
+      },
+      "sideEffects" : false,
+      "prettier" : {
+        "singleQuote" : true,
+        "trailingComma" : "all"
+      },
+      "_nodeVersion" : "14.17.3"
+    }
+  },
+  "readme" : "<div align=\"center\">\n   <img  src=\"https://raw.githubusercontent.com/react-restart/ui/main/www/static/refresh-dot.svg\" style=\"width: 75px;height: 75;display: inline-block;\" valign=\"middle\"/>\n</div>\n\n<h1 align=\"center\">Restart UI</h1>    \n                                                                                                                               \nA set of full featured, extensible, and accessible UI components, designed to integrate into any styling\nframework or system. Restart components, are \"headless\", meaning they don't provide any styles. Components encapsulate\nthe complicated logic and and state without being prescriptive about their look and feel.\n\n## Documentation\n\nhttps://react-restart.github.io/ui/\n\n## Installation\n\n```sh\nnpm install --save @restart/ui\n```\n",
+  "maintainers" : [ {
+    "name" : "monastic.panic",
+    "email" : "monastic.panic@gmail.com"
+  }, {
+    "name" : "taion",
+    "email" : "tesrin@gmail.com"
+  }, {
+    "name" : "kytsang",
+    "email" : "ktsang.work@gmail.com"
+  } ],
+  "author" : {
+    "name" : "Jason Quense",
+    "email" : "monastic.panic@gmail.com"
+  },
+  "time" : {
+    "0.0.6" : "2021-07-21T19:09:41.587Z",
+    "0.2.4" : "2021-12-08T14:36:32.507Z",
+    "0.2.5" : "2021-12-09T15:27:17.925Z",
+    "0.0.4" : "2021-07-14T17:23:50.951Z",
+    "0.2.2" : "2021-08-11T18:05:03.134Z",
+    "0.0.5" : "2021-07-20T17:58:55.992Z",
+    "0.2.3" : "2021-09-20T16:04:36.402Z",
+    "0.2.6" : "2022-01-18T13:46:08.537Z",
+    "1.6.5" : "2023-05-22T15:02:17.553Z",
+    "1.6.6" : "2023-06-02T15:29:11.705Z",
+    "0.0.2" : "2021-04-23T17:02:16.234Z",
+    "0.1.1" : "2021-07-29T05:35:43.045Z",
+    "0.2.0" : "2021-08-06T00:06:32.768Z",
+    "0.0.3" : "2021-05-12T20:26:00.298Z",
+    "0.2.1" : "2021-08-09T23:56:06.070Z",
+    "0.0.1" : "2021-04-22T18:12:49.670Z",
+    "0.1.0" : "2021-07-23T19:48:54.033Z",
+    "modified" : "2023-06-02T15:29:11.834Z",
+    "created" : "2021-04-22T18:12:49.334Z",
+    "1.3.0" : "2022-06-22T23:44:56.743Z",
+    "1.3.1" : "2022-07-22T18:52:57.087Z",
+    "1.4.0" : "2022-09-05T20:54:32.271Z",
+    "1.4.1" : "2022-11-06T21:13:41.993Z",
+    "1.5.0" : "2023-01-16T21:34:43.953Z",
+    "1.5.1" : "2023-01-16T21:45:37.925Z",
+    "1.6.0" : "2023-02-10T17:49:31.836Z",
+    "1.5.2" : "2023-01-20T13:04:38.393Z",
+    "1.6.1" : "2023-02-10T18:25:46.311Z",
+    "1.5.3" : "2023-01-25T22:10:55.824Z",
+    "1.6.2" : "2023-03-17T17:54:22.303Z",
+    "1.5.4" : "2023-02-01T02:23:55.641Z",
+    "1.6.3" : "2023-04-15T00:39:17.656Z",
+    "1.6.4" : "2023-05-22T14:55:31.288Z",
+    "1.0.0" : "2022-01-18T14:25:16.784Z",
+    "1.0.1" : "2022-01-31T04:58:25.343Z",
+    "1.1.0" : "2022-03-16T14:39:41.329Z",
+    "1.0.2" : "2022-03-04T05:14:24.175Z",
+    "1.2.0" : "2022-03-25T16:16:06.027Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/react-restart/ui.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://github.com/react-restart/ui#readme",
+  "keywords" : [ "react-overlays", "react-component", "react", "overlay", "react-component", "tooltip", "bootstrap", "popover", "modal" ],
+  "bugs" : {
+    "url" : "https://github.com/react-restart/ui/issues"
+  },
+  "license" : "MIT"
+}

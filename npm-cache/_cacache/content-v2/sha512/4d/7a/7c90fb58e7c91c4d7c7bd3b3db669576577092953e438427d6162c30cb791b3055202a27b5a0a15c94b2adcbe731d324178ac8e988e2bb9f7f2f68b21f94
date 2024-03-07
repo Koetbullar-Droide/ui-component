@@ -1,0 +1,3279 @@
+{
+  "_id" : "@rollup/rollup-android-arm64",
+  "_rev" : "57-8f6bec47396a17494267fa8bc886f2cc",
+  "name" : "@rollup/rollup-android-arm64",
+  "description" : "Native bindings for Rollup",
+  "dist-tags" : {
+    "beta" : "4.0.0-25",
+    "latest" : "4.12.1"
+  },
+  "versions" : {
+    "4.11.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.11.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.11.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.11.0.tgz",
+        "shasum" : "772cb1856f720863d982c17f25d3fbb930c946d3",
+        "integrity" : "sha512-0ij3iw7sT5jbcdXofWO2NqDNjSVVsf6itcAkV2I6Xsq4+6wjW1A8rViVB67TfBEan7PV2kbLzT8rhOVWLI2YXw=="
+      },
+      "gitHead" : "90ad652b745c5fe7167d92b4ad671cc387577a99",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.11.0_1707977373386_0.15976047303997443"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.1.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.1.1.tgz",
+        "shasum" : "8e72cf1d1eb5ddb9fd858dcb6af0c703625be7f5",
+        "integrity" : "sha512-bvGQbel/3YsTznK4FLPb+ZVIoYuM1SHntnJYJjlP2QI9AFqwYQqGRPvW27ZefTpDvFfy05Fdg+EhVMxU6uDvtw=="
+      },
+      "gitHead" : "d8b31a202a246758b8d67eefe77361a894d37005",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.1.1_1697351500750_0.3895312534862032"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.3.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.3.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.3.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.3.0.tgz",
+        "shasum" : "17b0f412034d14668c8acc8b7cbd8b1c76279599",
+        "integrity" : "sha512-nLO/JsL9idr416vzi3lHm3Xm+QZh4qHij8k3Er13kZr5YhL7/+kBAx84kDmPc7HMexLmwisjDCeDIKNFp8mDlQ=="
+      },
+      "gitHead" : "937d9911376574c42f893e1cd14b55418c4f7b68",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.3.0_1699042378148_0.8970610266824155"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.1.0.tgz",
+        "shasum" : "bbd1f4a35e289f0781b914e3876916063e0e844f",
+        "integrity" : "sha512-pIi4Awf/YFwdc3H0VNYZMTS7FA0J00rS8AKoSfyB61GDVo+r7eOjSofoUPhDFXU7pfuTBiZ/4VAGa/qXGm5wcA=="
+      },
+      "gitHead" : "cb144b2be4262b3743b31983b26f7fa985be3ceb",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.1.0_1697262729639_0.9475568042080948"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.1.5" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.1.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.1.5.tgz",
+        "shasum" : "b17d7262f00654296e8167b8b7a6708b79a29dc1",
+        "integrity" : "sha512-tmXh7dyEt+JEz/NgDJlB1UeL/1gFV0v8qYzUAU42WZH4lmUJ5rp6/HkR2qUNC5jCgYEwd8/EfbHKtGIEfS4CUg=="
+      },
+      "gitHead" : "1cbb382b0dd3ab70541671c105f96eff283904ec",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.1.5_1698485006784_0.5017892251941491"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.5.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.5.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.5.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.5.1.tgz",
+        "shasum" : "cae505492204c018d1c6335f3b845319b15dc669",
+        "integrity" : "sha512-n1bX+LCGlQVuPlCofO0zOKe1b2XkFozAVRoczT+yxWZPGnkEAKTTYVOGZz8N4sKuBnKMxDbfhUsB1uwYdup/sw=="
+      },
+      "gitHead" : "a083019c7f0c18a1c17260ab1239b12400984a88",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.5.1_1700597585621_0.8474942881031158"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.6" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.6",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.1.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.1.6.tgz",
+        "shasum" : "05e121d2c5c6bd33b0d661f0841f5749daa000d7",
+        "integrity" : "sha512-A5eGcv5Jb99lt93z2yeW9Kb/nvnYCvb0e1w5b+oKjDno4k5rTppWuQSvgZP2LZAdhRMoBBzZ7bOVrRdHb1Qczw=="
+      },
+      "gitHead" : "5901e545697b36326110d89ed02964fdaffd9f6f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.1.6_1698731109747_0.3855005301067196"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.5.2" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.5.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.5.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.5.2.tgz",
+        "shasum" : "961089fe117ceca642b6432fadd093048da93ae8",
+        "integrity" : "sha512-xOuhj9HHtn8128ir8veoQsBbAUBasDbHIBniYTEx02pAmu9EXL+ZjJqngnNEy6ZgZ4h1JwL33GMNu3yJL5Mzow=="
+      },
+      "gitHead" : "2e94641971195c1a4eb9e1a3fe6d73b9d04ffae0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.5.2_1700807384128_0.5232253443661334"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.7.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.7.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.7.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.7.0.tgz",
+        "shasum" : "4e05031399a9c795612c9694827ec4ba55771bec",
+        "integrity" : "sha512-/EBw0cuJ/KVHiU2qyVYUhogXz7W2vXxBzeE9xtVIMC+RyitlY2vvaoysMUqASpkUtoNIHlnKTu/l7mXOPgnKOA=="
+      },
+      "gitHead" : "098e29ca3e0643006870f9ed94710fd3004a9043",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.7.0_1702022276757_0.6871719061746648"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.3" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.1.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.1.3.tgz",
+        "shasum" : "b72d0384e080ca99f8a9d5941b31254eb36559cf",
+        "integrity" : "sha512-gO5j0qqT6ETdSf10gxTBeBmsKPC6yK80StTxHr4pvTYpPDfI7/mzSHy/3ez3OQyjxcBXs3i8tSF8aknwCkzv6Q=="
+      },
+      "gitHead" : "c61a1507a88fc71be431550642b040da4b9422b0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.1.3_1697392102320_0.34343097978450365"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.3.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.3.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.3.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.3.1.tgz",
+        "shasum" : "d94f0d47a5d321c43958bd289b16e48aa6dd9311",
+        "integrity" : "sha512-3UbtU+7ocBMxYoMCDymHnFYB8tALVaEOjTe5pzAB65AJwXfDFAxADYGCJnBzDXD9u/G+7ktoYnMGYhitYphFkg=="
+      },
+      "gitHead" : "52c55bb1e17154ae6d01fb40e0e4a3589bc20a8f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.3.1_1699689470919_0.3558364707804822"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.1.4" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.1.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.1.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.1.4.tgz",
+        "shasum" : "50c4e7668cb00a63d9a6810d0a607496ad4f0d09",
+        "integrity" : "sha512-D1e+ABe56T9Pq2fD+R3ybe1ylCDzu3tY4Qm2Mj24R9wXNCq35+JbFbOpc2yrroO2/tGhTobmEl2Bm5xfE/n8RA=="
+      },
+      "gitHead" : "061a0387c8654222620f602471d66afd3c582048",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.1.4_1697430845114_0.7665059092663946"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.5.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.5.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.5.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.5.0.tgz",
+        "shasum" : "8456a8c623cca4042ae4bf2ce03d875a02433191",
+        "integrity" : "sha512-UdMf1pOQc4ZmUA/NTmKhgJTBimbSKnhPS2zJqucqFyBRFPnPDtwA8MzrGNTjDeQbIAWfpJVAlxejw+/lQyBK/w=="
+      },
+      "gitHead" : "86efc769f693516a29047c8d160c6d7287fb965d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.5.0_1700286728665_0.975230705044638"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.0.0-9" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-9",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-9.tgz",
+        "shasum" : "bc5f63934c376ee780dbf0f710a4a7ac6576c8cc",
+        "integrity" : "sha512-9QjWDfjW3u4/9cKuAEkdC8zUrvdG3xUvhnHwv4cm4r5/fF1Ur5lg8cj2v0qza2AFBZJQSCdRjCbvjhKW4zuFcg=="
+      },
+      "gitHead" : "e4d55671a81334ddc59fdbcd81ceabdb77d96974",
+      "exports" : {
+        "." : {
+          "node-addons" : "./rollup.android-arm64.node",
+          "default" : "./wasm-node/bindings_wasm.js"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-9_1692541736045_0.37084965041559537"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-6" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-6",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-6.tgz",
+        "shasum" : "d91e1993b1de03dce19bc81cf4518789b077f9ec",
+        "integrity" : "sha512-NjVp0pSrWjc9yrToU/4jbBS9D5hNCdDZQOITzMdEsXGm6oC+WixLwqx/jR29CKe+lK9zT0G8ySMnyatKjIuzjw=="
+      },
+      "gitHead" : "39e7492a12eca9107c929d533c16608c9a0054be",
+      "exports" : {
+        "." : {
+          "node-addons" : "./rollup.android-arm64.node",
+          "default" : "./wasm-node/bindings_wasm.js"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-6_1692517894331_0.39389146265137254"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-5" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-5.tgz",
+        "shasum" : "720e3fb501e40318455350e2c96d0c5c4e4043dd",
+        "integrity" : "sha512-X5CU7mTClPbSSdQSLefd3/WZm2UnYLYvLyVOb3algqLYb+fs/S+PPtUzM2wvRqvHDDO9CAK6XNDD8T4vBAEfKA=="
+      },
+      "gitHead" : "6284e58c1be160b656b9f2b44e8e2b1e5a93f9df",
+      "exports" : {
+        "." : {
+          "node-addons" : "./rollup.android-arm64.node",
+          "default" : "./wasm-node/bindings_wasm.js"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-5_1692514604941_0.08277866690301616"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-8" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-8",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-8.tgz",
+        "shasum" : "27d3a68ea2110b5ea8d176e6a968cd2fd96795b9",
+        "integrity" : "sha512-rGWtzoYMl66MjKRxcp5FDiWe084HbcdP1ZI9U3YpWoyjRStQxU+Puk/90XkjNlRy06xodDy7FDkJmjw2tc2wEw=="
+      },
+      "gitHead" : "5bfa022de96252b5eaf0bdab90be6bcfefcccb57",
+      "exports" : {
+        "." : {
+          "node-addons" : "./rollup.android-arm64.node",
+          "default" : "./wasm-node/bindings_wasm.js"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-8_1692530529821_0.38621169240486863"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-7" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-7",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-7.tgz",
+        "shasum" : "123c22ee9cdc782cdd106303616938c4585be20b",
+        "integrity" : "sha512-v1z4b6W7DhKgGYsIiQTsgJVbBVZ/swCdcyiKSekU8S4r9Q4Yc9kJwD2yKS++zgJtiK3loFJR6B9iqrxh/mxOxA=="
+      },
+      "gitHead" : "afaa754955a083970b389711127e368d6f4d235b",
+      "exports" : {
+        "." : {
+          "node-addons" : "./rollup.android-arm64.node",
+          "default" : "./wasm-node/bindings_wasm.js"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-7_1692527599032_0.21919912887885729"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-2" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-2.tgz",
+        "shasum" : "0adbf672ea61612a7af72b1579ffb6e770d8059b",
+        "integrity" : "sha512-d6OTBmepSLv2AfpfsziT0DsOFiyztXwJgV68YqeyGl6TyR+B1RCdxRZEY09D/nhgyWgWhUaGh5k0bikravu55Q=="
+      },
+      "gitHead" : "d62558dbc45912c9c4478dc761bb290738c3b968",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-2_1690888588641_0.036158396925765945"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-1.tgz",
+        "shasum" : "8f20da81456c5121817d6cd981af56cdca2f7667",
+        "integrity" : "sha512-yRGZinDmoLJ3ieBpnmMpljZLVsmfZm2T6xzJ+CbtBBGotkJl2spJUrVVZgyV78B1+n1C76EXAu4b4Sq6jhI8fg=="
+      },
+      "gitHead" : "d5b6ec3f77c860c048e2830353f5af4593ffaf20",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-1_1690865335837_0.8933983604513083"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-4" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-4.tgz",
+        "shasum" : "2d24d359a3b53685ed5c508daf3df1e48923d289",
+        "integrity" : "sha512-7EkIHu6Rp/7btHX0kkKF2ys8YLa1U6XW3BH+rpjmPd0Bf13XTVJbv21o1uF+94MZXOYbbNqcX5y4xB3kM2tCuQ=="
+      },
+      "gitHead" : "c416e3eb3d2d6055d6567cac6e8747b992eec1de",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-4_1691148991420_0.41066123365102647"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-3" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=18.0.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-3.tgz",
+        "shasum" : "18d47c6698514d064ceaa1e11082dbc9cb4d8199",
+        "integrity" : "sha512-EGfEXBQE22zs063LZ399WpRd9Hq6pOFIJbKTHHnHAc9/mm7lcwD9OSpV0NY96s/9vEfGcydHJCpo7KPHPziOOA=="
+      },
+      "gitHead" : "d9deb724f026a6f3e429509fce2d920e75d6a1ae",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-3_1691137010269_0.01701957573024404"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.0.0-0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Next-generation ES module bundler",
+      "version" : "4.0.0-0",
+      "author" : {
+        "name" : "Rich Harris"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "native/rollup.android-arm64.node",
+      "keywords" : [ "modules", "bundler", "bundling", "es6", "optimizer" ],
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-0.tgz",
+        "shasum" : "a74f9361f86f10d0689139b74140f5bc230cccf9",
+        "integrity" : "sha512-mURXKi640KON7A1TkCoSHfrnBCpkgOrZgKvohGxfpvJNRvvD73t2Fy12zvyHaB6s+gkgvuMJhuPky7/Y/4JVcg=="
+      },
+      "gitHead" : "580d17223962a0a359da88420001bbbc738e633a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-0_1690831072201_0.034100970479768566"
+      },
+      "_nodeVersion" : "18.17.0"
+    },
+    "4.8.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.8.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.8.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.8.0.tgz",
+        "shasum" : "6c9fe8f9eb0cd9029be93b822b1a1c2d6b31c275",
+        "integrity" : "sha512-aiItwP48BiGpMFS9Znjo/xCNQVwTQVcRKkFKsO81m8exrGjHkCBDvm9PHay2kpa8RPnZzzKcD1iQ9KaLY4fPQQ=="
+      },
+      "gitHead" : "62b648e1cc6a1f00260bb85aa2050097bb4afd2b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.8.0_1702275889865_0.9555021371572683"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.10.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.10.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.10.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.10.0.tgz",
+        "shasum" : "0114a042fd6396f4f3233e6171fd5b61a36ed539",
+        "integrity" : "sha512-lvu0jK97mZDJdpZKDnZI93I0Om8lSDaiPx3OiCk0RXn3E8CMPJNS/wxjAvSJJzhhZpfjXsjLWL8LnS6qET4VNQ=="
+      },
+      "gitHead" : "762420860765e8e46e24d48b38f5b98ca31735fa",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.10.0_1707544718148_0.27566604576602427"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.12.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.12.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.4",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.12.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.12.1.tgz",
+        "shasum" : "b1e606fb4b46b38dc32bf010d513449462d669e9",
+        "integrity" : "sha512-wlzcWiH2Ir7rdMELxFE5vuM7D6TsOcJ2Yw0c3vaBR3VOsJFVTx9xvwnAvhgU5Ii8Gd6+I11qNHwndDscIm0HXg=="
+      },
+      "gitHead" : "f44dac3170a671b0978afa3af43818617904f544",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.12.1_1709705009296_0.2924995945384046"
+      },
+      "_nodeVersion" : "18.19.1"
+    },
+    "4.12.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.12.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.12.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.12.0.tgz",
+        "shasum" : "3822e929f415627609e53b11cec9a4be806de0e2",
+        "integrity" : "sha512-OBqcX2BMe6nvjQ0Nyp7cC90cnumt8PXmO7Dp3gfAju/6YwG0Tj74z1vKrfRz7qAv23nBcYM8BCbhrsWqO7PzQQ=="
+      },
+      "gitHead" : "0146b84be33a8416b4df4b9382549a7ca19dd64a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.12.0_1708090331066_0.657819741210919"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.2" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.2.tgz",
+        "shasum" : "46327be24d75c7c53b7b065af29a62688eae3f1b",
+        "integrity" : "sha512-lqCglytY3E6raze27DD9VQJWohbwCxzqs9aSHcj5X/8hJpzZfNdbsr4Ja9Hqp6iPyF53+5PtPx0pKRlkSvlHZg=="
+      },
+      "gitHead" : "3d9c833c4fcb666301967554bac7ab0a0a698efe",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.2_1696601916712_0.28923938845214003"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.2.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.2.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.2.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.2.0.tgz",
+        "shasum" : "416abdc076810cde6f84f05b0fc9decd2d7c319f",
+        "integrity" : "sha512-+71T85hbMFrJI+zKQULNmSYBeIhru55PYoF/u75MyeN2FcxE4HSPw20319b+FcZ4lWx2Nx/Ql9tN+hoaD3GH/A=="
+      },
+      "gitHead" : "fbf806aceffd822d43e4603b664c54165c72cf36",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.2.0_1698739835668_0.037016601172050745"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.0.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0.tgz",
+        "shasum" : "e4fc4213a7d600f7a32ccfe0affcc2c7a799e52e",
+        "integrity" : "sha512-dcdg6Zp2bqIS/+2FHhdSS+lbcySufP2fYYoXkDa4W6uHE22L15psftdQZtFhxvvqRWPD1HsK0xIj5f07zuujkg=="
+      },
+      "gitHead" : "2f261358c62b4f9e62cb86bf99de8d4ff3668994",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0_1696518866632_0.27005371550349744"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.0.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.1.tgz",
+        "shasum" : "9cd6c359ecaa04c85a4439b241a10a3f78bbc020",
+        "integrity" : "sha512-cV7bMb68ipnlgxNjV2fvJRLeIHaEnJr6MrYo6+Re4rp5+B3iJMeOvd/ICjneWcutKzEiFtiyK55FSyu4A1juMg=="
+      },
+      "gitHead" : "fcab1f610fefb24621ce001dfb0831dd30e59ab3",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.1_1696595795096_0.6013637148781834"
+      },
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.6.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.6.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.6.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.6.0.tgz",
+        "shasum" : "e0cf96960405947c1a09a389467e6aa10ae1a226",
+        "integrity" : "sha512-y3Kt+34smKQNWilicPbBz/MXEY7QwDzMFNgwEWeYiOhUt9MTWKjHqe3EVkXwT2fR7izOvHpDWZ0o2IyD9SWX7A=="
+      },
+      "gitHead" : "020774d0c7b1371865b20878e59dd3a6a45d3b31",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.6.0_1701005950580_0.7675892325409788"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.6.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.6.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.6.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.6.1.tgz",
+        "shasum" : "27c8c67fc5de574874085a1b480ac65b3e18378e",
+        "integrity" : "sha512-1TKm25Rn20vr5aTGGZqo6E4mzPicCUD79k17EgTLAsXc1zysyi4xXKACfUbwyANEPAEIxkzwue6JZ+stYzWUTA=="
+      },
+      "gitHead" : "ded37aa8f95d5ba9786fa8903ef3424fd0549c73",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.6.1_1701321783423_0.5027343363871843"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.4.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.4.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.4.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.4.0.tgz",
+        "shasum" : "38a90aa6be6ee7a3b78cca8dd919bbca8c426570",
+        "integrity" : "sha512-PlqvhzFxy5FRTB3wLSsGgPhiakv9jrgfu8tjSojLJFP0CdhfZSRDOFvQ2emWLUEBOSCnjpL63XSuFVMwg59ZtA=="
+      },
+      "gitHead" : "53d636051ac60da9b302c4bd6b7eaaccb4871f4b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.4.0_1699775390742_0.5268285311834449"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.4.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.4.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.4.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.4.1.tgz",
+        "shasum" : "f0492f00d18e1067785f8e820e137c00528c5e62",
+        "integrity" : "sha512-sRSkGTvGsARwWd7TzC8LKRf8FiPn7257vd/edzmvG4RIr9x68KBN0/Ek48CkuUJ5Pj/Dp9vKWv6PEupjKWjTYA=="
+      },
+      "gitHead" : "01d8c9d1b68919c2c429427ae7e60f503a8bb5f4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.4.1_1699939501966_0.4206806913137209"
+      },
+      "_nodeVersion" : "18.18.2"
+    },
+    "4.0.0-20" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-20",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-20.tgz",
+        "shasum" : "4c74961f98305bd7bed869a76fa3a8c2d02c5ffc",
+        "integrity" : "sha512-A672sDApM24bfRJWDVQagYZcUGZHZj4x9DcV0iUtmBar/3aktCW+foaelnlp4Yql3edu70yil1TDQMrvDIdH8A=="
+      },
+      "gitHead" : "9d6dc574c6dca3d85e9eda512b09797a6d15462f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-20_1695535834137_0.7801875640959186"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-24" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-24",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-24",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-24.tgz",
+        "shasum" : "6d350887468c0c97ba876c9b63d39de480502f35",
+        "integrity" : "sha512-ftTp5ByyyozDsHfmYGeErrQmBi4ZEVZItC4Siilwretkf+cMv9z0s0Ru8ncd28OZpaO0cr9b7Afm+DIRDyE8Kw=="
+      },
+      "gitHead" : "ced077f2920c473c4c2ca31a8d72b259bec91f67",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-24_1696309961658_0.8063248483721277"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.0.0-23" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-23",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-23",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-23.tgz",
+        "shasum" : "1efb480309e8d5c9fb2ca48a82a024cd5bcefcb1",
+        "integrity" : "sha512-iyygT9P3wLXqVnKFE7OpteL32ijdZOnDbJhQ4vsOMfyZyE7ce0fEDMM/VsLirUMHqCH8sQO6lxFq/qBkj3sPLQ=="
+      },
+      "gitHead" : "f1d93caae901c556ffb1e2f553428754038d65c1",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-23_1695759259230_0.1374495028865006"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-22" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-22",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-22",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-22.tgz",
+        "shasum" : "e1969533a8073e18edf3ae0f99606a415c3a7c49",
+        "integrity" : "sha512-49x5mp/GVgrLlDwMpObBTQ/KbM4Wsa2kLkAvjhkW/T2d+Wpss6PL04uKkNcQecO467YH32AhOM543UJ+YtDKkw=="
+      },
+      "gitHead" : "38be49cf19099321f935c1ad5968e76fb30e0957",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-22_1695745028737_0.6572723450762554"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.0.0-21" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-21",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-21",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-21.tgz",
+        "shasum" : "4ca5b120077fecef920e4973a3aa5f551b1617bb",
+        "integrity" : "sha512-Wi5DJ2XU+yPqn/xLdfvxo296uQqmlgZWC9KC1mAjNtyCIkKPyQcqXsrr4EXgskBOe0rS0E8MfUeQtbloCRFNuw=="
+      },
+      "gitHead" : "fa868ad975b9ae6007ddc64b1a9e82766de6fa9e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-21_1695576140269_0.8979117941120722"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-25" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-25",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.8.1",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-25",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-25.tgz",
+        "shasum" : "6bc0a418c1e3e49586d01b1ea88025ec60a41a17",
+        "integrity" : "sha512-DfeB9B27MywgKmI3feFbXUmiaYE5lzOyE74dXebEJYKGXSkLG6ieU0qfjNU4uAA5SecorvhbX+xQz0i7UQHXng=="
+      },
+      "gitHead" : "1ac6bbc437c7ed0de3ad23e4e0904f00783e703d",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-25_1696515160160_0.7257780263534896"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.18.0"
+    },
+    "4.9.1" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.1",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.1.tgz",
+        "shasum" : "6f76cfa759c2d0fdb92122ffe28217181a1664eb",
+        "integrity" : "sha512-Jto9Fl3YQ9OLsTDWtLFPtaIMSL2kwGyGoVCmPC8Gxvym9TCZm4Sie+cVeblPO66YZsYH8MhBKDMGZ2NDxuk/XQ=="
+      },
+      "gitHead" : "d56ac63dc0452820272a0d7536340277f7db68bf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.1_1702794367786_0.12688934093418647"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.2" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.2",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.2.tgz",
+        "shasum" : "21bd0fbafdf442c6a17645b840f6a94556b0e9bb",
+        "integrity" : "sha512-yZ+MUbnwf3SHNWQKJyWh88ii2HbuHCFQnAYTeeO1Nb8SyEiWASEi5dQUygt3ClHWtA9My9RQAYkjvrsZ0WK8Xg=="
+      },
+      "gitHead" : "347a34745b2679c1192535db3c0f60889861d3ad",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.2_1703917404180_0.5909585794672465"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.9.0" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.0",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.0.tgz",
+        "shasum" : "d4c14ef9e45d5c46b8d1f611ab8124a611d5be5b",
+        "integrity" : "sha512-im6hUEyQ7ZfoZdNvtwgEJvBWZYauC9KVKq1w58LG2Zfz6zMd8gRrbN+xCVoqA2hv/v6fm9lp5LFGJ3za8EQH3A=="
+      },
+      "gitHead" : "c5337ef28a71c796e768a9f0edb3d7259a93f1aa",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.0_1702459453410_0.16508658241946428"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.0-13" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-13",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-13.tgz",
+        "shasum" : "f90be0af2cfb4fc5c38c2ac9aa19af504076ec53",
+        "integrity" : "sha512-AfiMuhixnxHEPzVpYaszo/P/46cUSP9wNRHJMLUac+nWpZ0OnXj1x9+lICAnwTrPhzFg3w69PiCBToZCe8mFHA=="
+      },
+      "gitHead" : "07d3baeb218f6d1084e9d1b17a429ca84cb92561",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-13_1692892109980_0.6930204268665374"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.9.5" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.5",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.5.tgz",
+        "shasum" : "33757c3a448b9ef77b6f6292d8b0ec45c87e9c1a",
+        "integrity" : "sha512-f14d7uhAMtsCGjAYwZGv6TwuS3IFaM4ZnGMUn3aCBgkcHAYErhV1Ad97WzBvS2o0aaDv4mVz+syiN0ElMyfBPg=="
+      },
+      "gitHead" : "7fa474cc5ed91c96a4ff80e286aa8534bc15834f",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.5_1705040170399_0.060630503881570874"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.0-12" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-12",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-12.tgz",
+        "shasum" : "380c03a11ee5bfd54a3b615cf2b67026f2d1f37d",
+        "integrity" : "sha512-svi94XFLjcVGSGmcRFS7Nu0K2SekmeWJhBRKogPMIaFrz3cL3kpa7BlmhpuMzPSfsQ6FgvkbukjuO7x9m0X8OA=="
+      },
+      "gitHead" : "b6eec18d711348e3b177ef58dc2836cdf75e0432",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-12_1692801619009_0.4963091362754042"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.9.6" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.6",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.6.tgz",
+        "shasum" : "46327d5b86420d2307946bec1535fdf00356e47d",
+        "integrity" : "sha512-T14aNLpqJ5wzKNf5jEDpv5zgyIqcpn1MlwCrUXLrwoADr2RkWA0vOWP4XxbO9aiO3dvMCQICZdKeDrFl7UMClw=="
+      },
+      "gitHead" : "ecb6b0a430098052781aa6ee04ec92ee70960321",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.6_1705816335703_0.9375921104036722"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.0-11" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-11",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-11.tgz",
+        "shasum" : "4a7747bf16f0685e6b81a1fb868165f2d9f9f7a2",
+        "integrity" : "sha512-9zYlx8A9a31v77EnRc3zow4xT+nCNZDhk7NkkmrWYf+t8hndTEU7V6MHxqrBFWbX9Q9Y0qwDvBAM7kZPLc+7Nw=="
+      },
+      "gitHead" : "3fc8b18da06fc76c386527cebadec4d8936b0f7a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-11_1692785743253_0.17716589475155375"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.9.3" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.3",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.3.tgz",
+        "shasum" : "5bde956d84961bba95ba3c98ffb8664946617d91",
+        "integrity" : "sha512-kffYCJ2RhDL1DlshLzYPyJtVeusHlA8Q1j6k6s4AEVKLq/3HfGa2ADDycLsmPo3OW83r4XtOPqRMbcFzFsEIzQ=="
+      },
+      "gitHead" : "4ab3ad360457cd79f4ea852447d3ddca22da95d6",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.3_1704435643447_0.11923906290030106"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.0-10" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-10",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-10.tgz",
+        "shasum" : "ac7cba7c74f6d8d48babb2841a523cdc132da244",
+        "integrity" : "sha512-uo4dXd3qFR3MuEl7T1H9GPvhAPdmvUC3Mvs4ClsvwfSzUZfPqd5emNt1O1aw6H5qZpEqj+z+PK6X+rkEX2CF6w=="
+      },
+      "gitHead" : "2c7e3e32f5d56c60d92907a9ceacd338aa99ca82",
+      "exports" : {
+        "." : {
+          "node-addons" : "./rollup.android-arm64.node",
+          "default" : "./wasm-node/bindings_wasm.js"
+        }
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-10_1692631794503_0.5091205920229815"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.9.4" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.9.4",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "10.2.3",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.9.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.9.4.tgz",
+        "shasum" : "96eb86fb549e05b187f2ad06f51d191a23cb385a",
+        "integrity" : "sha512-ehcBrOR5XTl0W0t2WxfTyHCR/3Cq2jfb+I4W+Ch8Y9b5G+vbAecVv0Fx/J1QKktOrgUYsIKxWAKgIpvw56IFNA=="
+      },
+      "gitHead" : "18372035f167ec104280e1e91ef795e4f7033f1e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.9.4_1704523136549_0.09208659028105481"
+      },
+      "_nodeVersion" : "18.19.0"
+    },
+    "4.0.0-17" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-17",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-17.tgz",
+        "shasum" : "7581f7eb816a6f632f38f34638ab6b89a78406b8",
+        "integrity" : "sha512-YEfkhv9N4EX72QTND3RXjU5WprAghELAKlxqQJU+jHT66uwUvby3a4uBhoYbu2A06qv22fyH56yHNAeUbmXLng=="
+      },
+      "gitHead" : "f7eb39f003eaa325451091faec04dd51d774ae3b",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-17_1694789942763_0.31036550903528637"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-16" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-16",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-16.tgz",
+        "shasum" : "c3b84e9700398f565d429278f608e9b3cc3dc980",
+        "integrity" : "sha512-t7oa+GIv9LGxSPU7oHE7U0NNpAB4C6CBGC/6ep/ouUvorNhPbwM0tOGwwl+KObh0M2fQd701uNmsn84bH3oQ8w=="
+      },
+      "gitHead" : "fd025bcfab85bdecba183367d11c13a1f99c4f10",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-16_1694787431295_0.030133060309461834"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-15" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-15",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-15.tgz",
+        "shasum" : "9cda392102e051e5b15099157f49810f751cb2b9",
+        "integrity" : "sha512-muK/oG8GwAs1ONuS/b+F+YnPEPDOhkdGzvmAnYRq6+tOnCWMMebPckqQWP3a/vqerFIieHtmTxi5pTOv6VK0Kg=="
+      },
+      "gitHead" : "6e6186636ebb169611373a0e430853eb3b6ce8e0",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-15_1694783209157_0.985196525345112"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-14" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-14",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-14.tgz",
+        "shasum" : "62f50cc14baed1b031bf53de850be797c8e0854d",
+        "integrity" : "sha512-xLUxekk14EwSmoXLeb9L+a0T6wlz1rC1O78e977P8Ng9GDRxlAihou4WP1lQYjmUhRcYmdaOEeaGRMSmHKMH9Q=="
+      },
+      "gitHead" : "ec2f8ec863d8d896aef0dd0097f2d73f59e8213a",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-14_1694781262195_0.5383268467672917"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-19" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-19",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-19.tgz",
+        "shasum" : "ee7e01ee61ab037bab9657e945546bd7af10f131",
+        "integrity" : "sha512-+0EaQ8aorkIQSC2t9db+scn9w+uPUT4xZIAI9CQK+anXo3ux8blo8u62m5O+YZSVV4IOAaD3uZ9HuPLuA0/e3w=="
+      },
+      "gitHead" : "25753ad04d73429f0d7b4d5dc85df09aeae78485",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-19_1694803853706_0.3672838785569663"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    },
+    "4.0.0-18" : {
+      "name" : "@rollup/rollup-android-arm64",
+      "description" : "Native bindings for Rollup",
+      "version" : "4.0.0-18",
+      "author" : {
+        "name" : "Lukas Taegert-Atkinson"
+      },
+      "homepage" : "https://rollupjs.org/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/rollup/rollup.git"
+      },
+      "bugs" : {
+        "url" : "https://github.com/rollup/rollup/issues"
+      },
+      "engines" : {
+        "node" : ">=14.18.0",
+        "npm" : ">=8.0.0"
+      },
+      "main" : "./rollup.android-arm64.node",
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "shellscape",
+        "email" : "andrew@shellscape.org"
+      }, {
+        "name" : "rich_harris",
+        "email" : "richard.a.harris@gmail.com"
+      }, {
+        "name" : "guybedford",
+        "email" : "guybedford@gmail.com"
+      }, {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      } ],
+      "directories" : { },
+      "os" : [ "android" ],
+      "cpu" : [ "arm64" ],
+      "_npmVersion" : "9.6.7",
+      "_npmUser" : {
+        "name" : "lukastaegert",
+        "email" : "lukas.taegert@tngtech.com"
+      },
+      "_id" : "@rollup/rollup-android-arm64@4.0.0-18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.0.0-18.tgz",
+        "shasum" : "1d89796fbe90dae5081bc3f4eadc4467a7334a48",
+        "integrity" : "sha512-/VveJNGF95NkBDfMgqXHW0ytj56qS/ckslXXGN/kmgVzhVtuI9uFrK+c9lpXBeBjIs4TYYPflunwEUPbWtwO8w=="
+      },
+      "gitHead" : "646171ff58e4f31127714ff8c78868c79b77d596",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/rollup-android-arm64_4.0.0-18_1694794194292_0.4931165194214926"
+      },
+      "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+      "readmeFilename" : "README.md",
+      "_nodeVersion" : "18.17.1"
+    }
+  },
+  "readme" : "# `@rollup/rollup-android-arm64`\n\nThis is the **aarch64-linux-android** binary for `rollup`\n",
+  "maintainers" : [ {
+    "name" : "shellscape",
+    "email" : "andrew@shellscape.org"
+  }, {
+    "name" : "rich_harris",
+    "email" : "richard.a.harris@gmail.com"
+  }, {
+    "name" : "guybedford",
+    "email" : "guybedford@gmail.com"
+  }, {
+    "name" : "lukastaegert",
+    "email" : "lukas.taegert@tngtech.com"
+  } ],
+  "author" : {
+    "name" : "Lukas Taegert-Atkinson"
+  },
+  "time" : {
+    "4.11.0" : "2024-02-15T06:09:33.560Z",
+    "4.1.1" : "2023-10-15T06:31:40.936Z",
+    "4.3.0" : "2023-11-03T20:12:58.460Z",
+    "4.1.0" : "2023-10-14T05:52:09.981Z",
+    "4.1.5" : "2023-10-28T09:23:27.017Z",
+    "4.5.1" : "2023-11-21T20:13:05.887Z",
+    "4.1.6" : "2023-10-31T05:45:10.065Z",
+    "4.5.2" : "2023-11-24T06:29:44.544Z",
+    "4.7.0" : "2023-12-08T07:57:57.077Z",
+    "4.1.3" : "2023-10-15T17:48:22.508Z",
+    "4.3.1" : "2023-11-11T07:57:51.113Z",
+    "4.1.4" : "2023-10-16T04:34:05.384Z",
+    "4.5.0" : "2023-11-18T05:52:08.912Z",
+    "modified" : "2024-03-06T06:03:30.072Z",
+    "4.0.0-9" : "2023-08-20T14:28:56.248Z",
+    "4.0.0-6" : "2023-08-20T07:51:34.585Z",
+    "4.0.0-5" : "2023-08-20T06:56:45.168Z",
+    "4.0.0-8" : "2023-08-20T11:22:10.236Z",
+    "4.0.0-7" : "2023-08-20T10:33:19.280Z",
+    "4.0.0-2" : "2023-08-01T11:16:28.883Z",
+    "4.0.0-1" : "2023-08-01T04:48:56.022Z",
+    "4.0.0-4" : "2023-08-04T11:36:31.566Z",
+    "4.0.0-3" : "2023-08-04T08:16:50.501Z",
+    "created" : "2023-07-31T19:17:52.145Z",
+    "4.0.0-0" : "2023-07-31T19:17:52.470Z",
+    "4.8.0" : "2023-12-11T06:24:50.172Z",
+    "4.10.0" : "2024-02-10T05:58:38.335Z",
+    "4.12.1" : "2024-03-06T06:03:29.534Z",
+    "4.12.0" : "2024-02-16T13:32:11.273Z",
+    "4.0.2" : "2023-10-06T14:18:36.993Z",
+    "4.2.0" : "2023-10-31T08:10:35.897Z",
+    "4.0.0" : "2023-10-05T15:14:27.030Z",
+    "4.0.1" : "2023-10-06T12:36:35.428Z",
+    "4.6.0" : "2023-11-26T13:39:10.888Z",
+    "4.6.1" : "2023-11-30T05:23:03.659Z",
+    "4.4.0" : "2023-11-12T07:49:50.981Z",
+    "4.4.1" : "2023-11-14T05:25:02.282Z",
+    "4.0.0-20" : "2023-09-24T06:10:34.535Z",
+    "4.0.0-24" : "2023-10-03T05:12:41.943Z",
+    "4.0.0-23" : "2023-09-26T20:14:19.487Z",
+    "4.0.0-22" : "2023-09-26T16:17:08.976Z",
+    "4.0.0-21" : "2023-09-24T17:22:20.510Z",
+    "4.0.0-25" : "2023-10-05T14:12:40.344Z",
+    "4.9.1" : "2023-12-17T06:26:08.035Z",
+    "4.9.2" : "2023-12-30T06:23:24.418Z",
+    "4.9.0" : "2023-12-13T09:24:13.670Z",
+    "4.0.0-13" : "2023-08-24T15:48:30.214Z",
+    "4.9.5" : "2024-01-12T06:16:10.573Z",
+    "4.0.0-12" : "2023-08-23T14:40:19.335Z",
+    "4.9.6" : "2024-01-21T05:52:15.928Z",
+    "4.0.0-11" : "2023-08-23T10:15:43.497Z",
+    "4.9.3" : "2024-01-05T06:20:43.690Z",
+    "4.0.0-10" : "2023-08-21T15:29:54.797Z",
+    "4.9.4" : "2024-01-06T06:38:56.789Z",
+    "4.0.0-17" : "2023-09-15T14:59:03.049Z",
+    "4.0.0-16" : "2023-09-15T14:17:11.532Z",
+    "4.0.0-15" : "2023-09-15T13:06:49.426Z",
+    "4.0.0-14" : "2023-09-15T12:34:22.442Z",
+    "4.0.0-19" : "2023-09-15T18:50:53.917Z",
+    "4.0.0-18" : "2023-09-15T16:09:54.453Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "git+https://github.com/rollup/rollup.git"
+  },
+  "users" : { },
+  "readmeFilename" : "README.md",
+  "homepage" : "https://rollupjs.org/",
+  "bugs" : {
+    "url" : "https://github.com/rollup/rollup/issues"
+  },
+  "license" : "MIT"
+}

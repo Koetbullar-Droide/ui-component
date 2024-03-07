@@ -1,0 +1,2129 @@
+{
+  "_id" : "@types/babel__core",
+  "_rev" : "589-6a02f896f14819e19a475124d6796d59",
+  "name" : "@types/babel__core",
+  "description" : "TypeScript definitions for @babel/core",
+  "dist-tags" : {
+    "ts3.1" : "7.1.4",
+    "ts4.0" : "7.1.19",
+    "ts3.0" : "7.1.4",
+    "ts3.9" : "7.1.19",
+    "ts4.8" : "7.20.5",
+    "ts2.9" : "7.1.4",
+    "ts3.8" : "7.1.18",
+    "ts4.7" : "7.20.5",
+    "ts2.8" : "7.0.1",
+    "ts3.7" : "7.1.16",
+    "ts4.6" : "7.20.5",
+    "ts3.6" : "7.1.15",
+    "ts4.5" : "7.20.5",
+    "ts5.4" : "7.20.5",
+    "ts3.5" : "7.1.14",
+    "ts4.4" : "7.20.1",
+    "ts5.3" : "7.20.5",
+    "ts3.4" : "7.1.12",
+    "ts4.3" : "7.20.1",
+    "ts5.2" : "7.20.5",
+    "ts3.3" : "7.1.4",
+    "ts4.2" : "7.20.0",
+    "ts5.1" : "7.20.5",
+    "ts3.2" : "7.1.4",
+    "ts4.1" : "7.1.20",
+    "ts5.0" : "7.20.5",
+    "latest" : "7.20.5",
+    "ts4.9" : "7.20.5"
+  },
+  "versions" : {
+    "7.1.20" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.20",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.20.tgz",
+        "shasum" : "e168cdd612c92a2d335029ed62ac94c95b362359",
+        "integrity" : "sha512-PVb6Bg2QuscZ30FvOU7z4guG6c926D9YRvOxEaelzndpMsvP+YM74Q/dAFASpg2l6+XLalxSGxcq/lrgYWZtyQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.1",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "8c4006e1cbff5b6a112a0358becc84759f1b9a79116faf90a41e68831e1064eb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.20_1667853249470_0.6397914536110139"
+      }
+    },
+    "7.1.8" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.8",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.8.tgz",
+        "shasum" : "057f725aca3641f49fc11c7a87a9de5ec588a5d7",
+        "integrity" : "sha512-KXBiQG2OXvaPWFPDS1rD8yV9vO0OuWIqAEqLsbfX0oU2REN5KuoMnZ1gClWcBhO5I3n6oTVAmrMufOvRqdmFTQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "0560b3e9f5acd92f5d9ba44c76b796af25f4196de9355a27718400bbc62b7c89",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.8_1591055689306_0.19321315819218787"
+      }
+    },
+    "7.1.9" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.9",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.9.tgz",
+        "shasum" : "77e59d438522a6fb898fa43dc3455c6e72f3963d",
+        "integrity" : "sha512-sY2RsIJ5rpER1u3/aQ8OFSI7qGIy8o1NEEbgb2UaJcvOtXOMpd39ko723NBpjQFg9SIX7TXtjejZVGeIMLhoOw=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "26a4dc5658200c6408c23432c1f75108e2a178e8bc48479ee219337f00413d08",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.9_1592727827750_0.5221203253257896"
+      }
+    },
+    "7.0.5" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.0.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.0.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.0.5.tgz",
+        "shasum" : "34c55fecf643727b85024fb86c056356815040dd",
+        "integrity" : "sha512-VWQHIzaKiXtZGFkoIWBZBb2vW4tv0opWfPDM+DiNmHx0APxMlSVGy9W4DGTvASZ87KmiyLkNs7eE+0eOt/aEjQ=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "62f7226ef5b3ac4aba8734701c164b8426a65bb05e13568942e121345aba096d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.0.5_1550092072847_0.977217451870195"
+      }
+    },
+    "7.1.4" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.4.tgz",
+        "shasum" : "5c5569cc40e5f2737dfc00692f5444e871e4a234",
+        "integrity" : "sha512-c/5MuRz5HM4aizqL5ViYfW4iEnmfPcfbH4Xa6GgLT21dMc1NGeNnuS6egHheOmP+kCJ9CAzC4pv4SDCWTnRkbg=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "571574423c1dc97a75fb9a37066b907800173dbdc95d0c84b77b092651890943",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.4_1581702426689_0.23327030172295404"
+      }
+    },
+    "7.1.5" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.5",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.5.tgz",
+        "shasum" : "e4d84704b4df868b3ad538365a13da2fa6dbc023",
+        "integrity" : "sha512-+ckxwNj892FWgvwrUWLOghQ2JDgOgeqTPwrcl+0t1pG59CP8qMJ6S/efmEd999vCFSJKOpyMakvU+w380rduUQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "a18580ec20de853eff5a602b70e64d3dbdc2b1cfea48906c2bb1a3b0ee34ab18",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.5_1582223399765_0.8712350396133828"
+      }
+    },
+    "7.1.6" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.6",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.6.tgz",
+        "shasum" : "16ff42a5ae203c9af1c6e190ed1f30f83207b610",
+        "integrity" : "sha512-tTnhWszAqvXnhW7m5jQU9PomXSiKXk2sFxpahXvI20SZKu9ylPi8WtIxueZ6ehDWikPT0jeFujMj3X4ZHuf3Tg=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "894ec56123a8d17360888ae06a5b3aef80419218f588ec4750f4690f67de012d",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.6_1582657781354_0.8513271038586718"
+      }
+    },
+    "7.1.7" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.7",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.7.tgz",
+        "shasum" : "1dacad8840364a57c98d0dd4855c6dd3752c6b89",
+        "integrity" : "sha512-RL62NqSFPCDK2FM1pSDH0scHpJvsXtZNiYlMB73DgPBaG1E38ZYVL+ei5EkWRbr+KC4YNiAUNBnRj+bgwpgjMw=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "e93a4f11a93e3ba496227db0c1bc869c27b668ca27d7bb8224401ef44c4b3d1c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.7_1585695761609_0.4562745408691944"
+      }
+    },
+    "7.0.1" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.0.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/types" : "^7.0.0-beta.54"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.0.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.0.1.tgz",
+        "shasum" : "8b608a1c55cb4c752352cc6c78f7beb61a3fd51f",
+        "integrity" : "sha512-98MQqzXIqRCg/RHd6WHE4iURltTjEwa7b6f+IhI5Gwd9b9QIojTugvXYw9piZgmhi08zHAWwu8BAXO0E5omElg=="
+      },
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "886e1ff3cac391b07be98c6efd4416e7400264339b5ff0b217fb59ff14a2facb",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.0.1_1532992630115_0.25213917440343425"
+      }
+    },
+    "7.1.0" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.0.tgz",
+        "shasum" : "710f2487dda4dcfd010ca6abb2b4dc7394365c51",
+        "integrity" : "sha512-wJTeJRt7BToFx3USrCDs2BhEi4ijBInTQjOIukj6a/5tEkwpFMVZ+1ppgmE+Q/FQyc5P/VWUbx7I9NELrKruHA=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "8efd0310b6950b7d4c77bc5a14bcaafc734c3f77b4d5aea0bd99435aee21c08c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.0_1550770641962_0.29762338340372674"
+      }
+    },
+    "7.1.16" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.16",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.16",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.16.tgz",
+        "shasum" : "bc12c74b7d65e82d29876b5d0baf5c625ac58702",
+        "integrity" : "sha512-EAEHtisTMM+KaKwfWdC3oyllIqswlznXCIVCt7/oRNrh+DhgT4UEBNC/jlADNjvw7UnfbcdkGQcPVZ1xYiLcrQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.7",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "49cc8e879470cfa14ca4c8ca74b5187f116c1ddf97c19f4afe5b34114de28e92",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.16_1630960369247_0.4887570318916896"
+      }
+    },
+    "7.20.3" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.20.3",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus",
+        "url" : "https://github.com/yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister",
+        "url" : "https://github.com/marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff",
+        "url" : "https://github.com/mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "githubUsername" : "Jessidhia",
+        "url" : "https://github.com/Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "githubUsername" : "ifiokjr",
+        "url" : "https://github.com/ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.20.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.20.3.tgz",
+        "shasum" : "d5625a50b6f18244425a1359a858c73d70340778",
+        "integrity" : "sha512-54fjTSeSHwfan8AyHWrKbfBWiEUrNTZsUwPTDSNaaP1QDQIZbeNUg3a59E9D+375MzUw/x1vx2/0F5LBz+AeYA=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "aa7a8166019138cdc96a6a6d8b723dc333acd01b2164e92152211b5eea7d13d4",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.20.3_1697583324576_0.4671408318282011"
+      }
+    },
+    "7.0.2" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.0.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.0.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.0.2.tgz",
+        "shasum" : "393c8853ce3c8445ae8d9536964177b4b1a115bf",
+        "integrity" : "sha512-+m30DjG2n2c1+B9UV0MkaGWZcChiGEtVa42+7B6Pv0oXmgneQwu6IVRbltxF6B2xuh7xg9l1aqT07l9CnLlPhA=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "7637d5e1d474b6b0fb1d3d24984841a3375c06cd75d0a9faaca8c75f3f2f5c16",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.0.2_1542322733230_0.7259505779186723"
+      }
+    },
+    "7.1.1" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.1",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.1.tgz",
+        "shasum" : "ce9a9e5d92b7031421e1d0d74ae59f572ba48be6",
+        "integrity" : "sha512-+hjBtgcFPYyCTo0A15+nxrCVJL7aC6Acg87TXd5OW3QhHswdrOLoles+ldL2Uk8q++7yIfl4tURtztccdeeyOw=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "8225141e6aa116d8b063e5d7db974ba22195874281f9bfbe0bfab9a68bcb5933",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.1_1554917255373_0.9750233609426873"
+      }
+    },
+    "7.1.15" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.15",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.15",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.15.tgz",
+        "shasum" : "2ccfb1ad55a02c83f8e0ad327cbc332f55eb1024",
+        "integrity" : "sha512-bxlMKPDbY8x5h6HBwVzEOk2C8fb6SLfYQ5Jw3uBYuYF1lfWk/kbLd81la82vrIkBb0l+JdmrZaDikPrNxpS/Ew=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.6",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "a5aa1b55e58271777246d61dff312f75c35f961b1aa41a4c88986b4c73271542",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.15_1625595353168_0.040623915680160216"
+      }
+    },
+    "7.20.4" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.20.4",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus",
+        "url" : "https://github.com/yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister",
+        "url" : "https://github.com/marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff",
+        "url" : "https://github.com/mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "githubUsername" : "Jessidhia",
+        "url" : "https://github.com/Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "githubUsername" : "ifiokjr",
+        "url" : "https://github.com/ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.20.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.20.4.tgz",
+        "shasum" : "26a87347e6c6f753b3668398e34496d6d9ac6ac0",
+        "integrity" : "sha512-mLnSC22IC4vcWiuObSRjrLd9XcBTGf59vUSoq2jkQDJ/QQ8PMI9rSuzE+aEV8karUMbskw07bKYoUJCKTUaygg=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "f21b63eb15464709084cacbba2ebedf3c8c9993d675693726f473d510c23ee27",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.20.4_1699313948546_0.26807780451651997"
+      }
+    },
+    "7.0.3" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.0.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.0.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.0.3.tgz",
+        "shasum" : "4c8fb2afd4dbea9b0aab56f828a8adce592ef567",
+        "integrity" : "sha512-F8E0lUeQ1uaprb5dEHLdOMElH5z+hk+L/DlQykXYOvhUyPQuH+Sj4Tm0sV3W0Za2sx1YkpdNyug7P2TNetWxKQ=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "74a85e84fbe8695cb9dc53d87ed2919b17cacce76023f0f9e66d21836f4d1507",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.0.3_1543420513678_0.7620786493835316"
+      }
+    },
+    "7.1.2" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.2",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.2.tgz",
+        "shasum" : "608c74f55928033fce18b99b213c16be4b3d114f",
+        "integrity" : "sha512-cfCCrFmiGY/yq0NuKNxIQvZFy9kY/1immpSpTngOnyIbD4+eJOG5mxphhHDv3CHL9GltO4GcKr54kGBg3RNdbg=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "8ddbc9ecfefbb1a61ece46d6e48876a63d101c6c5291bb173a929cead248d6a2",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.2_1557937568157_0.729868803494492"
+      }
+    },
+    "7.1.18" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.18",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.18",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.18.tgz",
+        "shasum" : "1a29abcc411a9c05e2094c98f9a1b7da6cdf49f8",
+        "integrity" : "sha512-S7unDjm/C7z2A2R9NzfKCK1I+BAALDtxEmsJBwlB3EzNfb929ykjL++1CK9LO++EIp2fQrC8O+BwjKvz6UeDyQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3310d05f56f6ab3fd792adc1e156191125acfb51b18820e9869ceea2c59972f9",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.18_1640988158842_0.8689607126559926"
+      }
+    },
+    "7.20.1" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.20.1",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.20.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.20.1.tgz",
+        "shasum" : "916ecea274b0c776fec721e333e55762d3a9614b",
+        "integrity" : "sha512-aACu/U/omhdk15O4Nfb+fHgH/z3QsfQzpnvRZhYhThms83ZnAOZz7zZAWO7mn2yyNQaA4xTO8GLK3uqFU4bYYw=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.3",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "d0a9a3e3a20a635188042ebfb19fae75d7ef511226640bc77ac7f60e882e36a3",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.20.1_1685037780488_0.30440179642751186"
+      }
+    },
+    "7.0.4" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.0.4",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.0.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.0.4.tgz",
+        "shasum" : "14b30c11113bad353cabfaea73e327b48edb0f0e",
+        "integrity" : "sha512-2Y2RK1BN5BRFfhneGfQA8mmFmTANbzGgS5uQPluoRqGNWb6uAcefqxzNbqgxPpmPkLqKapQfmYcyyl5iAQV+fA=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "47925a590ec85d8565d63c4f56ca6bf88bc5bf99c698763c2d60a13467e68cb1",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.0.4_1543513509443_0.8603616725716869"
+      }
+    },
+    "7.1.3" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.3",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.3.tgz",
+        "shasum" : "e441ea7df63cd080dfcd02ab199e6d16a735fc30",
+        "integrity" : "sha512-8fBo0UR2CcwWxeX7WIIgJ7lXjasFxoYgRnFHUj+hRvKkpiBJbxhdAPTCY6/ZKM0uxANFVzt4yObSLuTiTnazDA=="
+      },
+      "types" : "index",
+      "typeScriptVersion" : "2.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "478fc636b3b91d2d8148bbc98176f96231386926f4af91893dbe95d3812775a5",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.3_1567618821161_0.047531780792570366"
+      }
+    },
+    "7.1.17" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.17",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.17",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.17.tgz",
+        "shasum" : "f50ac9d20d64153b510578d84f9643f9a3afbe64",
+        "integrity" : "sha512-6zzkezS9QEIL8yCBvXWxPTJPNuMeECJVxSOhxNY/jfq9LxOTHivaYTqr37n9LknWWRTIkzqH2UilS5QFvfa90A=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "503ee27ea45ac43a667cde36107fe4242d077ac2a3cd9c1cbb3b8bbf58fce397",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.17_1638831695531_0.45181259435171883"
+      }
+    },
+    "7.20.2" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.20.2",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.20.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.20.2.tgz",
+        "shasum" : "215db4f4a35d710256579784a548907237728756",
+        "integrity" : "sha512-pNpr1T1xLUc2l3xJKuPtsEky3ybxN3m4fJkknfIpTCTfIZCDW57oAg+EfCgIIp2rvCe0Wn++/FfodDS4YXxBwA=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "2fe22f2b6af7e82d9f2d7774b005980a3071f549be055d84b466bea9baf414b0",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.20.2_1694805015164_0.8362110523258668"
+      }
+    },
+    "7.1.19" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.19",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.19",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.19.tgz",
+        "shasum" : "7b497495b7d1b4812bdb9d02804d0576f43ee460",
+        "integrity" : "sha512-WEOTgRsbYkvA/KCsDwVEGkd7WAr1e3g31VHQ8zy5gul/V1qKullU/BU5I68X5v7V3GnB9eotmom4v5a5gjxorw=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.9",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5358ce595fd2768093c1ef80a9b4e731532c9c96f303bea08913d5e19a166a90",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.19_1647759709781_0.568628611351667"
+      }
+    },
+    "7.20.5" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.20.5",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "githubUsername" : "yortus",
+        "url" : "https://github.com/yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "githubUsername" : "marvinhagemeister",
+        "url" : "https://github.com/marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "githubUsername" : "mgroenhoff",
+        "url" : "https://github.com/mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "githubUsername" : "Jessidhia",
+        "url" : "https://github.com/Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "githubUsername" : "ifiokjr",
+        "url" : "https://github.com/ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.20.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.20.5.tgz",
+        "shasum" : "3df15f27ba85319caa07ba08d0721889bb39c017",
+        "integrity" : "sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.5",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "3ece429b02ff9f70503a5644f2b303b04d10e6da7940c91a9eff5e52f2c76b91",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.20.5_1700523850564_0.7919218994006494"
+      }
+    },
+    "7.0.0" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.0.0",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/types" : "^7.0.0-beta.54",
+        "@types/babylon" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.0.0.tgz",
+        "shasum" : "d5a2efb36b07a29d457492938ab8c4570d359ea0",
+        "integrity" : "sha512-UcWHm8tL1/vUFDgjhmb5I/vihNNt5HqB+O+s9lMc4p6TpMtahic7uyjSPEzz3bULpL+DnGf/vagcl1KxnCVTDQ=="
+      },
+      "typeScriptVersion" : "2.8",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "a434b31778749e74283557b4c940d00d452f0464c57f949f8bfcb7fbd2c7aad8",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.0.0_1532557803654_0.7001159003596242"
+      }
+    },
+    "7.1.10" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.10",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.10.tgz",
+        "shasum" : "ca58fc195dd9734e77e57c6f2df565623636ab40",
+        "integrity" : "sha512-x8OM8XzITIMyiwl5Vmo2B1cR1S1Ipkyv4mdlbJjMa1lmuKvKY9FrBbEANIaMlnWn5Rf7uO+rC/VgYabNkE17Hw=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "1820a9b81a531283d2b2f0b6f3ff7be47c310f20aaab901401b1aa2e47c9ca65",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.10_1600980527392_0.8118508456850371"
+      }
+    },
+    "7.1.12" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.12",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.12.tgz",
+        "shasum" : "4d8e9e51eb265552a7e4f1ff2219ab6133bdfb2d",
+        "integrity" : "sha512-wMTHiiTiBAAPebqaPiPDLFA4LYPKr6Ph0Xq/6rq1Ur3v66HXyG+clfR9CNETkD7MQS8ZHvpQOtA53DLws5WAEQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "8ec535b0786ce52da85cea1c495d52fc61648456b3c62b2b996580033cb0f196",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.12_1604361989569_0.9948017093556467"
+      }
+    },
+    "7.1.11" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.11",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.11",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.11.tgz",
+        "shasum" : "7fae4660a009a4031e293f25b213f142d823b3c4",
+        "integrity" : "sha512-E5nSOzrjnvhURYnbOR2dClTqcyhPbPvtEwLHf7JJADKedPbcZsoJVfP+I2vBNfBjz4bnZIuhL/tNmRi5nJ7Jlw=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.4",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "90897236eb0b3ed86d67bda2a4976592c99e53a51b2b9b2244a0a527f7ce6c81",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.11_1604056511859_0.4624563588670658"
+      }
+    },
+    "7.20.0" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.20.0",
+      "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.20.7",
+        "@babel/types" : "^7.20.7",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.20.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.20.0.tgz",
+        "shasum" : "61bc5a4cae505ce98e1e36c5445e4bee060d8891",
+        "integrity" : "sha512-+n8dL/9GWblDO0iU6eZAwEIJVr5DWigtle+Q6HLOrh/pdbXOhOtqzq8VPPE2zvNJzSKY4vH/z3iT3tn0A3ypiQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "4.2",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "5f7ac35ea0366e8fe844535c52b8a802863f6047af2f052830c5b75a78d9b55c",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.20.0_1674066769099_0.08706665931362223"
+      }
+    },
+    "7.1.14" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.14",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.14",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.14.tgz",
+        "shasum" : "faaeefc4185ec71c389f4501ee5ec84b170cc402",
+        "integrity" : "sha512-zGZJzzBUVDo/eV6KgbE0f0ZI7dInEYvo12Rb70uNQDshC3SkRMb67ja0GgRHZgAX3Za6rhaWlvbDO8rrGyAb1g=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.5",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "e6c8d52c30228c1da1d79e9c593356f1ca1eea6ce606faab9738082c81a3c567",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.14_1616202120125_0.06739980098401599"
+      }
+    },
+    "7.1.13" : {
+      "name" : "@types/babel__core",
+      "description" : "TypeScript definitions for @babel/core",
+      "version" : "7.1.13",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory" : "types/babel__core"
+      },
+      "contributors" : [ {
+        "name" : "Troy Gerwien",
+        "url" : "https://github.com/yortus",
+        "githubUsername" : "yortus"
+      }, {
+        "name" : "Marvin Hagemeister",
+        "url" : "https://github.com/marvinhagemeister",
+        "githubUsername" : "marvinhagemeister"
+      }, {
+        "name" : "Melvin Groenhoff",
+        "url" : "https://github.com/mgroenhoff",
+        "githubUsername" : "mgroenhoff"
+      }, {
+        "name" : "Jessica Franco",
+        "url" : "https://github.com/Jessidhia",
+        "githubUsername" : "Jessidhia"
+      }, {
+        "name" : "Ifiok Jr.",
+        "url" : "https://github.com/ifiokjr",
+        "githubUsername" : "ifiokjr"
+      } ],
+      "main" : "",
+      "dependencies" : {
+        "@babel/parser" : "^7.1.0",
+        "@babel/types" : "^7.0.0",
+        "@types/babel__generator" : "*",
+        "@types/babel__template" : "*",
+        "@types/babel__traverse" : "*"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_npmUser" : {
+        "name" : "types",
+        "email" : "ts-npm-types@microsoft.com"
+      },
+      "_id" : "@types/babel__core@7.1.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@types/babel__core/-/babel__core-7.1.13.tgz",
+        "shasum" : "bc6eea53975fdf163aff66c086522c6f293ae4cf",
+        "integrity" : "sha512-CC6amBNND16pTk4K3ZqKIaba6VGKAQs3gMjEY17FVd56oI/ZWt9OhS6riYiWv9s8ENbYUi7p8lgqb0QHQvUKQQ=="
+      },
+      "types" : "index.d.ts",
+      "typeScriptVersion" : "3.5",
+      "_hasShrinkwrap" : false,
+      "typesPublisherContentHash" : "34b56516a90cc9dd735c7d4091410205f3745420bf5a00c8d27e216f9c06db78",
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/babel__core_7.1.13_1615834537812_0.01407079401309308"
+      }
+    }
+  },
+  "readme" : "[object Object]",
+  "maintainers" : [ {
+    "name" : "types",
+    "email" : "ts-npm-types@microsoft.com"
+  } ],
+  "time" : {
+    "7.1.20" : "2022-11-07T20:34:09.612Z",
+    "7.1.8" : "2020-06-01T23:54:49.417Z",
+    "modified" : "2023-11-20T23:44:15.967Z",
+    "7.1.9" : "2020-06-21T08:23:47.966Z",
+    "7.0.5" : "2019-02-13T21:07:52.963Z",
+    "7.1.4" : "2020-02-14T17:47:06.852Z",
+    "7.1.5" : "2020-02-20T18:29:59.875Z",
+    "7.1.6" : "2020-02-25T19:09:41.530Z",
+    "7.1.7" : "2020-03-31T23:02:41.736Z",
+    "7.0.1" : "2018-07-30T23:17:10.181Z",
+    "7.1.0" : "2019-02-21T17:37:22.138Z",
+    "7.1.16" : "2021-09-06T20:32:49.407Z",
+    "7.20.3" : "2023-10-17T22:55:24.788Z",
+    "7.0.2" : "2018-11-15T22:58:53.617Z",
+    "7.1.1" : "2019-04-10T17:27:35.500Z",
+    "7.1.15" : "2021-07-06T18:15:53.284Z",
+    "7.20.4" : "2023-11-06T23:39:08.818Z",
+    "7.0.3" : "2018-11-28T15:55:13.915Z",
+    "7.1.2" : "2019-05-15T16:26:08.353Z",
+    "7.1.18" : "2021-12-31T22:02:38.993Z",
+    "7.20.1" : "2023-05-25T18:03:00.696Z",
+    "7.0.4" : "2018-11-29T17:45:09.557Z",
+    "7.1.3" : "2019-09-04T17:40:21.309Z",
+    "7.1.17" : "2021-12-06T23:01:35.711Z",
+    "7.20.2" : "2023-09-15T19:10:15.507Z",
+    "7.1.19" : "2022-03-20T07:01:49.931Z",
+    "created" : "2018-07-25T22:30:03.389Z",
+    "7.20.5" : "2023-11-20T23:44:10.721Z",
+    "7.0.0" : "2018-07-25T22:30:03.730Z",
+    "7.1.10" : "2020-09-24T20:48:47.537Z",
+    "7.1.12" : "2020-11-03T00:06:29.705Z",
+    "7.1.11" : "2020-10-30T11:15:12.017Z",
+    "7.20.0" : "2023-01-18T18:32:49.307Z",
+    "7.1.14" : "2021-03-20T01:02:00.321Z",
+    "7.1.13" : "2021-03-15T18:55:37.986Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory" : "types/babel__core"
+  },
+  "users" : { },
+  "readmeFilename" : "",
+  "homepage" : "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/babel__core",
+  "contributors" : [ {
+    "name" : "Troy Gerwien",
+    "githubUsername" : "yortus",
+    "url" : "https://github.com/yortus"
+  }, {
+    "name" : "Marvin Hagemeister",
+    "githubUsername" : "marvinhagemeister",
+    "url" : "https://github.com/marvinhagemeister"
+  }, {
+    "name" : "Melvin Groenhoff",
+    "githubUsername" : "mgroenhoff",
+    "url" : "https://github.com/mgroenhoff"
+  }, {
+    "name" : "Jessica Franco",
+    "githubUsername" : "Jessidhia",
+    "url" : "https://github.com/Jessidhia"
+  }, {
+    "name" : "Ifiok Jr.",
+    "githubUsername" : "ifiokjr",
+    "url" : "https://github.com/ifiokjr"
+  } ],
+  "license" : "MIT"
+}

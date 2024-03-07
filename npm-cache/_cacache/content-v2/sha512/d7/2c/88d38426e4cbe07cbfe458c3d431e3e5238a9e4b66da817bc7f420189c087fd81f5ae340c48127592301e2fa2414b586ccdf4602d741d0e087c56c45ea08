@@ -1,0 +1,1351 @@
+{
+  "_id" : "@babel/helper-environment-visitor",
+  "_rev" : "23-d216290c60f5fb22de15b2d72bf9d517",
+  "name" : "@babel/helper-environment-visitor",
+  "description" : "Helper visitor to only visit nodes in the current 'this' context",
+  "dist-tags" : {
+    "next" : "8.0.0-alpha.7",
+    "esm" : "7.21.4-esm.4",
+    "latest" : "7.22.20"
+  },
+  "versions" : {
+    "7.22.1" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.22.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.22.1",
+        "@babel/types" : "^7.22.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.22.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.1.tgz",
+        "shasum" : "ac3a56dbada59ed969d712cf527bd8271fe3eba8",
+        "integrity" : "sha512-Z2tgopurB/kTbidvzeBrc2To3PUP/9i5MUe+fU6QJCQDyPwSH2oRapkLw3KGECDYSjhQZCNxEvNvZlLw8JjGwA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.22.1_1685118889758_0.9715388210527673"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.6" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.6",
+        "@babel/types" : "^8.0.0-alpha.6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.6.tgz",
+        "shasum" : "bbf006cf58538dbcdc75d1c1430f9df45db18220",
+        "integrity" : "sha512-R4eQAqH3TgXU1BfWZ96VvCqMWbVz3mz7LSlu093VbmWeEHwYbJb2EQp8jOfNmQJuZfiTz+ExJ6MS+AEbbDX3Lw=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.6_1706285619510_0.7545840639978867"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.5" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.5",
+        "@babel/types" : "^8.0.0-alpha.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.5.tgz",
+        "shasum" : "19bf9312fa7498cc8c0340d65db40e031ce728d1",
+        "integrity" : "sha512-i0lwXtBSqaSLyHRv2UIAzgx6xHxcQp55SfhofsZrlJPMP8sWYwca+g7LBsFxW+Gwt/tmVcCzVV3rz9+Pk6xjQQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.5_1702307893972_0.6055806995501445"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.7" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.7",
+        "@babel/types" : "^8.0.0-alpha.7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.7.tgz",
+        "shasum" : "4ce6d7afbc3ebcf248edcfad03332e7292013643",
+        "integrity" : "sha512-A09MH5bFm5ftnk0BqLvn58CNkZri1bfYAyLIOmfTcmSZfs/44be38EZoxijpnEKHk9AmOJJ64bOGEJJrDJ/K2g=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.7_1709129043262_0.40955406430451946"
+      },
+      "type" : "module"
+    },
+    "7.22.5" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.22.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.22.5",
+        "@babel/types" : "^7.22.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.22.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.5.tgz",
+        "shasum" : "f06dd41b7c1f44e1f8da6c4055b41ab3a09a7e98",
+        "integrity" : "sha512-XGmhECfVA/5sAt+H+xpSg0mfrHq6FzNr9Oxh7PSEBBRUb/mL7Kz3NICXb194rCqAEdxkhPT1a88teizAFyvk8Q=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.22.5_1686248460870_0.4002767961402116"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.2" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.2",
+        "@babel/types" : "^8.0.0-alpha.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.2.tgz",
+        "shasum" : "1236426838d5a1a17dc129bc355434c6efaa0368",
+        "integrity" : "sha512-lpkwsTzBntOXufqZ2A8wxdsZhaKVa9yCont4cGmiAYQ/vqUJN/1o98BE90hEYSUZWIMJqI0kP3Pfv2tZeqPXfQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.2_1691594068496_0.4694868642751948"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.1" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.1",
+        "@babel/types" : "^8.0.0-alpha.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.1.tgz",
+        "shasum" : "d6b95f3d28d019ad241b2cdbf59e46d43995625f",
+        "integrity" : "sha512-SSl11ANGRAIgn0oix6N+dNtl793hmezMr+Wn8WGlPpaxIiJm5D8ooEzGy32v8aieeZxDnKWnZCy3ZjDuIwUkgA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.1_1690221052273_0.2317061438305108"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.4" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.4",
+        "@babel/types" : "^8.0.0-alpha.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.4.tgz",
+        "shasum" : "e26112bb48b00c6934e580140e3670fe30a5d03a",
+        "integrity" : "sha512-jzNecyfQcyisy1LR791OF/McozNS1MvAuJ1W3KyQWstT77EbSS8UndJICd7n8QsBQPyIIMJQjfF2lMJhFXUZUA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.4_1697076351326_0.2081504280962878"
+      },
+      "type" : "module"
+    },
+    "7.21.5" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.21.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.21.5",
+        "@babel/types" : "^7.21.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.21.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.5.tgz",
+        "shasum" : "c769afefd41d171836f7cb63e295bedf689d48ba",
+        "integrity" : "sha512-IYl4gZ3ETsWocUWgsFZLM5i1BYx9SoemminVEXadgLBa9TdeorzgLKm8wWLA6J1N/kT3Kch8XIk1laNzYoHKvQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.21.5_1682711414268_0.8339846065877843"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.3" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.3",
+        "@babel/types" : "^8.0.0-alpha.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.3.tgz",
+        "shasum" : "0010bbc7002218fff77c07e4fd232497432766e0",
+        "integrity" : "sha512-u+zfEzADreKEiRwq9R44meNYxft1ABwKHdfjItgRATGbP83hWTvAPYK1sXjRMBJJ6yjrFJJ2wmGqxp8IFw8HIA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.3_1695740183038_0.8261427923962799"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.4" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.21.4-esm.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "7.21.4-esm.4",
+        "@babel/types" : "7.21.4-esm.4"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.21.4-esm.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.4-esm.4.tgz",
+        "shasum" : "15f06f5de21bfe9837196c33816723e27914616a",
+        "integrity" : "sha512-/LAyv7WZZbcjL8ckco0eA2pMusPWpqvoZbOv5k4DJkdcPabzrk2iL3Is9bYVAak8R+It4LUxMyZdIgZ8CFeKcA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.21.4-esm.4_1680621180164_0.3692575044516795"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.1" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.21.4-esm.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.21.4-esm.1",
+        "@babel/types" : "^7.21.4-esm.1"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.21.4-esm.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.4-esm.1.tgz",
+        "shasum" : "5d9d84b553ccc60f9e5ede0735ef5743f5df694e",
+        "integrity" : "sha512-LplJbl9cNkKbi3fhsbGNUSal4+VCRyCZe0ySYmmbjAwh6jLHJWI9J5p7zS/JA6ZhbPEnKxW+Vyp/yq30jWrS9A=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.21.4-esm.1_1680618051380_0.9245696188315213"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.3" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.21.4-esm.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "7.21.4-esm.3",
+        "@babel/types" : "7.21.4-esm.3"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.21.4-esm.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.4-esm.3.tgz",
+        "shasum" : "380646a7e6408b03b520b1d44e2e6ca89aa86deb",
+        "integrity" : "sha512-RKn1yrk5vc4E8oSi/HHCdmesqwizGsnk6rG7kwILIbR9jnWQeMnF9IwYcwA9ZN2HXMgCnVLS5fIpSOEyonwkHA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.21.4-esm.3_1680620145546_0.9799864550963358"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.2" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.21.4-esm.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "7.21.4-esm.2",
+        "@babel/types" : "7.21.4-esm.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.21.4-esm.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.4-esm.2.tgz",
+        "shasum" : "9728842130b164bf4185df90002e31b3137b2020",
+        "integrity" : "sha512-getouHxP/Xyf0qlVdH/SO1yM8NjmTNx9K+RPyQeTCSzNsUQ/BW4uRNxek9RhBYzxffvUDAFRzGiMPdgl4zVdnQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.21.4-esm.2_1680619110688_0.30873897677801754"
+      },
+      "type" : "module"
+    },
+    "7.18.9" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.18.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.18.9",
+        "@babel/types" : "^7.18.9"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.18.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.18.9.tgz",
+        "shasum" : "0c0cee9b35d2ca190478756865bb3528422f51be",
+        "integrity" : "sha512-3r/aACDJ3fhQ/EVgFy0hpj8oHyHpQc+LPtJoY9SzTThAsStm4Ptegq92vqKoE3vD706ZVFWITnMnxucw+S9Ipg=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.18.9_1658135842639_0.25625958967291496"
+      },
+      "type" : "commonjs"
+    },
+    "7.22.20" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.22.20",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.22.20",
+        "@babel/types" : "^7.22.19"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.22.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.20.tgz",
+        "shasum" : "96159db61d34a29dba454c959f5ae4a649ba9167",
+        "integrity" : "sha512-zfedSIzFhat/gFhWfHtgWvlec0nqB9YEIVrpuwjruLlXfUSnA8cJB0miHKwqDnQ7d32aKo2xt88/xZptwxbfhA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.22.20_1694881716232_0.9395641975937921"
+      },
+      "type" : "commonjs"
+    },
+    "7.16.5" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.16.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/types" : "^7.16.0"
+      },
+      "devDependencies" : {
+        "@babel/traverse" : "^7.16.5"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.16.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.16.5.tgz",
+        "shasum" : "f6a7f38b3c6d8b07c88faea083c46c09ef5451b8",
+        "integrity" : "sha512-ODQyc5AnxmZWm/R2W7fzhamOk1ey8gSguo5SGvF0zcB3uUzRpTRmM/jmLSm9bDMyPlvbyJ+PwPEK0BWIoZ9wjg=="
+      },
+      "exports" : {
+        "." : "./lib/index.js"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.16.5_1639434448535_0.5394264443104084"
+      }
+    },
+    "8.0.0-alpha.0" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "8.0.0-alpha.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^8.0.0-alpha.0",
+        "@babel/types" : "^8.0.0-alpha.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@8.0.0-alpha.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-8.0.0-alpha.0.tgz",
+        "shasum" : "d0ff7ce7e6aebe5f56bcfb8dcf9d587201a11dfb",
+        "integrity" : "sha512-llI1ORuEjPJKkISCF6X0uPmaHH9Kcizy/URoX6L4ATygo0LjAheh1eEVv3fp1U0qong4lQT9h9tdr7xlG60mjQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_8.0.0-alpha.0_1689861573045_0.6723048548346113"
+      },
+      "type" : "module"
+    },
+    "7.18.2" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.18.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.18.2",
+        "@babel/types" : "^7.18.2"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.18.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.18.2.tgz",
+        "shasum" : "8a6d2dedb53f6bf248e31b4baf38739ee4a637bd",
+        "integrity" : "sha512-14GQKWkX9oJzPiQQ7/J36FTXcD4kSp8egKjO9nINlSKiHITRA9q/R74qu8S9xlc/b/yjsJItQUeeh3xnGN0voQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.18.2_1653470185775_0.350257175160676"
+      }
+    },
+    "7.16.7" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.16.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/types" : "^7.16.7"
+      },
+      "devDependencies" : {
+        "@babel/traverse" : "^7.16.7"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.16.7.tgz",
+        "shasum" : "ff484094a839bde9d89cd63cba017d7aae80ecd7",
+        "integrity" : "sha512-SLLb0AAn6PkUeAfKJCCOl9e1R53pQlGAfc4y4XuMRZfqeMYLE0dM1LMhqbGAlGQY0lfw5/ohoYWAe9V1yibRag=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.16.7_1640910137536_0.05702330771873809"
+      }
+    },
+    "7.18.6" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.18.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.18.6",
+        "@babel/types" : "^7.18.6"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.18.6.tgz",
+        "shasum" : "b7eee2b5b9d70602e59d1a6cad7dd24de7ca6cd7",
+        "integrity" : "sha512-8n6gSfn2baOY+qlp+VSzsosjCVGFqWKmDF0cCWOybh52Dw3SEyoWR1KrhMJASjLwIEkkAufZ0xvr+SxLHSpy2Q=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.18.6_1656359384244_0.768062191631725"
+      },
+      "type" : "commonjs"
+    },
+    "7.21.4-esm" : {
+      "name" : "@babel/helper-environment-visitor",
+      "description" : "Helper visitor to only visit nodes in the current 'this' context",
+      "version" : "7.21.4-esm",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-helper-environment-visitor"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "devDependencies" : {
+        "@babel/traverse" : "^7.21.4-esm",
+        "@babel/types" : "^7.21.4-esm"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/helper-environment-visitor@7.21.4-esm",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/helper-environment-visitor/-/helper-environment-visitor-7.21.4-esm.tgz",
+        "shasum" : "48474f165088d895a59aadde66dcc79155688c52",
+        "integrity" : "sha512-r8uOoU5chOhHNuF78ToFXrRsAZWPkOn1Hedk7kCMGzUUIYp5Tvq+HvQ+7lyd6v4Hj1VvowwR/jiMlCn85yiDJQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/helper-environment-visitor_7.21.4-esm_1680617339511_0.022583055937960728"
+      },
+      "type" : "commonjs"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "hzoo",
+    "email" : "hi@henryzoo.com"
+  }, {
+    "name" : "existentialism",
+    "email" : "bng412@gmail.com"
+  }, {
+    "name" : "nicolo-ribaudo",
+    "email" : "nicolo.ribaudo@gmail.com"
+  }, {
+    "name" : "jlhwung",
+    "email" : "jlhwung@gmail.com"
+  } ],
+  "author" : "The Babel Team (https://babel.dev/team)",
+  "time" : {
+    "7.22.1" : "2023-05-26T16:34:49.924Z",
+    "8.0.0-alpha.6" : "2024-01-26T16:13:39.639Z",
+    "8.0.0-alpha.5" : "2023-12-11T15:18:14.186Z",
+    "8.0.0-alpha.7" : "2024-02-28T14:04:03.476Z",
+    "7.22.5" : "2023-06-08T18:21:01.031Z",
+    "8.0.0-alpha.2" : "2023-08-09T15:14:28.701Z",
+    "8.0.0-alpha.1" : "2023-07-24T17:50:52.444Z",
+    "created" : "2021-12-13T22:27:28.482Z",
+    "8.0.0-alpha.4" : "2023-10-12T02:05:51.503Z",
+    "7.21.5" : "2023-04-28T19:50:14.427Z",
+    "8.0.0-alpha.3" : "2023-09-26T14:56:23.192Z",
+    "7.21.4-esm.4" : "2023-04-04T15:13:00.392Z",
+    "7.21.4-esm.1" : "2023-04-04T14:20:51.480Z",
+    "7.21.4-esm.3" : "2023-04-04T14:55:45.788Z",
+    "7.21.4-esm.2" : "2023-04-04T14:38:30.842Z",
+    "7.18.9" : "2022-07-18T09:17:22.873Z",
+    "7.22.20" : "2023-09-16T16:28:36.485Z",
+    "modified" : "2024-02-28T14:04:03.917Z",
+    "7.16.5" : "2021-12-13T22:27:28.774Z",
+    "8.0.0-alpha.0" : "2023-07-20T13:59:33.230Z",
+    "7.18.2" : "2022-05-25T09:16:26.717Z",
+    "7.16.7" : "2021-12-31T00:22:17.701Z",
+    "7.18.6" : "2022-06-27T19:49:44.431Z",
+    "7.21.4-esm" : "2023-04-04T14:08:59.689Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel.git",
+    "directory" : "packages/babel-helper-environment-visitor"
+  },
+  "users" : { },
+  "readmeFilename" : "",
+  "homepage" : "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+  "license" : "MIT"
+}

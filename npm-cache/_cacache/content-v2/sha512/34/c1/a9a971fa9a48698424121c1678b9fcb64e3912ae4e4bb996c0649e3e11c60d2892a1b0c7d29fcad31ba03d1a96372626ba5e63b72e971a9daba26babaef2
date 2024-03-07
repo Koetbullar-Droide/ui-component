@@ -1,0 +1,3652 @@
+{
+  "_id" : "@babel/highlight",
+  "_rev" : "79-5203c4b12c2b55e9ad8093a1c88242b0",
+  "name" : "@babel/highlight",
+  "description" : "Syntax highlight JavaScript strings for output in terminals.",
+  "dist-tags" : {
+    "next" : "8.0.0-alpha.7",
+    "esm" : "7.21.4-esm.4",
+    "latest" : "7.23.4"
+  },
+  "versions" : {
+    "7.10.1" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.10.1",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.10.1",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v12.16.3+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.10.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.10.1.tgz",
+        "shasum" : "841d098ba613ba1a427a2b383d79e35552c38ae0",
+        "integrity" : "sha512-8rMof+gVP8mxYZApLF/JgNDAkdKa+aJt3ZYxF8z6+j/hpeXL7iMsKCPHa2jNMHu/qqBwzQF4OHNoYi8dMA/rYg=="
+      },
+      "gitHead" : "88f57a7ea659d25232bf62de1efceb5d6299b8cf",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.10.1_1590617255346_0.873645667838616"
+      },
+      "_nodeVersion" : "12.16.3"
+    },
+    "7.10.3" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.10.3",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.10.3",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "i@jhuang.me",
+        "name" : "jlhwung"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/highlight@7.10.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.10.3.tgz",
+        "shasum" : "c633bb34adf07c5c13156692f5922c81ec53f28d",
+        "integrity" : "sha512-Ih9B/u7AtgEnySE2L2F0Xm0GaM729XqqLfHkalTsbjXGyqmf/6M0Cu0WpvqueUlW+xk88BHw9Nkpj49naU+vWw=="
+      },
+      "gitHead" : "2787ee2f967b6d8e1121fca00a8d578d75449a53",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.10.3_1592600056059_0.8067345937127146"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.10.4" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.10.4",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "git+https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "bugs" : {
+        "url" : "https://github.com/babel/babel/issues"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.10.4",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "i@jhuang.me",
+        "name" : "jlhwung"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v14.4.0+x64 (darwin)",
+      "_npmUser" : {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      },
+      "_id" : "@babel/highlight@7.10.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.10.4.tgz",
+        "shasum" : "7d1bdfd65753538fabe6c38596cdb76d9ac60143",
+        "integrity" : "sha512-i6rgnR/YgPEQzZZnbTHHuZdlE8qyoBNalD6F+q4vAFlcMEcqmkoG+mPqJYJCo63qPf74+Y1UZsl3l6f7/RIkmA=="
+      },
+      "gitHead" : "7fd40d86a0d03ff0e9c3ea16b29689945433d4df",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.10.4_1593522691958_0.8468340087359132"
+      },
+      "_nodeVersion" : "14.4.0"
+    },
+    "7.14.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.14.0",
+      "author" : "suchipi <me@suchipi.com>",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.14.0",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.14.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.14.0.tgz",
+        "shasum" : "3197e375711ef6bf834e67d0daec88e4f46113cf",
+        "integrity" : "sha512-YSCOwxvTYEIMSGaBQb5kDDsCopDdiUGsqpatp3fOlI4+2HQSkTmEVWnVuySdAC5EWCqSWWTv0ib63RjR7dTBdg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.14.0_1619727005200_0.4666347426686839"
+      }
+    },
+    "7.16.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.16.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.15.7",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.16.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.16.0.tgz",
+        "shasum" : "6ceb32b2ca4b8f5f361fb7fd821e3fddf4a1725a",
+        "integrity" : "sha512-t8MH41kUQylBtu2+4IQA3atqevA2lRgqA2wyVB/YiWmsDSuylZZuXOUy9ric30hfzauEFfdsuk/eXTRrGrfd0g=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.16.0_1635551241956_0.380030118205853"
+      }
+    },
+    "7.9.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.9.0",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.9.0",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.11.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.9.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.9.0.tgz",
+        "shasum" : "4e9b45ccb82b79607271b2979ad82c7b68163079",
+        "integrity" : "sha512-lJZPilxX7Op3Nv/2cvFdnlepPXDxi29wxteT57Q965oc5R9v86ztx0jfxVrTcBk8C2kcPkkDa2Z4T3ZsPPVWsQ=="
+      },
+      "gitHead" : "8d5e422be27251cfaadf8dd2536b31b4a5024b02",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.9.0_1584718776769_0.2656262073091544"
+      },
+      "_nodeVersion" : "13.11.0"
+    },
+    "7.5.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.5.0",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.14.0/node@v12.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.5.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.5.0.tgz",
+        "shasum" : "56d11312bd9248fa619591d02472be6e8cb32540",
+        "integrity" : "sha512-7dV4eu9gBxoM0dAnj/BCFDW9LFU0zvTrkq0ugM7pnHEgguOEeOz1so2ZghEdzviYzQEED0r4EAgpsBChKy1TRQ=="
+      },
+      "gitHead" : "49da9a07c81156e997e60146eb001ea77b7044c4",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.5.0_1562245072005_0.692395150975543"
+      },
+      "_nodeVersion" : "12.6.0"
+    },
+    "7.22.5" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.22.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.22.5",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.22.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.22.5.tgz",
+        "shasum" : "aa6c05c5407a67ebce408162b7ede789b4d22031",
+        "integrity" : "sha512-BSKlD1hgnedS5XRnGOljZawtag7H1yPfQp0tdNJCHoH6AZ+Pcm9VvkrK59/Yy593Ypg0zMxH2BxD1VPYUQ7UIw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.22.5_1686248466939_0.8818772002899553"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0.tgz",
+        "shasum" : "f710c38c8d458e6dd9a201afb637fcb781ce99e4",
+        "integrity" : "sha512-UFMC4ZeFC48Tpvj7C8UgLvtkaUuovQX+5xNWrsIoMG8o2z+XFKjKaN9iVmS84dPwVN00W4wPmqvYoZF3EGAsfw=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0_1535406088109_0.6586914853264596"
+      },
+      "readmeFilename" : "README.md",
+      "readme" : "# @babel/highlight\n\n> Syntax highlight JavaScript strings for output in terminals.\n\nSee our website [@babel/highlight](https://babeljs.io/docs/en/next/babel-highlight.html) for more information.\n\n## Install\n\nUsing npm:\n\n```sh\nnpm install --save-dev @babel/highlight\n```\n\nor using yarn:\n\n```sh\nyarn add @babel/highlight --dev\n```\n"
+    },
+    "7.12.13" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.12.13",
+      "author" : "suchipi <me@suchipi.com>",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.12.11",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.12.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.12.13.tgz",
+        "shasum" : "8ab538393e00370b26271b01fa08f7f27f2e795c",
+        "integrity" : "sha512-kocDQvIbgMKlWxXe9fof3TQ+gkIPOUSEYhJjqUjvKMez3krV7vbzYCDq39Oj11UAVK7JqPVGQPlgE85dPNlQww=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.12.13_1612314589531_0.33698838492218885"
+      }
+    },
+    "7.0.0-beta.49" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.49",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "scripts" : { },
+      "_from" : ".",
+      "_npmVersion" : "3.10.10",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.49",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.49.tgz",
+        "shasum" : "96bdc6b43e13482012ba6691b1018492d39622cc",
+        "integrity" : "sha512-poeU6kkDj+uYF9rM8BYHypXs5WvNuu526PMOhwfEUYlDAjhlLSlWicns9lVBkdWkVcvMtDQ0XQDaMx0dP4laXQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.49_1527264010491_0.9553647525265561"
+      },
+      "_shasum" : "96bdc6b43e13482012ba6691b1018492d39622cc",
+      "_nodeVersion" : "6.12.3"
+    },
+    "7.0.0-beta.48" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.48",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.48",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.48.tgz",
+        "shasum" : "2f225dc995899858f27858d9011fdb75f70bcf96",
+        "integrity" : "sha512-nvyRS7pcfayjRjMg9KXCUdVcLq8/njx2ktvckovIx7cMJ9+aY58735xTIC0adkPZ13KJHbik6fJMfxO8PPZaLg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.48_1527189274763_0.4109366162643113"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.43" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.43",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.43",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.43.tgz",
+        "shasum" : "7bd0415ca160495a22b3a234f0841b4a9ab0de26",
+        "integrity" : "sha512-8o+1OBarlusYwbJ3Warn01pmsXlnzCtKhA6uCmU4gyxWdZLY5kODCnI5rVf2ZoZcRyqg5C8J5DhiXHG4/rTwNA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.43_1522687679712_0.10934196760045123"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.42" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.42",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.42",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.42.tgz",
+        "shasum" : "a502a1c0d6f99b2b0e81d468a1b0c0e81e3f3623",
+        "integrity" : "sha512-X3Ur/A/lIbbP8W0pmwgqtDXIxhQmxPaiwY9SKP7kF9wvZfjZRwMvbJE92ozUhF3UDK3DCKaV7oGqmI1rP/zqWA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.42_1521147008223_0.7910752021306524"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.17.9" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.17.9",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.16.7",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.17.9",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.17.9.tgz",
+        "shasum" : "61b2ee7f32ea0454612def4fccdae0de232b73e3",
+        "integrity" : "sha512-J9PfEKCbFIv2X5bjTMiZu6Vf341N05QIY+d6FvVKynkG1S7G0j3I0QoRtWIrXhZ+/Nlb5Q0MzqL7TokEJ5BNHg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.17.9_1649260520650_0.194116837810554"
+      }
+    },
+    "7.0.0-beta.41" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.41",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.41",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.41.tgz",
+        "shasum" : "7e1d634de3821e664bc8ad9688f240530d239b95",
+        "integrity" : "sha512-5RURdqgHmXdg775Dr6GIFaVatHaPtaVgMF29jvWgkm8LP/B3MjZR/TOhkpbIBChqFzTn7uQKiBR3002pGjKY7Q=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.41_1521044732167_0.4065253221301013"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.40" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.40",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "andarist",
+        "email" : "mateuszburzynski@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "xtuc",
+        "email" : "contact@xtuc.fr"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.40",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.40.tgz",
+        "shasum" : "b43d67d76bf46e1d10d227f68cddcd263786b255",
+        "integrity" : "sha512-mOhhTrzieV6VO7odgzFGFapiwRK0ei8RZRhfzHhb6cpX3QM8XXuCLXWjN8qBB7JReDdUR80V3LFfFrGUYevhNg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.40_1518453676517_0.22908067941366483"
+      },
+      "_nodeVersion" : "8.9.1"
+    },
+    "7.17.12" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.17.12",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.16.7",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.17.12",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.17.12.tgz",
+        "shasum" : "257de56ee5afbd20451ac0a75686b6b404257351",
+        "integrity" : "sha512-7yykMVF3hfZY2jsHZEEgLc+3x4o1O+fYyULu11GynEUQNwB6lua+IIQn1FiJxNucd5UlyJryrwsOh8PL9Sn8Qg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.17.12_1652729532637_0.8483711431332697"
+      }
+    },
+    "7.0.0-beta.47" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.47",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.47",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.47.tgz",
+        "shasum" : "8fbc83fb2a21f0bd2b95cdbeb238cf9689cad494",
+        "integrity" : "sha512-d505K3Hth1eg0b2swfEF7oFMw3J9M8ceFg0s6dhCSxOOF+07WDvJ0HKT/YbK/Jk9wn8Wyr6HIRAUPKJ9Wfv8Rg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.47_1526342829781_0.16033916491473454"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.13.10" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.13.10",
+      "author" : "suchipi <me@suchipi.com>",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.12.11",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.13.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.13.10.tgz",
+        "shasum" : "a8b2a66148f5b27d666b15d81774347a731d52d1",
+        "integrity" : "sha512-5aPpe5XQPzflQrFwL1/QoeHkP2MsA4JCntcXHRhEsdsfPVkvPi2w7Qix4iV7t5S/oC9OodGrggd8aco1g3SZFg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.13.10_1615242969211_0.9318815101759437"
+      }
+    },
+    "7.0.0-beta.46" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.46",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.46",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.46.tgz",
+        "shasum" : "c553c51e65f572bdedd6eff66fc0bb563016645e",
+        "integrity" : "sha512-r4snW6Q8ICL3Y8hGzYJRvyG/+sc+kvkewXNedG9tQjoHmUFMwMSv/o45GWQUQswevGnWghiGkpRPivFfOuMsOA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.46_1524457791693_0.48684975677149755"
+      },
+      "_nodeVersion" : "9.4.0"
+    },
+    "7.0.0-beta.45" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.45",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.45",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.45.tgz",
+        "shasum" : "6a7eea5797173b2767d7ff7355e179eb402a1cc0",
+        "integrity" : "sha512-MBXcJWk6D/RNV02yt/shpFBePuG9LuRl4L6OPcB2L76xWeB2Ox3QPfnNtFlDmcwVjyJZZ6gwoBN+ohEud84vCg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.45_1524448525404_0.9681606232857352"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.0.0-beta.44" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.44",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "mateuszburzynski@gmail.com",
+        "name" : "andarist"
+      }, {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmVersion" : "5.6.0",
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.44",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.44.tgz",
+        "shasum" : "18c94ce543916a80553edcdcf681890b200747d5",
+        "integrity" : "sha512-Il19yJvy7vMFm8AVAh6OZzaFoAd0hbkeMZiX3P5HGD+z7dyI7RzndHB0dg6Urh/VAFfHtpOIzDUSxmY6coyZWQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.44_1522707582237_0.7051708709188131"
+      },
+      "_nodeVersion" : "8.10.0"
+    },
+    "7.13.8" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.13.8",
+      "author" : "suchipi <me@suchipi.com>",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.12.11",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "daniel@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.13.8",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.13.8.tgz",
+        "shasum" : "10b2dac78526424dfc1f47650d0e415dfd9dc481",
+        "integrity" : "sha512-4vrIhfJyfNf+lCtXC2ck1rKSzDwciqF7IWFhXXrSOUC2O5DrVp+w4c6ed4AllTxhTkUP5x2tYj41VaxdVMMRDw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.13.8_1614382730375_0.7157815904247573"
+      }
+    },
+    "7.0.0-rc.1" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-rc.1",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-rc.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-rc.1.tgz",
+        "shasum" : "e0ca4731fa4786f7b9500421d6ff5e5a7753e81e",
+        "integrity" : "sha512-5PgPDV6F5s69XNznTcP0za3qH7qgBkr9DVQTXfZtpF+3iEyuIZB1Mjxu52F5CFxgzQUQJoBYHVxtH4Itdb5MgA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-rc.1_1533845174750_0.22788197564569912"
+      }
+    },
+    "7.0.0-rc.2" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-rc.2",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-rc.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-rc.2.tgz",
+        "shasum" : "0af688a69e3709d9cf392e1837cda18c08d34d4f",
+        "integrity" : "sha512-96V6XHAh9XHzjmucShCP8tULwXsC446doZ6REaLVdZDPNj3NsWbsC7OBeY+u6UWiFxHTTv6YmA4Veh4wXuucYw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-rc.2_1534879333642_0.1353093182995151"
+      }
+    },
+    "7.0.0-rc.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-rc.0",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-rc.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-rc.0.tgz",
+        "shasum" : "3f356ec31768ba1b03c74dc4437ca047bb56a845",
+        "integrity" : "sha512-YGQk8+mR2Vo0mM+p33Vp5k+GhF+lrajaFEuksqOp0S0w19wGfkx6NGPYW3G9QQ8Wjbf5zpF1Wx/UzbNqyHcGbA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-rc.0_1533830166891_0.10679611908952591"
+      }
+    },
+    "7.0.0-rc.3" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-rc.3",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-rc.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-rc.3.tgz",
+        "shasum" : "c2ee83f8e5c0c387279a8c48e06fef2e32027004",
+        "integrity" : "sha512-BwDi54dopTDbp0nIXZ1Ln7dGaZx8Vxqi8IKVFxtHHFhlTMxwVnYZlRFamRy7yOG4KEemRYhENq5ea/cNa9Jvjw=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-rc.3_1535133966237_0.6479541780906466"
+      }
+    },
+    "7.0.0-rc.4" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-rc.4",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-rc.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-rc.4.tgz",
+        "shasum" : "63fb56721e08a166e6693ebd5ab03a08bcb370cb",
+        "integrity" : "sha512-1we8sOCgd0wVxBfDH6ejc1QCI8U4ZPxxy4HOzDFABPNJmpE5gRFH+v3/clEAVvcJQ28F9VJG27RC54lQRI8OSw=="
+      },
+      "licenseText" : "MIT License\n\nCopyright (c) 2014-2018 Sebastian McKenzie <sebmck@gmail.com>\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\nNONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE\nLIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\nOF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION\nWITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-rc.4_1535388133352_0.9956192242548714"
+      }
+    },
+    "7.0.0-beta.54" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.54",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.54",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.54.tgz",
+        "shasum" : "155d507358329b8e7068970017c3fd74a9b08584",
+        "integrity" : "sha512-z6mIUJB3yStY21WYtV7J+T8qXmNqmUj5tErPFv2U7Sg3wUKji9dQXUba7AEDlb0JBmG7/2iCLT41WXucd/YLiA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.54_1531763986232_0.8800778843303727"
+      }
+    },
+    "7.16.10" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.16.10",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.16.7",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.16.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.16.10.tgz",
+        "shasum" : "744f2eb81579d6eea753c227b0f570ad785aba88",
+        "integrity" : "sha512-5FnTQLSLswEj6IkgVw5KusNUUFY9ZGqe/TRFnP/BKYHYgfh7tc+C7mwiy95/yNP7Dh9x580Vv8r7u7ZfTBFxdw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.16.10_1642617540081_0.8977922337450281"
+      }
+    },
+    "7.0.0-beta.53" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.53",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.53",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.53.tgz",
+        "shasum" : "f4e952dad1787d205e188d3e384cdce49ca368fb",
+        "integrity" : "sha512-5wvZd8RHAOzmTJ5bpupKM6x5OWXlViUK5ACDAUn7YXDd/JqQQZXi0CxDb8pH5IFV79mt6r5A/bZ/+NLhxpcZ5g=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.53_1531316395542_0.2358735850233069"
+      }
+    },
+    "7.0.0-beta.52" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.52",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.52",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.52.tgz",
+        "shasum" : "ef24931432f06155e7bc39cdb8a6b37b4a28b3d0",
+        "integrity" : "sha512-wWeHbUOePBg/aCHU3b9HmAX35fQhpl4/MCSNdRpvWdoXI9/G16bqkJ2ruigmiUBOSfDREaFZ+eBR3nSPkVM3gw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.52_1530838746137_0.5126983419820839"
+      }
+    },
+    "7.0.0-beta.51" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.51",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.51",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.51.tgz",
+        "shasum" : "e8844ae25a1595ccfd42b89623b4376ca06d225d",
+        "integrity" : "sha512-BXdfT4s+dsRHkOQvOxMZJRgKT0B5G8VcZdYXpcufFm+KlIzT4MKWKuSh43iG1UnZO/nNCjZQeDMsTzpncwtRrA=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.51_1528838347510_0.35522021443648444"
+      }
+    },
+    "7.22.13" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.22.13",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.22.5",
+        "chalk" : "^2.4.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.22.13",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.22.13.tgz",
+        "shasum" : "9cda839e5d3be9ca9e8c26b6dd69e7548f0cbf16",
+        "integrity" : "sha512-C/BaXcnnvBCmHTpz/VGZ8jgtE2aYlW4hxDhseJAWZb7gqGM/qtCK6iZUb0TyKFf7BOUsBH7Q7fkRsDRhg1XklQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.22.13_1693242115149_0.5028175451489245"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0-beta.56" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.56",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.56",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.56.tgz",
+        "shasum" : "f8b0fc8c5c2de53bb2c12f9001ad3d99e573696d",
+        "integrity" : "sha512-q4TfI+jJISul6vVpZJktzH4tupwRiVk6KXRhB8PHqJ7erl966I6ePDXl9mAbE8jMM7YswhnnB0j1SYP7LBVyhg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.56_1533344574220_0.47155450205368266"
+      }
+    },
+    "7.0.0-beta.55" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.55",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.55",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.55.tgz",
+        "shasum" : "988653647d629c261dae156e74d5f0252ba520c0",
+        "integrity" : "sha512-jLoCXvSfwmt1LGttl4bQ7O/enaMldMMTzgNo5ydgXMEW/uuAHlQm/1dh1w9KzsV4ANWUhgEyXKWWu82HJ4iBvg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.55_1532815604597_0.6113198562409108"
+      }
+    },
+    "7.8.3" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.8.3",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.8.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.8.3.tgz",
+        "shasum" : "28f173d04223eaaa59bc1d439a3836e6d1265797",
+        "integrity" : "sha512-PX4y5xQUvy0fnEVHrYOarRPXVWafSjTW9T0Hab8gVIawpl2Sj0ORyrygANq+KjcNlSSTw0YCLSNA8OyZ1I4yEg=="
+      },
+      "gitHead" : "a7620bd266ae1345975767bbc7abf09034437017",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.8.3_1578951657475_0.5454292689863895"
+      },
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.22.10" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.22.10",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.22.5",
+        "chalk" : "^2.4.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.22.10",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.22.10.tgz",
+        "shasum" : "02a3f6d8c1cb4521b2fd0ab0da8f4739936137d7",
+        "integrity" : "sha512-78aUtVcT7MUscr0K5mIEnkwxPE0MaxkR5RxRwuHaQ+JuU5AmTPhY+do2mdzVTnIJJpyBglql2pehuBIWHug+WQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.22.10_1691429110942_0.38079081855447594"
+      },
+      "type" : "commonjs"
+    },
+    "7.0.0-beta.50" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.0.0-beta.50",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^3.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "contact@xtuc.fr",
+        "name" : "xtuc"
+      } ],
+      "directories" : { },
+      "_npmUser" : {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      },
+      "_id" : "@babel/highlight@7.0.0-beta.50",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.0.0-beta.50.tgz",
+        "shasum" : "fb0ccbd720de30985111f5af4ff6538080208ef0",
+        "integrity" : "sha512-vwSAYsil6lL+wWyBENySLEtXcaDxyie2Tx0iXQTcmTww4fEFYld0M4FqcuGyS4oPcXEQwunkja+GWufX1FQhmg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.0.0-beta.50_1528832801519_0.5455736318027464"
+      }
+    },
+    "7.8.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.8.0",
+      "author" : {
+        "name" : "suchipi",
+        "email" : "me@suchipi.com"
+      },
+      "homepage" : "https://babeljs.io/",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel/tree/master/packages/babel-highlight"
+      },
+      "main" : "lib/index.js",
+      "dependencies" : {
+        "chalk" : "^2.0.0",
+        "esutils" : "^2.0.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "email" : "daniel@tschinder.de",
+        "name" : "danez"
+      }, {
+        "email" : "jason@developit.ca",
+        "name" : "developit"
+      }, {
+        "email" : "bng412@gmail.com",
+        "name" : "existentialism"
+      }, {
+        "email" : "hi@henryzoo.com",
+        "name" : "hzoo"
+      }, {
+        "email" : "loganfsmyth@gmail.com",
+        "name" : "loganfsmyth"
+      }, {
+        "email" : "nicolo.ribaudo@gmail.com",
+        "name" : "nicolo-ribaudo"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmVersion" : "lerna/3.19.0/node@v13.6.0+x64 (linux)",
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.8.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.8.0.tgz",
+        "shasum" : "4cc003dc10359919e2e3a1d9459150942913dd1a",
+        "integrity" : "sha512-OsdTJbHlPtIk2mmtwXItYrdmalJ8T0zpVzNAbKSkHshuywj7zb29Y09McV/jQsQunc/nEyHiPV2oy9llYMLqxw=="
+      },
+      "gitHead" : "2486615a74580283c49475d66067bd7fcab3330e",
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.8.0_1578788155440_0.9605897365113438"
+      },
+      "type" : "commonjs",
+      "_nodeVersion" : "13.6.0"
+    },
+    "7.21.4-esm" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.21.4-esm",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.21.4-esm",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.21.4-esm",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.21.4-esm.tgz",
+        "shasum" : "aaeb1a5a1e85c7db1a40dd8c9519ac79a175839c",
+        "integrity" : "sha512-nj8XDyjaKmGBSbf2DMmVhUW99/k/vP1Csbsvol5QJbmkCQjHLEvcIJpT8i6H0xadlbsyg5UbB42LmXG8+vr3+g=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.21.4-esm_1680617347238_0.08530515569396191"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.6" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.6",
+        "chalk" : "^5.3.0",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.6.tgz",
+        "shasum" : "bc909c182dd13530bfbfbf6d7cf77dd10faf1f84",
+        "integrity" : "sha512-YzJ5blZXak7Gk6ZgV9a4B9bAkGzl594ZxmBaFFZkstA5hE1iOBTlUW4tkGKz2uomL7FLLW4qHJF3QjQLHKi7iw=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.6_1706285626162_0.02906854756868338"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.5" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.5",
+        "chalk" : "^5.3.0",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.5.tgz",
+        "shasum" : "3ebef8f0567f2a4f4d1cb2c221cd706a93ca8d71",
+        "integrity" : "sha512-WZPafLPQa94o6ioGQMFrbzh3xVunBNLZBI2qub78lHnEq2KMRMURwdw9qmwgUpEnjKyWjrV8yOsi+1ZQdLfB0g=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.5_1702307901052_0.5973716209779567"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.7" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.7",
+        "chalk" : "^5.3.0",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.7.tgz",
+        "shasum" : "6b412c5bda6dd03df549ec52f4f4df06b9037553",
+        "integrity" : "sha512-zrw2PqarEFwNBV+UWm+vtMqmueN3eQnLuLxOJ66pbU+AW6gpPExWcWa9AmSz2JnzNWXRjWJGNjfkLPLGMy0ACA=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.7_1709129068437_0.7617203221766176"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.2" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.2",
+        "chalk" : "^4.1.2",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.2.tgz",
+        "shasum" : "b665679f199cf919f85d9142bc54f0b7ebed4816",
+        "integrity" : "sha512-V+G3EzQx895Dqbu4xroJo6kMLK6YQJLrMLGj2zjJShA5HNuBCTGgwBhL1BA8jixOfFA5/110QoCugKC39oWB8w=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.2_1691594077326_0.8920626562135725"
+      },
+      "type" : "module"
+    },
+    "7.23.4" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.23.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.22.20",
+        "chalk" : "^2.4.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.23.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.23.4.tgz",
+        "shasum" : "edaadf4d8232e1a961432db785091207ead0621b",
+        "integrity" : "sha512-acGdbYSfp2WheJoJm/EBBBLh/ID8KDc64ISZ9DYtBmC8/Q204PZJLHyzeB5qMzJ5trcOkybd78M4x2KWsUq++A=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.23.4_1700490124183_0.43434337116850297"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.1" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.1",
+        "chalk" : "^2.4.2",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.1.tgz",
+        "shasum" : "2ba0ed237b3d30c30777afebf4e7bc3d767f5a7c",
+        "integrity" : "sha512-QsgEXpMB7cw1uOR8HgbI707af4+bfkNiF5nS9swMQAMVy1XZoe230k9RNRxdKi5DmU5kVoBbrWdb1dNttRbdWQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.1_1690221071357_0.4823409203848801"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.4" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.4",
+        "chalk" : "^5.3.0",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.4.tgz",
+        "shasum" : "47ea8b569363ddc7d9cdf846634c56967a1f059f",
+        "integrity" : "sha512-h4zy87rWZYXLJ34Td7RCOGKAZfSs9bAE5BM/tWMk6PEMLsAp2/QRtTobFBYJBt8xj34/KSGUn6tg6niX4T+DkQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.4_1697076358828_0.7783214488500632"
+      },
+      "type" : "module"
+    },
+    "8.0.0-alpha.3" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.3",
+        "chalk" : "^5.3.0",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.3.tgz",
+        "shasum" : "f5cb96926eb76f864773b35b8b5ea4e011fcd4a3",
+        "integrity" : "sha512-qgL4V6agGH78BmXrw5cOfrSzFIJkcniGQ2FmSLHMU2K3NLZAt3J+Q6lEnHFuOxBot/bVYMAg+26drUOdrYj6KQ=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.3_1695740192431_0.8742522311482448"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.4" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.21.4-esm.4",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "7.21.4-esm.4",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.21.4-esm.4",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.21.4-esm.4.tgz",
+        "shasum" : "41eda88042acabec03b365cbb820d2853902581f",
+        "integrity" : "sha512-2/YcLte8zC9sHGRGbZo1rszbm44H7pv0sXWgOp7+xO7bpDngMkcRRkd7TCsKj83YJN7iSpiiAgXW5Ep0P1fLqQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.21.4-esm.4_1680621187715_0.7502575136527503"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.1" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.21.4-esm.1",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.21.4-esm.1",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.21.4-esm.1",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.21.4-esm.1.tgz",
+        "shasum" : "85d649a1bef2a8679d6b832b3664bf2db0d58117",
+        "integrity" : "sha512-vPlOk/mQNeOHuCNSJ64sfjL21Ez+sj92XN8oI62T3+2WmZRiZENwm6JM0pjDrIqCY1I+ywIbyfM3RFa5Zim9jQ=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.21.4-esm.1_1680618060054_0.9080182579661111"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.3" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.21.4-esm.3",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "7.21.4-esm.3",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.21.4-esm.3",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.21.4-esm.3.tgz",
+        "shasum" : "89e491e2dcf4f3eedc198c03f6a4d16767ae87d1",
+        "integrity" : "sha512-4/o3iim9H+j5LVckDDmGI50dTzGWjKUNsxRFbRzY1E1cU4X2kCzsaG7n6PbYSK5TfkXY8i9xTikN2W4O989Dvw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.21.4-esm.3_1680620153727_0.5619176273032382"
+      },
+      "type" : "module"
+    },
+    "7.21.4-esm.2" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.21.4-esm.2",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "7.21.4-esm.2",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.21.4-esm.2",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.21.4-esm.2.tgz",
+        "shasum" : "92c0280d0ec59c4cfed9fb85513bc0f8ac854be1",
+        "integrity" : "sha512-R+yPga5reMogiuymYk1FIhX+EH51Q4Vyf9V3edVCDg5s0TgQSt+3rHgEP7tOagcvobz+8pxJ3CZzOnyX2LtUFw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.21.4-esm.2_1680619129055_0.8094981258048541"
+      },
+      "type" : "module"
+    },
+    "7.14.5" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.14.5",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.14.5",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.14.5",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.14.5.tgz",
+        "shasum" : "6861a52f03966405001f6aa534a01a24d99e8cd9",
+        "integrity" : "sha512-qf9u2WFWVV0MppaL877j2dBtQIDgmidgjGk5VIMw3OadXvYaXn66U1BFlH2t4+t3i+8PhedppRv+i40ABzd+gg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.14.5_1623280290906_0.5974637058976828"
+      }
+    },
+    "7.22.20" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.22.20",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.22.20",
+        "chalk" : "^2.4.2",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.22.20",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.22.20.tgz",
+        "shasum" : "4ca92b71d80554b01427815e06f2df965b9c1f54",
+        "integrity" : "sha512-dkdMCN3py0+ksCgYmGG8jKeGA/8Tk+gJwSYYlFGxG5lmhfKNoAy004YpLxpS1W2J8m/EK2Ew+yOs9pVRwO89mg=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.22.20_1694881722464_0.7273889244492024"
+      },
+      "type" : "commonjs"
+    },
+    "8.0.0-alpha.0" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "8.0.0-alpha.0",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : "^16.20.0 || ^18.16.0 || >=20.0.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^8.0.0-alpha.0",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^8.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "jlhwung@gmail.com"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@8.0.0-alpha.0",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-8.0.0-alpha.0.tgz",
+        "shasum" : "e94f033b3738c01b24cbd152ea010cce7fd0c026",
+        "integrity" : "sha512-U2d7KniYiES/bThSyNQzotstK0DhK1jkjyYAa9dH/3S42w1WZjXLfKYGaJiUL/WY+81D3pW3kmCRg0FzZbKazw=="
+      },
+      "exports" : {
+        "." : "./lib/index.js",
+        "./package.json" : "./package.json"
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_8.0.0-alpha.0_1689861580203_0.9737095134790399"
+      },
+      "type" : "module"
+    },
+    "7.16.7" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.16.7",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.16.7",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "loganfsmyth",
+        "email" : "loganfsmyth@gmail.com"
+      }, {
+        "name" : "danez",
+        "email" : "npm@tschinder.de"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.16.7",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.16.7.tgz",
+        "shasum" : "81a01d7d675046f0d96f82450d9d9578bdfd6b0b",
+        "integrity" : "sha512-aKpPMfLvGO3Q97V0qhw/V2SWNWlwfJknuwAunU7wZLSfrM4xTBvg7E5opUVi1kJTBKihE38CPg4nBiqX83PWYw=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.16.7_1640910090365_0.25800328626584323"
+      }
+    },
+    "7.18.6" : {
+      "name" : "@babel/highlight",
+      "description" : "Syntax highlight JavaScript strings for output in terminals.",
+      "version" : "7.18.6",
+      "author" : "The Babel Team (https://babel.dev/team)",
+      "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+      "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/babel/babel.git",
+        "directory" : "packages/babel-highlight"
+      },
+      "engines" : {
+        "node" : ">=6.9.0"
+      },
+      "main" : "./lib/index.js",
+      "dependencies" : {
+        "@babel/helper-validator-identifier" : "^7.18.6",
+        "chalk" : "^2.0.0",
+        "js-tokens" : "^4.0.0"
+      },
+      "devDependencies" : {
+        "@types/chalk" : "^2.0.0",
+        "strip-ansi" : "^4.0.0"
+      },
+      "license" : "MIT",
+      "maintainers" : [ {
+        "name" : "hzoo",
+        "email" : "hi@henryzoo.com"
+      }, {
+        "name" : "existentialism",
+        "email" : "bng412@gmail.com"
+      }, {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      }, {
+        "name" : "jlhwung",
+        "email" : "i@jhuang.me"
+      } ],
+      "directories" : { },
+      "publishConfig" : {
+        "access" : "public"
+      },
+      "_npmUser" : {
+        "name" : "nicolo-ribaudo",
+        "email" : "nicolo.ribaudo@gmail.com"
+      },
+      "_id" : "@babel/highlight@7.18.6",
+      "dist" : {
+        "tarball" : "https://bin.swisscom.com/artifactory/api/npm/swisscom-npm-virtual/@babel/highlight/-/highlight-7.18.6.tgz",
+        "shasum" : "81158601e93e2563795adcbfbdf5d64be3f2ecdf",
+        "integrity" : "sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g=="
+      },
+      "_hasShrinkwrap" : false,
+      "_npmOperationalInternal" : {
+        "host" : "s3://npm-registry-packages",
+        "tmp" : "tmp/highlight_7.18.6_1656359389582_0.7855474160790028"
+      },
+      "type" : "commonjs"
+    }
+  },
+  "readme" : "",
+  "maintainers" : [ {
+    "name" : "hzoo",
+    "email" : "hi@henryzoo.com"
+  }, {
+    "name" : "existentialism",
+    "email" : "bng412@gmail.com"
+  }, {
+    "name" : "nicolo-ribaudo",
+    "email" : "nicolo.ribaudo@gmail.com"
+  }, {
+    "name" : "jlhwung",
+    "email" : "jlhwung@gmail.com"
+  } ],
+  "author" : "The Babel Team (https://babel.dev/team)",
+  "time" : {
+    "7.10.1" : "2020-05-27T22:07:35.470Z",
+    "7.10.3" : "2020-06-19T20:54:16.221Z",
+    "7.10.4" : "2020-06-30T13:11:32.129Z",
+    "7.14.0" : "2021-04-29T20:10:05.352Z",
+    "7.16.0" : "2021-10-29T23:47:22.090Z",
+    "7.9.0" : "2020-03-20T15:39:36.890Z",
+    "modified" : "2024-02-28T14:04:29.055Z",
+    "7.5.0" : "2019-07-04T12:57:52.105Z",
+    "7.22.5" : "2023-06-08T18:21:07.152Z",
+    "created" : "2018-02-12T16:41:16.430Z",
+    "7.0.0" : "2018-08-27T21:41:28.183Z",
+    "7.12.13" : "2021-02-03T01:09:49.689Z",
+    "7.0.0-beta.49" : "2018-05-25T16:00:10.647Z",
+    "7.0.0-beta.48" : "2018-05-24T19:14:34.851Z",
+    "7.0.0-beta.43" : "2018-04-02T16:47:59.783Z",
+    "7.0.0-beta.42" : "2018-03-15T20:50:08.280Z",
+    "7.17.9" : "2022-04-06T15:55:20.836Z",
+    "7.0.0-beta.41" : "2018-03-14T16:25:32.240Z",
+    "7.0.0-beta.40" : "2018-02-12T16:41:16.583Z",
+    "7.17.12" : "2022-05-16T19:32:12.776Z",
+    "7.0.0-beta.47" : "2018-05-15T00:07:09.903Z",
+    "7.13.10" : "2021-03-08T22:36:09.573Z",
+    "7.0.0-beta.46" : "2018-04-23T04:29:51.760Z",
+    "7.0.0-beta.45" : "2018-04-23T01:55:25.453Z",
+    "7.0.0-beta.44" : "2018-04-02T22:19:42.287Z",
+    "7.13.8" : "2021-02-26T23:38:50.513Z",
+    "7.0.0-rc.1" : "2018-08-09T20:06:14.829Z",
+    "7.0.0-rc.2" : "2018-08-21T19:22:13.731Z",
+    "7.0.0-rc.0" : "2018-08-09T15:56:06.953Z",
+    "7.0.0-rc.3" : "2018-08-24T18:06:06.375Z",
+    "7.0.0-rc.4" : "2018-08-27T16:42:13.441Z",
+    "7.0.0-beta.54" : "2018-07-16T17:59:46.284Z",
+    "7.16.10" : "2022-01-19T18:39:00.207Z",
+    "7.0.0-beta.53" : "2018-07-11T13:39:55.633Z",
+    "7.0.0-beta.52" : "2018-07-06T00:59:06.229Z",
+    "7.0.0-beta.51" : "2018-06-12T21:19:07.618Z",
+    "7.22.13" : "2023-08-28T17:01:55.359Z",
+    "7.0.0-beta.56" : "2018-08-04T01:02:54.388Z",
+    "7.0.0-beta.55" : "2018-07-28T22:06:44.825Z",
+    "7.8.3" : "2020-01-13T21:40:57.634Z",
+    "7.22.10" : "2023-08-07T17:25:11.110Z",
+    "7.0.0-beta.50" : "2018-06-12T19:46:41.589Z",
+    "7.8.0" : "2020-01-12T00:15:55.568Z",
+    "7.21.4-esm" : "2023-04-04T14:09:07.431Z",
+    "8.0.0-alpha.6" : "2024-01-26T16:13:46.329Z",
+    "8.0.0-alpha.5" : "2023-12-11T15:18:21.212Z",
+    "8.0.0-alpha.7" : "2024-02-28T14:04:28.577Z",
+    "8.0.0-alpha.2" : "2023-08-09T15:14:37.491Z",
+    "7.23.4" : "2023-11-20T14:22:04.356Z",
+    "8.0.0-alpha.1" : "2023-07-24T17:51:11.561Z",
+    "8.0.0-alpha.4" : "2023-10-12T02:05:59.090Z",
+    "8.0.0-alpha.3" : "2023-09-26T14:56:32.677Z",
+    "7.21.4-esm.4" : "2023-04-04T15:13:07.903Z",
+    "7.21.4-esm.1" : "2023-04-04T14:21:00.322Z",
+    "7.21.4-esm.3" : "2023-04-04T14:55:53.884Z",
+    "7.21.4-esm.2" : "2023-04-04T14:38:49.300Z",
+    "7.14.5" : "2021-06-09T23:11:31.038Z",
+    "7.22.20" : "2023-09-16T16:28:42.662Z",
+    "8.0.0-alpha.0" : "2023-07-20T13:59:40.352Z",
+    "7.16.7" : "2021-12-31T00:21:30.540Z",
+    "7.18.6" : "2022-06-27T19:49:49.733Z"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/babel/babel.git",
+    "directory" : "packages/babel-highlight"
+  },
+  "users" : {
+    "flumpus-dev" : true
+  },
+  "readmeFilename" : "",
+  "homepage" : "https://babel.dev/docs/en/next/babel-highlight",
+  "license" : "MIT"
+}
